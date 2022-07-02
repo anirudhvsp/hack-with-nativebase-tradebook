@@ -1,5 +1,14 @@
-import { Box, Center, Image, Pressable, Text, VStack } from "native-base";
-import React from "react";
+import {
+  Box,
+  Button,
+  Center,
+  Image,
+  Pressable,
+  Text,
+  VStack,
+} from "native-base";
+import React, { useState } from "react";
+import AddTradeModal from "./AddTradeModal";
 
 const navLinks = [
   { label: "Overview", value: "overview" },
@@ -10,8 +19,30 @@ const navLinks = [
 ];
 
 export default function SideNav() {
+  const [show, setShowModal] = useState(false);
+
   return (
     <VStack display={["none", "none", "none", "flex"]} bg="white" w="300px">
+      <Button
+        onPress={() => {
+          setShowModal(true);
+        }}
+        borderRadius="5px"
+        alignItems="center"
+        bg="gray.800"
+        w="85%"
+        mx="auto"
+        mt="24px"
+        justifyContent="center"
+        p="8px"
+        _hover={{
+          bg: "black",
+        }}
+      >
+        <Text color="white" fontSize="16px">
+          Add Trade
+        </Text>
+      </Button>
       <VStack p="4">
         {navLinks.map((link) => (
           <Pressable
@@ -28,6 +59,7 @@ export default function SideNav() {
           </Pressable>
         ))}
       </VStack>
+      <AddTradeModal show={show} setShowModal={setShowModal} />
     </VStack>
   );
 }
