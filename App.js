@@ -7,6 +7,7 @@ import { extendTheme, NativeBaseProvider, Text, View } from "native-base";
 require("dotenv").config();
 import { createClient } from "@supabase/supabase-js";
 import { useEffect, useState } from "react";
+
 export const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_KEY
