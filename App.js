@@ -3,6 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "./page/Login";
 import { NativeBaseProvider, Text, View } from "native-base";
+
 require('dotenv').config({path:'__dirname'+'/.env'});
 import { createClient } from '@supabase/supabase-js'
 import { useEffect,useState } from "react";
@@ -10,6 +11,7 @@ export const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_KEY
 )
+import Home from "./components/Home";
 
 const Stack = createNativeStackNavigator();
 
@@ -31,7 +33,7 @@ function App() {
     <NativeBaseProvider>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName="Login"
+          initialRouteName="Home"
           screenOptions={{
             headerShown: false,
           }}
@@ -39,6 +41,7 @@ function App() {
           <Stack.Screen name="Login">
             {props => <Login {...props} userEmail={user} setUserEmail= {setUser}/>}
           </Stack.Screen>
+          <Stack.Screen name="Home" component={Home} />
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>
