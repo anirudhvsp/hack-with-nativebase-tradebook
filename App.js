@@ -26,7 +26,7 @@ function App() {
 
   const theme = extendTheme({
     components: {
-      Input: {
+      Select: {
         variants: {
           outline: ({}) => {
             return {
@@ -54,16 +54,16 @@ function App() {
     <NativeBaseProvider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName= "Login"
+          initialRouteName="Login"
           screenOptions={{
             headerShown: false,
           }}
         >
           <Stack.Screen name="Login">
-            {props => <Login {...props} user={user} setUser= {setUser}/>}
+            {(props) => <Login {...props} user={user} setUser={setUser} />}
           </Stack.Screen>
           <Stack.Screen name="Home">
-            {props => <Home {...props} user={user}/>}
+            {(props) => <Home {...props} user={user} />}
           </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
