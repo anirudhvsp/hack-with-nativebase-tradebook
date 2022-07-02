@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 export default function Home({ navigation, user, setUser }) {
   const [trades, setTrades] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [updateList, setUpdateList] = useState(false);
   useEffect(async () => {
     setLoading(true);
     const { data, error } = await supabase
@@ -16,10 +17,10 @@ export default function Home({ navigation, user, setUser }) {
       .order("created_at", { ascending: false });
     setTrades(data);
     setLoading(false);
-  }, []);
+  }, [updateList]);
 
   return (
-    <Layout setUser={setUser}>
+    <Layout user={user} setUpdateList={setUpdateList} updateList={updateList}>
       <VStack space="20px">
         {trades.map((each) => (
           <TradeDetails key={each} trade={each} />

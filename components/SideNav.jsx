@@ -18,7 +18,7 @@ const navLinks = [
   { label: "Settings", value: "settings" },
 ];
 
-export default function SideNav({ setUser }) {
+export default function SideNav({ user, setUpdateList, updateList, setUser }) {
   const [show, setShowModal] = useState(false);
 
   const handleSignout = async () => {
@@ -75,7 +75,13 @@ export default function SideNav({ setUser }) {
           <Text>Logout</Text>
         </Pressable>
       </VStack>
-      <AddTradeModal show={show} setShowModal={setShowModal} />
+      <AddTradeModal
+        show={show}
+        setShowModal={setShowModal}
+        user={user}
+        setUpdateList={setUpdateList}
+        updateList={updateList}
+      />
     </VStack>
   );
 }
