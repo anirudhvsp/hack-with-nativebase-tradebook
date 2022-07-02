@@ -10,17 +10,18 @@ import {
   Stack,
   FormControl,
   Button,
-  Toast,
+  Spinner
 } from "native-base";
 import { supabase } from "../App";
 import crypto from "crypto";
 import { useToast } from "native-base";
 export default function Login( {navigation, userEmail, setUserEmail} ) {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
   const toast = useToast();
   const handleSubmit = async () => {
     const hashPwd   = crypto.createHash('sha1').update(email).digest('hex');
+    setLoading(true);
     const { user, session, error } = await supabase.auth.signUp({
       email: email,
       password : hashPwd
@@ -34,12 +35,14 @@ export default function Login( {navigation, userEmail, setUserEmail} ) {
         title:'Login Link sent to email',
         placement :'bottom',
       });
+      setLoading(false);
     }
     else{
       toast.show({
         title:error.message,
         placement :'bottom',
       })
+      setLoading(false);
     }
     console.log(supabase.auth.currentUser);
   };
@@ -65,7 +68,9 @@ export default function Login( {navigation, userEmail, setUserEmail} ) {
               />
             </Stack>
           </Stack>
-          <Button onPress={handleSubmit}>Submit</Button>
+          <Button onPress={handleSubmit}>
+          {loading ? <Spinner color="white" /> : <Text color="white">Submit</Text>}
+          </Button>
           <Button onPress={handleSignout}>Signout</Button>
           {userEmail&&<Text>{JSON.stringify(userEmail.id)}</Text>}
         </FormControl>

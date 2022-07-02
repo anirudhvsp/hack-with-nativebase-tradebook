@@ -20,9 +20,6 @@ const Stack = createNativeStackNavigator();
 function App() {
   
   const [user, setUser] = useState(null);
-  // useEffect(async () => {
-    
-  // }, [supabase]);
   supabase.auth.onAuthStateChange((event, session) => {
     if(!user){
       setUser(supabase.auth.currentUser);
