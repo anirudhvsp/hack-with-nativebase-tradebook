@@ -10,14 +10,43 @@ import {
   Stack,
   FormControl,
   Button,
+  Toast,
 } from "native-base";
-
-export default function Login() {
+import { supabase } from "../App";
+import crypto from "crypto";
+import { useToast } from "native-base";
+export default function Login( {navigation, userEmail, setUserEmail} ) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  const handleSubmit = () => {
-    console.log(email, password);
+  const toast = useToast();
+  const handleSubmit = async () => {
+    const hashPwd   = crypto.createHash('sha1').update(email).digest('hex');
+    const { user, session, error } = await supabase.auth.signUp({
+      email: email,
+      password : hashPwd
+    })
+    if(!error || error.message === "User already registered"){
+      console.log(user, session, error);
+      await supabase.auth.signIn({
+        email: email
+      });
+      toast.show({
+        title:'Login Link sent to email',
+        placement :'bottom',
+      });
+    }
+    else{
+      toast.show({
+        title:error.message,
+        placement :'bottom',
+      })
+    }
+    console.log(supabase.auth.currentUser);
+  };
+  const handleSignout = async () => {
+    await supabase.auth.signOut();
+    setUserEmail(null);
+    console.log(supabase.auth.currentUser);
   };
 
   return (
@@ -35,18 +64,10 @@ export default function Login() {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </Stack>
-            <Stack>
-              <FormControl.Label>Password</FormControl.Label>
-              <Input
-                variant="underlined"
-                p={2}
-                placeholder="Password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-              />
-            </Stack>
           </Stack>
           <Button onPress={handleSubmit}>Submit</Button>
+          <Button onPress={handleSignout}>Signout</Button>
+          {userEmail&&<Text>{JSON.stringify(userEmail.id)}</Text>}
         </FormControl>
       </Box>
     </Center>
