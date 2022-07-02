@@ -8,6 +8,7 @@ import {
   VStack,
 } from "native-base";
 import React, { useState } from "react";
+import { supabase } from "../App";
 import AddTradeModal from "./AddTradeModal";
 
 const navLinks = [
@@ -15,11 +16,15 @@ const navLinks = [
   { label: "Notes", value: "notes" },
   { label: "Switch Theme", value: "switch_theme" },
   { label: "Settings", value: "settings" },
-  { label: "Logout", value: "logout" },
 ];
 
-export default function SideNav() {
+export default function SideNav({ setUser }) {
   const [show, setShowModal] = useState(false);
+
+  const handleSignout = async () => {
+    await supabase.auth.signOut();
+    setUser(null);
+  };
 
   return (
     <VStack display={["none", "none", "none", "flex"]} bg="white" w="300px">
@@ -58,6 +63,17 @@ export default function SideNav() {
             <Text>{link.label}</Text>
           </Pressable>
         ))}
+        <Pressable
+          onPress={handleSignout}
+          borderRadius="5px"
+          _hover={{
+            bg: "#f8f8f8",
+            pl: "16px",
+          }}
+          p="10px"
+        >
+          <Text>Logout</Text>
+        </Pressable>
       </VStack>
       <AddTradeModal show={show} setShowModal={setShowModal} />
     </VStack>

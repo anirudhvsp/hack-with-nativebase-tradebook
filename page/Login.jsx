@@ -53,12 +53,6 @@ export default function Login({ navigation, user, setUser }) {
     console.log(supabase.auth.currentUser);
   };
 
-  const handleSignout = async () => {
-    await supabase.auth.signOut();
-    setUser(null);
-    console.log(supabase.auth.currentUser);
-  };
-
   return (
     <HStack>
       <Box bg="gray.800" flex={2}></Box>

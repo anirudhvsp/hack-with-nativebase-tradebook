@@ -63,7 +63,7 @@ function App() {
             {(props) => <Login {...props} user={user} setUser={setUser} />}
           </Stack.Screen>
           <Stack.Screen name="Home">
-            {(props) => <Home {...props} user={user} />}
+            {(props) => <Home {...props} user={user} setUser={setUser} />}
           </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
