@@ -16,14 +16,18 @@ import {
 import { supabase } from "../App";
 import crypto from "crypto";
 import { useToast } from "native-base";
-export default function Login({ navigation, userEmail, setUserEmail }) {
+export default function Login( {navigation, user, setUser} ) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const toast = useToast();
+  console.log(user)
+    if(user){
+      navigation.navigate("Home");
+    }
   const handleSubmit = async () => {
     const hashPwd = crypto.createHash("sha1").update(email).digest("hex");
     setLoading(true);
-    const { user, session, error } = await supabase.auth.signUp({
+    const { user1, session, error } = await supabase.auth.signUp({
       email: email,
       password: hashPwd,
     });
@@ -48,9 +52,11 @@ export default function Login({ navigation, userEmail, setUserEmail }) {
   };
   const handleSignout = async () => {
     await supabase.auth.signOut();
-    setUserEmail(null);
+    setUser(null);
     console.log(supabase.auth.currentUser);
   };
+
+
 
   return (
     <HStack>

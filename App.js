@@ -54,18 +54,17 @@ function App() {
     <NativeBaseProvider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName="Home"
+          initialRouteName= "Login"
           screenOptions={{
             headerShown: false,
           }}
         >
           <Stack.Screen name="Login">
-            {(props) => (
-              <Login {...props} userEmail={user} setUserEmail={setUser} />
-            )}
+            {props => <Login {...props} user={user} setUser= {setUser}/>}
           </Stack.Screen>
-          {/* <Stack.Screen name="Home" component={Login} /> */}
-          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Home">
+            {props => <Home {...props} user={user}/>}
+          </Stack.Screen>
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>

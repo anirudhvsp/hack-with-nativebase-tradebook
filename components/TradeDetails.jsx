@@ -1,14 +1,17 @@
 import React from "react";
 import { Box, HStack, Image, Text, View, VStack } from "native-base";
 
-const tradeDetails = [
-  { label: "Risk / Reward", value: "2.5" },
-  { label: "Net Gain", value: "1.2%" },
-  { label: "Timeframe", value: "3 Minutes" },
-  { label: "Strategy", value: "Price Action" },
-];
 
-export default function TradeDetails() {
+
+export default function TradeDetails({ trade }) {
+  const date = new Date(trade.created_at).toLocaleString('en-us',{dateStyle:'medium'});
+  const profitColor = (trade.profit>0) ? "green.700" : "red.700";
+  const tradeDetails = [
+    { label: "Reward / Risk", value: "2.5" },
+    { label: "Net Gain", value: "1.2%" },
+    { label: "Timeframe", value: trade.timeframe },
+    { label: "Strategy", value: trade.stratergy },
+  ];
   return (
     <View
       bg="white"
@@ -28,14 +31,14 @@ export default function TradeDetails() {
       >
         <HStack space="16px">
           <Text fontSize="20px" fontWeight="600">
-            NIFTY
+            {trade.ticker}
           </Text>
-          <Text color="green.700" fontSize="20px" fontWeight="600">
-            ₹ 400
+          <Text color={profitColor} fontSize="20px" fontWeight="600">
+            ₹ {Math.abs(trade.profit)}
           </Text>
         </HStack>
         <Text fontSize="16px" fontWeight="600" color="gray.500">
-          02 July, 2022
+         {date}
         </Text>
       </HStack>
       <HStack px="16px" py="12px" space="32px">
@@ -45,10 +48,10 @@ export default function TradeDetails() {
           alt="fallback text"
           borderRadius="3px"
           source={{
-            uri: "https://www.tradingview.com/x/KGZZA0Xx/",
+            uri: trade.image_url,
           }}
           fallbackSource={{
-            uri: "https://www.w3schools.com/css/img_lights.jpg",
+            uri: "https://www.tradingview.com/x/KGZZA0Xx/",
           }}
         />
         <VStack flex={1} space="12px">
@@ -63,12 +66,7 @@ export default function TradeDetails() {
             ))}
           </HStack>
           <Text numberOfLines={3} color="gray.600">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id
-            adipisci possimus a optio molestias minus magni eos eaque sed dicta
-            quod vitae vero enim architecto mollitia unde, asperiores sapiente
-            harum similique saepe cum sit epe cum sit delectus maxime? Repellat
-            officiis quas maiores officia, repudiandae quibusdam at rem amet
-            saepe dolores consectetur. Dolorum.....
+            {trade.note}
           </Text>
         </VStack>
       </HStack>
