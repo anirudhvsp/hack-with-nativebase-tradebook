@@ -7,15 +7,16 @@ import { useEffect, useState } from "react";
 export default function Home( {navigation, user} ) {
   const [trades, setTrades] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [updateList, setUpdateList] = useState(false);
   useEffect(async () => {
     setLoading(true);
     const {data, error} = await supabase.from("trades").select().eq('user_id', user.id).order('created_at', {ascending : false});
     setTrades(data);
     setLoading(false);
-  },[]);
+  },[updateList]);
 
   return (
-    <Layout>
+    <Layout user={user} setUpdateList={setUpdateList} updateList={updateList}>
       <VStack space="20px">
         {trades.map((each) => (
           <TradeDetails key={each} trade={each} />

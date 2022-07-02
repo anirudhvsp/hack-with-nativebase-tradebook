@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import { Button, FormControl, Input, Modal, TextArea } from "native-base";
+import { Button, FormControl, Input, Modal, TextArea, useToast } from "native-base";
 import {
   strategyOptions,
   tickerOptions,
   timeframeOptions,
 } from "../util/constants";
 import CustomSelect from "./CustomSelect";
+import { supabase } from "../App";
 
-export default function AddTradeModal({ show, setShowModal }) {
+export default function AddTradeModal({ show, setShowModal ,user, setUpdateList, updateList}) {
+  const toast = useToast();
   const [formData, setFormData] = useState({
     ticker: "",
     strategy: "",
@@ -25,8 +27,18 @@ export default function AddTradeModal({ show, setShowModal }) {
     });
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    const {data,error } = await supabase.from('trades').insert([{user_id : user.id, ticker : formData.ticker,timeframe : formData.timeframe,risk:formData.risk,profit:formData.profit,image_url:formData.imageUrl,note:formData.note, stratergy:formData.strategy}]);
     console.log(formData);
+    console.log(error, data);
+    toast.show({
+      title: "Trade Added",
+      placement: "bottom",
+    });
+    setUpdateList(!updateList);
+    setShowModal(false);
+    
+
   };
 
   return (
