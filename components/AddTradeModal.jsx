@@ -1,5 +1,5 @@
+import React, { useState } from "react";
 import { Button, FormControl, Input, Modal, TextArea } from "native-base";
-import React from "react";
 import {
   strategyOptions,
   tickerOptions,
@@ -8,16 +8,29 @@ import {
 import CustomSelect from "./CustomSelect";
 
 export default function AddTradeModal({ show, setShowModal }) {
-  const initialRef = React.useRef(null);
-  const finalRef = React.useRef(null);
+  const [formData, setFormData] = useState({
+    ticker: "",
+    strategy: "",
+    timeframe: "",
+    risk: "",
+    profit: "",
+    imageUrl: "",
+    note: "",
+  });
+
+  const handleChange = (name, value) => {
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = () => {
+    console.log(formData);
+  };
+
   return (
-    <Modal
-      isOpen={show}
-      onClose={() => setShowModal(false)}
-      initialFocusRef={initialRef}
-      finalFocusRef={finalRef}
-      size="lg"
-    >
+    <Modal isOpen={show} onClose={() => setShowModal(false)} size="lg">
       <Modal.Content>
         <Modal.CloseButton />
         <Modal.Header>Add Trade</Modal.Header>
@@ -27,6 +40,8 @@ export default function AddTradeModal({ show, setShowModal }) {
             <CustomSelect
               options={tickerOptions}
               placeholder="Select Stock Symbol"
+              name="ticker"
+              handleChange={handleChange}
             />
           </FormControl>
           <FormControl mt="3">
@@ -34,6 +49,8 @@ export default function AddTradeModal({ show, setShowModal }) {
             <CustomSelect
               options={strategyOptions}
               placeholder="Select Strategy"
+              name="strategy"
+              handleChange={handleChange}
             />
           </FormControl>
           <FormControl mt="3">
@@ -41,23 +58,46 @@ export default function AddTradeModal({ show, setShowModal }) {
             <CustomSelect
               options={timeframeOptions}
               placeholder="Select Timeframe"
+              name="timeframe"
+              handleChange={handleChange}
             />
           </FormControl>
           <FormControl mt="3">
             <FormControl.Label>Risk</FormControl.Label>
-            <Input placeholder="Risk" type="number" />
+            <Input
+              size="lg"
+              placeholder="Risk"
+              value={formData.risk}
+              onChangeText={(v) => handleChange("risk", v)}
+            />
           </FormControl>
           <FormControl mt="3">
             <FormControl.Label>Profit</FormControl.Label>
-            <Input placeholder="Profit" />
+            <Input
+              size="lg"
+              placeholder="Profit"
+              keyboardType="numeric"
+              value={formData.profit}
+              onChangeText={(v) => handleChange("profit", v)}
+            />
           </FormControl>
           <FormControl mt="3">
             <FormControl.Label>Image Url</FormControl.Label>
-            <Input placeholder="Trade Setup Image" />
+            <Input
+              size="lg"
+              placeholder="Trade Setup Image"
+              value={formData.imageUrl}
+              onChangeText={(v) => handleChange("imageUrl", v)}
+            />
           </FormControl>
           <FormControl mt="3">
             <FormControl.Label>Note</FormControl.Label>
-            <TextArea h={20} placeholder="Description" />
+            <TextArea
+              size="lg"
+              placeholder="Note"
+              value={formData.note}
+              onChangeText={(v) => handleChange("note", v)}
+            />
           </FormControl>
         </Modal.Body>
         <Modal.Footer>
@@ -72,9 +112,11 @@ export default function AddTradeModal({ show, setShowModal }) {
               Cancel
             </Button>
             <Button
-              onPress={() => {
-                setShowModal(false);
+              bg="black"
+              _hover={{
+                bg: "gray.700",
               }}
+              onPress={handleSubmit}
             >
               Save
             </Button>

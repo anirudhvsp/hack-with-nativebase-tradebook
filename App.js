@@ -2,32 +2,55 @@ import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "./page/Login";
-import { NativeBaseProvider, Text, View } from "native-base";
+import { extendTheme, NativeBaseProvider, Text, View } from "native-base";
 
-require('dotenv').config({path:'__dirname'+'/.env'});
-import { createClient } from '@supabase/supabase-js'
-import { useEffect,useState } from "react";
+require("dotenv").config();
+import { createClient } from "@supabase/supabase-js";
+import { useEffect, useState } from "react";
 export const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_KEY
-)
+);
 import Home from "./components/Home";
 
 const Stack = createNativeStackNavigator();
 
-
-
 function App() {
-  
   const [user, setUser] = useState(null);
   supabase.auth.onAuthStateChange((event, session) => {
-    if(!user){
+    if (!user) {
       setUser(supabase.auth.currentUser);
     }
-  })
-  
+  });
+
+  const theme = extendTheme({
+    components: {
+      Input: {
+        variants: {
+          outline: ({}) => {
+            return {
+              _hover: {
+                borderColor: "gray.400",
+              },
+              _focus: {
+                borderColor: "gray.600",
+                bg: "transparent",
+                _hover: { borderColor: "gray.600" },
+                _stack: {
+                  style: {
+                    outlineColor: "gray.700",
+                  },
+                },
+              },
+            };
+          },
+        },
+      },
+    },
+  });
+
   return (
-    <NativeBaseProvider>
+    <NativeBaseProvider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator
           initialRouteName="Home"
@@ -36,8 +59,11 @@ function App() {
           }}
         >
           <Stack.Screen name="Login">
-            {props => <Login {...props} userEmail={user} setUserEmail= {setUser}/>}
+            {(props) => (
+              <Login {...props} userEmail={user} setUserEmail={setUser} />
+            )}
           </Stack.Screen>
+          {/* <Stack.Screen name="Home" component={Login} /> */}
           <Stack.Screen name="Home" component={Home} />
         </Stack.Navigator>
       </NavigationContainer>

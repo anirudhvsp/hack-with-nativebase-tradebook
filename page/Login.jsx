@@ -10,38 +10,38 @@ import {
   Stack,
   FormControl,
   Button,
-  Spinner
+  Spinner,
+  Heading,
 } from "native-base";
 import { supabase } from "../App";
 import crypto from "crypto";
 import { useToast } from "native-base";
-export default function Login( {navigation, userEmail, setUserEmail} ) {
+export default function Login({ navigation, userEmail, setUserEmail }) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const toast = useToast();
   const handleSubmit = async () => {
-    const hashPwd   = crypto.createHash('sha1').update(email).digest('hex');
+    const hashPwd = crypto.createHash("sha1").update(email).digest("hex");
     setLoading(true);
     const { user, session, error } = await supabase.auth.signUp({
       email: email,
-      password : hashPwd
-    })
-    if(!error || error.message === "User already registered"){
+      password: hashPwd,
+    });
+    if (!error || error.message === "User already registered") {
       console.log(user, session, error);
       await supabase.auth.signIn({
-        email: email
+        email: email,
       });
       toast.show({
-        title:'Login Link sent to email',
-        placement :'bottom',
+        title: "Login Link sent to email",
+        placement: "bottom",
       });
       setLoading(false);
-    }
-    else{
+    } else {
       toast.show({
-        title:error.message,
-        placement :'bottom',
-      })
+        title: error.message,
+        placement: "bottom",
+      });
       setLoading(false);
     }
     console.log(supabase.auth.currentUser);
@@ -53,28 +53,42 @@ export default function Login( {navigation, userEmail, setUserEmail} ) {
   };
 
   return (
-    <Center h="100vh" bg="#e8e8e8">
-      <Box p="12px" bg="white" borderRadius="10px" w="600px" h="auto">
-        <FormControl>
-          <Stack space={5}>
-            <Stack>
-              <FormControl.Label>Email</FormControl.Label>
-              <Input
-                variant="underlined"
-                p={2}
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
+    <HStack>
+      <Box bg="gray.800" flex={2}></Box>
+      <Center h="100vh" bg="white" flex={1}>
+        <Box p="12px" borderRadius="6px" w="350px" h="auto">
+          <Heading>Login</Heading>
+          <FormControl mt="5">
+            <Stack space={5}>
+              <Stack>
+                <FormControl.Label>Email</FormControl.Label>
+                <Input
+                  p={2}
+                  size="lg"
+                  variant="outline"
+                  placeholder="Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </Stack>
             </Stack>
-          </Stack>
-          <Button onPress={handleSubmit}>
-          {loading ? <Spinner color="white" /> : <Text color="white">Submit</Text>}
-          </Button>
-          <Button onPress={handleSignout}>Signout</Button>
-          {userEmail&&<Text>{JSON.stringify(userEmail.id)}</Text>}
-        </FormControl>
-      </Box>
-    </Center>
+            <Button
+              mt="5"
+              bg="black"
+              _hover={{
+                bg: "gray.700",
+              }}
+              onPress={handleSubmit}
+            >
+              {loading ? (
+                <Spinner color="white" />
+              ) : (
+                <Text color="white">Submit</Text>
+              )}
+            </Button>
+          </FormControl>
+        </Box>
+      </Center>
+    </HStack>
   );
 }
