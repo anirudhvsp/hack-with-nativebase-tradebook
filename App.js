@@ -4,7 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "./page/Login";
 import { NativeBaseProvider, Text, View } from "native-base";
 
-require('dotenv').config({path:'__dirname'+'/.env'});
+require('dotenv').config();
 import { createClient } from '@supabase/supabase-js'
 import { useEffect,useState } from "react";
 export const supabase = createClient(
