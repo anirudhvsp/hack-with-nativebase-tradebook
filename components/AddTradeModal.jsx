@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  FormControl,
-  Input,
-  Modal,
-  TextArea,
-  useToast,
-} from "native-base";
+import { Button, FormControl, Input, Modal, TextArea, useToast, Spinner, Text } from "native-base";
 import {
   getInputProps,
   strategyOptions,
@@ -24,7 +17,8 @@ export default function AddTradeModal({
   updateList,
 }) {
   const toast = useToast();
-  const [formData, setFormData] = useState({
+  const [loading, setLoading] = useState(false);
+  const emptyForm = {
     ticker: "",
     strategy: "",
     timeframe: "",
@@ -32,7 +26,8 @@ export default function AddTradeModal({
     profit: "",
     imageUrl: "",
     note: "",
-  });
+  };
+  const [formData, setFormData] = useState(emptyForm);
 
   const handleChange = (name, value) => {
     setFormData({
@@ -60,6 +55,8 @@ export default function AddTradeModal({
       title: "Trade Added",
       placement: "bottom",
     });
+    setLoading(false);
+    setFormData(emptyForm);
     setUpdateList(!updateList);
     setShowModal(false);
   };
@@ -158,7 +155,7 @@ export default function AddTradeModal({
               }}
               onPress={handleSubmit}
             >
-              Save
+             {loading ? (<Spinner color="white" />) : (<Text color="white">Submit</Text>)}
             </Button>
           </Button.Group>
         </Modal.Footer>
