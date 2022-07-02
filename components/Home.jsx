@@ -1,12 +1,15 @@
-import { Text, View } from "native-base";
+import { Text, View, VStack } from "native-base";
 import Layout from "./Layout";
+import TradeDetails from "./TradeDetails";
 
 export default function Home() {
   return (
     <Layout>
-      {/* <View bg="white">
-        <Text>Hello</Text>
-      </View> */}
+      <VStack space="20px">
+        {[1, 2, 3, 4, 5].map((each) => (
+          <TradeDetails key={each} />
+        ))}
+      </VStack>
     </Layout>
   );
 }

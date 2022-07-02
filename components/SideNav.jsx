@@ -11,7 +11,7 @@ const navLinks = [
 
 export default function SideNav() {
   return (
-    <VStack display={["none", "none", "none", "flex"]} bg="white" w="320px">
+    <VStack display={["none", "none", "none", "flex"]} bg="white" w="300px">
       <VStack p="4">
         {navLinks.map((link) => (
           <Pressable
