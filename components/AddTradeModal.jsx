@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, FormControl, Input, Modal, TextArea } from "native-base";
 import {
+  getInputProps,
   strategyOptions,
   tickerOptions,
   timeframeOptions,
@@ -65,6 +66,7 @@ export default function AddTradeModal({ show, setShowModal }) {
           <FormControl mt="3">
             <FormControl.Label>Risk</FormControl.Label>
             <Input
+              {...getInputProps}
               size="lg"
               placeholder="Risk"
               value={formData.risk}
@@ -74,6 +76,7 @@ export default function AddTradeModal({ show, setShowModal }) {
           <FormControl mt="3">
             <FormControl.Label>Profit</FormControl.Label>
             <Input
+              {...getInputProps}
               size="lg"
               placeholder="Profit"
               keyboardType="numeric"
@@ -84,6 +87,7 @@ export default function AddTradeModal({ show, setShowModal }) {
           <FormControl mt="3">
             <FormControl.Label>Image Url</FormControl.Label>
             <Input
+              {...getInputProps}
               size="lg"
               placeholder="Trade Setup Image"
               value={formData.imageUrl}
@@ -97,6 +101,7 @@ export default function AddTradeModal({ show, setShowModal }) {
               placeholder="Note"
               value={formData.note}
               onChangeText={(v) => handleChange("note", v)}
+              {...getInputProps}
             />
           </FormControl>
         </Modal.Body>

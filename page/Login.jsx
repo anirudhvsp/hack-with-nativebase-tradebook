@@ -16,18 +16,20 @@ import {
 import { supabase } from "../App";
 import crypto from "crypto";
 import { useToast } from "native-base";
-export default function Login( {navigation, user, setUser} ) {
+import { getInputProps } from "../util/constants";
+
+export default function Login({ navigation, user, setUser }) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const toast = useToast();
-  console.log(user)
-    if(user){
-      navigation.navigate("Home");
-    }
+  console.log(user);
+  if (user) {
+    navigation.navigate("Home");
+  }
   const handleSubmit = async () => {
     const hashPwd = crypto.createHash("sha1").update(email).digest("hex");
     setLoading(true);
-    const { user1, session, error } = await supabase.auth.signUp({
+    const { session, error } = await supabase.auth.signUp({
       email: email,
       password: hashPwd,
     });
@@ -50,13 +52,12 @@ export default function Login( {navigation, user, setUser} ) {
     }
     console.log(supabase.auth.currentUser);
   };
+
   const handleSignout = async () => {
     await supabase.auth.signOut();
     setUser(null);
     console.log(supabase.auth.currentUser);
   };
-
-
 
   return (
     <HStack>
@@ -69,6 +70,7 @@ export default function Login( {navigation, user, setUser} ) {
               <Stack>
                 <FormControl.Label>Email</FormControl.Label>
                 <Input
+                  {...getInputProps}
                   p={2}
                   size="lg"
                   variant="outline"

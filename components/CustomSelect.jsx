@@ -1,5 +1,6 @@
 import { CheckIcon, Select } from "native-base";
 import { useState } from "react";
+import { getInputProps } from "../util/constants";
 
 export default function CustomSelect({
   placeholder,

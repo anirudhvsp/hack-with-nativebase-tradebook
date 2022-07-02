@@ -7324,3 +7324,19 @@ export const strategyOptions = [
   { label: "Flag and Pole", value: "Flag and Pole" },
   { label: "Indicators", value: "indicators" },
 ];
+
+export const getInputProps = {
+  _hover: {
+    borderColor: "gray.400",
+  },
+  _focus: {
+    borderColor: "gray.600",
+    bg: "transparent",
+    _hover: { borderColor: "gray.600" },
+    _stack: {
+      style: {
+        outlineColor: "gray.700",
+      },
+    },
+  },
+};
