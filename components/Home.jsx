@@ -20,7 +20,13 @@ export default function Home({ navigation, user, setUser }) {
   }, [updateList]);
 
   return (
-    <Layout user={user} setUpdateList={setUpdateList} updateList={updateList}>
+    <Layout
+      user={user}
+      navigation={navigation}
+      setUpdateList={setUpdateList}
+      setUser={setUser}
+      updateList={updateList}
+    >
       <VStack space="20px">
         {trades.map((each) => (
           <TradeDetails key={each} trade={each} />

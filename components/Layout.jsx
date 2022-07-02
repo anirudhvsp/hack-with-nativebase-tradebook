@@ -8,6 +8,7 @@ export default function Layout({
   setUpdateList,
   updateList,
   setUser,
+  navigation,
 }) {
   return (
     <Box bg="gray.100" flex={1}>
@@ -19,6 +20,7 @@ export default function Layout({
             user={user}
             setUpdateList={setUpdateList}
             updateList={updateList}
+            navigation={navigation}
           />
           <Box p={["0px", "0px", "0px", "24px"]} flex={1} h="100%" m="auto">
             {children}

@@ -18,12 +18,19 @@ const navLinks = [
   { label: "Settings", value: "settings" },
 ];
 
-export default function SideNav({ user, setUpdateList, updateList, setUser }) {
+export default function SideNav({
+  user,
+  setUpdateList,
+  updateList,
+  setUser,
+  navigation,
+}) {
   const [show, setShowModal] = useState(false);
 
   const handleSignout = async () => {
     await supabase.auth.signOut();
     setUser(null);
+    navigation.navigate("Login");
   };
 
   return (

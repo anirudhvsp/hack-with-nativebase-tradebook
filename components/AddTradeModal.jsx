@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Button, FormControl, Input, Modal, TextArea, useToast } from "native-base";
+import {
+  Button,
+  FormControl,
+  Input,
+  Modal,
+  TextArea,
+  useToast,
+} from "native-base";
 import {
   getInputProps,
   strategyOptions,
@@ -9,7 +16,13 @@ import {
 import CustomSelect from "./CustomSelect";
 import { supabase } from "../App";
 
-export default function AddTradeModal({ show, setShowModal ,user, setUpdateList, updateList}) {
+export default function AddTradeModal({
+  show,
+  setShowModal,
+  user,
+  setUpdateList,
+  updateList,
+}) {
   const toast = useToast();
   const [formData, setFormData] = useState({
     ticker: "",
@@ -29,7 +42,18 @@ export default function AddTradeModal({ show, setShowModal ,user, setUpdateList,
   };
 
   const handleSubmit = async () => {
-    const {data,error } = await supabase.from('trades').insert([{user_id : user.id, ticker : formData.ticker,timeframe : formData.timeframe,risk:formData.risk,profit:formData.profit,image_url:formData.imageUrl,note:formData.note, stratergy:formData.strategy}]);
+    const { data, error } = await supabase.from("trades").insert([
+      {
+        user_id: user.id,
+        ticker: formData.ticker,
+        timeframe: formData.timeframe,
+        risk: formData.risk,
+        profit: formData.profit,
+        image_url: formData.imageUrl,
+        note: formData.note,
+        stratergy: formData.strategy,
+      },
+    ]);
     console.log(formData);
     console.log(error, data);
     toast.show({
@@ -38,8 +62,6 @@ export default function AddTradeModal({ show, setShowModal ,user, setUpdateList,
     });
     setUpdateList(!updateList);
     setShowModal(false);
-    
-
   };
 
   return (
@@ -73,6 +95,7 @@ export default function AddTradeModal({ show, setShowModal ,user, setUpdateList,
               placeholder="Select Timeframe"
               name="timeframe"
               handleChange={handleChange}
+              variant="underlined"
             />
           </FormControl>
           <FormControl mt="3">

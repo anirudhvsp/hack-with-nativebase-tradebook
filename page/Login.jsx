@@ -12,6 +12,7 @@ import {
   Button,
   Spinner,
   Heading,
+  Image,
 } from "native-base";
 import { supabase } from "../App";
 import crypto from "crypto";
@@ -55,19 +56,40 @@ export default function Login({ navigation, user, setUser }) {
 
   return (
     <HStack>
-      <Box bg="gray.800" flex={2}></Box>
+      <Box bg="gray.800" flex={2}>
+        <Heading
+          position="absolute"
+          top="5%"
+          left="5%"
+          color="white"
+          fontSize="32px"
+          zIndex={10}
+        >
+          Tradebook
+        </Heading>
+        <Image
+          size="full"
+          alt="fallback text"
+          source={{
+            uri: "https://i.ibb.co/fYGH9Tq/login.png",
+          }}
+          fallbackSource={{
+            uri: "https://www.tradingview.com/x/KGZZA0Xx/",
+          }}
+        />
+      </Box>
       <Center h="100vh" bg="white" flex={1}>
         <Box p="12px" borderRadius="6px" w="350px" h="auto">
           <Heading>Login</Heading>
           <FormControl mt="5">
             <Stack space={5}>
               <Stack>
-                <FormControl.Label>Email</FormControl.Label>
+                <FormControl.Label opacity="0">Email</FormControl.Label>
                 <Input
                   {...getInputProps}
                   p={2}
                   size="lg"
-                  variant="outline"
+                  variant="underlined"
                   placeholder="Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -85,7 +107,7 @@ export default function Login({ navigation, user, setUser }) {
               {loading ? (
                 <Spinner color="white" />
               ) : (
-                <Text color="white">Submit</Text>
+                <Text color="white">Login</Text>
               )}
             </Button>
           </FormControl>
