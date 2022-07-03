@@ -27,6 +27,7 @@ export default function SideNav({
   updateList,
   setUser,
   navigation,
+  show,
   showNav,
   setShowModal,
 }) {
@@ -50,7 +51,7 @@ export default function SideNav({
     >
       <Button
         onPress={() => {
-          setShowModal(true);
+          setShowModal(!!user?.user_metadata?.capital);
         }}
         display={["none", "none", "none", "flex"]}
         borderRadius={["100px", "100px", "100px", "5px"]}
@@ -72,7 +73,7 @@ export default function SideNav({
           color="white"
           fontSize="16px"
         >
-          {user.user_metadata.capital ? "Add Trade" : "Update Capital"}
+          {user.user_metadata.capital ? "Add Trade" : "Add Capital"}
         </Text>
         <AddIcon display={["flex", "flex", "flex", "none"]} color="white" />
       </Button>
@@ -115,6 +116,7 @@ export default function SideNav({
       ) : (
         <AddCapitalModal
           show={show}
+          setUser={setUser}
           setShowModal={setShowModal}
           user={user}
           setUpdateList={setUpdateList}

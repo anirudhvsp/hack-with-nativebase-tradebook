@@ -24,34 +24,8 @@ function App() {
     }
   });
 
-  const theme = extendTheme({
-    components: {
-      Select: {
-        variants: {
-          outline: ({}) => {
-            return {
-              _hover: {
-                borderColor: "gray.400",
-              },
-              _focus: {
-                borderColor: "gray.600",
-                bg: "transparent",
-                _hover: { borderColor: "gray.600" },
-                _stack: {
-                  style: {
-                    outlineColor: "gray.700",
-                  },
-                },
-              },
-            };
-          },
-        },
-      },
-    },
-  });
-
   return (
-    <NativeBaseProvider theme={theme}>
+    <NativeBaseProvider>
       <NavigationContainer>
         <Stack.Navigator
           initialRouteName="Login"
@@ -69,9 +43,14 @@ function App() {
               }}
             ></Stack.Screen>
           ) : (
-            <Stack.Screen name="Home">
-              {(props) => <Home {...props} user={user} setUser={setUser} />}
-            </Stack.Screen>
+            <Stack.Screen
+              name="Home"
+              component={Home}
+              initialParams={{
+                user,
+                setUser,
+              }}
+            ></Stack.Screen>
           )}
         </Stack.Navigator>
       </NavigationContainer>

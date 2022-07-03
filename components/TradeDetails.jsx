@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import {
+  Box,
+  Button,
+  HStack,
+  Image,
+  Stack,
+  Text,
+  View,
+  VStack,
+} from "native-base";
 
-import { Box, HStack, Image, Text, View, VStack } from "native-base";
 import TradingViewWidget from "react-tradingview-widget";
 
 export default function TradeDetails({ trade }) {
+  const [showChart, setShowChart] = useState(false);
   const date = new Date(trade.created_at).toLocaleString("en-us", {
     dateStyle: "medium",
   });
+
   const profitColor = trade.profit > 0 ? "green.700" : "red.700";
+
   const tradeDetails = [
     { label: "Reward / Risk", value: (trade.profit / trade.risk).toFixed(2) },
     { label: "Net Gain", value: trade.gain_percentage + "%" },
     { label: "Timeframe", value: trade.timeframe },
     { label: "Strategy", value: trade.stratergy },
   ];
+
   return (
     <View
       bg="white"
@@ -39,9 +52,22 @@ export default function TradeDetails({ trade }) {
             ₹ {Math.abs(trade.profit)}
           </Text>
         </HStack>
-        <Text fontSize="16px" fontWeight="600" color="gray.500">
-          {date}
-        </Text>
+        <HStack alignItems="center" space="16px">
+          <Button
+            variant="ghost"
+            onPress={() => setShowChart(!showChart)}
+            _text={{
+              fontSize: "14px",
+              fontWeight: "600",
+              color: "gray.500",
+            }}
+          >
+            {showChart ? "Hide Chart" : "View Chart"}
+          </Button>
+          <Text fontSize="16px" fontWeight="600" color="gray.500">
+            {date}
+          </Text>
+        </HStack>
       </HStack>
       <Stack
         flexDirection={["column", "column", "column", "row"]}
@@ -81,9 +107,11 @@ export default function TradeDetails({ trade }) {
           </Text>
         </VStack>
       </Stack>
-      <Box h="500px">
-        <TradingViewWidget symbol={"NASDAQ:" + trade.ticker} autosize />
-      </Box>
+      {showChart && (
+        <Box h="500px" mt="4">
+          <TradingViewWidget symbol={"NASDAQ:" + trade.ticker} autosize />
+        </Box>
+      )}
     </View>
   );
 }

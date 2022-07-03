@@ -30,9 +30,10 @@ export default function Login({ route }) {
   const toast = useToast();
   if (user) {
     navigation.navigate("Home");
+    console.log("navi");
   }
+
   const handleSubmit = async () => {
-    console.log(email);
     setLoading(true);
     const { session, error } = await supabase.auth.signUp({
       email: email,
@@ -41,7 +42,7 @@ export default function Login({ route }) {
     if (!error || error.message === "User already registered") {
       console.log(user, session, error);
       await supabase.auth.signIn({
-        email: email,
+        email,
       });
       toast.show({
         title: "Login Link sent to email",
@@ -57,7 +58,6 @@ export default function Login({ route }) {
     }
     console.log(supabase.auth.currentUser);
   };
-  console.log(email);
   return (
     <HStack flex={1}>
       <Heading
@@ -113,10 +113,13 @@ export default function Login({ route }) {
               {loading ? (
                 <Spinner color="white" />
               ) : (
-                <Text color="white">Login</Text>
+                <Text fontSize="16px" color="white">
+                  Login
+                </Text>
               )}
             </Button>
           </FormControl>
+          {user ? user.id : "not here"}
         </Box>
       </Center>
     </HStack>

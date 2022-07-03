@@ -31,6 +31,7 @@ export default function Layout({
           showNav={showNav}
           setUser={setUser}
           user={user}
+          show={show}
           setUpdateList={setUpdateList}
           updateList={updateList}
           navigation={navigation}
@@ -40,13 +41,6 @@ export default function Layout({
           {children}
         </Box>
       </HStack>
-      <AddTradeModal
-        show={show}
-        setShowModal={setShowModal}
-        user={user}
-        setUpdateList={setUpdateList}
-        updateList={updateList}
-      />
 
       <Button
         onPress={() => {

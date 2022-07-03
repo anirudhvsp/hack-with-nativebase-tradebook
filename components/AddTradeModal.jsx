@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { Button, FormControl, Input, Modal, TextArea, useToast, Spinner, Text } from "native-base";
+import {
+  Button,
+  FormControl,
+  Input,
+  Modal,
+  TextArea,
+  useToast,
+  Spinner,
+  Text,
+} from "native-base";
 import {
   getInputProps,
   strategyOptions,
@@ -37,7 +46,8 @@ export default function AddTradeModal({
   };
 
   const handleSubmit = async () => {
-    const percentGain = parseFloat(formData.profit) / parseFloat(user.user_metadata.capital);
+    const percentGain =
+      parseFloat(formData.profit) / parseFloat(user.user_metadata.capital);
     const { data, error } = await supabase.from("trades").insert([
       {
         user_id: user.id,
@@ -157,7 +167,11 @@ export default function AddTradeModal({
               }}
               onPress={handleSubmit}
             >
-             {loading ? (<Spinner color="white" />) : (<Text color="white">Submit</Text>)}
+              {loading ? (
+                <Spinner color="white" />
+              ) : (
+                <Text color="white">Add Trade</Text>
+              )}
             </Button>
           </Button.Group>
         </Modal.Footer>

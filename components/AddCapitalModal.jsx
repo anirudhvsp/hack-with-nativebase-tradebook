@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { Button, FormControl, Input, Modal, TextArea, useToast, Spinner, Text } from "native-base";
+import {
+  Button,
+  FormControl,
+  Input,
+  Modal,
+  TextArea,
+  useToast,
+  Spinner,
+  Text,
+} from "native-base";
 import {
   getInputProps,
   strategyOptions,
@@ -13,13 +22,14 @@ export default function AddCapitalModal({
   show,
   setShowModal,
   user,
+  setUser,
   setUpdateList,
   updateList,
 }) {
   const toast = useToast();
   const [loading, setLoading] = useState(false);
   const emptyForm = {
-    capital: ""
+    capital: "",
   };
   const [formData, setFormData] = useState(emptyForm);
 
@@ -32,7 +42,7 @@ export default function AddCapitalModal({
 
   const handleSubmit = async () => {
     const { data, error } = await supabase.auth.update({
-        data: {capital: formData.capital}
+      data: { capital: formData.capital },
     });
     console.log(formData);
     console.log(error, data);
@@ -41,6 +51,7 @@ export default function AddCapitalModal({
       placement: "bottom",
     });
     setLoading(false);
+    setUser(supabase.auth.currentUser);
     setFormData(emptyForm);
     setUpdateList(!updateList);
     setShowModal(false);
@@ -50,9 +61,9 @@ export default function AddCapitalModal({
     <Modal isOpen={show} onClose={() => setShowModal(false)} size="lg">
       <Modal.Content>
         <Modal.CloseButton />
-        <Modal.Header>Update Capital</Modal.Header>
+        <Modal.Header>Add Capital</Modal.Header>
         <Modal.Body>
-          <FormControl mt="3">
+          <FormControl>
             <FormControl.Label display="none">Capital</FormControl.Label>
             <Input
               {...getInputProps}
@@ -81,7 +92,11 @@ export default function AddCapitalModal({
               }}
               onPress={handleSubmit}
             >
-             {loading ? (<Spinner color="white" />) : (<Text color="white">Submit</Text>)}
+              {loading ? (
+                <Spinner color="white" />
+              ) : (
+                <Text color="white">Add Capital</Text>
+              )}
             </Button>
           </Button.Group>
         </Modal.Footer>
