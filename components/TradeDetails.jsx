@@ -1,5 +1,7 @@
 import React from "react";
-import { Box, HStack, Image, Stack, Text, View, VStack } from "native-base";
+
+import { Box, HStack, Image, Text, View, VStack } from "native-base";
+import TradingViewWidget from "react-tradingview-widget";
 
 export default function TradeDetails({ trade }) {
   const date = new Date(trade.created_at).toLocaleString("en-us", {
@@ -7,8 +9,8 @@ export default function TradeDetails({ trade }) {
   });
   const profitColor = trade.profit > 0 ? "green.700" : "red.700";
   const tradeDetails = [
-    { label: "Reward / Risk", value: "2.5" },
-    { label: "Net Gain", value: "1.2%" },
+    { label: "Reward / Risk", value: (trade.profit / trade.risk).toFixed(2) },
+    { label: "Net Gain", value: trade.gain_percentage + "%" },
     { label: "Timeframe", value: trade.timeframe },
     { label: "Strategy", value: trade.stratergy },
   ];
@@ -79,6 +81,9 @@ export default function TradeDetails({ trade }) {
           </Text>
         </VStack>
       </Stack>
+      <Box h="500px">
+        <TradingViewWidget symbol={"NASDAQ:" + trade.ticker} autosize />
+      </Box>
     </View>
   );
 }

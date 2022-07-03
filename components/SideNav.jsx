@@ -12,6 +12,7 @@ import {
 import React, { useState } from "react";
 import { supabase } from "../App";
 import AddTradeModal from "./AddTradeModal";
+import AddCapitalModal from "./AddCapitalModal";
 
 const navLinks = [
   { label: "Overview", value: "overview" },
@@ -71,7 +72,7 @@ export default function SideNav({
           color="white"
           fontSize="16px"
         >
-          Add Trade
+          {user.user_metadata.capital ? "Add Trade" : "Update Capital"}
         </Text>
         <AddIcon display={["flex", "flex", "flex", "none"]} color="white" />
       </Button>
@@ -103,6 +104,23 @@ export default function SideNav({
           <Text>Logout</Text>
         </Pressable>
       </VStack>
+      {user.user_metadata.capital ? (
+        <AddTradeModal
+          show={show}
+          setShowModal={setShowModal}
+          user={user}
+          setUpdateList={setUpdateList}
+          updateList={updateList}
+        />
+      ) : (
+        <AddCapitalModal
+          show={show}
+          setShowModal={setShowModal}
+          user={user}
+          setUpdateList={setUpdateList}
+          updateList={updateList}
+        />
+      )}
     </VStack>
   );
 }
