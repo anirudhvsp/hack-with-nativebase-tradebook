@@ -4,14 +4,14 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "./page/Login";
 import { extendTheme, NativeBaseProvider, Text, View } from "native-base";
 
-require("dotenv").config();
 import { createClient } from "@supabase/supabase-js";
 import { useEffect, useState } from "react";
 
 export const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
+  "https://fmhtsxxwaltvlzhwanql.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZtaHRzeHh3YWx0dmx6aHdhbnFsIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTY3NDYyNDEsImV4cCI6MTk3MjMyMjI0MX0.wo8w2WZX4Te-M1TqI5_pdM-7XXwU_hg3f5UBz4XwJFw"
 );
+
 import Home from "./components/Home";
 
 const Stack = createNativeStackNavigator();
@@ -59,12 +59,20 @@ function App() {
             headerShown: false,
           }}
         >
-          <Stack.Screen name="Login">
-            {(props) => <Login {...props} user={user} setUser={setUser} />}
-          </Stack.Screen>
-          <Stack.Screen name="Home">
-            {(props) => <Home {...props} user={user} setUser={setUser} />}
-          </Stack.Screen>
+          {!user ? (
+            <Stack.Screen
+              component={Login}
+              name="Login"
+              initialParams={{
+                user,
+                setUser,
+              }}
+            ></Stack.Screen>
+          ) : (
+            <Stack.Screen name="Home">
+              {(props) => <Home {...props} user={user} setUser={setUser} />}
+            </Stack.Screen>
+          )}
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>

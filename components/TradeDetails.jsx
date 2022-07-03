@@ -1,11 +1,11 @@
 import React from "react";
-import { Box, HStack, Image, Text, View, VStack } from "native-base";
-
-
+import { Box, HStack, Image, Stack, Text, View, VStack } from "native-base";
 
 export default function TradeDetails({ trade }) {
-  const date = new Date(trade.created_at).toLocaleString('en-us',{dateStyle:'medium'});
-  const profitColor = (trade.profit>0) ? "green.700" : "red.700";
+  const date = new Date(trade.created_at).toLocaleString("en-us", {
+    dateStyle: "medium",
+  });
+  const profitColor = trade.profit > 0 ? "green.700" : "red.700";
   const tradeDetails = [
     { label: "Reward / Risk", value: "2.5" },
     { label: "Net Gain", value: "1.2%" },
@@ -38,13 +38,18 @@ export default function TradeDetails({ trade }) {
           </Text>
         </HStack>
         <Text fontSize="16px" fontWeight="600" color="gray.500">
-         {date}
+          {date}
         </Text>
       </HStack>
-      <HStack px="16px" py="12px" space="32px">
+      <Stack
+        flexDirection={["column", "column", "column", "row"]}
+        px="16px"
+        py="12px"
+        space="32px"
+      >
         <Image
-          size="220px"
-          height="120px"
+          size={["full", "full", "full", "220px"]}
+          height={["180px", "180px", "180px", "120px"]}
           alt="fallback text"
           borderRadius="3px"
           source={{
@@ -55,10 +60,14 @@ export default function TradeDetails({ trade }) {
           }}
         />
         <VStack flex={1} space="12px">
-          <HStack space="10%" flex={1}>
+          <HStack space="10%" flex={1} flexWrap="wrap">
             {tradeDetails.map((each, idx) => (
               <Box key={idx + 1}>
-                <Text fontSize="20px" fontWeight="500" color="#8a8a8a">
+                <Text
+                  fontSize={["18px", "18px", "18px", "20px"]}
+                  fontWeight="500"
+                  color="#8a8a8a"
+                >
                   {each.label}
                 </Text>
                 <Text fontSize="16px">{each.value}</Text>
@@ -69,7 +78,7 @@ export default function TradeDetails({ trade }) {
             {trade.note}
           </Text>
         </VStack>
-      </HStack>
+      </Stack>
     </View>
   );
 }

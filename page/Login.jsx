@@ -15,24 +15,28 @@ import {
   Image,
 } from "native-base";
 import { supabase } from "../App";
-import crypto from "crypto";
 import { useToast } from "native-base";
 import { getInputProps } from "../util/constants";
+import { useNavigation } from "@react-navigation/native";
 
-export default function Login({ navigation, user, setUser }) {
+export default function Login({ route }) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
+
+  const { user, setUser } = route.params;
+
+  const navigation = useNavigation();
+
   const toast = useToast();
-  console.log(user);
   if (user) {
     navigation.navigate("Home");
   }
   const handleSubmit = async () => {
-    const hashPwd = crypto.createHash("sha1").update(email).digest("hex");
+    console.log(email);
     setLoading(true);
     const { session, error } = await supabase.auth.signUp({
       email: email,
-      password: hashPwd,
+      password: email.split("@")[0],
     });
     if (!error || error.message === "User already registered") {
       console.log(user, session, error);
@@ -53,20 +57,20 @@ export default function Login({ navigation, user, setUser }) {
     }
     console.log(supabase.auth.currentUser);
   };
-
+  console.log(email);
   return (
-    <HStack>
-      <Box bg="gray.800" flex={2}>
-        <Heading
-          position="absolute"
-          top="5%"
-          left="5%"
-          color="white"
-          fontSize="32px"
-          zIndex={10}
-        >
-          Tradebook
-        </Heading>
+    <HStack flex={1}>
+      <Heading
+        position="absolute"
+        top="5%"
+        left="5%"
+        color={["black", "black", "black", "white"]}
+        fontSize="32px"
+        zIndex={10}
+      >
+        Tradebook
+      </Heading>
+      <Box display={["none", "none", "none", "flex"]} bg="gray.800" flex={2}>
         <Image
           size="full"
           alt="fallback text"
@@ -78,7 +82,7 @@ export default function Login({ navigation, user, setUser }) {
           }}
         />
       </Box>
-      <Center h="100vh" bg="white" flex={1}>
+      <Center h="100%" bg="white" flex={1}>
         <Box p="12px" borderRadius="6px" w="350px" h="auto">
           <Heading>Login</Heading>
           <FormControl mt="5">
@@ -92,7 +96,9 @@ export default function Login({ navigation, user, setUser }) {
                   variant="underlined"
                   placeholder="Email"
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChangeText={(e) => {
+                    setEmail(e);
+                  }}
                 />
               </Stack>
             </Stack>

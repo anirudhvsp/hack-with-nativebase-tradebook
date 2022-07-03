@@ -1,4 +1,4 @@
-import { ScrollView, Text, View, VStack } from "native-base";
+import { FlatList, ScrollView, Text, View, VStack, Box } from "native-base";
 import Layout from "./Layout";
 import TradeDetails from "./TradeDetails";
 import { supabase } from "../App";
@@ -27,11 +27,18 @@ export default function Home({ navigation, user, setUser }) {
       setUser={setUser}
       updateList={updateList}
     >
-      <VStack space="20px">
-        {trades.map((each) => (
-          <TradeDetails key={each} trade={each} />
-        ))}
-      </VStack>
+      <ScrollView
+        contentContainerStyle={{ flexGrow: 1 }}
+        flex={1}
+        showsVerticalScrollIndicator={false}
+      >
+        <FlatList
+          data={trades}
+          renderItem={({ item }) => <TradeDetails trade={item} />}
+          ItemSeparatorComponent={() => <Box h="4" />}
+          keyExtractor={(_, index) => index + ""}
+        />
+      </ScrollView>
     </Layout>
   );
 }

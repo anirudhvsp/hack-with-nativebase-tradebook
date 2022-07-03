@@ -1,7 +1,9 @@
 import {
+  AddIcon,
   Box,
   Button,
   Center,
+  Fab,
   Image,
   Pressable,
   Text,
@@ -24,25 +26,38 @@ export default function SideNav({
   updateList,
   setUser,
   navigation,
+  showNav,
+  setShowModal,
 }) {
-  const [show, setShowModal] = useState(false);
-
   const handleSignout = async () => {
     await supabase.auth.signOut();
     setUser(null);
     navigation.navigate("Login");
   };
 
+  const d = showNav ? "flex" : "none";
+
   return (
-    <VStack display={["none", "none", "none", "flex"]} bg="white" w="300px">
+    <VStack
+      position={["absolute", "absolute", "absolute", "relative"]}
+      display={[d, d, d, "flex"]}
+      bg="white"
+      w={["100%", "100%", "100%", "300px"]}
+      flex={["1", "1", "1", "initial"]}
+      h="full"
+      zIndex={10}
+    >
       <Button
         onPress={() => {
           setShowModal(true);
         }}
-        borderRadius="5px"
+        display={["none", "none", "none", "flex"]}
+        borderRadius={["100px", "100px", "100px", "5px"]}
+        w={["45px", "45px", "45px", "85%"]}
+        h={["45px", "45px", "45px", "auto"]}
+        zIndex={10}
         alignItems="center"
         bg="gray.800"
-        w="85%"
         mx="auto"
         mt="24px"
         justifyContent="center"
@@ -51,10 +66,16 @@ export default function SideNav({
           bg: "black",
         }}
       >
-        <Text color="white" fontSize="16px">
+        <Text
+          display={["none", "none", "none", "flex"]}
+          color="white"
+          fontSize="16px"
+        >
           Add Trade
         </Text>
+        <AddIcon display={["flex", "flex", "flex", "none"]} color="white" />
       </Button>
+
       <VStack p="4">
         {navLinks.map((link) => (
           <Pressable
@@ -82,13 +103,6 @@ export default function SideNav({
           <Text>Logout</Text>
         </Pressable>
       </VStack>
-      <AddTradeModal
-        show={show}
-        setShowModal={setShowModal}
-        user={user}
-        setUpdateList={setUpdateList}
-        updateList={updateList}
-      />
     </VStack>
   );
 }
