@@ -37,6 +37,7 @@ export default function AddTradeModal({
   };
 
   const handleSubmit = async () => {
+    const percentGain = parseFloat(formData.profit) / parseFloat(user.user_metadata.capital);
     const { data, error } = await supabase.from("trades").insert([
       {
         user_id: user.id,
@@ -47,6 +48,7 @@ export default function AddTradeModal({
         image_url: formData.imageUrl,
         note: formData.note,
         stratergy: formData.strategy,
+        gain_percentage: percentGain * 100,
       },
     ]);
     console.log(formData);

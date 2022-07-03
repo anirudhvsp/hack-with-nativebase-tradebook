@@ -1,7313 +1,11873 @@
 export const tickerOptions = [
   {
-    value: "BANKNIFTY",
-    label: "BANKNIFFTY OPTIONS",
+    "label": "iShares MSCI All Country Asia Information Technology Index Fund",
+    "value": "AAIT"
   },
   {
-    value: "NIFTFY",
-    label: "NIFFTY OPTIONS",
+    "label": "American Airlines Group, Inc.",
+    "value": "AAL"
   },
   {
-    value: "NXTDIGITAL",
-    label: "NXTDIGITAL LTD",
+    "label": "Atlantic American Corporation",
+    "value": "AAME"
   },
   {
-    value: "BBOX",
-    label: "BLACK BOX LTD",
+    "label": "Applied Optoelectronics, Inc.",
+    "value": "AAOI"
   },
   {
-    value: "DHARAMSI",
-    label: "DHARAMSI MORARJI CHEM LTD",
+    "label": "AAON, Inc.",
+    "value": "AAON"
   },
   {
-    value: "VISHAL",
-    label: "VISHAL FABRICS LTD",
+    "label": "Apple Inc.",
+    "value": "AAPL"
   },
   {
-    value: "HESTERBIO",
-    label: "HESTER BIOSCIENCES",
+    "label": "Avalanche Biotechnologies, Inc.",
+    "value": "AAVL"
   },
   {
-    value: "ZODIAC",
-    label: "ZODIAC ENERGY LTD",
+    "label": "Atlas Air Worldwide Holdings",
+    "value": "AAWW"
   },
   {
-    value: "JAINSTUDIO",
-    label: "JAIN STUDIOS",
+    "label": "iShares MSCI All Country Asia ex Japan Index Fund",
+    "value": "AAXJ"
   },
   {
-    value: "BALMLAWRIE",
-    label: "BALMER LAWRIE",
+    "label": "Aoxin Tianli Group, Inc.",
+    "value": "ABAC"
   },
   {
-    value: "JAGSNPHARM",
-    label: "JAGSONPAL PHARMACE",
+    "label": "ABAXIS, Inc.",
+    "value": "ABAX"
   },
   {
-    value: "EVERESTIND",
-    label: "EVEREST INDUSTRIES",
+    "label": "Ameris Bancorp",
+    "value": "ABCB"
   },
   {
-    value: "GFLLIMITED",
-    label: "GFL LTD",
+    "label": "Cambium Learning Group, Inc.",
+    "value": "ABCD"
   },
   {
-    value: "KAMATHOTEL",
-    label: "KAMAT HOTELS (IND)",
+    "label": "The Advisory Board Company",
+    "value": "ABCO"
   },
   {
-    value: "ASIANHOTNR",
-    label: "ASIAN HOTELS(NORTH",
+    "label": "Anchor BanCorp Wisconsin Inc.",
+    "value": "ABCW"
   },
   {
-    value: "MONARCH",
-    label: "MONARCH NETWORTH CAP LTD",
+    "label": "Alcentra Capital Corp.",
+    "value": "ABDC"
   },
   {
-    value: "GRPLTD",
-    label: "GRP LTD",
+    "label": "Abengoa, S.A.",
+    "value": "ABGB"
   },
   {
-    value: "RAMCOIND",
-    label: "RAMCO INDUSTRIES",
+    "label": "ARCA biopharma, Inc.",
+    "value": "ABIO"
   },
   {
-    value: "CALSOFT",
-    label: "CALIFORNIA SOFTWAR",
+    "label": "ABIOMED, Inc.",
+    "value": "ABMD"
   },
   {
-    value: "VISAKAIND",
-    label: "VISAKA IND",
+    "label": "Autobytel Inc.",
+    "value": "ABTL"
   },
   {
-    value: "UNIVASTU",
-    label: "UNIVASTU INDIA LTD",
+    "label": "Abengoa Yield plc",
+    "value": "ABY"
   },
   {
-    value: "MSPL",
-    label: "MSP STEEL & POWER",
+    "label": "ACADIA Pharmaceuticals Inc.",
+    "value": "ACAD"
   },
   {
-    value: "ALPSINDUS",
-    label: "ALPS INDS",
+    "label": "American Capital, Ltd.",
+    "value": "ACAS"
   },
   {
-    value: "ROHLTD",
-    label: "ROYAL ORCHID HOTEL",
+    "label": "Arctic Cat Inc.",
+    "value": "ACAT"
   },
   {
-    value: "SHAHALLOYS",
-    label: "SHAH ALLOYS",
+    "label": "Aceto Corporation",
+    "value": "ACET"
   },
   {
-    value: "WEALTH",
-    label: "WEALTH FRST PORT. MG. LTD",
+    "label": "Atlantic Coast Financial Corporation",
+    "value": "ACFC"
   },
   {
-    value: "SUBCAPCITY",
-    label: "INTL CONSTRUCTIONS",
+    "label": "Acorn Energy, Inc.",
+    "value": "ACFN"
   },
   {
-    value: "FOCUS",
-    label: "FOCUS LIGHTG",
+    "label": "Arch Capital Group Ltd.",
+    "value": "ACGL"
   },
   {
-    value: "TIMESGTY",
-    label: "TIMES GUARANTY",
+    "label": "Acadia Healthcare Company, Inc.",
+    "value": "ACHC"
   },
   {
-    value: "GEECEE",
-    label: "GEECEE VENTURES",
+    "label": "Achillion Pharmaceuticals, Inc.",
+    "value": "ACHN"
   },
   {
-    value: "SRHHYPOLTD",
-    label: "SREE RAYALASEEMA H",
+    "label": "ACI Worldwide, Inc.",
+    "value": "ACIW"
   },
   {
-    value: "CENTUM",
-    label: "CENTUM ELECTRONICS",
+    "label": "Axcelis Technologies, Inc.",
+    "value": "ACLS"
   },
   {
-    value: "GAYAPROJ",
-    label: "GAYATRI PROJECTS",
+    "label": "ACNB Corporation",
+    "value": "ACNB"
   },
   {
-    value: "GSS",
-    label: "GSS INFOTECH LTD",
+    "label": "Acorda Therapeutics, Inc.",
+    "value": "ACOR"
   },
   {
-    value: "CSBBANK",
-    label: "CSB BANK LTD",
+    "label": "Active Power, Inc.",
+    "value": "ACPW"
   },
   {
-    value: "IVP",
-    label: "IVP LTD",
+    "label": "AcelRx Pharmaceuticals, Inc.",
+    "value": "ACRX"
   },
   {
-    value: "BYKE",
-    label: "THE BYKE HOSPITALI",
+    "label": "American Capital Senior Floating, Ltd.",
+    "value": "ACSF"
   },
   {
-    value: "SALASAR",
-    label: "SALASAR TECHNO ENG",
+    "label": "Acasti Pharma, Inc.",
+    "value": "ACST"
   },
   {
-    value: "AMBUJACEM",
-    label: "AMBUJA CEMENTS LTD",
+    "label": "Actua Corporation",
+    "value": "ACTA"
   },
   {
-    value: "REPCOHOME",
-    label: "REPCO HOME FIN LTD",
+    "label": "Acacia Research Corporation",
+    "value": "ACTG"
   },
   {
-    value: "PVP",
-    label: "PVP VENTURES LTD",
+    "label": "Actions Semiconductor Co., Ltd.",
+    "value": "ACTS"
   },
   {
-    value: "SPIC",
-    label: "SOUTHERN PETROCHEM",
+    "label": "Acura Pharmaceuticals, Inc.",
+    "value": "ACUR"
   },
   {
-    value: "KRBL",
-    label: "KRBL LTD",
+    "label": "iShares MSCI ACWI Index Fund",
+    "value": "ACWI"
   },
   {
-    value: "HMVL",
-    label: "HINDUSTAN MEDIA VE",
+    "label": "iShares MSCI ACWI ex US Index Fund",
+    "value": "ACWX"
   },
   {
-    value: "APOLSINHOT",
-    label: "APOLLO SINDOORI HO",
+    "label": "Acxiom Corporation",
+    "value": "ACXM"
   },
   {
-    value: "RSYSTEMS",
-    label: "R SYSTEMS INTERNAT",
+    "label": "Authentidate Holding Corp.",
+    "value": "ADAT"
   },
   {
-    value: "EMKAYTOOLS",
-    label: "EMKAY TAPS AND CUT",
+    "label": "Adobe Systems Incorporated",
+    "value": "ADBE"
   },
   {
-    value: "MAZDA",
-    label: "MAZDA LTD",
+    "label": "Adept Technology, Inc.",
+    "value": "ADEP"
   },
   {
-    value: "MOTHERSUMI",
-    label: "MOTHERSON SUMI SYS",
+    "label": "Advanced Emissions Solutions, Inc.",
+    "value": "ADES"
   },
   {
-    value: "PASHUPATI",
-    label: "PASHUPATI COTSPIN",
+    "label": "Alcobra Ltd.",
+    "value": "ADHD"
   },
   {
-    value: "SHAKTIPUMP",
-    label: "SHAKTI PUMPS INDIA",
+    "label": "Analog Devices, Inc.",
+    "value": "ADI"
   },
   {
-    value: "GINNIFILA",
-    label: "GINNI FILAMENTS",
+    "label": "ADMA Biologics Inc",
+    "value": "ADMA"
   },
   {
-    value: "SCHAEFFLER",
-    label: "SCHAEFFLER INDIA L",
+    "label": "Adamis Pharmaceuticals Corporation",
+    "value": "ADMP"
   },
   {
-    value: "ERIS",
-    label: "ERIS LIFESCIENCES",
+    "label": "Adamas Pharmaceuticals, Inc.",
+    "value": "ADMS"
   },
   {
-    value: "AGRITECH",
-    label: "AGRI-TECH (INDIA)",
+    "label": "Audience, Inc.",
+    "value": "ADNC"
   },
   {
-    value: "TCPLPACK",
-    label: "TCPL PACKAGING LTD",
+    "label": "Automatic Data Processing, Inc.",
+    "value": "ADP"
   },
   {
-    value: "BANKA",
-    label: "BANKA BIOLOO LTD",
+    "label": "BLDRS Asia 50 ADR Index Fund",
+    "value": "ADRA"
   },
   {
-    value: "GRINDWELL",
-    label: "GRINDWELL NORTON",
+    "label": "BLDRS Developed Markets 100 ADR Index Fund",
+    "value": "ADRD"
   },
   {
-    value: "SOBHA",
-    label: "SOBHA LTD",
+    "label": "BLDRS Emerging Markets 50 ADR Index Fund",
+    "value": "ADRE"
   },
   {
-    value: "THERMAX",
-    label: "THERMAX",
+    "label": "BLDRS Europe 100 ADR Index Fund",
+    "value": "ADRU"
   },
   {
-    value: "EIDPARRY",
-    label: "E.I.D.-PARRY(INDIA",
+    "label": "Autodesk, Inc.",
+    "value": "ADSK"
   },
   {
-    value: "KANANIIND",
-    label: "KANANI INDUSTRIES",
+    "label": "ADTRAN, Inc.",
+    "value": "ADTN"
   },
   {
-    value: "SUNTECK",
-    label: "SUNTECK REALTY LTD",
+    "label": "Addus HomeCare Corporation",
+    "value": "ADUS"
   },
   {
-    value: "THOMASCOOK",
-    label: "THOMAS COOK",
+    "label": "Advent Software, Inc.",
+    "value": "ADVS"
   },
   {
-    value: "BUTTERFLY",
-    label: "BUTTERFLY GANDHIMA",
+    "label": "Advaxis, Inc.",
+    "value": "ADXS"
   },
   {
-    value: "POWERINDIA",
-    label: "HITACHI ENERGY IND",
+    "label": "Advaxis, Inc.",
+    "value": "ADXSW"
   },
   {
-    value: "ELGIEQUIP",
-    label: "ELGI EQUIPMENT LTD",
+    "label": "Aegion Corp",
+    "value": "AEGN"
   },
   {
-    value: "AMRUTANJAN",
-    label: "AMRUTANJAN HEALTH",
+    "label": "Aegerion Pharmaceuticals, Inc.",
+    "value": "AEGR"
   },
   {
-    value: "KEYFINSERV",
-    label: "KEYNOTE FINANCIAL",
+    "label": "Aehr Test Systems",
+    "value": "AEHR"
   },
   {
-    value: "ASTERDM",
-    label: "ASTER DM HEALTHCAR",
+    "label": "Advanced Energy Industries, Inc.",
+    "value": "AEIS"
   },
   {
-    value: "SUNDRMFAST",
-    label: "SUNDRAM FASTNERS",
+    "label": "AEP Industries Inc.",
+    "value": "AEPI"
   },
   {
-    value: "ZENITHEXPO",
-    label: "ZENITH EXPORTS LTD",
+    "label": "Aerie Pharmaceuticals, Inc.",
+    "value": "AERI"
   },
   {
-    value: "EIHAHOTELS",
-    label: "EIH ASSOC HOTELS",
+    "label": "American Electric Technologies, Inc.",
+    "value": "AETI"
   },
   {
-    value: "KDDL",
-    label: "KDDL LTD",
+    "label": "ADDvantage Technologies Group, Inc.",
+    "value": "AEY"
   },
   {
-    value: "AKASH",
-    label: "AKASH INFRA-PROJECTS LTD",
+    "label": "AEterna Zentaris Inc.",
+    "value": "AEZS"
   },
   {
-    value: "SONATSOFTW",
-    label: "SONATA SOFTWARE",
+    "label": "Almost Family Inc",
+    "value": "AFAM"
   },
   {
-    value: "VESUVIUS",
-    label: "VESUVIUS INDIA",
+    "label": "Athens Bancshares Corporation",
+    "value": "AFCB"
   },
   {
-    value: "MADHAV",
-    label: "MADHAV MARB & GRAN",
+    "label": "Affymetrix, Inc.",
+    "value": "AFFX"
   },
   {
-    value: "ANMOL",
-    label: "ANMOL INDIA LTD",
+    "label": "Atlas Financial Holdings, Inc.",
+    "value": "AFH"
   },
   {
-    value: "MOIL",
-    label: "MOIL LTD",
+    "label": "Affimed N.V.",
+    "value": "AFMD"
   },
   {
-    value: "HGS",
-    label: "HINDUJA GLOBAL SOL",
+    "label": "Alliance Fiber Optic Products, Inc.",
+    "value": "AFOP"
   },
   {
-    value: "GLAND",
-    label: "GLAND PHARMA LTD",
+    "label": "AmTrust Financial Services, Inc.",
+    "value": "AFSI"
   },
   {
-    value: "TAJGVK",
-    label: "TAJ GVK HOTELS",
+    "label": "Agenus Inc.",
+    "value": "AGEN"
   },
   {
-    value: "INDIACEM",
-    label: "INDIA CEMENTS",
+    "label": "Argo Group International Holdings, Ltd.",
+    "value": "AGII"
   },
   {
-    value: "TIMKEN",
-    label: "TIMKEN INDIA",
+    "label": "Argo Group International Holdings, Ltd.",
+    "value": "AGIIL"
   },
   {
-    value: "ABCOTS",
-    label: "AB COTSPIN INDIA L",
+    "label": "Agios Pharmaceuticals, Inc.",
+    "value": "AGIO"
   },
   {
-    value: "PRAKASHSTL",
-    label: "PRAKASH STEELAGE",
+    "label": "American Capital Agency Corp.",
+    "value": "AGNC"
   },
   {
-    value: "UNITEDTEA",
-    label: "UNITED NILGIRI TEA",
+    "label": "American Capital Agency Corp.",
+    "value": "AGNCB"
   },
   {
-    value: "KEERTI",
-    label: "KEERTI KNOW & SKILL LTD.",
+    "label": "American Capital Agency Corp.",
+    "value": "AGNCP"
   },
   {
-    value: "GODREJIND",
-    label: "GODREJ INDUSTRIES",
+    "label": "WisdomTree Barclays U.S. Aggregate Bond Negative Duration Fund",
+    "value": "AGND"
   },
   {
-    value: "ALICON",
-    label: "ALICON CASTALLOY L",
+    "label": "Agile Therapeutics, Inc.",
+    "value": "AGRX"
   },
   {
-    value: "VOLTAS",
-    label: "VOLTAS LTD",
+    "label": "Applied Genetic Technologies Corporation",
+    "value": "AGTC"
   },
   {
-    value: "MURUDCERA",
-    label: "MURUDESHWAR CERAMI",
+    "label": "Agilysys, Inc.",
+    "value": "AGYS"
   },
   {
-    value: "APARINDS",
-    label: "APAR INDUSTRY LTD",
+    "label": "WisdomTree Barclays U.S. Aggregate Bond Zero Duration Fund",
+    "value": "AGZD"
   },
   {
-    value: "MOTOGENFIN",
-    label: "MOTOR & GEN FINANC",
+    "label": "Alliance Holdings GP, L.P.",
+    "value": "AHGP"
   },
   {
-    value: "MANUGRAPH",
-    label: "MANUGRAPH INDIA LTD",
+    "label": "Allied Healthcare Products, Inc.",
+    "value": "AHPI"
   },
   {
-    value: "GENESYS",
-    label: "GENESYS INTL",
+    "label": "Altra Industrial Motion Corp.",
+    "value": "AIMC"
   },
   {
-    value: "IL_FSENGG",
-    label: "IL&FS ENGINEERING",
+    "label": "Apollo Investment Corporation",
+    "value": "AINV"
   },
   {
-    value: "SKMEGGPROD",
-    label: "SKM EGG PRODUCTS",
+    "label": "Alliance HealthCare Services, Inc.",
+    "value": "AIQ"
   },
   {
-    value: "EVEREADY",
-    label: "EVEREADY INDUSTRIE",
+    "label": "Air Methods Corporation",
+    "value": "AIRM"
   },
   {
-    value: "APLLTD",
-    label: "ALEMBIC PHARMACEUT",
+    "label": "First Trust RBA American Industrial Renaissance ETF",
+    "value": "AIRR"
   },
   {
-    value: "REXPIPES",
-    label: "REX PIPES & CABLES",
+    "label": "Air T, Inc.",
+    "value": "AIRT"
   },
   {
-    value: "NRBBEARING",
-    label: "NRB BEARINGS",
+    "label": "Aixtron SE",
+    "value": "AIXG"
   },
   {
-    value: "CLEDUCATE",
-    label: "CL EDUCATE LTD",
+    "label": "Akamai Technologies, Inc.",
+    "value": "AKAM"
   },
   {
-    value: "TECHIN",
-    label: "TECHINDIA NIRMAN L",
+    "label": "Achaogen, Inc.",
+    "value": "AKAO"
   },
   {
-    value: "SGL",
-    label: "STL GLOBAL LTD",
+    "label": "Akebia Therapeutics, Inc.",
+    "value": "AKBA"
   },
   {
-    value: "JPOLYINVST",
-    label: "JINDAL POLY INV &",
+    "label": "Akers Biosciences Inc",
+    "value": "AKER"
   },
   {
-    value: "KAPSTON",
-    label: "KAPSTON FACILITIES MGMT L",
+    "label": "Akorn, Inc.",
+    "value": "AKRX"
   },
   {
-    value: "PRITI",
-    label: "PRITI INTERNATIONA",
+    "label": "Alico, Inc.",
+    "value": "ALCO"
   },
   {
-    value: "STEELCITY",
-    label: "STEEL CITY SECURIT",
+    "label": "Alder BioPharmaceuticals, Inc.",
+    "value": "ALDR"
   },
   {
-    value: "EASTSILK",
-    label: "EASTERN SILK IND",
+    "label": "Aldeyra Therapeutics, Inc.",
+    "value": "ALDX"
   },
   {
-    value: "CAREERP",
-    label: "CAREER POINT LTD",
+    "label": "Align Technology, Inc.",
+    "value": "ALGN"
   },
   {
-    value: "PNBHOUSING",
-    label: "PNB HOUSING",
+    "label": "Allegiant Travel Company",
+    "value": "ALGT"
   },
   {
-    value: "GREENPOWER",
-    label: "ORIENT GREEN POWER",
+    "label": "Alimera Sciences, Inc.",
+    "value": "ALIM"
   },
   {
-    value: "JYOTHYLAB",
-    label: "JYOTHY LABS LTD",
+    "label": "Alkermes plc",
+    "value": "ALKS"
   },
   {
-    value: "AIRTELPP.E1",
-    label: "BHARTI RS. 1.25 PPD UP",
+    "label": "Alliance Bancorp, Inc. of Pennsylvania",
+    "value": "ALLB"
   },
   {
-    value: "KSB",
-    label: "KSB LTD",
+    "label": "Allot Communications Ltd.",
+    "value": "ALLT"
   },
   {
-    value: "ADANIGREEN",
-    label: "ADANI GREEN ENERGY",
+    "label": "Alnylam Pharmaceuticals, Inc.",
+    "value": "ALNY"
   },
   {
-    value: "KIRIINDUS",
-    label: "KIRI INDUSTRIES LTD",
+    "label": "Analogic Corporation",
+    "value": "ALOG"
   },
   {
-    value: "HOTELRUGBY",
-    label: "HOTEL RUGBY LTD",
+    "label": "Astro",
+    "value": "ALOT"
   },
   {
-    value: "SPECIALITY",
-    label: "SPECIALITY RESTAUR",
+    "label": "Alliqua, Inc.",
+    "value": "ALQA"
   },
   {
-    value: "ARTNIRMAN",
-    label: "ART NIRMAN LTD",
+    "label": "Alaska Communications Systems Group, Inc.",
+    "value": "ALSK"
   },
   {
-    value: "NRL",
-    label: "NUPUR RECYCLERS LTD",
+    "label": "Altera Corporation",
+    "value": "ALTR"
   },
   {
-    value: "LIBAS",
-    label: "LIBAS DESIGNS LTD",
+    "label": "Alexza Pharmaceuticals, Inc.",
+    "value": "ALXA"
   },
   {
-    value: "RPPL",
-    label: "RAJSHREE POLYPACK LTD",
+    "label": "Alexion Pharmaceuticals, Inc.",
+    "value": "ALXN"
   },
   {
-    value: "SOMATEX",
-    label: "SOMA TEXTILE & IND",
+    "label": "AMAG Pharmaceuticals, Inc.",
+    "value": "AMAG"
   },
   {
-    value: "ADVANIHOTR",
-    label: "ADVANI HOTELS & RE",
+    "label": "Applied Materials, Inc.",
+    "value": "AMAT"
   },
   {
-    value: "JINDWORLD",
-    label: "JINDAL WORLDWIDE",
+    "label": "Ambarella, Inc.",
+    "value": "AMBA"
   },
   {
-    value: "MANAPPURAM",
-    label: "MANAPPURAM FINANCE",
+    "label": "Ambac Financial Group, Inc.",
+    "value": "AMBC"
   },
   {
-    value: "QUESS",
-    label: "QUESS CORP LTD",
+    "label": "Ambac Financial Group, Inc.",
+    "value": "AMBCW"
   },
   {
-    value: "SETUINFRA",
-    label: "SETUBANDHAN INFRA LTD",
+    "label": "Applied Micro Circuits Corporation",
+    "value": "AMCC"
   },
   {
-    value: "NEOGEN",
-    label: "NEOGEN CHEMICALS",
+    "label": "Andatee China Marine Fuel Services Corporation",
+    "value": "AMCF"
   },
   {
-    value: "MGEL",
-    label: "MANGALAM GLOBAL ENT LTD",
+    "label": "AirMedia Group Inc",
+    "value": "AMCN"
   },
   {
-    value: "RNAVAL",
-    label: "RELIANCE N AND E",
+    "label": "AMC Networks Inc.",
+    "value": "AMCX"
   },
   {
-    value: "DALBHARAT",
-    label: "DALMIA BHARAT LTD",
+    "label": "Advanced Micro Devices, Inc.",
+    "value": "AMD"
   },
   {
-    value: "INDIAMART",
-    label: "INDIAMART INTERMESH LTD",
+    "label": "Amedica Corporation",
+    "value": "AMDA"
   },
   {
-    value: "COALINDIA",
-    label: "COAL INDIA LTD",
+    "label": "Amedisys Inc",
+    "value": "AMED"
   },
   {
-    value: "NBCC",
-    label: "NBCC (INDIA) LTD",
+    "label": "Amgen Inc.",
+    "value": "AMGN"
   },
   {
-    value: "ORBTEXP",
-    label: "ORBIT EXPORTS LTD",
+    "label": "American Independence Corp.",
+    "value": "AMIC"
   },
   {
-    value: "FINOPB",
-    label: "FINO PAYMENTS BANK LTD",
+    "label": "Amkor Technology, Inc.",
+    "value": "AMKR"
   },
   {
-    value: "CUMMINSIND",
-    label: "CUMMINS INDIA",
+    "label": "American National Bankshares, Inc.",
+    "value": "AMNB"
   },
   {
-    value: "BAJAJHCARE",
-    label: "BAJAJ HEALTHCARE LTD",
+    "label": "Allied Motion Technologies, Inc.",
+    "value": "AMOT"
   },
   {
-    value: "TEXINFRA",
-    label: "TEXMACO INFRA & HO",
+    "label": "America Movil, S.A.B. de C.V.",
+    "value": "AMOV"
   },
   {
-    value: "REPL",
-    label: "RUDRABHISHEK ENTERP LTD",
+    "label": "Amphastar Pharmaceuticals, Inc.",
+    "value": "AMPH"
   },
   {
-    value: "SIEMENS",
-    label: "SIEMENS INDIA LTD",
+    "label": "American River Bankshares",
+    "value": "AMRB"
   },
   {
-    value: "CARBORUNIV",
-    label: "CARBORUNDUM UNVRSL",
+    "label": "Albany Molecular Research, Inc.",
+    "value": "AMRI"
   },
   {
-    value: "STEELXIND",
-    label: "STEEL EXCHANGE IND",
+    "label": "A",
+    "value": "AMRK"
   },
   {
-    value: "CARTRADE",
-    label: "CARTRADE TECH LTD",
+    "label": "Amarin Corporation plc",
+    "value": "AMRN"
   },
   {
-    value: "EQUIPPP",
-    label: "EQUIPPP SOC IMP TECH LTD",
+    "label": "Amyris, Inc.",
+    "value": "AMRS"
   },
   {
-    value: "RHFL",
-    label: "RELIANCE HOME FIN",
+    "label": "American Superconductor Corporation",
+    "value": "AMSC"
   },
   {
-    value: "SANGHVIMOV",
-    label: "SANGHVI MOVERS",
+    "label": "AMERISAFE, Inc.",
+    "value": "AMSF"
   },
   {
-    value: "NIRAJ",
-    label: "NIRAJ CEMENT STRUC LTD",
+    "label": "Amsurg Corp.",
+    "value": "AMSG"
   },
   {
-    value: "BMETRICS",
-    label: "BOMBAY METRICS SUP",
+    "label": "Amsurg Corp.",
+    "value": "AMSGP"
   },
   {
-    value: "NESTLEIND",
-    label: "NESTLE INDIA",
+    "label": "American Software, Inc.",
+    "value": "AMSWA"
   },
   {
-    value: "SOMICONVEY",
-    label: "SOMI CONVEYOR BELT",
+    "label": "Aemetis, Inc",
+    "value": "AMTX"
   },
   {
-    value: "GUJRAFFIA",
-    label: "GUJARAT RAFFIA IND",
+    "label": "American Woodmark Corporation",
+    "value": "AMWD"
   },
   {
-    value: "ORIENTHOT",
-    label: "ORIENTAL HOTELS",
+    "label": "Amazon.com, Inc.",
+    "value": "AMZN"
   },
   {
-    value: "CAPACITE",
-    label: "CAPACIT'E INFRAPRO",
+    "label": "Anacor Pharmaceuticals, Inc.",
+    "value": "ANAC"
   },
   {
-    value: "SFL",
-    label: "SHEELA FOAM LTD",
+    "label": "ANADIGICS, Inc.",
+    "value": "ANAD"
   },
   {
-    value: "IPCALAB",
-    label: "IPCA LABORATORIES",
+    "label": "American National Insurance Company",
+    "value": "ANAT"
   },
   {
-    value: "AMDIND",
-    label: "AMD INDUSTRIES LTD",
+    "label": "Anchor Bancorp",
+    "value": "ANCB"
   },
   {
-    value: "SYNGENE",
-    label: "SYNGENE INTERNATIO",
+    "label": "American Caresource Holdings Inc",
+    "value": "ANCI"
   },
   {
-    value: "ASTRAL",
-    label: "ASTRAL LTD",
+    "label": "Access National Corporation",
+    "value": "ANCX"
   },
   {
-    value: "DECCANCE",
-    label: "DECCAN CEMENT",
+    "label": "The Andersons, Inc.",
+    "value": "ANDE"
   },
   {
-    value: "TEAMLEASE",
-    label: "TEAMLEASE SERVICES",
+    "label": "Angie's List, Inc.",
+    "value": "ANGI"
   },
   {
-    value: "MRF",
-    label: "MRF LTD",
+    "label": "AngioDynamics, Inc.",
+    "value": "ANGO"
   },
   {
-    value: "MTEDUCARE",
-    label: "MT EDUCARE LTD",
+    "label": "Anika Therapeutics Inc.",
+    "value": "ANIK"
   },
   {
-    value: "DCM",
-    label: "D.C.M",
+    "label": "ANI Pharmaceuticals, Inc.",
+    "value": "ANIP"
   },
   {
-    value: "EDELWEISS",
-    label: "EDELWEISS FIN SERV",
+    "label": "ANSYS, Inc.",
+    "value": "ANSS"
   },
   {
-    value: "CONCOR",
-    label: "CONTAINER CORP",
+    "label": "Anthera Pharmaceuticals, Inc.",
+    "value": "ANTH"
   },
   {
-    value: "JTLINFRA",
-    label: "JTL INFRA LTD",
+    "label": "Sphere 3D Corp",
+    "value": "ANY"
   },
   {
-    value: "ABINFRA",
-    label: "A B INFRABUILD LTD",
+    "label": "Alpha and Omega Semiconductor Limited",
+    "value": "AOSL"
   },
   {
-    value: "LEMONTREE",
-    label: "LEMON TREE HOTELS",
+    "label": "Apco Oil and Gas International Inc.",
+    "value": "APAGF"
   },
   {
-    value: "HAVISHA",
-    label: "SRI HAVISHA HOSP A",
+    "label": "Applied DNA Sciences Inc",
+    "value": "APDN"
   },
   {
-    value: "SILVERTUC",
-    label: "SILVER TOUCH TECHN",
+    "label": "Applied DNA Sciences Inc",
+    "value": "APDNW"
   },
   {
-    value: "ULTRACEMCO",
-    label: "ULTRATECH CEMENT",
+    "label": "American Public Education, Inc.",
+    "value": "APEI"
   },
   {
-    value: "UNIINFO",
-    label: "UNIINFO TELECOM SERVI LTD",
+    "label": "Apogee Enterprises, Inc.",
+    "value": "APOG"
   },
   {
-    value: "THEJO",
-    label: "THEJO ENGINEERING",
+    "label": "Apollo Education Group, Inc.",
+    "value": "APOL"
   },
   {
-    value: "PGEL",
-    label: "PG ELECTROPLAST LTD",
+    "label": "Venaxis, Inc.",
+    "value": "APPY"
   },
   {
-    value: "BETA",
-    label: "BETA DRUGS LTD",
+    "label": "Apricus Biosciences, Inc",
+    "value": "APRI"
   },
   {
-    value: "NORBTEAEXP",
-    label: "NORBEN TEA & EXPOR",
+    "label": "Alto Palermo S.A.",
+    "value": "APSA"
   },
   {
-    value: "GRASIM",
-    label: "GRASIM INDUSTRIES",
+    "label": "Aptose Biosciences, Inc.",
+    "value": "APTO"
   },
   {
-    value: "PRAXIS",
-    label: "PRAXIS HOME RETAIL",
+    "label": "Asia Pacific Wire & Cable Corporation Limited",
+    "value": "APWC"
   },
   {
-    value: "CUB",
-    label: "CITY UNION BANK",
+    "label": "Aquinox Pharmaceuticals, Inc.",
+    "value": "AQXP"
   },
   {
-    value: "DBL",
-    label: "DILIP BUILDCON LTD",
+    "label": "Accuray Incorporated",
+    "value": "ARAY"
   },
   {
-    value: "EXXARO",
-    label: "EXXARO TILES LTD",
+    "label": "ArcBest Corporation",
+    "value": "ARCB"
   },
   {
-    value: "MHHL",
-    label: "MOHINI HEALTH & HY",
+    "label": "Ares Capital Corporation",
+    "value": "ARCC"
   },
   {
-    value: "MAWANASUG",
-    label: "MAWANA SUGARS LTD",
+    "label": "Appliance Recycling Centers of America, Inc.",
+    "value": "ARCI"
   },
   {
-    value: "JMCPROJECT",
-    label: "JMC PROJECTS IND",
+    "label": "American Realty Capital Properties, Inc.",
+    "value": "ARCP"
   },
   {
-    value: "ATULAUTO",
-    label: "ATUL AUTO LTD",
+    "label": "American Realty Capital Properties, Inc.",
+    "value": "ARCPP"
   },
   {
-    value: "BAYERCROP",
-    label: "BAYER CROPSCIENCE",
+    "label": "ARC Group Worldwide, Inc.",
+    "value": "ARCW"
   },
   {
-    value: "AILIMITED",
-    label: "ABHISHEK INTEGRATI",
+    "label": "Aradigm Corporation",
+    "value": "ARDM"
   },
   {
-    value: "STYLAMIND",
-    label: "STYLAM INDUSTRIES LTD",
+    "label": "Ardelyx, Inc.",
+    "value": "ARDX"
   },
   {
-    value: "IWEL",
-    label: "INOX WIND ENERGY LTD",
+    "label": "Approach Resources Inc.",
+    "value": "AREX"
   },
   {
-    value: "DENORA",
-    label: "DE NORA INDIA",
+    "label": "Argos Therapeutics, Inc.",
+    "value": "ARGS"
   },
   {
-    value: "MAHLOG",
-    label: "MAHINDRA LOGISTICS",
+    "label": "ARIAD Pharmaceuticals, Inc.",
+    "value": "ARIA"
   },
   {
-    value: "PALASHSECU",
-    label: "PALASH SECURITIES",
+    "label": "American Railcar Industries, Inc.",
+    "value": "ARII"
   },
   {
-    value: "DIGJAMLMTD",
-    label: "DIGJAM LTD",
+    "label": "ARI Network Services, Inc.",
+    "value": "ARIS"
   },
   {
-    value: "MANALIPETC",
-    label: "MANALI PETROCHEMS",
+    "label": "Ark Restaurants Corp.",
+    "value": "ARKR"
   },
   {
-    value: "BALKRISIND",
-    label: "BALKRISHNA INDS",
+    "label": "Alliance Resource Partners, L.P.",
+    "value": "ARLP"
   },
   {
-    value: "FMGOETZE",
-    label: "FED MOGUL GOETZE",
+    "label": "ARM Holdings plc",
+    "value": "ARMH"
   },
   {
-    value: "CHAMBLFERT",
-    label: "CHAMBAL FERTILISER",
+    "label": "Arena Pharmaceuticals, Inc.",
+    "value": "ARNA"
   },
   {
-    value: "SAGARDEEP",
-    label: "SAGARDEEP ALLOYS L",
+    "label": "Arrow Financial Corporation",
+    "value": "AROW"
   },
   {
-    value: "PROLIFE",
-    label: "PROLIFE INDUSTRIES",
+    "label": "ArQule, Inc.",
+    "value": "ARQL"
   },
   {
-    value: "SHREYANIND",
-    label: "SHREYANS INDUSTRIE",
+    "label": "ARRIS Group, Inc.",
+    "value": "ARRS"
   },
   {
-    value: "SPENCERS",
-    label: "SPENCERS RETAIL",
+    "label": "Array BioPharma Inc.",
+    "value": "ARRY"
   },
   {
-    value: "ARVEE",
-    label: "ARVEE LABORATORIES I LTD",
+    "label": "Artesian Resources Corporation",
+    "value": "ARTNA"
   },
   {
-    value: "ZOTA",
-    label: "ZOTA HEALTH CARE LTD",
+    "label": "Art's",
+    "value": "ARTW"
   },
   {
-    value: "SUMIT",
-    label: "SUMIT WOODS LTD",
+    "label": "Arotech Corporation",
+    "value": "ARTX"
   },
   {
-    value: "BLKASHYAP",
-    label: "B.L. KASHYAP & SON",
+    "label": "Aruba Networks, Inc.",
+    "value": "ARUN"
   },
   {
-    value: "BCG",
-    label: "BRIGHTCOM GROUP",
+    "label": "Arrowhead Research Corporation",
+    "value": "ARWR"
   },
   {
-    value: "TOUCHWOOD",
-    label: "TOUCHWOOD ENTERTAI",
+    "label": "ASB Bancorp, Inc.",
+    "value": "ASBB"
   },
   {
-    value: "NDGL",
-    label: "NAGA DHUNSERI GROU",
+    "label": "Ameriana Bancorp",
+    "value": "ASBI"
   },
   {
-    value: "CIPLA",
-    label: "CIPLA LTD",
+    "label": "Ascent Capital Group, Inc.",
+    "value": "ASCMA"
   },
   {
-    value: "PREMEXPLN",
-    label: "PREMIER EXPLOSIVES",
+    "label": "American Science and Engineering, Inc.",
+    "value": "ASEI"
   },
   {
-    value: "PATINTPP.E1",
-    label: "PATEL INTE RS. 2.5 PPD UP",
+    "label": "Asta Funding, Inc.",
+    "value": "ASFI"
   },
   {
-    value: "VENKEYS",
-    label: "VENKY'S (INDIA)",
+    "label": "Assembly Biosciences, Inc.",
+    "value": "ASMB"
   },
   {
-    value: "TCIDEVELOP",
-    label: "TCI DEVELOPERS LTD",
+    "label": "ASM International N.V.",
+    "value": "ASMI"
   },
   {
-    value: "ORIENTELEC",
-    label: "ORIENT ELECTRIC LTD",
+    "label": "ASML Holding N.V.",
+    "value": "ASML"
   },
   {
-    value: "AHLADA",
-    label: "AHLADA ENGINEERS LTD",
+    "label": "Ascena Retail Group, Inc.",
+    "value": "ASNA"
   },
   {
-    value: "ICICIPRULI",
-    label: "ICICI PRUDENTIAL L",
+    "label": "Altisource Portfolio Solutions S.A.",
+    "value": "ASPS"
   },
   {
-    value: "KREBSBIO",
-    label: "KREBS BIOCHEM&INDS",
+    "label": "Auspex Pharmaceuticals, Inc.",
+    "value": "ASPX"
   },
   {
-    value: "INDIGOPNTS",
-    label: "INDIGO PAINTS LTD",
+    "label": "AmeriServ Financial Inc.",
+    "value": "ASRV"
   },
   {
-    value: "MARSHALL",
-    label: "MARSHALL MACHINES LTD",
+    "label": "AmeriServ Financial Inc.",
+    "value": "ASRVP"
   },
   {
-    value: "ROLEXRINGS",
-    label: "ROLEX RINGS LTD",
+    "label": "Astrotech Corporation",
+    "value": "ASTC"
   },
   {
-    value: "TARACHAND",
-    label: "TARA CHAND LOGISTI",
+    "label": "Astec Industries, Inc.",
+    "value": "ASTE"
   },
   {
-    value: "CRAFTSMAN",
-    label: "CRAFTSMAN AUTOMATION LTD",
+    "label": "Ascent Solar Technologies, Inc.",
+    "value": "ASTI"
   },
   {
-    value: "JAYSREETEA",
-    label: "JAYSHREE TEA",
+    "label": "Asure Software Inc",
+    "value": "ASUR"
   },
   {
-    value: "SHANTI",
-    label: "SHANTI OVERSEAS (IND) LTD",
+    "label": "Amtech Systems, Inc.",
+    "value": "ASYS"
   },
   {
-    value: "VISHNU",
-    label: "VISHNU CHEMICALS L",
+    "label": "ATA Inc.",
+    "value": "ATAI"
   },
   {
-    value: "ROUTE",
-    label: "ROUTE MOBILE LTD",
+    "label": "America First Multifamily Investors, L.P.",
+    "value": "ATAX"
   },
   {
-    value: "TIMESCAN",
-    label: "TIMESCAN LOGISTICS",
+    "label": "Astea International, Inc.",
+    "value": "ATEA"
   },
   {
-    value: "PODDARMENT",
-    label: "PODDAR PIGMENTS",
+    "label": "Alphatec Holdings, Inc.",
+    "value": "ATEC"
   },
   {
-    value: "AARTISURF",
-    label: "AARTI SURFACTANTS LTD",
+    "label": "athenahealth, Inc.",
+    "value": "ATHN"
   },
   {
-    value: "SOLARA",
-    label: "SOLARA ACTIVE PHAR",
+    "label": "Athersys, Inc.",
+    "value": "ATHX"
   },
   {
-    value: "SADBHIN",
-    label: "SADBHAV INFRA PROJ",
+    "label": "Atlanticus Holdings Corporation",
+    "value": "ATLC"
   },
   {
-    value: "SHIVAMAUTO",
-    label: "SHIVAM AUTOTECH LTD",
+    "label": "Ames National Corporation",
+    "value": "ATLO"
   },
   {
-    value: "BERGEPAINT",
-    label: "BERGER PAINTS IND",
+    "label": "Atmel Corporation",
+    "value": "ATML"
   },
   {
-    value: "BEWLTD",
-    label: "BEW ENGINEERING LTD",
+    "label": "Atlantic Tele",
+    "value": "ATNI"
   },
   {
-    value: "JKCEMENT",
-    label: "JK CEMENTS LTD",
+    "label": "API Technologies Corp.",
+    "value": "ATNY"
   },
   {
-    value: "SBC",
-    label: "SBC EXPORTS LTD",
+    "label": "Atossa Genetics Inc.",
+    "value": "ATOS"
   },
   {
-    value: "ADANIPOWER",
-    label: "ADANI POWER LTD",
+    "label": "Atara Biotherapeutics, Inc.",
+    "value": "ATRA"
   },
   {
-    value: "GANESHBE",
-    label: "GANESH BENZOPLAST LTD",
+    "label": "AtriCure, Inc.",
+    "value": "ATRC"
   },
   {
-    value: "IRIS",
-    label: "IRIS BUSINESS SERV LTD",
+    "label": "ATRION Corporation",
+    "value": "ATRI"
   },
   {
-    value: "GMBREW",
-    label: "GM BREWERIES",
+    "label": "ATRM Holdings, Inc.",
+    "value": "ATRM"
   },
   {
-    value: "HAL",
-    label: "HINDUSTAN AERONAUT",
+    "label": "Astronics Corporation",
+    "value": "ATRO"
   },
   {
-    value: "PRITIKAUTO",
-    label: "PRITIKA AUTO INDUS LTD",
+    "label": "Antares Pharma, Inc.",
+    "value": "ATRS"
   },
   {
-    value: "CADILAHC",
-    label: "CADILA HEALTHCARE",
+    "label": "Air Transport Services Group, Inc",
+    "value": "ATSG"
   },
   {
-    value: "MCLEODRUSS",
-    label: "MCLEOD RUSSEL INDI",
+    "label": "Attunity Ltd.",
+    "value": "ATTU"
   },
   {
-    value: "GLENMARK",
-    label: "GLENMARK PHARM",
+    "label": "Activision Blizzard, Inc",
+    "value": "ATVI"
   },
   {
-    value: "DIXON",
-    label: "DIXON TECHNOLOGIES",
+    "label": "Auburn National Bancorporation, Inc.",
+    "value": "AUBN"
   },
   {
-    value: "CCHHL",
-    label: "COUNTRY CLUB HOSPI",
+    "label": "AudioCodes Ltd.",
+    "value": "AUDC"
   },
   {
-    value: "ISGEC",
-    label: "ISGEC HEAVY ENG LTD",
+    "label": "AR Capital Acquisition Corp.",
+    "value": "AUMA"
   },
   {
-    value: "AUROPHARMA",
-    label: "AUROBINDO PHARMA",
+    "label": "AR Capital Acquisition Corp.",
+    "value": "AUMAU"
   },
   {
-    value: "GICL",
-    label: "GLOBE INTERNATIONA",
+    "label": "AR Capital Acquisition Corp.",
+    "value": "AUMAW"
   },
   {
-    value: "NAUKRI",
-    label: "INFO EDGE",
+    "label": "Aurinia Pharmaceuticals Inc",
+    "value": "AUPH"
   },
   {
-    value: "VIKASPROP",
-    label: "VIKAS PROP & GRANITE LTD",
+    "label": "Auxilium Pharmaceuticals, Inc.",
+    "value": "AUXL"
   },
   {
-    value: "JHS",
-    label: "JHS SVENDGAARD LAB",
+    "label": "AeroVironment, Inc.",
+    "value": "AVAV"
   },
   {
-    value: "TTML",
-    label: "TATA TELESERVICES",
+    "label": "AVEO Pharmaceuticals, Inc.",
+    "value": "AVEO"
   },
   {
-    value: "BBTC",
-    label: "BOMBAY BURMAH",
+    "label": "Avago Technologies Limited",
+    "value": "AVGO"
   },
   {
-    value: "MUTHOOTFIN",
-    label: "MUTHOOT FINANCE LTD",
+    "label": "A V Homes, Inc.",
+    "value": "AVHI"
   },
   {
-    value: "MOKSH",
-    label: "MOKSH ORNAMENTS LTD",
+    "label": "Avid Technology, Inc.",
+    "value": "AVID"
   },
   {
-    value: "SILLYMONKS",
-    label: "SILLY MONKS ENTERTAIN LTD",
+    "label": "Avanir Pharmaceuticals, Inc.",
+    "value": "AVNR"
   },
   {
-    value: "AVG",
-    label: "AVG LOGISTICS LTD",
+    "label": "Aviat Networks, Inc.",
+    "value": "AVNW"
   },
   {
-    value: "SRTRANSFIN",
-    label: "SHRIRAM TRANSPORT",
+    "label": "HomeAway, Inc.",
+    "value": "AWAY"
   },
   {
-    value: "UPL",
-    label: "UPL LTD",
+    "label": "Aware, Inc.",
+    "value": "AWRE"
   },
   {
-    value: "XELPMOC",
-    label: "XELPMOC DESIGN AND",
+    "label": "Abraxas Petroleum Corporation",
+    "value": "AXAS"
   },
   {
-    value: "ADROITINFO",
-    label: "ADROIT INFOTECH LTD",
+    "label": "Accelerate Diagnostics, Inc.",
+    "value": "AXDX"
   },
   {
-    value: "AMJLAND",
-    label: "AMJ LAND HOLDINGS",
+    "label": "AxoGen, Inc.",
+    "value": "AXGN"
   },
   {
-    value: "WINPRO",
-    label: "WINPRO INDUSTRIES LTD",
+    "label": "iShares MSCI All Country Asia ex Japan Small Cap Index Fund",
+    "value": "AXJS"
   },
   {
-    value: "SINTEX",
-    label: "SINTEX INDUSTRIES",
+    "label": "Axion Power International, Inc.",
+    "value": "AXPW"
   },
   {
-    value: "RAYMOND",
-    label: "RAYMOND LTD",
+    "label": "Axion Power International, Inc.",
+    "value": "AXPWW"
   },
   {
-    value: "BALAXI",
-    label: "BALAXI PHARMACEUTI",
+    "label": "AXT Inc",
+    "value": "AXTI"
   },
   {
-    value: "AMJUMBO",
-    label: "A AND M JUMBO BAGS",
+    "label": "Aspen Technology, Inc.",
+    "value": "AZPN"
   },
   {
-    value: "KANSAINER",
-    label: "KANSAI NEROLAC PAI",
+    "label": "Natus Medical Incorporated",
+    "value": "BABY"
   },
   {
-    value: "SDBL",
-    label: "SOM DIST & BREW LTD",
+    "label": "Diversified Restaurant Holdings, Inc.",
+    "value": "BAGR"
   },
   {
-    value: "JAYNECOIND",
-    label: "JAYASWAL NECO IND",
+    "label": "Books",
+    "value": "BAMM"
   },
   {
-    value: "JUBLINGREA",
-    label: "JUBILANT INGREVIA LTD",
+    "label": "BancFirst Corporation",
+    "value": "BANF"
   },
   {
-    value: "SYMPHONY",
-    label: "SYMPHONY LTD",
+    "label": "BancFirst Corporation",
+    "value": "BANFP"
   },
   {
-    value: "DNAMEDIA",
-    label: "DILIGENT MEDIA COR",
+    "label": "Banner Corporation",
+    "value": "BANR"
   },
   {
-    value: "RITES",
-    label: "RITES LTD",
+    "label": "StoneCastle Financial Corp",
+    "value": "BANX"
   },
   {
-    value: "ARENTERP",
-    label: "RAJDARSHAN INDUSTR",
+    "label": "Bioanalytical Systems, Inc.",
+    "value": "BASI"
   },
   {
-    value: "AHLUCONT",
-    label: "AHLUWALIA CONT LTD",
+    "label": "Bed Bath & Beyond Inc.",
+    "value": "BBBY"
   },
   {
-    value: "SHREEPUSHK",
-    label: "SHREE PUSHKAR CHEM",
+    "label": "BioShares Biotechnology Clinical Trials Fund",
+    "value": "BBC"
   },
   {
-    value: "TCS",
-    label: "TATA CONSULTANCY S",
+    "label": "BBCN Bancorp, Inc.",
+    "value": "BBCN"
   },
   {
-    value: "ASHOKA",
-    label: "ASHOKA BUILDCON LTD",
+    "label": "BreitBurn Energy Partners, L.P.",
+    "value": "BBEP"
   },
   {
-    value: "KICL",
-    label: "KALYANI INVESTMENT",
+    "label": "BreitBurn Energy Partners, L.P.",
+    "value": "BBEPP"
   },
   {
-    value: "MFSL",
-    label: "MAX FINANCIAL SERV",
+    "label": "Beasley Broadcast Group, Inc.",
+    "value": "BBGI"
   },
   {
-    value: "MODIRUBBER",
-    label: "MODI RUBBER",
+    "label": "Blue Earth, Inc.",
+    "value": "BBLU"
   },
   {
-    value: "EKC",
-    label: "EVEREST KANTO CYLI",
+    "label": "Bridge Capital Holdings",
+    "value": "BBNK"
   },
   {
-    value: "AJRINFRA",
-    label: "AJR INFRA & TOLLING LTD",
+    "label": "Black Box Corporation",
+    "value": "BBOX"
   },
   {
-    value: "DRREDDY",
-    label: "DR REDDYS LABS",
+    "label": "BioShares Biotechnology Products Fund",
+    "value": "BBP"
   },
   {
-    value: "JSWENERGY",
-    label: "JSW ENERGY LTD",
+    "label": "Bravo Brio Restaurant Group, Inc.",
+    "value": "BBRG"
   },
   {
-    value: "HOVS",
-    label: "HOV SERVICES LTD",
+    "label": "BlackBerry Limited",
+    "value": "BBRY"
   },
   {
-    value: "MACPOWER",
-    label: "MACPOWER CNC MACHINES LTD",
+    "label": "Barrett Business Services, Inc.",
+    "value": "BBSI"
   },
   {
-    value: "SIGMA",
-    label: "SIGMA SOLVE LTD",
+    "label": "BCB Bancorp, Inc. (NJ)",
+    "value": "BCBP"
   },
   {
-    value: "VENUSREM",
-    label: "VENUS REMEDIES LTD",
+    "label": "Brainstorm Cell Therapeutics Inc.",
+    "value": "BCLI"
   },
   {
-    value: "SPMLINFRA",
-    label: "SPML INFRA LTD",
+    "label": "B Communications Ltd.",
+    "value": "BCOM"
   },
   {
-    value: "GABRIEL",
-    label: "GABRIEL INDIA",
+    "label": "Blucora, Inc.",
+    "value": "BCOR"
   },
   {
-    value: "UCALFUEL",
-    label: "UCAL FUEL SYSTEMS",
+    "label": "Brightcove Inc.",
+    "value": "BCOV"
   },
   {
-    value: "ESSARSHPNG",
-    label: "ESSAR SHIPPING POR",
+    "label": "Balchem Corporation",
+    "value": "BCPC"
   },
   {
-    value: "BLBLIMITED",
-    label: "BLB",
+    "label": "BioCryst Pharmaceuticals, Inc.",
+    "value": "BCRX"
   },
   {
-    value: "JUSTDIAL",
-    label: "JUST DIAL LTD",
+    "label": "Boulder Brands, Inc.",
+    "value": "BDBD"
   },
   {
-    value: "VBL",
-    label: "VARUN BEVERAGES",
+    "label": "BDCA Venture, Inc.",
+    "value": "BDCV"
   },
   {
-    value: "KEI",
-    label: "KEI INDUSTRIES",
+    "label": "Black Diamond, Inc.",
+    "value": "BDE"
   },
   {
-    value: "BECTORFOOD",
-    label: "MRS BECTORS FOOD SPE LTD",
+    "label": "Bridge Bancorp, Inc.",
+    "value": "BDGE"
   },
   {
-    value: "SHREECEM",
-    label: "SHREE CEMENT LTD",
+    "label": "Birner Dental Management Services, Inc.",
+    "value": "BDMS"
   },
   {
-    value: "OSWALSEEDS",
-    label: "SHREEOSWAL SEEDS A",
+    "label": "BioDelivery Sciences International, Inc.",
+    "value": "BDSI"
   },
   {
-    value: "NDRAUTO",
-    label: "NDR AUTO COMPONENTS LTD",
+    "label": "BioTelemetry, Inc.",
+    "value": "BEAT"
   },
   {
-    value: "SOUTHWEST",
-    label: "SOUTH WEST PINNACL",
+    "label": "B/E Aerospace, Inc.",
+    "value": "BEAV"
   },
   {
-    value: "COROMANDEL",
-    label: "COROMANDEL INTL",
+    "label": "bebe stores, inc.",
+    "value": "BEBE"
   },
   {
-    value: "MANAKSTEEL",
-    label: "MANAKSIA STEELS LTD",
+    "label": "Beacon Roofing Supply, Inc.",
+    "value": "BECN"
   },
   {
-    value: "HUBTOWN",
-    label: "HUBTOWN LTD",
+    "label": "Bel Fuse Inc.",
+    "value": "BELFA"
   },
   {
-    value: "SBILIFE",
-    label: "SBI LIFE INSURANCE",
+    "label": "Bel Fuse Inc.",
+    "value": "BELFB"
   },
   {
-    value: "CROMPTON",
-    label: "CROMPTON GREAVES C",
+    "label": "BankFinancial Corporation",
+    "value": "BFIN"
   },
   {
-    value: "TECHM",
-    label: "TECH MAHINDRA",
+    "label": "BGC Partners, Inc.",
+    "value": "BGCP"
   },
   {
-    value: "INTLCONV",
-    label: "INTL CONVEYORS LTD",
+    "label": "Big 5 Sporting Goods Corporation",
+    "value": "BGFV"
   },
   {
-    value: "TANTIACONS",
-    label: "TANTIA CONSTRUCTIO",
+    "label": "BG Medicine, Inc.",
+    "value": "BGMD"
   },
   {
-    value: "EMMBI",
-    label: "EMMBI INDUSTRIES",
+    "label": "Blue Hills Bancorp, Inc.",
+    "value": "BHBK"
   },
   {
-    value: "GAYAHWS",
-    label: "GAYATRI HIGHWAYS L",
+    "label": "ProShares Ultra Nasdaq Biotechnology",
+    "value": "BIB"
   },
   {
-    value: "PTL",
-    label: "PTL ENTERPRISES LTD",
+    "label": "First Trust BICK Index Fund",
+    "value": "BICK"
   },
   {
-    value: "MCDOWELL_N",
-    label: "UNITED SPIRITS",
+    "label": "Baidu, Inc.",
+    "value": "BIDU"
   },
   {
-    value: "ENGINERSIN",
-    label: "ENGINEERS INDIA",
+    "label": "Biogen Idec Inc.",
+    "value": "BIIB"
   },
   {
-    value: "METALFORGE",
-    label: "METALYST FORGINGS",
+    "label": "BIND Therapeutics, Inc.",
+    "value": "BIND"
   },
   {
-    value: "ONWARDTEC",
-    label: "ONWARD TECHNO",
+    "label": "Biocept, Inc.",
+    "value": "BIOC"
   },
   {
-    value: "MAXVIL",
-    label: "MAX VENTURES & IND",
+    "label": "Biodel Inc.",
+    "value": "BIOD"
   },
   {
-    value: "INFY",
-    label: "INFOSYS LTD",
+    "label": "Biolase, Inc.",
+    "value": "BIOL"
   },
   {
-    value: "HIRECT",
-    label: "HIND RECTIFIERS LTD",
+    "label": "BioScrip, Inc.",
+    "value": "BIOS"
   },
   {
-    value: "HONAUT",
-    label: "HONEYWELL AUTO IND",
+    "label": "Actuate Corporation",
+    "value": "BIRT"
   },
   {
-    value: "SANDESH",
-    label: "SANDESH",
+    "label": "ProShares UltraShort Nasdaq Biotechnology",
+    "value": "BIS"
   },
   {
-    value: "KNRCON",
-    label: "KNR CONSTRUCTIONS",
+    "label": "BJ's Restaurants, Inc.",
+    "value": "BJRI"
   },
   {
-    value: "PEL",
-    label: "PIRAMAL ENTERPRISE",
+    "label": "BlackRock Kelso Capital Corporation",
+    "value": "BKCC"
   },
   {
-    value: "WEBELSOLAR",
-    label: "WEBSOL ENERGY SYST",
+    "label": "Blueknight Energy Partners L.P., L.L.C.",
+    "value": "BKEP"
   },
   {
-    value: "FSL",
-    label: "FIRSTSOURCE SOLUTI",
+    "label": "Blueknight Energy Partners L.P., L.L.C.",
+    "value": "BKEPP"
   },
   {
-    value: "ALPA",
-    label: "ALPA LABORATORIES",
+    "label": "Bank Mutual Corporation",
+    "value": "BKMU"
   },
   {
-    value: "RAJTV",
-    label: "RAJ TEL NETWORK",
+    "label": "Bank of South Carolina Corp.",
+    "value": "BKSC"
   },
   {
-    value: "CRISIL",
-    label: "CRISIL LTD",
+    "label": "The Bank of Kentucky Financial Corp.",
+    "value": "BKYF"
   },
   {
-    value: "INDOWIND",
-    label: "INDOWIND ENERGY",
+    "label": "Bellicum Pharmaceuticals, Inc.",
+    "value": "BLCM"
   },
   {
-    value: "WABAG",
-    label: "VA TECH WABAG LTD",
+    "label": "Ballard Power Systems, Inc.",
+    "value": "BLDP"
   },
   {
-    value: "NILKAMAL",
-    label: "NILKAMAL LTD",
+    "label": "Builders FirstSource, Inc.",
+    "value": "BLDR"
   },
   {
-    value: "TEXMOPIPES",
-    label: "TEXMO PIPES & PROD",
+    "label": "BioLife Solutions, Inc.",
+    "value": "BLFS"
   },
   {
-    value: "JINDALPHOT",
-    label: "JINDAL PHOTO LTD",
+    "label": "Bridgeline Digital, Inc.",
+    "value": "BLIN"
   },
   {
-    value: "RBL",
-    label: "RANE BRAKE LINING",
+    "label": "Blackbaud, Inc.",
+    "value": "BLKB"
   },
   {
-    value: "KANPRPLA",
-    label: "KANPUR PLASTIPACK LTD",
+    "label": "Bloomin' Brands, Inc.",
+    "value": "BLMN"
   },
   {
-    value: "THYROCARE",
-    label: "THYROCARE TECHNOL",
+    "label": "BSB Bancorp, Inc.",
+    "value": "BLMT"
   },
   {
-    value: "POWERGRID",
-    label: "POWER GRID CORP",
+    "label": "BioLineRx Ltd.",
+    "value": "BLRX"
   },
   {
-    value: "DHANUKA",
-    label: "DHANUKA AGRITECH",
+    "label": "bluebird bio, Inc.",
+    "value": "BLUE"
   },
   {
-    value: "ORCHPHARMA",
-    label: "ORCHID PHARMA LTD",
+    "label": "Boulevard Acquisition Corp.",
+    "value": "BLVD"
   },
   {
-    value: "PAISALO",
-    label: "PAISALO DIGITAL LTD",
+    "label": "Boulevard Acquisition Corp.",
+    "value": "BLVDU"
   },
   {
-    value: "63MOONS",
-    label: "63 MOONS TECHNOLOG",
+    "label": "Boulevard Acquisition Corp.",
+    "value": "BLVDW"
   },
   {
-    value: "BALKRISHNA",
-    label: "BALKRISHNA PAPER M",
+    "label": "Bank of Marin Bancorp",
+    "value": "BMRC"
   },
   {
-    value: "VAIBHAVGBL",
-    label: "VAIBHAV GLOBAL LTD",
+    "label": "BioMarin Pharmaceutical Inc.",
+    "value": "BMRN"
   },
   {
-    value: "NGIL",
-    label: "NAKODA GROUP OF IND. LTD",
+    "label": "Bryn Mawr Bank Corporation",
+    "value": "BMTC"
   },
   {
-    value: "RPPINFRA",
-    label: "R.P.P.INFRA PROJEC",
+    "label": "Beneficial Mutual Bancorp, Inc.",
+    "value": "BNCL"
   },
   {
-    value: "SHANKARA",
-    label: "SHANKARA BUILDING",
+    "label": "BNC Bancorp",
+    "value": "BNCN"
   },
   {
-    value: "LT",
-    label: "LARSEN & TOUBRO",
+    "label": "Vanguard Total International Bond ETF",
+    "value": "BNDX"
   },
   {
-    value: "GRWRHITECH",
-    label: "GARWARE HI-TECH FILMS LIM",
+    "label": "Benefitfocus, Inc.",
+    "value": "BNFT"
   },
   {
-    value: "KILITCH",
-    label: "KILITCH DRUGS(INDI",
+    "label": "Bonso Electronics International, Inc.",
+    "value": "BNSO"
   },
   {
-    value: "TATVA",
-    label: "TATVA CHIN PHARM CHEM LTD",
+    "label": "Bob Evans Farms, Inc.",
+    "value": "BOBE"
   },
   {
-    value: "APOLLOPIPE",
-    label: "APOLLO PIPES LTD",
+    "label": "Bank of Commerce Holdings (CA)",
+    "value": "BOCH"
   },
   {
-    value: "INDLMETER",
-    label: "IMP POWERS LTD",
+    "label": "BofI Holding, Inc.",
+    "value": "BOFI"
   },
   {
-    value: "HINDMOTORS",
-    label: "HINDUSTAN MOTORS",
+    "label": "BOK Financial Corporation",
+    "value": "BOKF"
   },
   {
-    value: "BESTAGRO",
-    label: "BEST AGROLIFE LTD",
+    "label": "Bona Film Group Limited",
+    "value": "BONA"
   },
   {
-    value: "COLPAL",
-    label: "COLGATE-PALM (IND)",
+    "label": "The Bon",
+    "value": "BONT"
   },
   {
-    value: "GOODYEAR",
-    label: "GOODYEAR(INDIA)",
+    "label": "Dynamic Materials Corporation",
+    "value": "BOOM"
   },
   {
-    value: "MITTAL",
-    label: "MITTAL LIFE STYLE",
+    "label": "B.O.S. Better Online Solutions",
+    "value": "BOSC"
   },
   {
-    value: "ROLLT",
-    label: "ROLLATAINERS LTD",
+    "label": "Biota Pharmaceuticals, Inc.",
+    "value": "BOTA"
   },
   {
-    value: "FRETAIL",
-    label: "FUTURE RETAIL LTD",
+    "label": "Bank of the James Financial Group, Inc.",
+    "value": "BOTJ"
   },
   {
-    value: "GAL",
-    label: "GYSCOAL ALLOYS LTD",
+    "label": "Boston Private Financial Holdings, Inc.",
+    "value": "BPFH"
   },
   {
-    value: "TIJARIA",
-    label: "TIJARIA POLYPIPES",
+    "label": "Boston Private Financial Holdings, Inc.",
+    "value": "BPFHP"
   },
   {
-    value: "MARICO",
-    label: "MARICO LTD",
+    "label": "Boston Private Financial Holdings, Inc.",
+    "value": "BPFHW"
   },
   {
-    value: "HUDCO",
-    label: "HOUSING & URBAN",
+    "label": "Popular, Inc.",
+    "value": "BPOP"
   },
   {
-    value: "GRINFRA",
-    label: "G R INFRAPROJECTS LTD",
+    "label": "Popular, Inc.",
+    "value": "BPOPM"
   },
   {
-    value: "AURUM",
-    label: "AURUM PROPTECH LTD",
+    "label": "Popular, Inc.",
+    "value": "BPOPN"
   },
   {
-    value: "SASKEN",
-    label: "SASKEN TECHNOLOGIE",
+    "label": "Bio",
+    "value": "BPTH"
   },
   {
-    value: "BLISSGVS",
-    label: "BLISS GVS PHARMA",
+    "label": "Brocade Communications Systems, Inc.",
+    "value": "BRCD"
   },
   {
-    value: "LAXMICOT",
-    label: "LAXMI COTSPIN LTD",
+    "label": "Broadcom Corporation",
+    "value": "BRCM"
   },
   {
-    value: "RMCL",
-    label: "RADHA MADHAV CORP",
+    "label": "Borderfree, Inc.",
+    "value": "BRDR"
   },
   {
-    value: "AMBICAAGAR",
-    label: "AMBICA AGARB AROMA",
+    "label": "Craft Brew Alliance, Inc.",
+    "value": "BREW"
   },
   {
-    value: "TFL",
-    label: "TRANSWARRANTY FINA",
+    "label": "Bridgford Foods Corporation",
+    "value": "BRID"
   },
   {
-    value: "MAYURUNIQ",
-    label: "MAYUR UNIQUOTERS L",
+    "label": "Brookline Bancorp, Inc.",
+    "value": "BRKL"
   },
   {
-    value: "WIPRO",
-    label: "WIPRO LTD",
+    "label": "Bruker Corporation",
+    "value": "BRKR"
   },
   {
-    value: "JISLDVREQS",
-    label: "JAIN IRRIGATION",
+    "label": "Brooks Automation, Inc.",
+    "value": "BRKS"
   },
   {
-    value: "SANWARIA",
-    label: "SANWARIA CONSUMER",
+    "label": "Bio",
+    "value": "BRLI"
   },
   {
-    value: "GOODLUCK",
-    label: "GOODLUCK INDIA LTD",
+    "label": "BSD Medical Corporation",
+    "value": "BSDM"
   },
   {
-    value: "MINDACORP",
-    label: "MINDA CORP LTD",
+    "label": "Bassett Furniture Industries, Incorporated",
+    "value": "BSET"
   },
   {
-    value: "BAJAJCON",
-    label: "BAJAJ CONSUMER",
+    "label": "Bear State Financial, Inc.",
+    "value": "BSF"
   },
   {
-    value: "ASTRAZEN",
-    label: "ASTRAZENECA PHARMA",
+    "label": "BroadSoft, Inc.",
+    "value": "BSFT"
   },
   {
-    value: "MAXIND",
-    label: "MAX INDIA LTD",
+    "label": "Biostar Pharmaceuticals, Inc.",
+    "value": "BSPM"
   },
   {
-    value: "KABRAEXTRU",
-    label: "KABRA EXTRUSIONTEC",
+    "label": "BSQUARE Corporation",
+    "value": "BSQR"
   },
   {
-    value: "AJANTPHARM",
-    label: "AJANTA PHARMA",
+    "label": "Sierra Bancorp",
+    "value": "BSRR"
   },
   {
-    value: "MADHUCON",
-    label: "MADHUCON PROJECTS",
+    "label": "BioSpecifics Technologies Corp",
+    "value": "BSTC"
   },
   {
-    value: "SITINET",
-    label: "SITI NETWORKS LTD",
+    "label": "BTU International, Inc.",
+    "value": "BTUI"
   },
   {
-    value: "PSPPROJECT",
-    label: "PSP PROJECTS LTD",
+    "label": "Burcon NutraScience Corp",
+    "value": "BUR"
   },
   {
-    value: "GLOBALVECT",
-    label: "GLOBAL VECTRA HELI",
+    "label": "First Busey Corporation",
+    "value": "BUSE"
   },
   {
-    value: "TVSSRICHAK",
-    label: "TVS SRICHAKRA LTD",
+    "label": "Bazaarvoice, Inc.",
+    "value": "BV"
   },
   {
-    value: "NCLIND",
-    label: "NCL INDUSTRIES",
+    "label": "Cordia Bancorp Inc.",
+    "value": "BVA"
   },
   {
-    value: "HLVLTD",
-    label: "HLV LTD",
+    "label": "BroadVision, Inc.",
+    "value": "BVSN"
   },
   {
-    value: "INFOMEDIA",
-    label: "INFOMEDIA PRESS LI",
+    "label": "Broadwind Energy, Inc.",
+    "value": "BWEN"
   },
   {
-    value: "MUKTAARTS",
-    label: "MUKTA ARTS",
+    "label": "Bankwell Financial Group, Inc.",
+    "value": "BWFG"
   },
   {
-    value: "NYKAA",
-    label: "FSN E COMMERCE VENTURES",
+    "label": "Baldwin & Lyons, Inc.",
+    "value": "BWINA"
   },
   {
-    value: "GOKEX",
-    label: "GOKALDAS EXPORTS L",
+    "label": "Baldwin & Lyons, Inc.",
+    "value": "BWINB"
   },
   {
-    value: "NAGREEKEXP",
-    label: "NAGREEKA EXPORTS",
+    "label": "Buffalo Wild Wings, Inc.",
+    "value": "BWLD"
   },
   {
-    value: "RALLIS",
-    label: "RALLIS INDIA LTD",
+    "label": "Bay Bancorp, Inc.",
+    "value": "BYBK"
   },
   {
-    value: "LINDEINDIA",
-    label: "LINDE INDIA LTD",
+    "label": "Broadway Financial Corporation",
+    "value": "BYFC"
   },
   {
-    value: "GARFIBRES",
-    label: "GARWARE TECHNICAL",
+    "label": "Baylake Corp",
+    "value": "BYLK"
   },
   {
-    value: "HIL",
-    label: "HIL LTD",
+    "label": "CA Inc.",
+    "value": "CA"
   },
   {
-    value: "KOPRAN",
-    label: "KOPRAN LTD",
+    "label": "China Automotive Systems, Inc.",
+    "value": "CAAS"
   },
   {
-    value: "RAMKY",
-    label: "RAMKY INFRASTRUCTU",
+    "label": "Camden National Corporation",
+    "value": "CAC"
   },
   {
-    value: "VALIANTORG",
-    label: "VALIANT ORGANICS LTD",
+    "label": "Cascade Bancorp",
+    "value": "CACB"
   },
   {
-    value: "MTARTECH",
-    label: "MTAR TECHNOLOGIES LTD",
+    "label": "Credit Acceptance Corporation",
+    "value": "CACC"
   },
   {
-    value: "TORNTPHARM",
-    label: "TORRENT PHARM",
+    "label": "Chart Acquisition Corp.",
+    "value": "CACG"
   },
   {
-    value: "BARBEQUE",
-    label: "BARBEQUE NATION HOSP. LTD",
+    "label": "Chart Acquisition Corp.",
+    "value": "CACGU"
   },
   {
-    value: "HEIDELBERG",
-    label: "HEIDELBERGCEMENT I",
+    "label": "Chart Acquisition Corp.",
+    "value": "CACGW"
   },
   {
-    value: "BIL",
-    label: "BHARATIYA INTL LTD",
+    "label": "Cache, Inc.",
+    "value": "CACH"
   },
   {
-    value: "IDEA",
-    label: "VODAFONE IDEA LTD",
+    "label": "Caesars Acquisition Company",
+    "value": "CACQ"
   },
   {
-    value: "CHALET",
-    label: "CHALET HOTELS LTD",
+    "label": "China Advanced Construction Materials Group, Inc.",
+    "value": "CADC"
   },
   {
-    value: "FOODSIN",
-    label: "FOODS & INNS LTD",
+    "label": "DT Asia Investments Limited",
+    "value": "CADT"
   },
   {
-    value: "METROBRAND",
-    label: "METRO BRANDS LTD",
+    "label": "DT Asia Investments Limited",
+    "value": "CADTR"
   },
   {
-    value: "VIPCLOTHNG",
-    label: "VIP CLOTHING LTD",
+    "label": "DT Asia Investments Limited",
+    "value": "CADTU"
   },
   {
-    value: "ACCURACY",
-    label: "ACCURACY SHIPPING LTD",
+    "label": "DT Asia Investments Limited",
+    "value": "CADTW"
   },
   {
-    value: "AHLEAST",
-    label: "ASIAN HOTELS (EAST",
+    "label": "The Cheesecake Factory Incorporated",
+    "value": "CAKE"
   },
   {
-    value: "VIVO",
-    label: "VIVO COLLABORATION",
+    "label": "Calithera Biosciences, Inc.",
+    "value": "CALA"
   },
   {
-    value: "AURIONPRO",
-    label: "AURIONPRO SOLUTION",
+    "label": "Callidus Software, Inc.",
+    "value": "CALD"
   },
   {
-    value: "PRAENG",
-    label: "PRAJAY ENGINEERS S",
+    "label": "China Auto Logistics Inc.",
+    "value": "CALI"
   },
   {
-    value: "ASAL",
-    label: "AUTOMOTIVE STAMPIN",
+    "label": "magicJack VocalTec Ltd",
+    "value": "CALL"
   },
   {
-    value: "SALZERELEC",
-    label: "SALZER ELECTRONICS",
+    "label": "Cal",
+    "value": "CALM"
   },
   {
-    value: "SUNDARMHLD",
-    label: "SUNDARAM FINANCE H",
+    "label": "Cambridge Capital Acquisition Corporation",
+    "value": "CAMB"
   },
   {
-    value: "IEX",
-    label: "INDIAN ENERGY EXCH",
+    "label": "Cambridge Capital Acquisition Corporation",
+    "value": "CAMBU"
   },
   {
-    value: "SVPGLOB",
-    label: "SVP GLOBAL VENTURES LTD",
+    "label": "Cambridge Capital Acquisition Corporation",
+    "value": "CAMBW"
   },
   {
-    value: "DABUR",
-    label: "DABUR INDIA LTD",
+    "label": "CalAmp Corp.",
+    "value": "CAMP"
   },
   {
-    value: "VARROC",
-    label: "VARROC ENGINEERING",
+    "label": "Camtek Ltd.",
+    "value": "CAMT"
   },
   {
-    value: "TATAINVEST",
-    label: "TATA INVESTMENT",
+    "label": "Capnia, Inc.",
+    "value": "CAPN"
   },
   {
-    value: "CENTURYTEX",
-    label: "CENTURY TEXT & IND",
+    "label": "Capnia, Inc.",
+    "value": "CAPNW"
   },
   {
-    value: "CYIENT",
-    label: "CYIENT LTD",
+    "label": "Avis Budget Group, Inc.",
+    "value": "CAR"
   },
   {
-    value: "BRIGHT",
-    label: "BRIGHT SOLAR LTD",
+    "label": "Cara Therapeutics, Inc.",
+    "value": "CARA"
   },
   {
-    value: "KARMAENG",
-    label: "KARMA ENERGY LTD",
+    "label": "Carbonite, Inc.",
+    "value": "CARB"
   },
   {
-    value: "WHEELS",
-    label: "WHEELS INDIA LTD",
+    "label": "Carolina Financial Corporation",
+    "value": "CARO"
   },
   {
-    value: "HDIL",
-    label: "HOUSING DEVELOPMEN",
+    "label": "Carolina Trust Bank",
+    "value": "CART"
   },
   {
-    value: "GEOJITFSL",
-    label: "GEOJIT FINANCIAL S",
+    "label": "Carver Bancorp, Inc.",
+    "value": "CARV"
   },
   {
-    value: "PURVA",
-    label: "PURAVANKARA LTD",
+    "label": "First Trust NASDAQ Global Auto Index Fund",
+    "value": "CARZ"
   },
   {
-    value: "TIINDIA",
-    label: "TUBE INVESTMENTS O",
+    "label": "Meta Financial Group, Inc.",
+    "value": "CASH"
   },
   {
-    value: "TECHNOE",
-    label: "TECHNO ELECTRIC &",
+    "label": "CASI Pharmaceuticals, Inc.",
+    "value": "CASI"
   },
   {
-    value: "ARIHANTSUP",
-    label: "ARIHANT SUPERSTRUC",
+    "label": "CAS Medical Systems, Inc.",
+    "value": "CASM"
   },
   {
-    value: "SPENTEX",
-    label: "SPENTEX INDUSTRIES",
+    "label": "Cass Information Systems, Inc",
+    "value": "CASS"
   },
   {
-    value: "RSSOFTWARE",
-    label: "RS SOFTWARE (I)",
+    "label": "Caseys General Stores, Inc.",
+    "value": "CASY"
   },
   {
-    value: "GTLINFRA",
-    label: "GTL INFRASTRUCTURE",
+    "label": "Cardtronics, Inc.",
+    "value": "CATM"
   },
   {
-    value: "SHYAMCENT",
-    label: "SHYAM CENTURY FERR",
+    "label": "Cathay General Bancorp",
+    "value": "CATY"
   },
   {
-    value: "DISHTV",
-    label: "DISH TV INDIA LTD",
+    "label": "Cathay General Bancorp",
+    "value": "CATYW"
   },
   {
-    value: "GODREJAGRO",
-    label: "GODREJ AGROVET LTD",
+    "label": "Cavium, Inc.",
+    "value": "CAVM"
   },
   {
-    value: "MHRIL",
-    label: "MAHINDRA HOLIDAYS",
+    "label": "China BAK Battery, Inc.",
+    "value": "CBAK"
   },
   {
-    value: "CONFIPET",
-    label: "CONFIDENCE PETRO IND LTD.",
+    "label": "Colony Bankcorp, Inc.",
+    "value": "CBAN"
   },
   {
-    value: "GNA",
-    label: "GNA AXLES LTD",
+    "label": "CymaBay Therapeutics Inc.",
+    "value": "CBAY"
   },
   {
-    value: "3IINFOLTD",
-    label: "3I INFOTECH LTD",
+    "label": "CBD Energy Limited",
+    "value": "CBDE"
   },
   {
-    value: "MEDPLUS",
-    label: "MEDPLUS HEALTH SERV LTD",
+    "label": "Capital Bank Financial Corp.",
+    "value": "CBF"
   },
   {
-    value: "HERANBA",
-    label: "HERANBA INDUSTRIES LTD",
+    "label": "CB Financial Services, Inc.",
+    "value": "CBFV"
   },
   {
-    value: "GLS",
-    label: "GLENMARK LIFE SCIENCE LTD",
+    "label": "Community Bank Shares of Indiana, Inc.",
+    "value": "CBIN"
   },
   {
-    value: "ALEMBICLTD",
-    label: "ALEMBIC LTD",
+    "label": "Cleveland BioLabs, Inc.",
+    "value": "CBLI"
   },
   {
-    value: "AARVEEDEN",
-    label: "AARVEE DENIMS & EX",
+    "label": "Cellular Biomedicine Group, Inc.",
+    "value": "CBMG"
   },
   {
-    value: "BGRENERGY",
-    label: "BGR ENERGY SYSTEMS",
+    "label": "CombiMatrix Corporation",
+    "value": "CBMX"
   },
   {
-    value: "PUNJLLOYD",
-    label: "PUNJ LLOYD LTD",
+    "label": "Cape Bancorp, Inc.",
+    "value": "CBNJ"
   },
   {
-    value: "APOLLOTYRE",
-    label: "APOLLO TYRES",
+    "label": "Chicopee Bancorp, Inc.",
+    "value": "CBNK"
   },
   {
-    value: "ARCHIDPLY",
-    label: "ARCHIDPLY IND LTD",
+    "label": "CBOE Holdings, Inc.",
+    "value": "CBOE"
   },
   {
-    value: "MAHASTEEL",
-    label: "MAHAMAYA STEEL IND",
+    "label": "China Biologic Products, Inc.",
+    "value": "CBPO"
   },
   {
-    value: "UNIVCABLES",
-    label: "UNIVERSAL CABLES",
+    "label": "Cracker Barrel Old Country Store, Inc.",
+    "value": "CBRL"
   },
   {
-    value: "BAJAJHLDNG",
-    label: "BAJAJ HLDG & INVES",
+    "label": "Columbia Laboratories, Inc.",
+    "value": "CBRX"
   },
   {
-    value: "TREEHOUSE",
-    label: "TREE HOUSE EDUCATI",
+    "label": "Commerce Bancshares, Inc.",
+    "value": "CBSH"
   },
   {
-    value: "TTKHLTCARE",
-    label: "TTK HEALTHCARE",
+    "label": "Commerce Bancshares, Inc.",
+    "value": "CBSHP"
   },
   {
-    value: "INDRAMEDCO",
-    label: "INDRAPRASTHS MEDIC",
+    "label": "Cubist Pharmaceuticals, Inc.",
+    "value": "CBST"
   },
   {
-    value: "KPRMILL",
-    label: "KPR MILL LTD",
+    "label": "Cubist Pharmaceuticals, Inc.",
+    "value": "CBSTZ"
   },
   {
-    value: "SHRENIK",
-    label: "SHRENIK LTD",
+    "label": "Capital City Bank Group",
+    "value": "CCBG"
   },
   {
-    value: "SUPRAJIT",
-    label: "SUPRAJIT ENG LTD",
+    "label": "China Ceramics Co., Ltd.",
+    "value": "CCCL"
   },
   {
-    value: "EIMCOELECO",
-    label: "EIMCO ELECON INDIA",
+    "label": "China Commercial Credit, Inc.",
+    "value": "CCCR"
   },
   {
-    value: "JMA",
-    label: "JULLUNDUR MOTOR AG",
+    "label": "ChinaCache International Holdings Ltd.",
+    "value": "CCIH"
   },
   {
-    value: "ICRA",
-    label: "ICRA LTD",
+    "label": "CSI Compressco LP",
+    "value": "CCLP"
   },
   {
-    value: "PERSISTENT",
-    label: "PERSISTENT SYSTEMS",
+    "label": "Cabot Microelectronics Corporation",
+    "value": "CCMP"
   },
   {
-    value: "NURECA",
-    label: "NURECA LTD",
+    "label": "CNB Financial Corporation",
+    "value": "CCNE"
   },
   {
-    value: "LSIL",
-    label: "LLOYDS STEELS INDU",
+    "label": "Cogent Communications Holdings, Inc.",
+    "value": "CCOI"
   },
   {
-    value: "ABSLAMC",
-    label: "ADIT BIRL SUN LIF AMC LTD",
+    "label": "Cross Country Healthcare, Inc.",
+    "value": "CCRN"
   },
   {
-    value: "ELECON",
-    label: "ELECON ENGINEERING",
+    "label": "Concurrent Computer Corporation",
+    "value": "CCUR"
   },
   {
-    value: "DHRUV",
-    label: "DHRUV CONSULTANCY SER LTD",
+    "label": "ChemoCentryx, Inc.",
+    "value": "CCXI"
   },
   {
-    value: "FINPIPE",
-    label: "FINOLEX INDUSTRIES",
+    "label": "Compass EMP U S EQ Income 100 Enhanced Volatility Weighted Fund",
+    "value": "CDC"
   },
   {
-    value: "RAILTEL",
-    label: "RAILTEL CORP OF IND LTD",
+    "label": "CDK Global, Inc.",
+    "value": "CDK"
   },
   {
-    value: "BAJAJ_AUTO",
-    label: "BAJAJ AUTO LTD",
+    "label": "CareDx, Inc.",
+    "value": "CDNA"
   },
   {
-    value: "UBL",
-    label: "UNITED BREWERIES L",
+    "label": "Cadence Design Systems, Inc.",
+    "value": "CDNS"
   },
   {
-    value: "GRAVITA",
-    label: "GRAVITA INDIA LTD",
+    "label": "Clean Diesel Technologies, Inc.",
+    "value": "CDTI"
   },
   {
-    value: "HEROMOTOCO",
-    label: "HERO MOTOCORP LTD",
+    "label": "CDW Corporation",
+    "value": "CDW"
   },
   {
-    value: "RTNPOWER",
-    label: "RATTANINDIA POWER",
+    "label": "Codexis, Inc.",
+    "value": "CDXS"
   },
   {
-    value: "SONAMCLOCK",
-    label: "SONAM CLOCK LTD",
+    "label": "Cadiz, Inc.",
+    "value": "CDZI"
   },
   {
-    value: "HNDFDS",
-    label: "HINDUSTAN FOODS LTD",
+    "label": "CECO Environmental Corp.",
+    "value": "CECE"
   },
   {
-    value: "FOSECOIND",
-    label: "FOSECO(INDIA)",
+    "label": "Career Education Corporation",
+    "value": "CECO"
   },
   {
-    value: "UNICHEMLAB",
-    label: "UNICHEM LABS",
+    "label": "Celgene Corporation",
+    "value": "CELG"
   },
   {
-    value: "PHOENIXLTD",
-    label: "PHOENIX MILLS",
+    "label": "Celgene Corporation",
+    "value": "CELGZ"
   },
   {
-    value: "CGCL",
-    label: "CAPRI GLOBAL CAPIT",
+    "label": "Chembio Diagnostics, Inc.",
+    "value": "CEMI"
   },
   {
-    value: "JTEKTINDIA",
-    label: "JTEKT INDIA LTD",
+    "label": "Cempra, Inc.",
+    "value": "CEMP"
   },
   {
-    value: "SIMPLEXINF",
-    label: "SIMPLEX INFRASTRUC",
+    "label": "Central Garden & Pet Company",
+    "value": "CENT"
   },
   {
-    value: "NIDAN",
-    label: "NIDAN LABORATORIES",
+    "label": "Central Garden & Pet Company",
+    "value": "CENTA"
   },
   {
-    value: "GATI",
-    label: "GATI LTD",
+    "label": "Century Aluminum Company",
+    "value": "CENX"
   },
   {
-    value: "ESTER",
-    label: "ESTER INDUSTRIES",
+    "label": "Ceres, Inc.",
+    "value": "CERE"
   },
   {
-    value: "INDIAGLYCO",
-    label: "INDIA GLYCOL",
+    "label": "Cerner Corporation",
+    "value": "CERN"
   },
   {
-    value: "ITI",
-    label: "ITI LIMITED",
+    "label": "Cerus Corporation",
+    "value": "CERS"
   },
   {
-    value: "ACC",
-    label: "ACC LTD",
+    "label": "Cerulean Pharma Inc.",
+    "value": "CERU"
   },
   {
-    value: "IRISDOREME",
-    label: "IRIS CLOTHINGS LTD",
+    "label": "Central European Media Enterprises Ltd.",
+    "value": "CETV"
   },
   {
-    value: "ROML",
-    label: "RAJ OIL MILLS LTD",
+    "label": "CEVA, Inc.",
+    "value": "CEVA"
   },
   {
-    value: "RGL",
-    label: "RENAISSANCE GLOBAL",
+    "label": "Compass EMP US 500 Volatility Weighted Index ETF",
+    "value": "CFA"
   },
   {
-    value: "PATELENG",
-    label: "PATEL ENGINEERING",
+    "label": "Central Federal Corporation",
+    "value": "CFBK"
   },
   {
-    value: "ADFFOODS",
-    label: "ADF FOODS LTD",
+    "label": "C&F Financial Corporation",
+    "value": "CFFI"
   },
   {
-    value: "PITTIENG",
-    label: "PITTI ENGINEERING",
+    "label": "Capitol Federal Financial, Inc.",
+    "value": "CFFN"
   },
   {
-    value: "JUBLFOOD",
-    label: "JUBILANT FOODWORKS",
+    "label": "Calamos Focus Growth ETF",
+    "value": "CFGE"
   },
   {
-    value: "GREAVESCOT",
-    label: "GREAVES COTTON LTD",
+    "label": "California First National Bancorp",
+    "value": "CFNB"
   },
   {
-    value: "SORILINFRA",
-    label: "SORIL INFRA RESOUR",
+    "label": "Cardinal Financial Corporation",
+    "value": "CFNL"
   },
   {
-    value: "SAKAR",
-    label: "SAKAR HEALTHCARE L",
+    "label": "Compass EMP US 500 Enhanced Volatility Weighted Index ETF",
+    "value": "CFO"
   },
   {
-    value: "VLSFINANCE",
-    label: "VLS FIN LTD INDIA",
+    "label": "ContraFect Corporation",
+    "value": "CFRX"
   },
   {
-    value: "INOXLEISUR",
-    label: "INOX LEISURE LTD",
+    "label": "ContraFect Corporation",
+    "value": "CFRXW"
   },
   {
-    value: "KINGFA",
-    label: "KINGFA SCIENCE & T",
+    "label": "ContraFect Corporation",
+    "value": "CFRXZ"
   },
   {
-    value: "INDUSTOWER",
-    label: "INDUS TOWERS LTD",
+    "label": "The Carlyle Group L.P.",
+    "value": "CG"
   },
   {
-    value: "TATAMOTORS",
-    label: "TATA MOTORS LTD.",
+    "label": "Compugen Ltd.",
+    "value": "CGEN"
   },
   {
-    value: "MUNJALSHOW",
-    label: "MUNJAL SHOWA",
+    "label": "Cancer Genetics, Inc.",
+    "value": "CGIX"
   },
   {
-    value: "ATLANTA",
-    label: "ATLANTA LTD",
+    "label": "Cognex Corporation",
+    "value": "CGNX"
   },
   {
-    value: "CENTRUM",
-    label: "CENTRUM CAPITAL",
+    "label": "Calamos Global Total Return Fund",
+    "value": "CGO"
   },
   {
-    value: "INDTERRAIN",
-    label: "INDIAN TERRAIN FAS",
+    "label": "Comstock Holding Companies, Inc.",
+    "value": "CHCI"
   },
   {
-    value: "TRIDENT",
-    label: "TRIDENT LTD",
+    "label": "City Holding Company",
+    "value": "CHCO"
   },
   {
-    value: "KIRLOSIND",
-    label: "KIRLOSKAR IND LTD",
+    "label": "Churchill Downs, Incorporated",
+    "value": "CHDN"
   },
   {
-    value: "PROZONINTU",
-    label: "PROZONE INTU PROPE",
+    "label": "The Chefs' Warehouse, Inc.",
+    "value": "CHEF"
   },
   {
-    value: "SRIRAM",
-    label: "SHRI RAM SWITCHGEA",
+    "label": "Cheviot Financial Corp",
+    "value": "CHEV"
   },
   {
-    value: "INNOVATIVE",
-    label: "INNOVATIVE TYRES &",
+    "label": "Chemical Financial Corporation",
+    "value": "CHFC"
   },
   {
-    value: "PVR",
-    label: "PVR LTD",
+    "label": "Charter Financial Corp.",
+    "value": "CHFN"
   },
   {
-    value: "TATACONSUM",
-    label: "TATA CONSUMER PRODUCT LTD",
+    "label": "Calamos Convertible Opportunities and Income Fund",
+    "value": "CHI"
   },
   {
-    value: "EIFFL",
-    label: "EURO (I) FRESH FOODS LTD",
+    "label": "Cherokee Inc.",
+    "value": "CHKE"
   },
   {
-    value: "INDNIPPON",
-    label: "INDIA NIPPON ELECT",
+    "label": "Check Point Software Technologies Ltd.",
+    "value": "CHKP"
   },
   {
-    value: "PRICOLLTD",
-    label: "PRICOL LTD",
+    "label": "China Housing & Land Development, Inc.",
+    "value": "CHLN"
   },
   {
-    value: "IRCON",
-    label: "IRCON INTERNATIONA",
+    "label": "Chemung Financial Corp",
+    "value": "CHMG"
   },
   {
-    value: "NTPC",
-    label: "NTPC LTD",
+    "label": "China Natural Resources, Inc.",
+    "value": "CHNR"
   },
   {
-    value: "IZMO",
-    label: "IZMO LTD",
+    "label": "China Gerui Advanced Materials Group Limited",
+    "value": "CHOP"
   },
   {
-    value: "JPPOWER",
-    label: "JAIPRAKASH POWER",
+    "label": "Coherus BioSciences, Inc.",
+    "value": "CHRS"
   },
   {
-    value: "CANBK",
-    label: "CANARA BANK",
+    "label": "C.H. Robinson Worldwide, Inc.",
+    "value": "CHRW"
   },
   {
-    value: "BLUEDART",
-    label: "BLUE DART EXPRESS",
+    "label": "CHS Inc",
+    "value": "CHSCM"
   },
   {
-    value: "ASHIANA",
-    label: "ASHIANA HOUSING LD",
+    "label": "CHS Inc",
+    "value": "CHSCN"
   },
   {
-    value: "MUTHOOTCAP",
-    label: "MUTHOOT CAPITAL SE",
+    "label": "CHS Inc",
+    "value": "CHSCO"
   },
   {
-    value: "FLEXITUFF",
-    label: "FLEXITUFF VENTURES",
+    "label": "CHS Inc",
+    "value": "CHSCP"
   },
   {
-    value: "VGUARD",
-    label: "V-GUARD INDUSTRIES",
+    "label": "Charter Communications, Inc.",
+    "value": "CHTR"
   },
   {
-    value: "JPASSOCIAT",
-    label: "JAIPRAKASH ASSOCIA",
+    "label": "Chuy's Holdings, Inc.",
+    "value": "CHUY"
   },
   {
-    value: "MIRCELECTR",
-    label: "MIRC ELECTRONICS",
+    "label": "Calamos Global Dynamic Income Fund",
+    "value": "CHW"
   },
   {
-    value: "IGL",
-    label: "INDRAPRASTHA GAS",
+    "label": "WisdomTree China Dividend Ex",
+    "value": "CHXF"
   },
   {
-    value: "BIRLACORPN",
-    label: "BIRLA CORP",
+    "label": "Calamos Convertible and High Income Fund",
+    "value": "CHY"
   },
   {
-    value: "ZYDUSWELL",
-    label: "ZYDUS WELLNESS LTD",
+    "label": "ChyronHego Corporation",
+    "value": "CHYR"
   },
   {
-    value: "SUNDRMBRAK",
-    label: "SUNDARAM BRAKE LIN",
+    "label": "Cinedigm Corp",
+    "value": "CIDM"
   },
   {
-    value: "RAMANEWS",
-    label: "SHREE RAMA NEWSPRI",
+    "label": "CIFC Corp.",
+    "value": "CIFC"
   },
   {
-    value: "SCI",
-    label: "SHIPPING CP INDIA",
+    "label": "Cimatron, Limited",
+    "value": "CIMT"
   },
   {
-    value: "HINDNATGLS",
-    label: "HINDUSTHAN NAT GLA",
+    "label": "Cincinnati Financial Corporation",
+    "value": "CINF"
   },
   {
-    value: "KTKBANK",
-    label: "KARNATAKA BANK",
+    "label": "CIS Acquisition Ltd.",
+    "value": "CISAW"
   },
   {
-    value: "MANINDS",
-    label: "MAN INDUSTRIES (IN",
+    "label": "CNinsure Inc.",
+    "value": "CISG"
   },
   {
-    value: "DCBBANK",
-    label: "DCB BANK LTD",
+    "label": "Compass EMP Developed 500 Enhanced Volatility Weighted Index ETF",
+    "value": "CIZ"
   },
   {
-    value: "NARMADA",
-    label: "NARMADA AGROBASE",
+    "label": "Citizens Holding Company",
+    "value": "CIZN"
   },
   {
-    value: "MODISNME",
-    label: "MODISON METALS LTD",
+    "label": "China Jo",
+    "value": "CJJD"
   },
   {
-    value: "EXCEL",
-    label: "EXCEL REALTY N INF",
+    "label": "Carmike Cinemas, Inc.",
+    "value": "CKEC"
   },
   {
-    value: "THEINVEST",
-    label: "THE INVESTMENT TRU",
+    "label": "ClickSoftware Technologies Ltd.",
+    "value": "CKSW"
   },
   {
-    value: "IDFC",
-    label: "IDFC LTD",
+    "label": "Capitol Acquisition Corp. II",
+    "value": "CLAC"
   },
   {
-    value: "JAYBARMARU",
-    label: "JAY BHARAT MARUTI",
+    "label": "Capitol Acquisition Corp. II",
+    "value": "CLACU"
   },
   {
-    value: "TATACOMM",
-    label: "TATA COMMUNICATION",
+    "label": "Capitol Acquisition Corp. II",
+    "value": "CLACW"
   },
   {
-    value: "ANANDRATHI",
-    label: "ANAND RATHI WEALTH LTD",
+    "label": "Carolina Bank Holdings Inc.",
+    "value": "CLBH"
   },
   {
-    value: "CUPID",
-    label: "CUPID LTD(INDIA)",
+    "label": "Collectors Universe, Inc.",
+    "value": "CLCT"
   },
   {
-    value: "IIFLWAM",
-    label: "IIFL WEALTH MGMT LTD",
+    "label": "Celladon Corporation",
+    "value": "CLDN"
   },
   {
-    value: "PALREDTEC",
-    label: "PALRED TECHNOLOGIE",
+    "label": "Celldex Therapeutics, Inc.",
+    "value": "CLDX"
   },
   {
-    value: "MMFL",
-    label: "M.M. FORGINGS",
+    "label": "Clearfield, Inc.",
+    "value": "CLFD"
   },
   {
-    value: "PDMJEPAPER",
-    label: "PUDUMJEE PAPER PRO",
+    "label": "ClearSign Combustion Corporation",
+    "value": "CLIR"
   },
   {
-    value: "ASTRAMICRO",
-    label: "ASTRA MICROWAVE PR",
+    "label": "Calamos Asset Management, Inc.",
+    "value": "CLMS"
   },
   {
-    value: "KAYA",
-    label: "KAYA LTD",
+    "label": "Calumet Specialty Products Partners, L.P.",
+    "value": "CLMT"
   },
   {
-    value: "IMFA",
-    label: "INDIAN METALS & FE",
+    "label": "Clean Energy Fuels Corp.",
+    "value": "CLNE"
   },
   {
-    value: "GANGAFORGE",
-    label: "GANGA FORGING LTD",
+    "label": "Cleantech Solutions International, Inc.",
+    "value": "CLNT"
   },
   {
-    value: "ASIANENE",
-    label: "ASIAN ENERGY SERVICES LTD",
+    "label": "Cellectar Biosciences, Inc.",
+    "value": "CLRB"
   },
   {
-    value: "JBMA",
-    label: "JBM AUTO LTD",
+    "label": "Cellectar Biosciences, Inc.",
+    "value": "CLRBW"
   },
   {
-    value: "AGROPHOS",
-    label: "AGRO PHOS INDIA LTD",
+    "label": "ClearOne, Inc.",
+    "value": "CLRO"
   },
   {
-    value: "VARDMNPOLY",
-    label: "VARDHMAN POLYTEX",
+    "label": "CollabRx, Inc.",
+    "value": "CLRX"
   },
   {
-    value: "TRF",
-    label: "TRF LTD",
+    "label": "Celsion Corporation",
+    "value": "CLSN"
   },
   {
-    value: "LOVABLE",
-    label: "LOVABLE LINGERIE L",
+    "label": "Celsus Therapeutics Plc",
+    "value": "CLTX"
   },
   {
-    value: "SETCO",
-    label: "SETCO AUTOMOTIVE",
+    "label": "Town Sports International Holdings, Inc.",
+    "value": "CLUB"
   },
   {
-    value: "MARALOVER",
-    label: "MARAL OVERSEAS",
+    "label": "Clovis Oncology, Inc.",
+    "value": "CLVS"
   },
   {
-    value: "DAAWAT",
-    label: "L.T. FOODS LTD",
+    "label": "Euro Tech Holdings Company Limited",
+    "value": "CLWT"
   },
   {
-    value: "S_SPOWER",
-    label: "S & S POWER SWITCH",
+    "label": "Columbus McKinnon Corporation",
+    "value": "CMCO"
   },
   {
-    value: "RATEGAIN",
-    label: "RATEGAIN TRAVEL TECHN LTD",
+    "label": "Comcast Corporation",
+    "value": "CMCSA"
   },
   {
-    value: "GICHSGFIN",
-    label: "GIC HOUSING FINANC",
+    "label": "Comcast Corporation",
+    "value": "CMCSK"
   },
   {
-    value: "SOTL",
-    label: "SAVITA OIL TECHNOL",
+    "label": "CIM Commercial Trust Corporation",
+    "value": "CMCT"
   },
   {
-    value: "AMARAJABAT",
-    label: "AMARA RAJA BATTERI",
+    "label": "CME Group Inc.",
+    "value": "CME"
   },
   {
-    value: "PRESTIGE",
-    label: "PRESTIGE ESTATES P",
+    "label": "CM Finance Inc",
+    "value": "CMFN"
   },
   {
-    value: "NIBL",
-    label: "NRB INDUSTRIAL BEA",
+    "label": "China Mobile Games and Entertainment Group Limited",
+    "value": "CMGE"
   },
   {
-    value: "SUVEN",
-    label: "SUVEN LIFE SCIENCE",
+    "label": "Cumulus Media Inc.",
+    "value": "CMLS"
   },
   {
-    value: "SHUBHLAXMI",
-    label: "SHUBHLAXMI JEWEL A",
+    "label": "Cimpress N.V",
+    "value": "CMPR"
   },
   {
-    value: "ORIENTPPR",
-    label: "ORIENT PAPER & IND",
+    "label": "Chimerix, Inc.",
+    "value": "CMRX"
   },
   {
-    value: "DCAL",
-    label: "DISHMAN CARBOGEN",
+    "label": "CMS Bancorp, Inc.",
+    "value": "CMSB"
   },
   {
-    value: "LTTS",
-    label: "L&T TECHNOLOGY SER",
+    "label": "Comtech Telecommunications Corp.",
+    "value": "CMTL"
   },
   {
-    value: "SARVESHWAR",
-    label: "SARVESHWAR FOODS L",
+    "label": "Conatus Pharmaceuticals Inc.",
+    "value": "CNAT"
   },
   {
-    value: "VICEROY",
-    label: "VICEROY HOTELS LTD",
+    "label": "Century Bancorp, Inc.",
+    "value": "CNBKA"
   },
   {
-    value: "DYNPRO",
-    label: "DYNEMIC PRODUCTS L",
+    "label": "Concert Pharmaceuticals, Inc.",
+    "value": "CNCE"
   },
   {
-    value: "MBLINFRA",
-    label: "MBL INFRASTRUCTURE",
+    "label": "Coronado Biosciences, Inc.",
+    "value": "CNDO"
   },
   {
-    value: "GOKUL",
-    label: "GOKUL REFOILS & SO",
+    "label": "ChinaNet Online Holdings, Inc.",
+    "value": "CNET"
   },
   {
-    value: "NAM_INDIA",
-    label: "NIPPON L I A M LTD",
+    "label": "China Information Technology, Inc.",
+    "value": "CNIT"
   },
   {
-    value: "KHAITANLTD",
-    label: "KHAITAN (INDIA)LTD",
+    "label": "CB Pharma Acquisition Corp.",
+    "value": "CNLM"
   },
   {
-    value: "ACE",
-    label: "ACTION CONSTRUCT",
+    "label": "CB Pharma Acquisition Corp.",
+    "value": "CNLMR"
   },
   {
-    value: "RBLBANK",
-    label: "RBL BANK LTD",
+    "label": "CB Pharma Acquisition Corp.",
+    "value": "CNLMU"
   },
   {
-    value: "BEPL",
-    label: "BHANSALI ENG POLYM",
+    "label": "CB Pharma Acquisition Corp.",
+    "value": "CNLMW"
   },
   {
-    value: "RPSGVENT",
-    label: "RPSG VENTURES LTD",
+    "label": "CONMED Corporation",
+    "value": "CNMD"
   },
   {
-    value: "SADBHAV",
-    label: "SADBHAV ENGINEERIN",
+    "label": "ConnectOne Bancorp, Inc.",
+    "value": "CNOB"
   },
   {
-    value: "HINDCON",
-    label: "HINDCON CHEMICALS LTD",
+    "label": "Comverse Inc.",
+    "value": "CNSI"
   },
   {
-    value: "COFORGE",
-    label: "COFORGE LTD",
+    "label": "Consolidated Communications Holdings, Inc.",
+    "value": "CNSL"
   },
   {
-    value: "BSOFT",
-    label: "BIRLASOFT (INDIA)",
+    "label": "China TechFaith Wireless Communication Technology Limited",
+    "value": "CNTF"
   },
   {
-    value: "GALLISPAT",
-    label: "GALLANTT ISPAT LTD",
+    "label": "Century Casinos, Inc.",
+    "value": "CNTY"
   },
   {
-    value: "SHK",
-    label: "S H KELKAR AND COM",
+    "label": "Cnova N.V.",
+    "value": "CNV"
   },
   {
-    value: "AVTNPL",
-    label: "AVT NATURAL PROD",
+    "label": "Connecture, Inc.",
+    "value": "CNXR"
   },
   {
-    value: "GUFICBIO",
-    label: "GUFIC BIOSCIENCES",
+    "label": "China Yida Holding, Co.",
+    "value": "CNYD"
   },
   {
-    value: "SHREDIGCEM",
-    label: "SHREE DIGVIJAY CEMENT",
+    "label": "CommunityOne Bancorp",
+    "value": "COB"
   },
   {
-    value: "DHANBANK",
-    label: "DHANLAXMI BANK LTD",
+    "label": "Colonial Financial Services, Inc.",
+    "value": "COBK"
   },
   {
-    value: "KIRLOSENG",
-    label: "KIRLOSKAR OIL ENGI",
+    "label": "CoBiz Financial Inc.",
+    "value": "COBZ"
   },
   {
-    value: "RESPONIND",
-    label: "RESPONSIVE INDUSTR",
+    "label": "Corinthian Colleges, Inc.",
+    "value": "COCO"
   },
   {
-    value: "SUPPETRO",
-    label: "SUPREME PETROCHEM",
+    "label": "Coherent, Inc.",
+    "value": "COHR"
   },
   {
-    value: "TORNTPOWER",
-    label: "TORRENT POWER",
+    "label": "Cohu, Inc.",
+    "value": "COHU"
   },
   {
-    value: "PNCINFRA",
-    label: "PNC INFRATECH LTD",
+    "label": "Coca",
+    "value": "COKE"
   },
   {
-    value: "CGPOWER",
-    label: "CG POWER AND INDUS",
+    "label": "Columbia Banking System, Inc.",
+    "value": "COLB"
   },
   {
-    value: "LTI",
-    label: "LARSEN & TOUBRO INFOTECH",
+    "label": "Columbia Sportswear Company",
+    "value": "COLM"
   },
   {
-    value: "HSIL",
-    label: "HSIL LTD",
+    "label": "CommScope Holding Company, Inc.",
+    "value": "COMM"
   },
   {
-    value: "EMAMILTD",
-    label: "EMAMI LTD",
+    "label": "iShares Commodities Select Strategy ETF",
+    "value": "COMT"
   },
   {
-    value: "REFEX",
-    label: "REFEX INDUSTRIES L",
+    "label": "CyrusOne Inc",
+    "value": "CONE"
   },
   {
-    value: "PAYTM",
-    label: "ONE 97 COMMUNICATIONS LTD",
+    "label": "Conn's, Inc.",
+    "value": "CONN"
   },
   {
-    value: "HCLTECH",
-    label: "HCL TECHNOLOGIES",
+    "label": "Majesco Entertainment Company",
+    "value": "COOL"
   },
   {
-    value: "ALANKIT",
-    label: "ALANKIT LTD",
+    "label": "Core",
+    "value": "CORE"
   },
   {
-    value: "DCI",
-    label: "DC INFOTECH & COMM",
+    "label": "Corium International, Inc.",
+    "value": "CORI"
   },
   {
-    value: "IBREALEST",
-    label: "INDIABULLS REAL EST",
+    "label": "Corcept Therapeutics Incorporated",
+    "value": "CORT"
   },
   {
-    value: "NILAINFRA",
-    label: "NILA INFRASTRUCTUR",
+    "label": "Cosi, Inc.",
+    "value": "COSI"
   },
   {
-    value: "BANDHANBNK",
-    label: "BANDHAN BANK LTD",
+    "label": "Costco Wholesale Corporation",
+    "value": "COST"
   },
   {
-    value: "NH",
-    label: "NARAYANA HRUDAYALA",
+    "label": "Covisint Corporation",
+    "value": "COVS"
   },
   {
-    value: "SICAL",
-    label: "SICAL LOGISTICS",
+    "label": "Cowen Group, Inc.",
+    "value": "COWN"
   },
   {
-    value: "NIPPOBATRY",
-    label: "INDO NATIONAL LTD",
+    "label": "Cowen Group, Inc.",
+    "value": "COWNL"
   },
   {
-    value: "RAJRATAN",
-    label: "RAJRATAN GLOBAL WIRE LTD",
+    "label": "CounterPath Corporation",
+    "value": "CPAH"
   },
   {
-    value: "ZEEL",
-    label: "ZEE ENTERTAIN ENT",
+    "label": "China Shengda Packaging Group, Inc.",
+    "value": "CPGI"
   },
   {
-    value: "HCG",
-    label: "HEALTHCARE GLOBAL",
+    "label": "Canterbury Park Holding Corporation",
+    "value": "CPHC"
   },
   {
-    value: "HAVELLS",
-    label: "HAVELLS INDIA",
+    "label": "CEPHEID",
+    "value": "CPHD"
   },
   {
-    value: "COMPUSOFT",
-    label: "COMPUCOM SOFTWARE",
+    "label": "Cipher Pharmaceuticals Inc.",
+    "value": "CPHR"
   },
   {
-    value: "EQUITAS",
-    label: "EQUITAS HOLDINGS",
+    "label": "Cumberland Pharmaceuticals Inc.",
+    "value": "CPIX"
   },
   {
-    value: "BAGFILMS",
-    label: "B.A.G. FILMS&MEDIA",
+    "label": "Capella Education Company",
+    "value": "CPLA"
   },
   {
-    value: "YESBANK",
-    label: "YES BANK",
+    "label": "Capital Product Partners L.P.",
+    "value": "CPLP"
   },
   {
-    value: "TFCILTD",
-    label: "TOURISM FIN CORP",
+    "label": "Copart, Inc.",
+    "value": "CPRT"
   },
   {
-    value: "SUPREMEINF",
-    label: "SUPREME INFRASTRUC",
+    "label": "Catalyst Pharmaceutical Partners, Inc.",
+    "value": "CPRX"
   },
   {
-    value: "HBSL",
-    label: "HB STOCKHOLDINGS",
+    "label": "Computer Programs and Systems, Inc.",
+    "value": "CPSI"
   },
   {
-    value: "PNB",
-    label: "PUNJAB NATL BANK",
+    "label": "Consumer Portfolio Services, Inc.",
+    "value": "CPSS"
   },
   {
-    value: "KRIDHANINF",
-    label: "KRIDHAN INFRA LIMI",
+    "label": "Capstone Turbine Corporation",
+    "value": "CPST"
   },
   {
-    value: "INDORAMA",
-    label: "INDO RAMA SYNTHETC",
+    "label": "Capitala Finance Corp.",
+    "value": "CPTA"
   },
   {
-    value: "JAGRAN",
-    label: "JAGRAN PRAKASHAN L",
+    "label": "Celator Pharmaceuticals Inc.",
+    "value": "CPXX"
   },
   {
-    value: "BHEL",
-    label: "BHARAT HEAVY ELECT",
+    "label": "CRA International,Inc.",
+    "value": "CRAI"
   },
   {
-    value: "CLNINDIA",
-    label: "CLARIANT CHEMICALS",
+    "label": "Cray Inc",
+    "value": "CRAY"
   },
   {
-    value: "HINDPETRO",
-    label: "HINDUSTAN PETROL",
+    "label": "Cardica, Inc.",
+    "value": "CRDC"
   },
   {
-    value: "PARAGMILK",
-    label: "PARAG MILK FOODS",
+    "label": "Crossroads Systems, Inc.",
+    "value": "CRDS"
   },
   {
-    value: "ENIL",
-    label: "ENTERTAINMENT NETW",
+    "label": "WisdomTree Strategic Corporate Bond Fund",
+    "value": "CRDT"
   },
   {
-    value: "AGARIND",
-    label: "AGARWAL INDUSTRIAL",
+    "label": "Cree, Inc.",
+    "value": "CREE"
   },
   {
-    value: "JAICORPLTD",
-    label: "JAI CORP LTD",
+    "label": "China Recycling Energy Corporation",
+    "value": "CREG"
   },
   {
-    value: "COFFEEDAY",
-    label: "COFFEE DAY ENTERPR",
+    "label": "Cresud S.A.C.I.F. y A.",
+    "value": "CRESW"
   },
   {
-    value: "HINDUNILVR",
-    label: "HINDUSTAN UNILEVER",
+    "label": "Cresud S.A.C.I.F. y A.",
+    "value": "CRESY"
   },
   {
-    value: "MANAKALUCO",
-    label: "MANAKSIA ALUMINIUM",
+    "label": "Curis, Inc.",
+    "value": "CRIS"
   },
   {
-    value: "PATINTLOG",
-    label: "PATEL INTEGRATED L",
+    "label": "Cardiome Pharma Corporation",
+    "value": "CRME"
   },
   {
-    value: "KHANDSE",
-    label: "KHANDWALA SEC LTD",
+    "label": "America's Car",
+    "value": "CRMT"
   },
   {
-    value: "HATHWAY",
-    label: "HATHWAY CABLE & DA",
+    "label": "Ceragon Networks Ltd.",
+    "value": "CRNT"
   },
   {
-    value: "UJJIVANSFB",
-    label: "UJJIVAN SMALL FINANC BANK",
+    "label": "Crocs, Inc.",
+    "value": "CROX"
   },
   {
-    value: "LXCHEM",
-    label: "LAXMI ORGANIC INDUS LTD",
+    "label": "Courier Corporation",
+    "value": "CRRC"
   },
   {
-    value: "TINPLATE",
-    label: "TINPLATE CO INDIA",
+    "label": "Corporate Resource Services, Inc.",
+    "value": "CRRS"
   },
   {
-    value: "SHALPAINTS",
-    label: "SHALIMAR PAINTS",
+    "label": "Cartesian, Inc.",
+    "value": "CRTN"
   },
   {
-    value: "MOLDTKPAC",
-    label: "MOLD-TEK PACKAGING",
+    "label": "Criteo S.A.",
+    "value": "CRTO"
   },
   {
-    value: "MARKSANS",
-    label: "MARKSANS PHARMA LTD",
+    "label": "Cirrus Logic, Inc.",
+    "value": "CRUS"
   },
   {
-    value: "GMMPFAUDLR",
-    label: "GMM PFAUDLER LTD",
+    "label": "CorVel Corp.",
+    "value": "CRVL"
   },
   {
-    value: "MAHESHWARI",
-    label: "MAHESHWARI LOGISTI",
+    "label": "Crown Media Holdings, Inc.",
+    "value": "CRWN"
   },
   {
-    value: "GAEL",
-    label: "GUJARAT AMBUJA EXP",
+    "label": "Crown Crafts, Inc.",
+    "value": "CRWS"
   },
   {
-    value: "CREATIVEYE",
-    label: "CREATIVE EYE LTD",
+    "label": "Carrizo Oil & Gas, Inc.",
+    "value": "CRZO"
   },
   {
-    value: "SHALBY",
-    label: "SHALBY LTD",
+    "label": "Clifton Bancorp Inc.",
+    "value": "CSBK"
   },
   {
-    value: "RSWM",
-    label: "RSWM LTD",
+    "label": "Cascade Microtech, Inc.",
+    "value": "CSCD"
   },
   {
-    value: "UDAICEMENT",
-    label: "UDAIPUR CEMENT WORKS LTD",
+    "label": "Cisco Systems, Inc.",
+    "value": "CSCO"
   },
   {
-    value: "KHADIM",
-    label: "KHADIM INDIA LTD",
+    "label": "Compass EMP U.S. Discovery 500 Enhanced Volatility Weighted Fund",
+    "value": "CSF"
   },
   {
-    value: "ZENSARTECH",
-    label: "ZENSAR TECHNOLOGIE",
+    "label": "CenterState Banks, Inc.",
+    "value": "CSFL"
   },
   {
-    value: "SJVN",
-    label: "SJVN LTD",
+    "label": "CoStar Group, Inc.",
+    "value": "CSGP"
   },
   {
-    value: "KOKUYOCMLN",
-    label: "KOKUYO CAMLIN LTD",
+    "label": "CSG Systems International, Inc.",
+    "value": "CSGS"
   },
   {
-    value: "CENTRALBK",
-    label: "CENTRAL BANK OF IN",
+    "label": "Cardiovascular Systems, Inc.",
+    "value": "CSII"
   },
   {
-    value: "BAJFINANCE",
-    label: "BAJAJ FINANCE LTD",
+    "label": "Canadian Solar Inc.",
+    "value": "CSIQ"
   },
   {
-    value: "ACRYSIL",
-    label: "ACRYSIL LTD",
+    "label": "Cornerstone OnDemand, Inc.",
+    "value": "CSOD"
   },
   {
-    value: "VAKRANGEE",
-    label: "VAKRANGEE LTD",
+    "label": "CSP Inc.",
+    "value": "CSPI"
   },
   {
-    value: "SUZLON",
-    label: "SUZLON ENERGY LTD",
+    "label": "Calamos Strategic Total Return Fund",
+    "value": "CSQ"
   },
   {
-    value: "MANGLMCEM",
-    label: "MANGALAM CEMENT",
+    "label": "CSR plc",
+    "value": "CSRE"
   },
   {
-    value: "DODLA",
-    label: "DODLA DAIRY LTD",
+    "label": "CaesarStone Sdot",
+    "value": "CSTE"
   },
   {
-    value: "HCC",
-    label: "HINDUSTAN CONSTRUC",
+    "label": "China Sunergy Co., Ltd.",
+    "value": "CSUN"
   },
   {
-    value: "POLYCAB",
-    label: "POLYCAB INDIA LTD",
+    "label": "Capital Southwest Corporation",
+    "value": "CSWC"
   },
   {
-    value: "KENNAMET",
-    label: "KENNAMETAL INDIA L",
+    "label": "Cintas Corporation",
+    "value": "CTAS"
   },
   {
-    value: "CASTROLIND",
-    label: "CASTROL INDIA",
+    "label": "Community Trust Bancorp, Inc.",
+    "value": "CTBI"
   },
   {
-    value: "TANLA",
-    label: "TANLA PLATFORMS L",
+    "label": "CTC Media, Inc.",
+    "value": "CTCM"
   },
   {
-    value: "TNTELE",
-    label: "TAMILNADU TELECOMM",
+    "label": "Constant Contact, Inc.",
+    "value": "CTCT"
   },
   {
-    value: "TRIGYN",
-    label: "TRIGYN TECHNOLOGIE",
+    "label": "Computer Task Group, Incorporated",
+    "value": "CTG"
   },
   {
-    value: "SMLISUZU",
-    label: "SML ISUZU LTD",
+    "label": "Charles & Colvard Ltd",
+    "value": "CTHR"
   },
   {
-    value: "ARIHANTCAP",
-    label: "ARIHANT CAPITAL MKTS LTD",
+    "label": "CTI Industries Corporation",
+    "value": "CTIB"
   },
   {
-    value: "DIVISLAB",
-    label: "DIVI'S LABORATORIE",
+    "label": "CTI BioPharma Corp.",
+    "value": "CTIC"
   },
   {
-    value: "BSL",
-    label: "BSL",
+    "label": "CareTrust REIT, Inc.",
+    "value": "CTRE"
   },
   {
-    value: "TAKE",
-    label: "TAKE SOLUTIONS",
+    "label": "Control4 Corporation",
+    "value": "CTRL"
   },
   {
-    value: "HIMATSEIDE",
-    label: "HIMATSINGKA SEIDE",
+    "label": "Citi Trends, Inc.",
+    "value": "CTRN"
   },
   {
-    value: "GALLANTT",
-    label: "GALLANTT METAL LTD",
+    "label": "Ctrip.com International, Ltd.",
+    "value": "CTRP"
   },
   {
-    value: "BHARATFORG",
-    label: "BHARAT FORGE",
+    "label": "Catamaran Corporation",
+    "value": "CTRX"
   },
   {
-    value: "BHARTIARTL",
-    label: "BHARTI AIRTEL LTD",
+    "label": "Cognizant Technology Solutions Corporation",
+    "value": "CTSH"
   },
   {
-    value: "LAOPALA",
-    label: "LA-OPALA RG LTD",
+    "label": "Cytosorbents Corporation",
+    "value": "CTSO"
   },
   {
-    value: "ASTRON",
-    label: "ASTRON PAPER & BOA",
+    "label": "Connecticut Water Service, Inc.",
+    "value": "CTWS"
   },
   {
-    value: "MINDTREE",
-    label: "MINDTREE LTD",
+    "label": "Citrix Systems, Inc.",
+    "value": "CTXS"
   },
   {
-    value: "INTENTECH",
-    label: "INTENSE TECHNOLOGI",
+    "label": "First Trust ISE Global Copper Index Fund",
+    "value": "CU"
   },
   {
-    value: "SAIL",
-    label: "STEEL AUTHOR INDIA",
+    "label": "The Herzfeld Caribbean Basin Fund, Inc.",
+    "value": "CUBA"
   },
   {
-    value: "PTC",
-    label: "PTC INDIA LTD",
+    "label": "CUI Global, Inc.",
+    "value": "CUI"
   },
   {
-    value: "ITDC",
-    label: "INDIA TOURISM DEV",
+    "label": "CU Bancorp (CA)",
+    "value": "CUNB"
   },
   {
-    value: "FMNL",
-    label: "FUTURE MKT NETWORK",
+    "label": "Cutera, Inc.",
+    "value": "CUTR"
   },
   {
-    value: "TARMAT",
-    label: "TARMAT LTD",
+    "label": "CVB Financial Corporation",
+    "value": "CVBF"
   },
   {
-    value: "SOMANYCERA",
-    label: "SOMANY CERAMICS LD",
+    "label": "Cavco Industries, Inc.",
+    "value": "CVCO"
   },
   {
-    value: "PGHL",
-    label: "PROCTER & GAMBLE HEALTH L",
+    "label": "Central Valley Community Bancorp",
+    "value": "CVCY"
   },
   {
-    value: "HIKAL",
-    label: "HIKAL LTD",
+    "label": "Commercial Vehicle Group, Inc.",
+    "value": "CVGI"
   },
   {
-    value: "HDFCBANK",
-    label: "HDFC BANK",
+    "label": "Calavo Growers, Inc.",
+    "value": "CVGW"
   },
   {
-    value: "ICICIBANK",
-    label: "ICICI BANK",
+    "label": "CommVault Systems, Inc.",
+    "value": "CVLT"
   },
   {
-    value: "RAMCOCEM",
-    label: "RAMCO CEMENTS(THE)",
+    "label": "Codorus Valley Bancorp, Inc",
+    "value": "CVLY"
   },
   {
-    value: "IGARASHI",
-    label: "IGARASHI MOTORS IN",
+    "label": "Covenant Transportation Group, Inc.",
+    "value": "CVTI"
   },
   {
-    value: "BSE",
-    label: "BSE LTD",
+    "label": "CVD Equipment Corporation",
+    "value": "CVV"
   },
   {
-    value: "BOROLTD",
-    label: "BOROSIL LTD",
+    "label": "Coastway Bancorp, Inc.",
+    "value": "CWAY"
   },
   {
-    value: "YUKEN",
-    label: "YUKEN INDIA LTD",
+    "label": "Community West Bancshares",
+    "value": "CWBC"
   },
   {
-    value: "IDFCFIRSTB",
-    label: "IDFC FIRST BANK",
+    "label": "Consolidated Water Co. Ltd.",
+    "value": "CWCO"
   },
   {
-    value: "UMANGDAIRY",
-    label: "UMANG DAIRIES",
+    "label": "Casella Waste Systems, Inc.",
+    "value": "CWST"
   },
   {
-    value: "COCHINSHIP",
-    label: "COCHIN SHIPYARD LTD",
+    "label": "China XD Plastics Company Limited",
+    "value": "CXDC"
   },
   {
-    value: "PFC",
-    label: "POWER FINANCE CORP",
+    "label": "Cypress Semiconductor Corporation",
+    "value": "CY"
   },
   {
-    value: "VIJIFIN",
-    label: "VIJI FINANCE LTD",
+    "label": "Cyanotech Corporation",
+    "value": "CYAN"
   },
   {
-    value: "OSIAHYPER",
-    label: "OSIA HYPER RETAIL",
+    "label": "CyberOptics Corporation",
+    "value": "CYBE"
   },
   {
-    value: "HDFCLIFE",
-    label: "HDFC LIFE INSURANC",
+    "label": "CyberArk Software Ltd.",
+    "value": "CYBR"
   },
   {
-    value: "MAHABANK",
-    label: "BK OF MAHARASHTRA",
+    "label": "Cyberonics, Inc.",
+    "value": "CYBX"
   },
   {
-    value: "TEMBO",
-    label: "TEMBO GLOBAL IND LTD",
+    "label": "Cyclacel Pharmaceuticals, Inc.",
+    "value": "CYCC"
   },
   {
-    value: "PILANIINVS",
-    label: "PILANI INVESTMENT",
+    "label": "Cyclacel Pharmaceuticals, Inc.",
+    "value": "CYCCP"
   },
   {
-    value: "BBTCL",
-    label: "B&B TRIPLEWALL CON",
+    "label": "Community Health Systems, Inc.",
+    "value": "CYHHZ"
   },
   {
-    value: "ISFT",
-    label: "INTRASOFT TECHNOLO",
+    "label": "Cynosure, Inc.",
+    "value": "CYNO"
   },
   {
-    value: "PREMIERPOL",
-    label: "PREMIER POLYFILM L",
+    "label": "Changyou.com Limited",
+    "value": "CYOU"
   },
   {
-    value: "AEGISCHEM",
-    label: "AEGIS LOGISTICS",
+    "label": "CYREN Ltd.",
+    "value": "CYRN"
   },
   {
-    value: "INDOTECH",
-    label: "INDO TECH TRANFORM",
+    "label": "Cytokinetics, Incorporated",
+    "value": "CYTK"
   },
   {
-    value: "ADANIENT",
-    label: "ADANI ENTERPRISES",
+    "label": "CytRx Corporation",
+    "value": "CYTR"
   },
   {
-    value: "MEGASOFT",
-    label: "MEGASOFT LTD",
+    "label": "Cytori Therapeutics Inc",
+    "value": "CYTX"
   },
   {
-    value: "RECLTD",
-    label: "REC LTD",
+    "label": "Citizens First Corporation",
+    "value": "CZFC"
   },
   {
-    value: "AMIORG",
-    label: "AMI ORGANICS LTD",
+    "label": "Citizens & Northern Corp",
+    "value": "CZNC"
   },
   {
-    value: "AUBANK",
-    label: "AU SMALL FINANCE B",
+    "label": "Caesars Entertainment Corporation",
+    "value": "CZR"
   },
   {
-    value: "BHARATRAS",
-    label: "BHARAT RASAYAN LTD",
+    "label": "Citizens Community Bancorp, Inc.",
+    "value": "CZWI"
   },
   {
-    value: "SRPL",
-    label: "SHREE RAM PROTEINS LTD.",
+    "label": "Daegis Inc",
+    "value": "DAEG"
   },
   {
-    value: "BINDALAGRO",
-    label: "OSWAL GREENTECH LI",
+    "label": "Data I/O Corporation",
+    "value": "DAIO"
   },
   {
-    value: "5PAISA",
-    label: "5PAISA CAPITAL LTD",
+    "label": "Daktronics, Inc.",
+    "value": "DAKT"
   },
   {
-    value: "GSCLCEMENT",
-    label: "GUJARAT SIDHEE CEM",
+    "label": "DARA Biosciences, Inc.",
+    "value": "DARA"
   },
   {
-    value: "CINEVISTA",
-    label: "CINEVISTA LTD",
+    "label": "Jiayuan.com International Ltd.",
+    "value": "DATE"
   },
   {
-    value: "KOTHARIPET",
-    label: "KOTHARI PETROCHEM",
+    "label": "Famous Dave's of America, Inc.",
+    "value": "DAVE"
   },
   {
-    value: "SUBEXLTD",
-    label: "SUBEX LTD",
+    "label": "Recon Capital DAX Germany ETF",
+    "value": "DAX"
   },
   {
-    value: "SBIN",
-    label: "STATE BK OF INDIA",
+    "label": "DBV Technologies S.A.",
+    "value": "DBVT"
   },
   {
-    value: "SILINV",
-    label: "SIL INVESTMENTS",
+    "label": "Diana Containerships Inc.",
+    "value": "DCIX"
   },
   {
-    value: "ASHOKLEY",
-    label: "ASHOK LEYLAND",
+    "label": "Dime Community Bancshares, Inc.",
+    "value": "DCOM"
   },
   {
-    value: "UTTAMSTL",
-    label: "UTTAM GALVA STEELS",
+    "label": "Delcath Systems, Inc.",
+    "value": "DCTH"
   },
   {
-    value: "NESCO",
-    label: "NESCO LTD",
+    "label": "Denny's Corporation",
+    "value": "DENN"
   },
   {
-    value: "OAL",
-    label: "ORIENTAL AROMATICS LTD",
+    "label": "Depomed, Inc.",
+    "value": "DEPO"
   },
   {
-    value: "PIONDIST",
-    label: "PIONEER DISTILLERI",
+    "label": "Dermira, Inc.",
+    "value": "DERM"
   },
   {
-    value: "RUSHIL",
-    label: "RUSHIL DECOR LTD",
+    "label": "Destination Maternity Corporation",
+    "value": "DEST"
   },
   {
-    value: "GREENPLY",
-    label: "GREENPLY INDUSTRIE",
+    "label": "Del Frisco's Restaurant Group, Inc.",
+    "value": "DFRG"
   },
   {
-    value: "GULFOILLUB",
-    label: "GULF OIL LUBRICANT",
+    "label": "Barclays PLC",
+    "value": "DFVL"
   },
   {
-    value: "SASTASUNDR",
-    label: "SASTASUNDAR VENTUR",
+    "label": "Barclays PLC",
+    "value": "DFVS"
   },
   {
-    value: "SKFINDIA",
-    label: "SKF INDIA",
+    "label": "Delta Natural Gas Company, Inc.",
+    "value": "DGAS"
   },
   {
-    value: "HEG",
-    label: "HEG LTD",
+    "label": "Donegal Group, Inc.",
+    "value": "DGICA"
   },
   {
-    value: "IRFC",
-    label: "INDIAN RAILWAY FIN CORP L",
+    "label": "Donegal Group, Inc.",
+    "value": "DGICB"
   },
   {
-    value: "PILITA",
-    label: "PIL ITALICA LIFEST",
+    "label": "Digi International Inc.",
+    "value": "DGII"
   },
   {
-    value: "DEEPAKNTR",
-    label: "DEEPAK NITRITE",
+    "label": "Credit Suisse AG",
+    "value": "DGLD"
   },
   {
-    value: "INDOTHAI",
-    label: "INDO THAI SECURITI",
+    "label": "Digital Ally, Inc.",
+    "value": "DGLY"
   },
   {
-    value: "ASIANPAINT",
-    label: "ASIAN PAINTS LTD",
+    "label": "WisdomTree Emerging Markets Dividend Growth Fund",
+    "value": "DGRE"
   },
   {
-    value: "DESTINY",
-    label: "DESTINY LOGISTICS",
+    "label": "WisdomTree U.S. SmallCap Dividend Growth Fund",
+    "value": "DGRS"
   },
   {
-    value: "GOLDSTAR",
-    label: "GOLDSTAR POWER LTD",
+    "label": "WisdomTree U.S. Dividend Growth Fund",
+    "value": "DGRW"
   },
   {
-    value: "TIRUMALCHM",
-    label: "THIRUMALAI CHEM",
+    "label": "Diamond Hill Investment Group, Inc.",
+    "value": "DHIL"
   },
   {
-    value: "ABB",
-    label: "ABB INDIA LTD",
+    "label": "Dehaier Medical Systems Limited",
+    "value": "DHRM"
   },
   {
-    value: "DLF",
-    label: "DLF LTD",
+    "label": "Diodes Incorporated",
+    "value": "DIOD"
   },
   {
-    value: "EQUITASBNK",
-    label: "EQUITAS SMALL FIN BNK LTD",
+    "label": "Discovery Communications, Inc.",
+    "value": "DISCA"
   },
   {
-    value: "SGIL",
-    label: "SYNERGY GREEN IND. LTD",
+    "label": "Discovery Communications, Inc.",
+    "value": "DISCB"
   },
   {
-    value: "AIROLAM",
-    label: "AIRO LAM LTD",
+    "label": "Discovery Communications, Inc.",
+    "value": "DISCK"
   },
   {
-    value: "BALPHARMA",
-    label: "BAL PHARMA",
+    "label": "DISH Network Corporation",
+    "value": "DISH"
   },
   {
-    value: "HDFC",
-    label: "HOUSING DEVEL FIN",
+    "label": "Daily Journal Corp. (S.C.)",
+    "value": "DJCO"
   },
   {
-    value: "SWELECTES",
-    label: "SWELECT ENERGY SYS",
+    "label": "Barclays PLC",
+    "value": "DLBL"
   },
   {
-    value: "PRIVISCL",
-    label: "PRIVI SPECIALITY CHE LTD",
+    "label": "Barclays PLC",
+    "value": "DLBS"
   },
   {
-    value: "SHRADHA",
-    label: "SHRADHA INFRAPROJECTS LTD",
+    "label": "DLH Holdings Corp.",
+    "value": "DLHC"
   },
   {
-    value: "PUNJABCHEM",
-    label: "PUNJAB CHEM&CROP",
+    "label": "Dollar Tree, Inc.",
+    "value": "DLTR"
   },
   {
-    value: "HFCL",
-    label: "HFCL LTD",
+    "label": "Dorchester Minerals, L.P.",
+    "value": "DMLP"
   },
   {
-    value: "KELLTONTEC",
-    label: "KELLTON TECH SOLU",
+    "label": "Diamond Foods, Inc.",
+    "value": "DMND"
   },
   {
-    value: "VIPULLTD",
-    label: "VIPUL LTD",
+    "label": "Digimarc Corporation",
+    "value": "DMRC"
   },
   {
-    value: "CYBERTECH",
-    label: "CYBERTECH SYSTEMS",
+    "label": "DNB Financial Corp",
+    "value": "DNBF"
   },
   {
-    value: "LALPATHLAB",
-    label: "DR LAL PATHLABS LTD",
+    "label": "Dunkin' Brands Group, Inc.",
+    "value": "DNKN"
   },
   {
-    value: "JKLAKSHMI",
-    label: "JK LAKSHMI CEMENT",
+    "label": "Dorman Products, Inc.",
+    "value": "DORM"
   },
   {
-    value: "NOIDATOLL",
-    label: "NOIDA TOLL BRIDGE",
+    "label": "Dover Saddlery, Inc.",
+    "value": "DOVR"
   },
   {
-    value: "GOENKA",
-    label: "GOENKA DIAMOND & J",
+    "label": "Amdocs Limited",
+    "value": "DOX"
   },
   {
-    value: "GAIL",
-    label: "GAIL INDIA LTD",
+    "label": "Dipexium Pharmaceuticals, Inc.",
+    "value": "DPRX"
   },
   {
-    value: "COSMOFILMS",
-    label: "COSMO FILMS LTD",
+    "label": "Digirad Corporation",
+    "value": "DRAD"
   },
   {
-    value: "MANINFRA",
-    label: "MAN INFRACONSTRUCT",
+    "label": "Dataram Corporation",
+    "value": "DRAM"
   },
   {
-    value: "MSTCLTD",
-    label: "MSTC LTD",
+    "label": "Digital River, Inc.",
+    "value": "DRIV"
   },
   {
-    value: "SPICEJET",
-    label: "SPICEJET LTD",
+    "label": "Dicerna Pharmaceuticals, Inc.",
+    "value": "DRNA"
   },
   {
-    value: "MAITHANALL",
-    label: "MAITHAN ALLOYS LTD",
+    "label": "DURECT Corporation",
+    "value": "DRRX"
   },
   {
-    value: "SECURCRED",
-    label: "SECUR CREDENTIALS",
+    "label": "DragonWave Inc",
+    "value": "DRWI"
   },
   {
-    value: "APLAPOLLO",
-    label: "APL APOLLO TUBES",
+    "label": "DragonWave Inc",
+    "value": "DRWIW"
   },
   {
-    value: "MASTEK",
-    label: "MASTEK",
+    "label": "DryShips Inc.",
+    "value": "DRYS"
   },
   {
-    value: "ANDHRACEMT",
-    label: "ANDHRA CEMENTS",
+    "label": "Derma Sciences, Inc.",
+    "value": "DSCI"
   },
   {
-    value: "NHPC",
-    label: "NHPC LTD",
+    "label": "Discovery Laboratories, Inc.",
+    "value": "DSCO"
   },
   {
-    value: "JAIPURKURT",
-    label: "NANDANI CREATION LTD",
+    "label": "The Descartes Systems Group Inc.",
+    "value": "DSGX"
   },
   {
-    value: "QUICKHEAL",
-    label: "QUICK HEAL TECHNOL",
+    "label": "DS Healthcare Group, Inc.",
+    "value": "DSKX"
   },
   {
-    value: "SWARAJENG",
-    label: "SWARAJ ENGINES",
+    "label": "iDreamSky Technology Limited",
+    "value": "DSKY"
   },
   {
-    value: "GALAXYSURF",
-    label: "GALAXY SURFACTANTS",
+    "label": "Credit Suisse AG",
+    "value": "DSLV"
   },
   {
-    value: "RAMCOSYS",
-    label: "RAMCO SYSTEMS",
+    "label": "DSP Group, Inc.",
+    "value": "DSPG"
   },
   {
-    value: "ANANTRAJ",
-    label: "ANANT RAJ LTD",
+    "label": "Deswell Industries, Inc.",
+    "value": "DSWL"
   },
   {
-    value: "KKCL",
-    label: "KEWEL KIRAN CLOTHI",
+    "label": "Datalink Corporation",
+    "value": "DTLK"
   },
   {
-    value: "BEL",
-    label: "BHARAT ELECTRONICS",
+    "label": "DTS, Inc.",
+    "value": "DTSI"
   },
   {
-    value: "FEL",
-    label: "FUTURE ENTERPRISES",
+    "label": "Barclays PLC",
+    "value": "DTUL"
   },
   {
-    value: "KSCL",
-    label: "KAVERI SEED COMPAN",
+    "label": "Barclays PLC",
+    "value": "DTUS"
   },
   {
-    value: "NATCOPHARM",
-    label: "NATCO PHARMA LTD",
+    "label": "DIRECTV",
+    "value": "DTV"
   },
   {
-    value: "CARERATING",
-    label: "CARE RATINGS LTD",
+    "label": "Barclays PLC",
+    "value": "DTYL"
   },
   {
-    value: "INDIGO",
-    label: "INTERGLOBE AVIATIO",
+    "label": "Barclays PLC",
+    "value": "DTYS"
   },
   {
-    value: "USHAMART",
-    label: "USHA MARTIN",
+    "label": "Dynavax Technologies Corporation",
+    "value": "DVAX"
   },
   {
-    value: "TATAMTRDVR",
-    label: "TATA MOTORS LTD.",
+    "label": "Diversicare Healthcare Services Inc.",
+    "value": "DVCR"
   },
   {
-    value: "MICEL",
-    label: "MIC ELECTRONICS LTD",
+    "label": "Dreamworks Animation SKG, Inc.",
+    "value": "DWA"
   },
   {
-    value: "INDUSINDBK",
-    label: "INDUSIND BANK LTD",
+    "label": "Arrow DWA Tactical ETF",
+    "value": "DWAT"
   },
   {
-    value: "IMPAL",
-    label: "INDIA MOTOR PARTS",
+    "label": "Datawatch Corporation",
+    "value": "DWCH"
   },
   {
-    value: "BDL",
-    label: "BHARAT DYNAMICS LTD",
+    "label": "Dawson Geophysical Company",
+    "value": "DWSN"
   },
   {
-    value: "ZEELEARN",
-    label: "ZEE LEARN LTD",
+    "label": "DexCom, Inc.",
+    "value": "DXCM"
   },
   {
-    value: "WELENT",
-    label: "WELSPUN ENTERPRISE",
+    "label": "WisdomTree Germany Hedged Equity Fund",
+    "value": "DXGE"
   },
   {
-    value: "SHRIRAMCIT",
-    label: "SHRIRAM CITY UNION",
+    "label": "WisdomTree Japan Hedged SmallCap Equity Fund",
+    "value": "DXJS"
   },
   {
-    value: "J_KBANK",
-    label: "JAMMU & KASHMIR BA",
+    "label": "WisdomTree Korea Hedged Equity Fund",
+    "value": "DXKW"
   },
   {
-    value: "SERVOTECH",
-    label: "SERVOTECH POWER SYS LTD.",
+    "label": "Destination XL Group, Inc.",
+    "value": "DXLG"
   },
   {
-    value: "INDSWFTLTD",
-    label: "IND SWIFT LTD",
+    "label": "Dex Media, Inc.",
+    "value": "DXM"
   },
   {
-    value: "STARCEMENT",
-    label: "STAR CEMENT LTD",
+    "label": "DXP Enterprises, Inc.",
+    "value": "DXPE"
   },
   {
-    value: "SIYSIL",
-    label: "SIYARAM SILK",
+    "label": "WisdomTree United Kingdom Hedged Equity Fund",
+    "value": "DXPS"
   },
   {
-    value: "TVVISION",
-    label: "TV VISION LTD",
+    "label": "The Dixie Group, Inc.",
+    "value": "DXYN"
   },
   {
-    value: "PPL",
-    label: "PRAKASH PIPES LTD",
+    "label": "Dyax Corp.",
+    "value": "DYAX"
   },
   {
-    value: "TREJHARA",
-    label: "TREJHARA SOLUTIONS",
+    "label": "Dynatronics Corporation",
+    "value": "DYNT"
   },
   {
-    value: "ROLTA",
-    label: "ROLTA INDIA",
+    "label": "Dynasil Corporation of America",
+    "value": "DYSL"
   },
   {
-    value: "NCC",
-    label: "NCC LTD",
+    "label": "Electronic Arts Inc.",
+    "value": "EA"
   },
   {
-    value: "DEEPENR",
-    label: "DEEP ENE RESOURCES LTD",
+    "label": "Erickson Incorporated",
+    "value": "EAC"
   },
   {
-    value: "EDUCOMP",
-    label: "EDUCOMP SOLUTIONS",
+    "label": "Auris Medical Holding AG",
+    "value": "EARS"
   },
   {
-    value: "RATNAMANI",
-    label: "RATNAMANI MET &TBS",
+    "label": "eBay Inc.",
+    "value": "EBAY"
   },
   {
-    value: "SALONA",
-    label: "SALONA COTSPIN",
+    "label": "Eleven Biotherapeutics, Inc.",
+    "value": "EBIO"
   },
   {
-    value: "RCOM",
-    label: "RELIANCE COMM LTD",
+    "label": "Ebix, Inc.",
+    "value": "EBIX"
   },
   {
-    value: "UCOBANK",
-    label: "UCO BANK",
+    "label": "Eagle Bancorp Montana, Inc.",
+    "value": "EBMT"
   },
   {
-    value: "MUKANDLTD",
-    label: "MUKAND",
+    "label": "Meridian Bancorp, Inc.",
+    "value": "EBSB"
   },
   {
-    value: "VISHWARAJ",
-    label: "VISHWARAJ SUGAR IND LTD",
+    "label": "Enterprise Bancorp Inc",
+    "value": "EBTC"
   },
   {
-    value: "KSL",
-    label: "KALYANI STEELS",
+    "label": "Echo Global Logistics, Inc.",
+    "value": "ECHO"
   },
   {
-    value: "TNPL",
-    label: "TAMIL NADU NEWSPRI",
+    "label": "US Ecology, Inc.",
+    "value": "ECOL"
   },
   {
-    value: "SUPRIYA",
-    label: "SUPRIYA LIFESCIENCE LTD",
+    "label": "Encore Capital Group Inc",
+    "value": "ECPG"
   },
   {
-    value: "BAJAJFINSV",
-    label: "BAJAJ FINSERV LTD",
+    "label": "Echo Therapeutics, Inc.",
+    "value": "ECTE"
   },
   {
-    value: "REMSONSIND",
-    label: "REMSONS INDS",
+    "label": "Endocyte, Inc.",
+    "value": "ECYT"
   },
   {
-    value: "JASH",
-    label: "JASH ENGINEERING LTD",
+    "label": "EDAP TMS S.A.",
+    "value": "EDAP"
   },
   {
-    value: "GODFRYPHLP",
-    label: "GODFREY PHILLIPS",
+    "label": "Edgewater Technology, Inc.",
+    "value": "EDGW"
   },
   {
-    value: "NIITLTD",
-    label: "NIIT",
+    "label": "Exceed Company Ltd.",
+    "value": "EDS"
   },
   {
-    value: "SREINFRA",
-    label: "SREI INFRASTRUCTUR",
+    "label": "Educational Development Corporation",
+    "value": "EDUC"
   },
   {
-    value: "HEXATRADEX",
-    label: "HEXA TRADEX LTD",
+    "label": "Euronet Worldwide, Inc.",
+    "value": "EEFT"
   },
   {
-    value: "ADVENZYMES",
-    label: "ADVANCED ENZYME TE",
+    "label": "Ecology and Environment, Inc.",
+    "value": "EEI"
   },
   {
-    value: "SANGHIIND",
-    label: "SANGHI INDUSTRIES",
+    "label": "iShares MSCI Emerging Markets Asia Index Fund",
+    "value": "EEMA"
   },
   {
-    value: "GTL",
-    label: "GTL LTD",
+    "label": "iShares MSCI Emerging Markets EMEA Index Fund",
+    "value": "EEME"
   },
   {
-    value: "TARSONS",
-    label: "TARSONS PRODUCTS LTD",
+    "label": "iShares MSCI Emerging Markets Latin America Index Fund",
+    "value": "EEML"
   },
   {
-    value: "SIRCA",
-    label: "SIRCA PAINT INDIA LTD",
+    "label": "Electronics for Imaging, Inc.",
+    "value": "EFII"
   },
   {
-    value: "ECLERX",
-    label: "ECLERX SERVICES",
+    "label": "Energy Focus, Inc.",
+    "value": "EFOI"
   },
   {
-    value: "ATUL",
-    label: "ATUL LTD",
+    "label": "Enterprise Financial Services Corporation",
+    "value": "EFSC"
   },
   {
-    value: "ASPINWALL",
-    label: "ASPINWALL AND COMP",
+    "label": "eFuture Information Technology Inc.",
+    "value": "EFUT"
   },
   {
-    value: "SUNTV",
-    label: "SUN TV NETWORK LTD",
+    "label": "eGain Corporation",
+    "value": "EGAN"
   },
   {
-    value: "KAUSHALYA",
-    label: "KAUSHALYA INFRASTR",
+    "label": "Eagle Bancorp, Inc.",
+    "value": "EGBN"
   },
   {
-    value: "OSWALAGRO",
-    label: "OSWAL AGRO MILLS",
+    "label": "8x8 Inc",
+    "value": "EGHT"
   },
   {
-    value: "RELIANCE",
-    label: "RELIANCE INDS",
+    "label": "Eagle Bulk Shipping Inc.",
+    "value": "EGLE"
   },
   {
-    value: "AKSHARCHEM",
-    label: "AKSHARCHEM (INDIA)",
+    "label": "Egalet Corporation",
+    "value": "EGLT"
   },
   {
-    value: "AXISBANK",
-    label: "AXIS BANK",
+    "label": "NIC Inc.",
+    "value": "EGOV"
   },
   {
-    value: "EIHOTEL",
-    label: "EIH LTD",
+    "label": "iShares MSCI Emerging Markets Growth Index Fund",
+    "value": "EGRW"
   },
   {
-    value: "PPAP",
-    label: "PPAP AUTOMOTIVE LTD",
+    "label": "Eagle Pharmaceuticals, Inc.",
+    "value": "EGRX"
   },
   {
-    value: "BANSWRAS",
-    label: "BANSWARA SYNTEX",
+    "label": "Entertainment Gaming Asia Incorporated",
+    "value": "EGT"
   },
   {
-    value: "FELDVR",
-    label: "FUTURE ENTERPRISES",
+    "label": "eHealth, Inc.",
+    "value": "EHTH"
   },
   {
-    value: "AARTIIND",
-    label: "AARTI IND LTD",
+    "label": "Endurance International Group Holdings, Inc.",
+    "value": "EIGI"
   },
   {
-    value: "IRB",
-    label: "IRB INFRASTRUCTURE",
+    "label": "Endologix, Inc.",
+    "value": "ELGX"
   },
   {
-    value: "WENDT",
-    label: "WENDT (INDIA)",
+    "label": "EarthLink Holdings Corp.",
+    "value": "ELNK"
   },
   {
-    value: "IIFLSEC",
-    label: "IIFL SECURITIES",
+    "label": "Echelon Corporation",
+    "value": "ELON"
   },
   {
-    value: "RELCAPITAL",
-    label: "RELIANCE CAPITAL",
+    "label": "Syneron Medical Ltd.",
+    "value": "ELOS"
   },
   {
-    value: "HITECH",
-    label: "HI TECH PIPES LTD",
+    "label": "Electro Rent Corporation",
+    "value": "ELRC"
   },
   {
-    value: "STERTOOLS",
-    label: "STERLING TOOLS",
+    "label": "Electro",
+    "value": "ELSE"
   },
   {
-    value: "CORDSCABLE",
-    label: "CORDS CABLE INDUST",
+    "label": "Eltek Ltd.",
+    "value": "ELTK"
   },
   {
-    value: "PIIND",
-    label: "PI INDUSTRIES",
+    "label": "WisdomTree Emerging Markets Corporate Bond Fund",
+    "value": "EMCB"
   },
   {
-    value: "L_TFH",
-    label: "L&T FINANCE HOLDIN",
+    "label": "Emclaire Financial Corp",
+    "value": "EMCF"
   },
   {
-    value: "PCJEWELLER",
-    label: "PC JEWELLER LTD",
+    "label": "WisdomTree Emerging Markets Consumer Growth Fund",
+    "value": "EMCG"
   },
   {
-    value: "BHARATGEAR",
-    label: "BHARAT GEARS",
+    "label": "EMC Insurance Group Inc.",
+    "value": "EMCI"
   },
   {
-    value: "DATAMATICS",
-    label: "DATAMATICS GLOBAL",
+    "label": "iShares MSCI Emerging Markets Consumer Discrectionary Sector Index Fund",
+    "value": "EMDI"
   },
   {
-    value: "LGBFORGE",
-    label: "LGB FORGE LTD",
+    "label": "iShares MSCI Emerging Markets Energy Sector Capped Index Fund",
+    "value": "EMEY"
   },
   {
-    value: "ESCORTS",
-    label: "ESCORTS",
+    "label": "iShares S&P Emerging Markets Infrastructure Index Fund",
+    "value": "EMIF"
   },
   {
-    value: "LAURUSLABS",
-    label: "LAURUS LABS LTD",
+    "label": "Elbit Imaging Ltd.",
+    "value": "EMITF"
   },
   {
-    value: "BEML",
-    label: "BEML LTD",
+    "label": "EMCORE Corporation",
+    "value": "EMKR"
   },
   {
-    value: "MINDTECK",
-    label: "MINDTECK(INDIA)",
+    "label": "Eastern Company (The)",
+    "value": "EML"
   },
   {
-    value: "TIDEWATER",
-    label: "TIDE WATER OIL (INDIA) LTD.",
+    "label": "Emmis Communications Corporation",
+    "value": "EMMS"
   },
   {
-    value: "MIRZAINT",
-    label: "MIRZA INTERNATIONA",
+    "label": "Emmis Communications Corporation",
+    "value": "EMMSP"
   },
   {
-    value: "INDHOTEL",
-    label: "INDIAN HOTELS",
+    "label": "Endo International plc",
+    "value": "ENDP"
   },
   {
-    value: "DPWIRES",
-    label: "D P WIRES LTD",
+    "label": "Entegra Financial Corp.",
+    "value": "ENFC"
   },
   {
-    value: "APOLLOHOSP",
-    label: "APOLLO HOSPITALS.",
+    "label": "ENGlobal Corporation",
+    "value": "ENG"
   },
   {
-    value: "KAMDHENU",
-    label: "KAMDHENU LTD",
+    "label": "EnerNOC, Inc.",
+    "value": "ENOC"
   },
   {
-    value: "CESC",
-    label: "CESC",
+    "label": "Enphase Energy, Inc.",
+    "value": "ENPH"
   },
   {
-    value: "RANEHOLDIN",
-    label: "RANE HOLDINGS LTD",
+    "label": "The Ensign Group, Inc.",
+    "value": "ENSG"
   },
   {
-    value: "KALYANKJIL",
-    label: "KALYAN JEWELLERS IND LTD",
+    "label": "Global Eagle Entertainment Inc.",
+    "value": "ENT"
   },
   {
-    value: "DUCON",
-    label: "DUCON INFRATECHNOL",
+    "label": "Enanta Pharmaceuticals, Inc.",
+    "value": "ENTA"
   },
   {
-    value: "SNOWMAN",
-    label: "SNOWMAN LOGISTICS",
+    "label": "Entegris, Inc.",
+    "value": "ENTG"
   },
   {
-    value: "KPITTECH",
-    label: "KPIT TECHNOLOGIES",
+    "label": "Entropic Communications, Inc.",
+    "value": "ENTR"
   },
   {
-    value: "GILLETTE",
-    label: "GILLETTE INDIA LTD",
+    "label": "Envivio, Inc.",
+    "value": "ENVI"
   },
   {
-    value: "JETAIRWAYS",
-    label: "JET AIRWAYS INDIA",
+    "label": "Enzon Pharmaceuticals, Inc.",
+    "value": "ENZN"
   },
   {
-    value: "TVSMOTOR",
-    label: "TVS MOTOR CO",
+    "label": "Enzymotec Ltd.",
+    "value": "ENZY"
   },
   {
-    value: "ARVINDFASN",
-    label: "ARVIND FASHIONS LTD",
+    "label": "E2open, Inc.",
+    "value": "EOPN"
   },
   {
-    value: "PANAMAPET",
-    label: "PANAMA PETROCHEM L",
+    "label": "Ambassadors Group, Inc.",
+    "value": "EPAX"
   },
   {
-    value: "VSSL",
-    label: "VARDHMAN SPECIAL S",
+    "label": "Bottomline Technologies, Inc.",
+    "value": "EPAY"
   },
   {
-    value: "PRSMJOHNSN",
-    label: "PRISM JOHNSON LTD",
+    "label": "EPIQ Systems, Inc.",
+    "value": "EPIQ"
   },
   {
-    value: "MAHEPC",
-    label: "MAHINDRA EPC IRRIG LTD",
+    "label": "EPIRUS Biopharmaceuticals, Inc.",
+    "value": "EPRS"
   },
   {
-    value: "CMSINFO",
-    label: "CMS INFO SYSTEMS LTD",
+    "label": "Epizyme, Inc.",
+    "value": "EPZM"
   },
   {
-    value: "DCMSHRIRAM",
-    label: "DCM SHRIRAM LTD",
+    "label": "Equinix, Inc.",
+    "value": "EQIX"
   },
   {
-    value: "GPPL",
-    label: "GUJARAT PIPAVAV PO",
+    "label": "Eldorado Resorts, Inc.",
+    "value": "ERI"
   },
   {
-    value: "SONACOMS",
-    label: "SONA BLW PRECISION FRGS L",
+    "label": "Ericsson",
+    "value": "ERIC"
   },
   {
-    value: "AARTIDRUGS",
-    label: "AARTI DRUGS LTD",
+    "label": "Erie Indemnity Company",
+    "value": "ERIE"
   },
   {
-    value: "LPDC",
-    label: "LANDMARK PROP DEV",
+    "label": "Energy Recovery, Inc.",
+    "value": "ERII"
   },
   {
-    value: "VIVIDHA",
-    label: "VISAGAR POLYTEX",
+    "label": "Eagle Rock Energy Partners, L.P.",
+    "value": "EROC"
   },
   {
-    value: "POWERMECH",
-    label: "POWER MECH PROJECT",
+    "label": "Empire Resources, Inc.",
+    "value": "ERS"
   },
   {
-    value: "OILCOUNTUB",
-    label: "OIL COUNTRY TUBULR",
+    "label": "VelocityShares Equal Risk Weighted Large Cap ETF",
+    "value": "ERW"
   },
   {
-    value: "JSWISPL",
-    label: "JSW ISPAT SPE PRO LTD",
+    "label": "ESB Financial Corporation",
+    "value": "ESBF"
   },
   {
-    value: "PFS",
-    label: "PTC INDIA FINANCIA",
+    "label": "Elmira Savings Bank NY (The)",
+    "value": "ESBK"
   },
   {
-    value: "ONGC",
-    label: "OIL & NATURAL GAS",
+    "label": "Escalade, Incorporated",
+    "value": "ESCA"
   },
   {
-    value: "MIDHANI",
-    label: "MISHRA DHATU NIGAM",
+    "label": "Escalera Resources Co.",
+    "value": "ESCR"
   },
   {
-    value: "VISESHINFO",
-    label: "VISESH INFOTECNICS",
+    "label": "Escalera Resources Co.",
+    "value": "ESCRP"
   },
   {
-    value: "NAZARA",
-    label: "NAZARA TECHNOLOGIES LTD",
+    "label": "Euroseas Ltd.",
+    "value": "ESEA"
   },
   {
-    value: "MMTC",
-    label: "MMTC",
+    "label": "Enstar Group Limited",
+    "value": "ESGR"
   },
   {
-    value: "IOLCP",
-    label: "IOL CHEMICALS&PHAR",
+    "label": "Electro Scientific Industries, Inc.",
+    "value": "ESIO"
   },
   {
-    value: "JKPAPER",
-    label: "JK PAPER LTD",
+    "label": "Elbit Systems Ltd.",
+    "value": "ESLT"
   },
   {
-    value: "JKTYRE",
-    label: "JK TYRE&INDUSTRIES",
+    "label": "Escalon Medical Corp.",
+    "value": "ESMC"
   },
   {
-    value: "VINEETLAB",
-    label: "VINEET LABORATORIES LTD",
+    "label": "Esperion Therapeutics, Inc.",
+    "value": "ESPR"
   },
   {
-    value: "MUNJALAU",
-    label: "MUNJAL AUTO INDUST",
+    "label": "Express Scripts Holding Company",
+    "value": "ESRX"
   },
   {
-    value: "SBICARD",
-    label: "SBI CARDS & PAYMEN",
+    "label": "ESSA Bancorp, Inc.",
+    "value": "ESSA"
   },
   {
-    value: "FORTIS",
-    label: "FORTIS HLTH (INDIA",
+    "label": "Essex Rental Corporation",
+    "value": "ESSX"
   },
   {
-    value: "SANGAMIND",
-    label: "SANGAM INDIA",
+    "label": "Community Bankers Trust Corporation.",
+    "value": "ESXB"
   },
   {
-    value: "TITAN",
-    label: "TITAN COMPANY LTD",
+    "label": "Elecsys Corporation",
+    "value": "ESYS"
   },
   {
-    value: "GOKULAGRO",
-    label: "GOKUL AGRO RES LTD",
+    "label": "E*TRADE Financial Corporation",
+    "value": "ETFC"
   },
   {
-    value: "SHIL",
-    label: "SOMANY HOM INNOVATION LTD",
+    "label": "EnteroMedics Inc.",
+    "value": "ETRM"
   },
   {
-    value: "SHRIRAMPPS",
-    label: "SHRIRAM PROPERTIES LTD",
+    "label": "iShares MSCI Europe Financials Sector Index Fund",
+    "value": "EUFN"
   },
   {
-    value: "SRF",
-    label: "SRF LTD",
+    "label": "iShares MSCI Emerging Markets Value Index Fund",
+    "value": "EVAL"
   },
   {
-    value: "MARUTI",
-    label: "MARUTI SUZUKI IND",
+    "label": "Lombard Medical, Inc.",
+    "value": "EVAR"
   },
   {
-    value: "FORCEMOT",
-    label: "FORCE MOTORS LTD",
+    "label": "Eastern Virginia Bankshares, Inc.",
+    "value": "EVBS"
   },
   {
-    value: "SHIVALIK",
-    label: "SHIVALIK RASAYAN LTD",
+    "label": "EV Energy Partners, L.P.",
+    "value": "EVEP"
   },
   {
-    value: "SUTLEJTEX",
-    label: "SUTLEJ TEXTILES",
+    "label": "Ever",
+    "value": "EVK"
   },
   {
-    value: "TIIL",
-    label: "TECHNOCRAFT INDUST",
+    "label": "EVINE Live Inc.",
+    "value": "EVLV"
   },
   {
-    value: "AAVAS",
-    label: "AAVAS FINANCIERS L",
+    "label": "Evoke Pharma, Inc.",
+    "value": "EVOK"
   },
   {
-    value: "INTELLECT",
-    label: "INTELLECT DESIGN A",
+    "label": "Evolving Systems, Inc.",
+    "value": "EVOL"
   },
   {
-    value: "RIIL",
-    label: "RELIANCE IND INFRA",
+    "label": "EveryWare Global, Inc.",
+    "value": "EVRY"
   },
   {
-    value: "BRITANNIA",
-    label: "BRITANNIA INDS",
+    "label": "East West Bancorp, Inc.",
+    "value": "EWBC"
   },
   {
-    value: "CLSEL",
-    label: "CHAMAN LAL SETIA EXP LTD",
+    "label": "Exa Corporation",
+    "value": "EXA"
   },
   {
-    value: "VIKASWSP",
-    label: "VIKAS WSP",
+    "label": "Exactech, Inc.",
+    "value": "EXAC"
   },
   {
-    value: "GRSE",
-    label: "GARDEN REACH SHIPB",
+    "label": "Exact Sciences Corporation",
+    "value": "EXAS"
   },
   {
-    value: "NOCIL",
-    label: "NOCIL LTD",
+    "label": "Exelixis, Inc.",
+    "value": "EXEL"
   },
   {
-    value: "RKFORGE",
-    label: "RAMKRISHNA FORGINS",
+    "label": "EXFO Inc",
+    "value": "EXFO"
   },
   {
-    value: "HINDOILEXP",
-    label: "HINDUSTAN OIL EXPL",
+    "label": "Exterran Partners, L.P.",
+    "value": "EXLP"
   },
   {
-    value: "CYBERMEDIA",
-    label: "CYBER MEDIA (INDIA",
+    "label": "ExlService Holdings, Inc.",
+    "value": "EXLS"
   },
   {
-    value: "3PLAND",
-    label: "3P LAND HOLDINGS L",
+    "label": "Expeditors International of Washington, Inc.",
+    "value": "EXPD"
   },
   {
-    value: "JBFIND",
-    label: "JBF INDUSTRIES",
+    "label": "Expedia, Inc.",
+    "value": "EXPE"
   },
   {
-    value: "MALLCOM",
-    label: "MALLCOM (INDIA) LTD",
+    "label": "Exponent, Inc.",
+    "value": "EXPO"
   },
   {
-    value: "SUNPHARMA",
-    label: "SUN PHARMACEUTICAL",
+    "label": "Extreme Networks, Inc.",
+    "value": "EXTR"
   },
   {
-    value: "VINYLINDIA",
-    label: "VINYL CHEMICALS(IN",
+    "label": "Energy XXI Ltd.",
+    "value": "EXXI"
   },
   {
-    value: "EPL",
-    label: "EPL LTD",
+    "label": "Second Sight Medical Products, Inc.",
+    "value": "EYES"
   },
   {
-    value: "MPHASIS",
-    label: "MPHASIS LTD",
+    "label": "EZchip Semiconductor Limited",
+    "value": "EZCH"
   },
   {
-    value: "3MINDIA",
-    label: "3M INDIA LTD",
+    "label": "EZCORP, Inc.",
+    "value": "EZPW"
   },
   {
-    value: "SURANI",
-    label: "SURANI STEEL TUBES",
+    "label": "FalconStor Software, Inc.",
+    "value": "FALC"
   },
   {
-    value: "ICICIGI",
-    label: "ICICI LOMBARD GEN",
+    "label": "Diamondback Energy, Inc.",
+    "value": "FANG"
   },
   {
-    value: "APTUS",
-    label: "APTUS VALUE HSG FIN I LTD",
+    "label": "Farmer Brothers Company",
+    "value": "FARM"
   },
   {
-    value: "21STCENMGM",
-    label: "21ST CENTURY MANAG",
+    "label": "FARO Technologies, Inc.",
+    "value": "FARO"
   },
   {
-    value: "SHARDAMOTR",
-    label: "SHARDA MOTOR INDUS",
+    "label": "Fastenal Company",
+    "value": "FAST"
   },
   {
-    value: "SOUTHBANK",
-    label: "SOUTH INDIA BANK",
+    "label": "Fate Therapeutics, Inc.",
+    "value": "FATE"
   },
   {
-    value: "KOTAKBANK",
-    label: "KOTAK MAHINDRA BAN",
+    "label": "Facebook, Inc.",
+    "value": "FB"
   },
   {
-    value: "IRCTC",
-    label: "INDIAN RAIL TOUR CORP LTD",
+    "label": "First Business Financial Services, Inc.",
+    "value": "FBIZ"
   },
   {
-    value: "HISARMETAL",
-    label: "HISAR METAL INDUST",
+    "label": "The First Bancshares, Inc.",
+    "value": "FBMS"
   },
   {
-    value: "ONMOBILE",
-    label: "ONMOBILE GLOBAL LTD",
+    "label": "First Bancorp",
+    "value": "FBNC"
   },
   {
-    value: "SPLIL",
-    label: "SPL INDUSTRIES LTD",
+    "label": "First Connecticut Bancorp, Inc.",
+    "value": "FBNK"
   },
   {
-    value: "OLECTRA",
-    label: "OLECTRA GREENTECH",
+    "label": "FBR & Co",
+    "value": "FBRC"
   },
   {
-    value: "BFUTILITIE",
-    label: "BF UTILITIES LTD",
+    "label": "Fauquier Bankshares, Inc.",
+    "value": "FBSS"
   },
   {
-    value: "DELTACORP",
-    label: "DELTA CORP LTD",
+    "label": "First Capital, Inc.",
+    "value": "FCAP"
   },
   {
-    value: "SANGINITA",
-    label: "SANGINITA CHEMICALS LTD",
+    "label": "First Community Bancshares, Inc.",
+    "value": "FCBC"
   },
   {
-    value: "EXIDEIND",
-    label: "EXIDE INDUSTRIES",
+    "label": "First Community Corporation",
+    "value": "FCCO"
   },
   {
-    value: "PRECAM",
-    label: "PRECISION CAMSHAF",
+    "label": "1st Constitution Bancorp (NJ)",
+    "value": "FCCY"
   },
   {
-    value: "WONDERLA",
-    label: "WONDERLA HOLIDAYS",
+    "label": "FuelCell Energy, Inc.",
+    "value": "FCEL"
   },
   {
-    value: "PCBL",
-    label: "PCBL LTD",
+    "label": "First Cash Financial Services, Inc.",
+    "value": "FCFS"
   },
   {
-    value: "BANG",
-    label: "BANG OVERSEAS LTD",
+    "label": "iShares FTSE China (HK Listed) Index Fund",
+    "value": "FCHI"
   },
   {
-    value: "SUVIDHAA",
-    label: "SUVIDHAA INFOSERVE LTD",
+    "label": "First Clover Leaf Financial Corp.",
+    "value": "FCLF"
   },
   {
-    value: "NETWORK18",
-    label: "NETWORK 18 MEDIA",
+    "label": "First Citizens BancShares, Inc.",
+    "value": "FCNCA"
   },
   {
-    value: "BHANDARI",
-    label: "BHANDARI HOSIERY E",
+    "label": "Fairchild Semiconductor International, Inc.",
+    "value": "FCS"
   },
   {
-    value: "PANACEABIO",
-    label: "PANACEA BIOTEC LTD",
+    "label": "Fibrocell Science Inc",
+    "value": "FCSC"
   },
   {
-    value: "BIOCON",
-    label: "BIOCON LTD",
+    "label": "1st Century Bancshares, Inc",
+    "value": "FCTY"
   },
   {
-    value: "ADANIPORTS",
-    label: "ADANI PORT SPECIAL",
+    "label": "First Capital Bancorp, Inc. (VA)",
+    "value": "FCVA"
   },
   {
-    value: "MOTILALOFS",
-    label: "MOTILAL OSWAL FINA",
+    "label": "First Citizens Banc Corp.",
+    "value": "FCZA"
   },
   {
-    value: "SHYAMMETL",
-    label: "SHYAM METALICS AND ENGY L",
+    "label": "First Citizens Banc Corp.",
+    "value": "FCZAP"
   },
   {
-    value: "DAMODARIND",
-    label: "DAMODAR INDUSTRIES",
+    "label": "First Defiance Financial Corp.",
+    "value": "FDEF"
   },
   {
-    value: "INVENTURE",
-    label: "INVENTURE GROWTH &",
+    "label": "First Trust Strategic Income ETF",
+    "value": "FDIV"
   },
   {
-    value: "TVTODAY",
-    label: "TV TODAY NETWORK",
+    "label": "Federal",
+    "value": "FDML"
   },
   {
-    value: "TDPOWERSYS",
-    label: "TD POWER SYSTEMS P",
+    "label": "Fidus Investment Corporation",
+    "value": "FDUS"
   },
   {
-    value: "FEDERALBNK",
-    label: "FED BANK",
+    "label": "FEI Company",
+    "value": "FEIC"
   },
   {
-    value: "SHIVAMILLS",
-    label: "SHIVA MILLS LTD",
+    "label": "Frequency Electronics, Inc.",
+    "value": "FEIM"
   },
   {
-    value: "RELINFRA",
-    label: "RELIANCE INFRASTRU",
+    "label": "Franklin Electric Co., Inc.",
+    "value": "FELE"
   },
   {
-    value: "LINCOLN",
-    label: "LINCOLN PHARMA LTD",
+    "label": "First Trust Emerging Markets Local Currency Bond ETF",
+    "value": "FEMB"
   },
   {
-    value: "BROOKS",
-    label: "BROOKS LAB LTD",
+    "label": "Forbes Energy Services Ltd",
+    "value": "FES"
   },
   {
-    value: "ROHITFERRO",
-    label: "ROHIT FERRO-TECH",
+    "label": "First Trust Eurozone AlphaDEX ETF",
+    "value": "FEUZ"
   },
   {
-    value: "ABCAPITAL",
-    label: "ADITYA BIRLA CAPIT",
+    "label": "FireEye, Inc.",
+    "value": "FEYE"
   },
   {
-    value: "FINEORG",
-    label: "FINE ORGANIC IND",
+    "label": "First Financial Bancorp.",
+    "value": "FFBC"
   },
   {
-    value: "SALSTEEL",
-    label: "SAL STEEL LTD",
+    "label": "First Financial Bancorp.",
+    "value": "FFBCW"
   },
   {
-    value: "SUMEETINDS",
-    label: "SUMEET INDUSTRIES",
+    "label": "Fuwei Films (Holdings) Co., Ltd.",
+    "value": "FFHL"
   },
   {
-    value: "VETO",
-    label: "VETO SWITCHGEARS A",
+    "label": "Flushing Financial Corporation",
+    "value": "FFIC"
   },
   {
-    value: "TBZ",
-    label: "TRIBHOVANDAS BHIMJ",
+    "label": "First Financial Bankshares, Inc.",
+    "value": "FFIN"
   },
   {
-    value: "KOLTEPATIL",
-    label: "KOLTE-PATIL DEVELO",
+    "label": "F5 Networks, Inc.",
+    "value": "FFIV"
   },
   {
-    value: "HDFCAMC",
-    label: "HDFC ASSET MANAGEM",
+    "label": "Farmers Capital Bank Corporation",
+    "value": "FFKT"
   },
   {
-    value: "IFCI",
-    label: "IFCI LTD",
+    "label": "First Federal of Northern Michigan Bancorp, Inc.",
+    "value": "FFNM"
   },
   {
-    value: "JMFINANCIL",
-    label: "JM FINANCIAL",
+    "label": "First Financial Northwest, Inc.",
+    "value": "FFNW"
   },
   {
-    value: "AAREYDRUGS",
-    label: "AAREY DRUGS & PHARM LTD",
+    "label": "First Foundation Inc.",
+    "value": "FFWM"
   },
   {
-    value: "SUULD",
-    label: "SUUMAYA LIFESTYLE LTD",
+    "label": "FibroGen, Inc",
+    "value": "FGEN"
   },
   {
-    value: "LYPSAGEMS",
-    label: "LYPSA GEMS & JEWEL",
+    "label": "Female Health Company (The)",
+    "value": "FHCO"
   },
   {
-    value: "GUJAPOLLO",
-    label: "GUJARAT APOLLO IND",
+    "label": "First Interstate BancSystem, Inc.",
+    "value": "FIBK"
   },
   {
-    value: "ZOMATO",
-    label: "ZOMATO LTD",
+    "label": "The Finish Line, Inc.",
+    "value": "FINL"
   },
   {
-    value: "MOL",
-    label: "MEGHMANI ORGANICS LTD",
+    "label": "Marlin Midstream Partners, LP",
+    "value": "FISH"
   },
   {
-    value: "MILTON",
-    label: "MILTON INDUSTRIES",
+    "label": "Financial Institutions, Inc.",
+    "value": "FISI"
   },
   {
-    value: "E2E",
-    label: "E2E NETWORKS LTD",
+    "label": "Fiserv, Inc.",
+    "value": "FISV"
   },
   {
-    value: "IDBI",
-    label: "IDBI BANK LTD",
+    "label": "Fifth Third Bancorp",
+    "value": "FITB"
   },
   {
-    value: "TATASTEEL",
-    label: "TATA STEEL LTD",
+    "label": "Fifth Third Bancorp",
+    "value": "FITBI"
   },
   {
-    value: "ADSL",
-    label: "ALLIED DIGITAL SER",
+    "label": "Five Below, Inc.",
+    "value": "FIVE"
   },
   {
-    value: "BCP",
-    label: "B.C. POWER CONTROLS LTD",
+    "label": "Five9, Inc.",
+    "value": "FIVN"
   },
   {
-    value: "NAVINFLUOR",
-    label: "NAVIN FLUORINE INT",
+    "label": "National Beverage Corp.",
+    "value": "FIZZ"
   },
   {
-    value: "DCW",
-    label: "DCW",
+    "label": "Barclays PLC",
+    "value": "FLAT"
   },
   {
-    value: "NUVOCO",
-    label: "NUVOCO VISTAS CORP LTD",
+    "label": "Fluidigm Corporation",
+    "value": "FLDM"
   },
   {
-    value: "ORIENTBELL",
-    label: "ORIENT BELL LTD",
+    "label": "Flextronics International Ltd.",
+    "value": "FLEX"
   },
   {
-    value: "TATAMETALI",
-    label: "TATA METALIKS",
+    "label": "The First of Long Island Corporation",
+    "value": "FLIC"
   },
   {
-    value: "TERASOFT",
-    label: "TERA SOFTWARE",
+    "label": "FLIR Systems, Inc.",
+    "value": "FLIR"
   },
   {
-    value: "TATACHEM",
-    label: "TATA CHEMICALS",
+    "label": "Full House Resorts, Inc.",
+    "value": "FLL"
   },
   {
-    value: "CENTEXT",
-    label: "CENTURY EXTRUSIONS",
+    "label": "Flamel Technologies S.A.",
+    "value": "FLML"
   },
   {
-    value: "SIGACHI",
-    label: "SIGACHI INDUSTRIES LTD",
+    "label": "1",
+    "value": "FLWS"
   },
   {
-    value: "RPGLIFE",
-    label: "RPG LIFE SCIENCES",
+    "label": "Flexion Therapeutics, Inc.",
+    "value": "FLXN"
   },
   {
-    value: "BKMINDST",
-    label: "BKM INDUSTRIES LTD",
+    "label": "Flexsteel Industries, Inc.",
+    "value": "FLXS"
   },
   {
-    value: "BPL",
-    label: "BPL",
+    "label": "First Trust Managed Municipal ETF",
+    "value": "FMB"
   },
   {
-    value: "FCONSUMER",
-    label: "FUTURE CONSUMER LTD",
+    "label": "First Mid",
+    "value": "FMBH"
   },
   {
-    value: "ANURAS",
-    label: "ANUPAM RASAYAN INDIA LTD",
+    "label": "First Midwest Bancorp, Inc.",
+    "value": "FMBI"
   },
   {
-    value: "DATAPATTNS",
-    label: "DATA PATTERNS INDIA LTD",
+    "label": "FirstMerit Corporation",
+    "value": "FMER"
   },
   {
-    value: "GOLDIAM",
-    label: "GOLDIAM INTERNATL",
+    "label": "Foundation Medicine, Inc.",
+    "value": "FMI"
   },
   {
-    value: "ALKEM",
-    label: "ALKEM LAB LTD",
+    "label": "Farmers National Banc Corp.",
+    "value": "FMNB"
   },
   {
-    value: "LICHSGFIN",
-    label: "LIC HOUSING FINAN",
+    "label": "First NBC Bank Holding Company",
+    "value": "FNBC"
   },
   {
-    value: "IIFL",
-    label: "IIFL FINANCE LTD",
+    "label": "First Niagara Financial Group Inc.",
+    "value": "FNFG"
   },
   {
-    value: "SURYALAXMI",
-    label: "SURYALAKSHMI COTTO",
+    "label": "Financial Engines, Inc.",
+    "value": "FNGN"
   },
   {
-    value: "PRAKASH",
-    label: "PRAKASH INDUSTRIES",
+    "label": "Federated National Holding Company",
+    "value": "FNHC"
   },
   {
-    value: "KHAICHEM",
-    label: "KHAITAN CHEM & FERT LTD",
+    "label": "Finjan Holdings, Inc.",
+    "value": "FNJN"
   },
   {
-    value: "KRSNAA",
-    label: "KRSNAA DIAGNOSTICS LTD",
+    "label": "First Bancorp, Inc (ME)",
+    "value": "FNLC"
   },
   {
-    value: "VSTIND",
-    label: "VST INDUSTRIES",
+    "label": "ForceField Energy Inc.",
+    "value": "FNRG"
   },
   {
-    value: "HAPPSTMNDS",
-    label: "HAPPIEST MINDS TECHNO LTD",
+    "label": "Finisar Corporation",
+    "value": "FNSR"
   },
   {
-    value: "SAKUMA",
-    label: "SAKUMA EXPORTS LTD",
+    "label": "Amicus Therapeutics, Inc.",
+    "value": "FOLD"
   },
   {
-    value: "ADORWELD",
-    label: "ADOR WELDING",
+    "label": "Foamix Pharmaceuticals Ltd.",
+    "value": "FOMX"
   },
   {
-    value: "MARINE",
-    label: "MARINE ELECTRICAL (I) LTD",
+    "label": "First Trust NASDAQ CEA Smartphone Index Fund",
+    "value": "FONE"
   },
   {
-    value: "CELEBRITY",
-    label: "CELEBRITY FASHIONS",
+    "label": "Fonar Corporation",
+    "value": "FONR"
   },
   {
-    value: "MAPMYINDIA",
-    label: "C.E. INFO SYSTEMS LTD",
+    "label": "Forward Industries, Inc.",
+    "value": "FORD"
   },
   {
-    value: "IL_FSTRANS",
-    label: "IL&FS TRANSP NTWK",
+    "label": "FormFactor, Inc.",
+    "value": "FORM"
   },
   {
-    value: "BURNPUR",
-    label: "BURNPUR CEMENT LTD",
+    "label": "Forrester Research, Inc.",
+    "value": "FORR"
   },
   {
-    value: "AFFLE",
-    label: "AFFLE (INDIA) LTD",
+    "label": "Formula Systems (1985) Ltd.",
+    "value": "FORTY"
   },
   {
-    value: "ORIENTLTD",
-    label: "ORIENT PRESS LTD",
+    "label": "Fossil Group, Inc.",
+    "value": "FOSL"
   },
   {
-    value: "PAGEIND",
-    label: "PAGE INDUSTRIES LTD",
+    "label": "Twenty",
+    "value": "FOX"
   },
   {
-    value: "PIONEEREMB",
-    label: "PIONEER EMBROID LTD",
+    "label": "Twenty",
+    "value": "FOXA"
   },
   {
-    value: "CANFINHOME",
-    label: "CANFIN HOMES",
+    "label": "Fox Factory Holding Corp.",
+    "value": "FOXF"
   },
   {
-    value: "ITDCEM",
-    label: "ITD CEMENTATION IN",
+    "label": "Five Prime Therapeutics, Inc.",
+    "value": "FPRX"
   },
   {
-    value: "PRINCEPIPE",
-    label: "PRINCE PIPES FITTINGS LTD",
+    "label": "First Trust International IPO ETF",
+    "value": "FPXI"
   },
   {
-    value: "SURANAT_P",
-    label: "SURANA TEL & POWER",
+    "label": "Francesca's Holdings Corporation",
+    "value": "FRAN"
   },
   {
-    value: "INFOBEAN",
-    label: "INFOBEANS TECHNO. LTD.",
+    "label": "First Bank",
+    "value": "FRBA"
   },
   {
-    value: "LUPIN",
-    label: "LUPIN LTD",
+    "label": "Republic First Bancorp, Inc.",
+    "value": "FRBK"
   },
   {
-    value: "KESORAMIND",
-    label: "KESORAM INDUSTRIES",
+    "label": "Fred's, Inc.",
+    "value": "FRED"
   },
   {
-    value: "NELCO",
-    label: "NELCO",
+    "label": "FreeSeas Inc.",
+    "value": "FREE"
   },
   {
-    value: "ASALCBR",
-    label: "ASSO ALCOHOLS & BREW LTD",
+    "label": "Fiesta Restaurant Group, Inc.",
+    "value": "FRGI"
   },
   {
-    value: "SELAN",
-    label: "SELAN EXPLORATION",
+    "label": "First Merchants Corporation",
+    "value": "FRME"
   },
   {
-    value: "SANDHAR",
-    label: "SANDHAR TECHNOLOGI",
+    "label": "FairPoint Communications, Inc.",
+    "value": "FRP"
   },
   {
-    value: "BBL",
-    label: "BHARAT BIJLEE",
+    "label": "FRP Holdings, Inc.",
+    "value": "FRPH"
   },
   {
-    value: "FCL",
-    label: "FINEOTEX CHEMICAL",
+    "label": "FRP Holdings, Inc.",
+    "value": "FRPHV"
   },
   {
-    value: "AMBER",
-    label: "AMBER ENTERPRISES",
+    "label": "Freshpet, Inc.",
+    "value": "FRPT"
   },
   {
-    value: "WOCKPHARMA",
-    label: "WOCKHARDT",
+    "label": "Papa Murphy's Holdings, Inc.",
+    "value": "FRSH"
   },
   {
-    value: "WALPAR",
-    label: "WALPAR NUTRITIONS",
+    "label": "Fifth Street Asset Management Inc.",
+    "value": "FSAM"
   },
   {
-    value: "TTKPRESTIG",
-    label: "TTK PRESTIGE",
+    "label": "First South Bancorp Inc",
+    "value": "FSBK"
   },
   {
-    value: "HTMEDIA",
-    label: "HT MEDIA LTD",
+    "label": "FS Bancorp, Inc.",
+    "value": "FSBW"
   },
   {
-    value: "FIEMIND",
-    label: "FIEM INDUSTRIES LTD",
+    "label": "Fifth Street Finance Corp.",
+    "value": "FSC"
   },
   {
-    value: "TGBHOTELS",
-    label: "TGB BANQUETS AND H",
+    "label": "Fifth Street Finance Corp.",
+    "value": "FSCFL"
   },
   {
-    value: "BANKBARODA",
-    label: "BK OF BARODA",
+    "label": "First Savings Financial Group, Inc.",
+    "value": "FSFG"
   },
   {
-    value: "OMAXAUTO",
-    label: "OMAX AUTOS LTD",
+    "label": "Fifth Street Senior Floating Rate Corp.",
+    "value": "FSFR"
   },
   {
-    value: "PEARLPOLY",
-    label: "PEARL POLYMERS",
+    "label": "First Security Group, Inc.",
+    "value": "FSGI"
   },
   {
-    value: "GKWLIMITED",
-    label: "GKW LTD",
+    "label": "First Solar, Inc.",
+    "value": "FSLR"
   },
   {
-    value: "GMDCLTD",
-    label: "GUJARAT MINERAL DE",
+    "label": "Fusion Telecommunications International, Inc.",
+    "value": "FSNN"
   },
   {
-    value: "XCHANGING",
-    label: "XCHANGING SOLUTION",
+    "label": "FirstService Corporation",
+    "value": "FSRV"
   },
   {
-    value: "SAMBHAAV",
-    label: "SAMBHAAV MEDIA LTD",
+    "label": "L.B. Foster Company",
+    "value": "FSTR"
   },
   {
-    value: "ANSALAPI",
-    label: "ANSAL PROPS & INFR",
+    "label": "Fuel Systems Solutions, Inc.",
+    "value": "FSYS"
   },
   {
-    value: "AIAENG",
-    label: "AIA ENGINEERING",
+    "label": "First Trust Capital Strength ETF",
+    "value": "FTCS"
   },
   {
-    value: "M_M",
-    label: "MAHINDRA &MAHINDRA",
+    "label": "FTD Companies, Inc.",
+    "value": "FTD"
   },
   {
-    value: "UGROCAP",
-    label: "UGRO CAPITAL LTD",
+    "label": "Fuel Tech, Inc.",
+    "value": "FTEK"
   },
   {
-    value: "NATIONALUM",
-    label: "NATIONAL ALUMINUM",
+    "label": "First Trust Global Tactical Commodity Strategy Fund",
+    "value": "FTGC"
   },
   {
-    value: "APCOTEXIND",
-    label: "APCOTEX INDUSTRIES",
+    "label": "First Trust High Income ETF",
+    "value": "FTHI"
   },
   {
-    value: "ANSALHSG",
-    label: "ANSAL HOUSING LTD",
+    "label": "First Trust Low Beta Income ETF",
+    "value": "FTLB"
   },
   {
-    value: "BCONCEPTS",
-    label: "BRAND CONCEPTS LTD",
+    "label": "Fortinet, Inc.",
+    "value": "FTNT"
   },
   {
-    value: "FAIRCHEMOR",
-    label: "FAIRCHEM ORGANICS LTD",
+    "label": "Frontier Communications Corporation",
+    "value": "FTR"
   },
   {
-    value: "PARSVNATH",
-    label: "PARSVNATH DEVELOPE",
+    "label": "First Trust Senior Loan Fund ETF",
+    "value": "FTSL"
   },
   {
-    value: "DANGEE",
-    label: "DANGEE DUMS LTD",
+    "label": "First Trust Enhanced Short Maturity ETF",
+    "value": "FTSM"
   },
   {
-    value: "FSC",
-    label: "FUTURE SUPPLY CHAI",
+    "label": "Rocket Fuel Inc.",
+    "value": "FUEL"
   },
   {
-    value: "ORTINLAB",
-    label: "ORTIN LABORATORIES LTD",
+    "label": "Full Circle Capital Corporation",
+    "value": "FULL"
   },
   {
-    value: "BPCL",
-    label: "BHARAT PETROL CORP",
+    "label": "Full Circle Capital Corporation",
+    "value": "FULLL"
   },
   {
-    value: "CEATLTD",
-    label: "CEAT LTD",
+    "label": "Fulton Financial Corporation",
+    "value": "FULT"
   },
   {
-    value: "NEWGEN",
-    label: "NEWGEN SOFTWARE",
+    "label": "First United Corporation",
+    "value": "FUNC"
   },
   {
-    value: "20MICRONS",
-    label: "20 MICRONS LTD",
+    "label": "Royce Focus Trust, Inc.",
+    "value": "FUND"
   },
   {
-    value: "VTL",
-    label: "VARDHMAN TEXTILES",
+    "label": "First Trust Dorsey Wright Focus 5 ETF",
+    "value": "FV"
   },
   {
-    value: "CAPLIPOINT",
-    label: "CAPLIN POINT LABOR",
+    "label": "Fairway Group Holdings Corp.",
+    "value": "FWM"
   },
   {
-    value: "DOLLAR",
-    label: "DOLLAR INDUSTRIES",
+    "label": "Forward Pharma A/S",
+    "value": "FWP"
   },
   {
-    value: "KAVVERITEL",
-    label: "KAVVERI TELECOM PR",
+    "label": "Forward Air Corporation",
+    "value": "FWRD"
   },
   {
-    value: "RVHL",
-    label: "RAVINDER HEIGHTS LTD",
+    "label": "Fox Chase Bancorp, Inc.",
+    "value": "FXCB"
   },
   {
-    value: "ALMONDZ",
-    label: "ALMONDZ GLOBAL SEC",
+    "label": "FX Energy, Inc.",
+    "value": "FXEN"
   },
   {
-    value: "COUNCODOS",
-    label: "COUNTRY CONDO'S",
+    "label": "FX Energy, Inc.",
+    "value": "FXENP"
   },
   {
-    value: "IVC",
-    label: "IL & FS INVESTMENT",
+    "label": "German American Bancorp, Inc.",
+    "value": "GABC"
   },
   {
-    value: "DBSTOCKBRO",
-    label: "DB INTL STOCK BROK",
+    "label": "Global",
+    "value": "GAI"
   },
   {
-    value: "KSOLVES",
-    label: "KSOLVES INDIA LTD",
+    "label": "Gaiam, Inc.",
+    "value": "GAIA"
   },
   {
-    value: "PAR",
-    label: "PAR DRUGS AND CHEM LTD",
+    "label": "Gladstone Investment Corporation",
+    "value": "GAIN"
   },
   {
-    value: "GRAPHITE",
-    label: "GRAPHITE INDIA",
+    "label": "Gladstone Investment Corporation",
+    "value": "GAINO"
   },
   {
-    value: "TEGA",
-    label: "TEGA INDUSTRIES LTD",
+    "label": "Gladstone Investment Corporation",
+    "value": "GAINP"
   },
   {
-    value: "COMPINFO",
-    label: "COMPUAGE INFOCOM L",
+    "label": "Galena Biopharma, Inc.",
+    "value": "GALE"
   },
   {
-    value: "BORORENEW",
-    label: "BOROSIL RENEWABLES LTD",
+    "label": "Galectin Therapeutics Inc.",
+    "value": "GALT"
   },
   {
-    value: "INFIBEAM",
-    label: "INFIBEAM AVENUES L",
+    "label": "Galectin Therapeutics Inc.",
+    "value": "GALTU"
   },
   {
-    value: "TIRUPATIFL",
-    label: "TIRUPATI FORGE LTD",
+    "label": "Galectin Therapeutics Inc.",
+    "value": "GALTW"
   },
   {
-    value: "APTECHT",
-    label: "APTECH LTD",
+    "label": "Shanda Games Limited",
+    "value": "GAME"
   },
   {
-    value: "MEDICAMEQ",
-    label: "MEDICAMEN BIOTECH LTD",
+    "label": "Garrison Capital Inc.",
+    "value": "GARS"
   },
   {
-    value: "IOC",
-    label: "INDIAN OIL CORP",
+    "label": "StealthGas, Inc.",
+    "value": "GASS"
   },
   {
-    value: "CEREBRAINT",
-    label: "CEREBRA INTEGRATED",
+    "label": "Glacier Bancorp, Inc.",
+    "value": "GBCI"
   },
   {
-    value: "BFINVEST",
-    label: "BF INVESTMENT LTD",
+    "label": "Golub Capital BDC, Inc.",
+    "value": "GBDC"
   },
   {
-    value: "SUDARSCHEM",
-    label: "SUDARSHAN CHEMICAL",
+    "label": "GlobeImmune, Inc.",
+    "value": "GBIM"
   },
   {
-    value: "NIACL",
-    label: "THE NEW INDIA ASSU",
+    "label": "Global Indemnity plc",
+    "value": "GBLI"
   },
   {
-    value: "SREEL",
-    label: "SREELEATHERS LTD",
+    "label": "Guaranty Bancorp",
+    "value": "GBNK"
   },
   {
-    value: "SHREERAMA",
-    label: "SHREE RAMA MULTI",
+    "label": "Great Basin Scientific, Inc.",
+    "value": "GBSN"
   },
   {
-    value: "BODALCHEM",
-    label: "BODAL CHEMICALS",
+    "label": "Greene County Bancorp, Inc.",
+    "value": "GCBC"
   },
   {
-    value: "ELECTCAST",
-    label: "ELECTROSTEEL CAST",
+    "label": "Sanofi",
+    "value": "GCVRZ"
   },
   {
-    value: "KSHITIJPOL",
-    label: "KSHITIJ POLYLINE L",
+    "label": "Global Defense & National Security Systems, Inc.",
+    "value": "GDEF"
   },
   {
-    value: "BRIGADE",
-    label: "BRIGADE ENTERPRISE",
+    "label": "Gencor Industries Inc.",
+    "value": "GENC"
   },
   {
-    value: "PARACABLES",
-    label: "PARAMOUNT COMMUNIC",
+    "label": "Genetic Technologies Ltd",
+    "value": "GENE"
   },
   {
-    value: "CANTABIL",
-    label: "CANTABIL RETAIL IN",
+    "label": "Geospace Technologies Corporation",
+    "value": "GEOS"
   },
   {
-    value: "TATAPOWER",
-    label: "TATA POWER CO LTD",
+    "label": "Geron Corporation",
+    "value": "GERN"
   },
   {
-    value: "ENERGYDEV",
-    label: "ENERGY DEV CO LTD",
+    "label": "Synageva BioPharma Corp.",
+    "value": "GEVA"
   },
   {
-    value: "SHRIPISTON",
-    label: "SHRIRAM PISTONS &",
+    "label": "Gevo, Inc.",
+    "value": "GEVO"
   },
   {
-    value: "RHIM",
-    label: "RHI MAGNESITA INDIA LTD",
+    "label": "Guaranty Federal Bancshares, Inc.",
+    "value": "GFED"
   },
   {
-    value: "OMAXE",
-    label: "OMAXE LTD",
+    "label": "General Finance Corporation",
+    "value": "GFN"
   },
   {
-    value: "SCHNEIDER",
-    label: "SCHNEIDER ELECTR",
+    "label": "General Finance Corporation",
+    "value": "GFNCP"
   },
   {
-    value: "GOLDENTOBC",
-    label: "GOLDEN TOBACCO LTD",
+    "label": "General Finance Corporation",
+    "value": "GFNSL"
   },
   {
-    value: "HINDCOPPER",
-    label: "HINDUSTAN COPPER",
+    "label": "Garnero Group Acquisition Company",
+    "value": "GGAC"
   },
   {
-    value: "TATACOFFEE",
-    label: "TATA COFFEE",
+    "label": "Garnero Group Acquisition Company",
+    "value": "GGACR"
   },
   {
-    value: "SURANASOL",
-    label: "SURANA SOLAR LTD",
+    "label": "Garnero Group Acquisition Company",
+    "value": "GGACU"
   },
   {
-    value: "WINDMACHIN",
-    label: "WINDSOR MACHINES",
+    "label": "Garnero Group Acquisition Company",
+    "value": "GGACW"
   },
   {
-    value: "UJAAS",
-    label: "UJAAS ENERGY LTD",
+    "label": "Grupo Financiero Galicia S.A.",
+    "value": "GGAL"
   },
   {
-    value: "SURYODAY",
-    label: "SURYODAY SMALL FIN BK LTD",
+    "label": "Genomic Health, Inc.",
+    "value": "GHDX"
   },
   {
-    value: "MTNL",
-    label: "MAHANAGAR TELEP NI",
+    "label": "Gulf Island Fabrication, Inc.",
+    "value": "GIFI"
   },
   {
-    value: "INGERRAND",
-    label: "INGERSOLL RAND",
+    "label": "Giga",
+    "value": "GIGA"
   },
   {
-    value: "MBECL",
-    label: "MCNALLY BHARAT ENG",
+    "label": "GigaMedia Limited",
+    "value": "GIGM"
   },
   {
-    value: "LCCINFOTEC",
-    label: "LCC INFOTECH",
+    "label": "G",
+    "value": "GIII"
   },
   {
-    value: "MENONBE",
-    label: "MENON BEARINGS LTD",
+    "label": "Gilead Sciences, Inc.",
+    "value": "GILD"
   },
   {
-    value: "SUVENPHAR",
-    label: "SUVEN PHARMACEUTICALS LTD",
+    "label": "Gilat Satellite Networks Ltd.",
+    "value": "GILT"
   },
   {
-    value: "SATIN",
-    label: "SATIN CREDIT CARE",
+    "label": "G&K Services, Inc.",
+    "value": "GK"
   },
   {
-    value: "UNIONBANK",
-    label: "UNION BK OF INDIA",
+    "label": "Geeknet, Inc.",
+    "value": "GKNT"
   },
   {
-    value: "STEL",
-    label: "STEL HOLDINGS LTD",
+    "label": "Gladstone Capital Corporation",
+    "value": "GLAD"
   },
   {
-    value: "UFLEX",
-    label: "UFLEX LTD",
+    "label": "Gladstone Capital Corporation",
+    "value": "GLADO"
   },
   {
-    value: "TEJASNET",
-    label: "TEJAS NETWORKS LTD",
+    "label": "Globus Maritime Limited",
+    "value": "GLBS"
   },
   {
-    value: "JINDALSAW",
-    label: "JINDAL SAW LTD",
+    "label": "Glen Burnie Bancorp",
+    "value": "GLBZ"
   },
   {
-    value: "BALRAMCHIN",
-    label: "BALRAMPUR CHINI MI",
+    "label": "Golden Enterprises, Inc.",
+    "value": "GLDC"
   },
   {
-    value: "ONEPOINT",
-    label: "ONE POINT ONE SOLU",
+    "label": "Great Lakes Dredge & Dock Corporation",
+    "value": "GLDD"
   },
   {
-    value: "MCL",
-    label: "MADHAV COPPER LTD",
+    "label": "Credit Suisse AG",
+    "value": "GLDI"
   },
   {
-    value: "SECURKLOUD",
-    label: "SECUREKLOUD TECH LTD",
+    "label": "Galmed Pharmaceuticals Ltd.",
+    "value": "GLMD"
   },
   {
-    value: "JAIBALAJI",
-    label: "JAI BALAJI IND",
+    "label": "Golar LNG Limited",
+    "value": "GLNG"
   },
   {
-    value: "KIMS",
-    label: "KRISHNA INST OF MED SCI L",
+    "label": "Gaming and Leisure Properties, Inc.",
+    "value": "GLPI"
   },
   {
-    value: "DHANI",
-    label: "DHANI SERVICES LTD",
+    "label": "Greenlight Reinsurance, Ltd.",
+    "value": "GLRE"
   },
   {
-    value: "A2ZINFRA",
-    label: "A2Z INFRA ENGINEER",
+    "label": "Glori Energy Inc",
+    "value": "GLRI"
   },
   {
-    value: "HEMIPROP",
-    label: "HEMISPHERE PROP IND LTD",
+    "label": "Glu Mobile Inc.",
+    "value": "GLUU"
   },
   {
-    value: "JPINFRATEC",
-    label: "JAYPEE INFRATECH L",
+    "label": "GlycoMimetics, Inc.",
+    "value": "GLYC"
   },
   {
-    value: "JITFINFRA",
-    label: "JITF INFRALOGISTIC",
+    "label": "Gordmans Stores, Inc.",
+    "value": "GMAN"
   },
   {
-    value: "NDL",
-    label: "NANDAN DENIM LTD",
+    "label": "Keurig Green Mountain, Inc.",
+    "value": "GMCR"
   },
   {
-    value: "CTE",
-    label: "CAMBRIDGE TECH ENT",
+    "label": "Golar LNG Partners LP",
+    "value": "GMLP"
   },
   {
-    value: "TV18BRDCST",
-    label: "TV18 BROADCAST LTD",
+    "label": "Green Bancorp, Inc.",
+    "value": "GNBC"
   },
   {
-    value: "SINTERCOM",
-    label: "SINTERCOM INDIA LTD",
+    "label": "Genocea Biosciences, Inc.",
+    "value": "GNCA"
   },
   {
-    value: "ICIL",
-    label: "INDO COUNT INDUSTR",
+    "label": "General Communication, Inc.",
+    "value": "GNCMA"
   },
   {
-    value: "TTL",
-    label: "TT LTD",
+    "label": "iShares Core GNMA Bond ETF",
+    "value": "GNMA"
   },
   {
-    value: "OMINFRAL",
-    label: "OM INFRA LTD",
+    "label": "GenMark Diagnostics, Inc.",
+    "value": "GNMK"
   },
   {
-    value: "MINDAIND",
-    label: "MINDA INDUSTRIES",
+    "label": "Gentex Corporation",
+    "value": "GNTX"
   },
   {
-    value: "BANKINDIA",
-    label: "BK OF INDIA",
+    "label": "GenVec, Inc.",
+    "value": "GNVC"
   },
   {
-    value: "SMARTLINK",
-    label: "SMARTLINK HOLDINGS",
+    "label": "Gogo Inc.",
+    "value": "GOGO"
   },
   {
-    value: "MGL",
-    label: "MAHANAGAR GAS LTD",
+    "label": "Randgold Resources Limited",
+    "value": "GOLD"
   },
   {
-    value: "ALOKINDS",
-    label: "ALOK INDUSTRIES LTD",
+    "label": "Sungy Mobile Limited",
+    "value": "GOMO"
   },
   {
-    value: "WATERBASE",
-    label: "WATERBASE",
+    "label": "Gladstone Commercial Corporation",
+    "value": "GOOD"
   },
   {
-    value: "TNPETRO",
-    label: "TAMILNADU PETRO PR",
+    "label": "Gladstone Commercial Corporation",
+    "value": "GOODN"
   },
   {
-    value: "JBCHEPHARM",
-    label: "J.B.CHEMICALS & PH",
+    "label": "Gladstone Commercial Corporation",
+    "value": "GOODO"
   },
   {
-    value: "PIDILITIND",
-    label: "PIDILITE INDUSTRIE",
+    "label": "Gladstone Commercial Corporation",
+    "value": "GOODP"
   },
   {
-    value: "JSWSTEEL",
-    label: "JSW STEEL LTD",
+    "label": "Google Inc.",
+    "value": "GOOG"
   },
   {
-    value: "ZENTEC",
-    label: "ZEN TECHNOLOGIES",
+    "label": "Google Inc.",
+    "value": "GOOGL"
   },
   {
-    value: "DEEPINDS",
-    label: "DEEP INDUSTRIES LTD",
+    "label": "Gaming Partners International Corporation",
+    "value": "GPIC"
   },
   {
-    value: "SUPREMEIND",
-    label: "SUPREME INDUSTRIES",
+    "label": "Gulfport Energy Corporation",
+    "value": "GPOR"
   },
   {
-    value: "NBIFIN",
-    label: "N.B.I. INDUSTRIAL",
+    "label": "Green Plains, Inc.",
+    "value": "GPRE"
   },
   {
-    value: "IBULHSGFIN",
-    label: "INDIABULLS HOUSING",
+    "label": "GoPro, Inc.",
+    "value": "GPRO"
   },
   {
-    value: "PBAINFRA",
-    label: "PBA INFRASTRUCTURE",
+    "label": "Green Brick Partners, Inc.",
+    "value": "GRBK"
   },
   {
-    value: "WFL",
-    label: "WONDER FIBROMATS LTD",
+    "label": "Grifols, S.A.",
+    "value": "GRFS"
   },
   {
-    value: "ONELIFECAP",
-    label: "ONELIFE CAPITAL AD",
+    "label": "First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund",
+    "value": "GRID"
   },
   {
-    value: "CHEMPLASTS",
-    label: "CHEMPLAST SANMAR LTD",
+    "label": "Griffin Land & Nurseries, Inc.",
+    "value": "GRIF"
   },
   {
-    value: "SPARC",
-    label: "SUN PHARMA ADV",
+    "label": "Garmin Ltd.",
+    "value": "GRMN"
   },
   {
-    value: "FINCABLES",
-    label: "FINOLEX CABLES",
+    "label": "U.S. Global Investors, Inc.",
+    "value": "GROW"
   },
   {
-    value: "NMDC",
-    label: "NMDC LTD",
+    "label": "Groupon, Inc.",
+    "value": "GRPN"
   },
   {
-    value: "KOTHARIPRO",
-    label: "KOTHARI PRODUCTS",
+    "label": "GRAVITY Co., Ltd.",
+    "value": "GRVY"
   },
   {
-    value: "NAVKARCORP",
-    label: "NAVKAR CORPORATION",
+    "label": "Great Southern Bancorp, Inc.",
+    "value": "GSBC"
   },
   {
-    value: "GMRINFRA",
-    label: "GMR INFRASTRUCTURE",
+    "label": "GSI Group, Inc.",
+    "value": "GSIG"
   },
   {
-    value: "SIL",
-    label: "STANDARD INDS",
+    "label": "GSI Technology, Inc.",
+    "value": "GSIT"
   },
   {
-    value: "SHAREINDIA",
-    label: "SHARE IND. SECURITIES LTD",
+    "label": "Globe Specialty Metals Inc.",
+    "value": "GSM"
   },
   {
-    value: "DMART",
-    label: "AVENUE SUPERMARTS",
+    "label": "Global Sources Ltd.",
+    "value": "GSOL"
   },
   {
-    value: "GICRE",
-    label: "GENERAL INSURANCE",
+    "label": "GSV Capital Corp",
+    "value": "GSVC"
   },
   {
-    value: "KIRLFER",
-    label: "KIRLOSKAR FERROUS IND LTD",
+    "label": "The Goodyear Tire & Rubber Company",
+    "value": "GT"
   },
   {
-    value: "NELCAST",
-    label: "NELCAST LTD",
+    "label": "Good Times Restaurants Inc.",
+    "value": "GTIM"
   },
   {
-    value: "GIPCL",
-    label: "GUJARAT IND POWER",
+    "label": "Gentiva Health Services, Inc.",
+    "value": "GTIV"
   },
   {
-    value: "HUHTAMAKI",
-    label: "HUHTAMAKI INDIA LTD",
+    "label": "Chart Industries, Inc.",
+    "value": "GTLS"
   },
   {
-    value: "BARTRONICS",
-    label: "BARTRONICS INDIA L",
+    "label": "Georgetown Bancorp, Inc.",
+    "value": "GTWN"
   },
   {
-    value: "TIL",
-    label: "TIL",
+    "label": "GTx, Inc.",
+    "value": "GTXI"
   },
   {
-    value: "SIMBHALS",
-    label: "SIMBHAOLI SUGARS L",
+    "label": "Guidance Software, Inc.",
+    "value": "GUID"
   },
   {
-    value: "ORICONENT",
-    label: "ORICON ENTERPRISES",
+    "label": "WisdomTree Middle East Dividend Fund",
+    "value": "GULF"
   },
   {
-    value: "VOLTAMP",
-    label: "VOLTAMP TRANSFORME",
+    "label": "Gulf Coast Ultra Deep Royalty Trust",
+    "value": "GULTU"
   },
   {
-    value: "KCP",
-    label: "KCP LTD",
+    "label": "Gulf Resources, Inc.",
+    "value": "GURE"
   },
   {
-    value: "NATHBIOGEN",
-    label: "NATH BIO-GENES (IN",
+    "label": "GWG Holdings, Inc",
+    "value": "GWGH"
   },
   {
-    value: "JKIL",
-    label: "J KUMAR INFAPROJEC",
+    "label": "GW Pharmaceuticals Plc",
+    "value": "GWPH"
   },
   {
-    value: "NECLIFE",
-    label: "NECTAR LIFESCIENCE",
+    "label": "Gyrodyne Company of America, Inc.",
+    "value": "GYRO"
   },
   {
-    value: "NSIL",
-    label: "NALWA SONS INVEST",
+    "label": "Hawaiian Holdings, Inc.",
+    "value": "HA"
   },
   {
-    value: "DHUNINV",
-    label: "DHUNSERI INVESTMEN",
+    "label": "The Habit Restaurants, Inc.",
+    "value": "HABT"
   },
   {
-    value: "JUBLPHARMA",
-    label: "JUBILANT PHARMOVA LTD",
+    "label": "Hanmi Financial Corporation",
+    "value": "HAFC"
   },
   {
-    value: "UTIAMC",
-    label: "UTI ASSET MNGMT CO LTD",
+    "label": "The Hain Celestial Group, Inc.",
+    "value": "HAIN"
   },
   {
-    value: "GLOBAL",
-    label: "GLOBAL EDUCATION LTD",
+    "label": "Hallmark Financial Services, Inc.",
+    "value": "HALL"
   },
   {
-    value: "ITC",
-    label: "ITC LTD",
+    "label": "Halozyme Therapeutics, Inc.",
+    "value": "HALO"
   },
   {
-    value: "EICHERMOT",
-    label: "EICHER MOTORS",
+    "label": "Harvard Apparatus Regenerative Technology, Inc.",
+    "value": "HART"
   },
   {
-    value: "BLUESTARCO",
-    label: "BLUE STAR",
+    "label": "Hasbro, Inc.",
+    "value": "HAS"
   },
   {
-    value: "BIRLACABLE",
-    label: "BIRLA CABLE LTD",
+    "label": "Blackhawk Network Holdings, Inc.",
+    "value": "HAWK"
   },
   {
-    value: "VMART",
-    label: "V-MART RETAIL LTD",
+    "label": "Blackhawk Network Holdings, Inc.",
+    "value": "HAWKB"
   },
   {
-    value: "OFSS",
-    label: "ORACLE FIN SERVICE",
+    "label": "Haynes International, Inc.",
+    "value": "HAYN"
   },
   {
-    value: "BASF",
-    label: "BASF INDIA",
+    "label": "Huntington Bancshares Incorporated",
+    "value": "HBAN"
   },
   {
-    value: "CENTURYPLY",
-    label: "CENTURYPLY LTD",
+    "label": "Huntington Bancshares Incorporated",
+    "value": "HBANP"
   },
   {
-    value: "NDTV",
-    label: "NEW DELHI TELEVISI",
+    "label": "Home Bancorp, Inc.",
+    "value": "HBCP"
   },
   {
-    value: "DONEAR",
-    label: "DONEAR INDUSTRIES",
+    "label": "Hancock Holding Company",
+    "value": "HBHC"
   },
   {
-    value: "MOREPENLAB",
-    label: "MOREPEN LABORATORI",
+    "label": "Harvard Bioscience, Inc.",
+    "value": "HBIO"
   },
   {
-    value: "UNIDT",
-    label: "UNITED DRILLING TOOLS LTD",
+    "label": "Hamilton Bancorp, Inc.",
+    "value": "HBK"
   },
   {
-    value: "BRNL",
-    label: "BHARAT ROAD NETWOR",
+    "label": "Howard Bancorp, Inc.",
+    "value": "HBMD"
   },
   {
-    value: "NFL",
-    label: "NATIONAL FERTI.LTD",
+    "label": "Horizon Bancorp (IN)",
+    "value": "HBNC"
   },
   {
-    value: "WELINV",
-    label: "WELSPUN INVESTMENT",
+    "label": "Hampden Bancorp, Inc.",
+    "value": "HBNK"
   },
   {
-    value: "NAGREEKCAP",
-    label: "NAGREEKA CAPITAL &",
+    "label": "Heritage Financial Group",
+    "value": "HBOS"
   },
   {
-    value: "SWSOLAR",
-    label: "STERLING & WILSON SO LTD",
+    "label": "Huttig Building Products, Inc.",
+    "value": "HBP"
   },
   {
-    value: "ADANITRANS",
-    label: "ADANI TRANSMISS.IN",
+    "label": "Hennessy Capital Acquisition Corp.",
+    "value": "HCAC"
   },
   {
-    value: "VIPIND",
-    label: "VIP INDUSTRIES",
+    "label": "Hennessy Capital Acquisition Corp.",
+    "value": "HCACU"
   },
   {
-    value: "V2RETAIL",
-    label: "V2 RETAIL LTD",
+    "label": "Hennessy Capital Acquisition Corp.",
+    "value": "HCACW"
   },
   {
-    value: "VIVIMEDLAB",
-    label: "VIVIMED LABS LTD",
+    "label": "Harvest Capital Credit Corporation",
+    "value": "HCAP"
   },
   {
-    value: "EMAMIREAL",
-    label: "EMAMI REALTY LTD",
+    "label": "Hudson City Bancorp, Inc.",
+    "value": "HCBK"
   },
   {
-    value: "HATSUN",
-    label: "HATSUN AGRO PRODUC",
+    "label": "Heritage",
+    "value": "HCCI"
   },
   {
-    value: "ARVSMART",
-    label: "ARVIND SMARTSPACES",
+    "label": "The Hackett Group, Inc.",
+    "value": "HCKT"
   },
   {
-    value: "ASAHIINDIA",
-    label: "ASAHI INDIA GLASS",
+    "label": "Hawaiian Telcom Holdco, Inc.",
+    "value": "HCOM"
   },
   {
-    value: "METROPOLIS",
-    label: "METROPOLIS HEALTHC",
+    "label": "Healthcare Services Group, Inc.",
+    "value": "HCSG"
   },
   {
-    value: "IFBIND",
-    label: "IFB INDUSTRIES LTD",
+    "label": "American Realty Capital Healthcare Trust, Inc.",
+    "value": "HCT"
   },
   {
-    value: "AVANTIFEED",
-    label: "AVANTI FEEDS",
+    "label": "Hardinge, Inc.",
+    "value": "HDNG"
   },
   {
-    value: "MAZDOCK",
-    label: "MAZAGON DOCK SHIPBUIL LTD",
+    "label": "Hortonworks, Inc.",
+    "value": "HDP"
   },
   {
-    value: "DIGISPICE",
-    label: "DIGISPICE TECHNOLOGIES LTD",
+    "label": "Hydra Industries Acquisition Corp.",
+    "value": "HDRA"
   },
   {
-    value: "PFIZER",
-    label: "PFIZER LTD",
+    "label": "Hydra Industries Acquisition Corp.",
+    "value": "HDRAR"
   },
   {
-    value: "BIGBLOC",
-    label: "BIGBLOC CONSTRUCTI",
+    "label": "Hydra Industries Acquisition Corp.",
+    "value": "HDRAU"
   },
   {
-    value: "BOSCHLTD",
-    label: "BOSCH LTD",
+    "label": "Hydra Industries Acquisition Corp.",
+    "value": "HDRAW"
   },
   {
-    value: "URJA",
-    label: "URJA GLOBAL LTD",
+    "label": "HD Supply Holdings, Inc.",
+    "value": "HDS"
   },
   {
-    value: "SANOFI",
-    label: "SANOFI INDIA LTD",
+    "label": "Hudson Technologies, Inc.",
+    "value": "HDSN"
   },
   {
-    value: "PARAS",
-    label: "PARAS DEF AND SPCE TECH L",
+    "label": "Turtle Beach Corporation",
+    "value": "HEAR"
   },
   {
-    value: "KARURVYSYA",
-    label: "KARUR VYSYA BANK",
+    "label": "H&E Equipment Services, Inc.",
+    "value": "HEES"
   },
   {
-    value: "MOHITIND",
-    label: "MOHIT INDUSTRIES",
+    "label": "Helen of Troy Limited",
+    "value": "HELE"
   },
   {
-    value: "GROBTEA",
-    label: "THE GROB TEA COMPA",
+    "label": "Heritage Oaks Bancorp",
+    "value": "HEOP"
   },
   {
-    value: "HPL",
-    label: "HPL ELECTRIC POWER",
+    "label": "Hercules Offshore, Inc.",
+    "value": "HERO"
   },
   {
-    value: "IFGLEXPOR",
-    label: "IFGL EXPORTS LTD",
+    "label": "HopFed Bancorp, Inc.",
+    "value": "HFBC"
   },
   {
-    value: "PETRONET",
-    label: "PETRONET LNG",
+    "label": "Home Federal Bancorp, Inc. of Louisiana",
+    "value": "HFBL"
   },
   {
-    value: "ALLSEC",
-    label: "ALLSEC TECHNOLOGIE",
+    "label": "HF Financial Corp.",
+    "value": "HFFC"
   },
   {
-    value: "MAHSEAMLES",
-    label: "MAHARASHTRA SEAML",
+    "label": "Heritage Financial Corporation",
+    "value": "HFWA"
   },
   {
-    value: "MANGALAM",
-    label: "MANGALAM DRUGS & O",
+    "label": "China HGS Real Estate, Inc.",
+    "value": "HGSH"
   },
   {
-    value: "LOTUSEYE",
-    label: "LOTUS EYE HOSPITA",
+    "label": "Hibbett Sports, Inc.",
+    "value": "HIBB"
   },
   {
-    value: "WABCOINDIA",
-    label: "WABCO INDIA LTD",
+    "label": "Hingham Institution for Savings",
+    "value": "HIFS"
   },
   {
-    value: "SHRIRAMEPC",
-    label: "SHRIRAM EPC LTD",
+    "label": "Highway Holdings Limited",
+    "value": "HIHO"
   },
   {
-    value: "BAJAJELEC",
-    label: "BAJAJ ELECTRICALS",
+    "label": "Health Insurance Innovations, Inc.",
+    "value": "HIIQ"
   },
   {
-    value: "SEQUENT",
-    label: "SEQUENT SCIENTIFIC",
+    "label": "Dot Hill Systems Corporation",
+    "value": "HILL"
   },
   {
-    value: "APOLLO",
-    label: "APOLLO MICRO SYSTE",
+    "label": "Himax Technologies, Inc.",
+    "value": "HIMX"
   },
   {
-    value: "KIOCL",
-    label: "KIOCL LTD",
+    "label": "Hong Kong Television Network Limited",
+    "value": "HKTV"
   },
   {
-    value: "AARVI",
-    label: "AARVI ENCON LTD",
+    "label": "Harmonic Inc.",
+    "value": "HLIT"
   },
   {
-    value: "JINDALSTEL",
-    label: "JINDAL STEEL & PWR",
+    "label": "Home Loan Servicing Solutions, Ltd.",
+    "value": "HLSS"
   },
   {
-    value: "RML",
-    label: "RANE(MADRAS)LTD",
+    "label": "Houghton Mifflin Harcourt Company",
+    "value": "HMHC"
   },
   {
-    value: "FILATEX",
-    label: "FILATEX INDIA",
+    "label": "Homeinns Hotel Group",
+    "value": "HMIN"
   },
   {
-    value: "CDSL",
-    label: "CENTRAL DEPOSITORY",
+    "label": "HMN Financial, Inc.",
+    "value": "HMNF"
   },
   {
-    value: "UWCSL",
-    label: "ULTRA WIRING CONNE",
+    "label": "Helios and Matheson Analytics Inc",
+    "value": "HMNY"
   },
   {
-    value: "INDOSTAR",
-    label: "INDOSTAR CAP FIN",
+    "label": "Hampton Roads Bankshares Inc",
+    "value": "HMPR"
   },
   {
-    value: "TATAELXSI",
-    label: "TATA ELXSI",
+    "label": "HomeStreet, Inc.",
+    "value": "HMST"
   },
   {
-    value: "RUBYMILLS",
-    label: "RUBY MILLS",
+    "label": "HMS Holdings Corp",
+    "value": "HMSY"
   },
   {
-    value: "KITEX",
-    label: "KITEX GARMENTS LTD",
+    "label": "Hemisphere Media Group, Inc.",
+    "value": "HMTV"
   },
   {
-    value: "BIOFILCHEM",
-    label: "BIOFIL CHEMICALS &",
+    "label": "Handy & Harman Ltd.",
+    "value": "HNH"
   },
   {
-    value: "OCCL",
-    label: "ORIENTAL CARB & CH",
+    "label": "Hennessy Advisors, Inc.",
+    "value": "HNNA"
   },
   {
-    value: "INDIANCARD",
-    label: "INDIAN CARD CLOTH",
+    "label": "Hallador Energy Company",
+    "value": "HNRG"
   },
   {
-    value: "VSTTILLERS",
-    label: "VST TILLERS TRACT",
+    "label": "Hansen Medical, Inc.",
+    "value": "HNSN"
   },
   {
-    value: "IOB",
-    label: "INDIAN OVERSEAS BK",
+    "label": "Hooker Furniture Corporation",
+    "value": "HOFT"
   },
   {
-    value: "EMKAY",
-    label: "EMKAY GLOBAL FIN",
+    "label": "Hollysys Automation Technologies, Ltd.",
+    "value": "HOLI"
   },
   {
-    value: "VRLLOG",
-    label: "VRL LOGISTICS LTD",
+    "label": "Hologic, Inc.",
+    "value": "HOLX"
   },
   {
-    value: "BRFL",
-    label: "BOMBAY RAYON FASHIONS LTD",
+    "label": "Home BancShares, Inc.",
+    "value": "HOMB"
   },
   {
-    value: "APEX",
-    label: "APEX FROZEN FOODS",
+    "label": "Chanticleer Holdings, Inc.",
+    "value": "HOTR"
   },
   {
-    value: "STLTECH",
-    label: "STERLITE TECHNOLOGIES LTD",
+    "label": "Chanticleer Holdings, Inc.",
+    "value": "HOTRW"
   },
   {
-    value: "ANTGRAPHIC",
-    label: "ANTARCTICA LTD",
+    "label": "Hovnanian Enterprises Inc",
+    "value": "HOVNP"
   },
   {
-    value: "GLOBUSSPR",
-    label: "GLOBUS SPIRITS LTD",
+    "label": "Highpower International Inc",
+    "value": "HPJ"
   },
   {
-    value: "MCX",
-    label: "MULTI COMMODITY EX",
+    "label": "Hyperion Therapeutics, Inc.",
+    "value": "HPTX"
   },
   {
-    value: "HINDZINC",
-    label: "HINDUSTAN ZINC",
+    "label": "HealthEquity, Inc.",
+    "value": "HQY"
   },
   {
-    value: "MAHINDCIE",
-    label: "MAHINDRA CIE AUTO",
+    "label": "Heron Therapeutics, Inc.",
+    "value": "HRTX"
   },
   {
-    value: "MAXHEALTH",
-    label: "MAX HEALTHCARE INS LTD",
+    "label": "Horizon Technology Finance Corporation",
+    "value": "HRZN"
   },
   {
-    value: "HINDALCO",
-    label: "HINDALCO INDS",
+    "label": "Histogenics Corporation",
+    "value": "HSGX"
   },
   {
-    value: "PNBGILTS",
-    label: "PNB GILTS",
+    "label": "Henry Schein, Inc.",
+    "value": "HSIC"
   },
   {
-    value: "ARIES",
-    label: "ARIES AGRO LTD",
+    "label": "Heidrick & Struggles International, Inc.",
+    "value": "HSII"
   },
   {
-    value: "SUNDARAM",
-    label: "SUNDARAM MULTI",
+    "label": "Heska Corporation",
+    "value": "HSKA"
   },
   {
-    value: "DKEGL",
-    label: "DK ENTERPRISES GLO",
+    "label": "HSN, Inc.",
+    "value": "HSNI"
   },
   {
-    value: "GANECOS",
-    label: "GANESHA ECOSPHERE",
+    "label": "Hanwha SolarOne Co., Ltd.",
+    "value": "HSOL"
   },
   {
-    value: "SMCGLOBAL",
-    label: "SMC GLOBAL SECURITIES LTD",
+    "label": "Hudson Global, Inc.",
+    "value": "HSON"
   },
   {
-    value: "ISEC",
-    label: "ICICI SEC. LTD",
+    "label": "HealthStream, Inc.",
+    "value": "HSTM"
   },
   {
-    value: "MANAKSIA",
-    label: "MANAKSIA LTD",
+    "label": "HomeTrust Bancshares, Inc.",
+    "value": "HTBI"
   },
   {
-    value: "HMT",
-    label: "HMT LTD (INDIA)",
+    "label": "Heritage Commerce Corp",
+    "value": "HTBK"
   },
   {
-    value: "CAMLINFINE",
-    label: "CAMLIN FINE SCIENC",
+    "label": "Heat Biologics, Inc.",
+    "value": "HTBX"
   },
   {
-    value: "JETFREIGHT",
-    label: "JET FREIGHT LOGISTICS LTD",
+    "label": "Hutchinson Technology Incorporated",
+    "value": "HTCH"
   },
   {
-    value: "HCL_INSYS",
-    label: "HCL INFOSYSTEMS",
+    "label": "China Lodging Group, Limited",
+    "value": "HTHT"
   },
   {
-    value: "ELECTHERM",
-    label: "ELECTROTHERM (INDI",
+    "label": "Heartland Express, Inc.",
+    "value": "HTLD"
   },
   {
-    value: "SUPERSPIN",
-    label: "SUPER SPINNING",
+    "label": "Heartland Financial USA, Inc.",
+    "value": "HTLF"
   },
   {
-    value: "KRISHANA",
-    label: "KRISHANA PHOSCHEM LTD",
+    "label": "HF2 Financial Management Inc.",
+    "value": "HTWO"
   },
   {
-    value: "ANGELONE",
-    label: "ANGEL ONE LTD",
+    "label": "Heartware International, Inc.",
+    "value": "HTWR"
   },
   {
-    value: "STOVEKRAFT",
-    label: "STOVE KRAFT LTD",
+    "label": "Hub Group, Inc.",
+    "value": "HUBG"
   },
   {
-    value: "DHAMPURSUG",
-    label: "DHAMPUR SUGAR MILL",
+    "label": "Hurco Companies, Inc.",
+    "value": "HURC"
   },
   {
-    value: "AGSTRA",
-    label: "AGS TRANSACT TECH LTD",
+    "label": "Huron Consulting Group Inc.",
+    "value": "HURN"
   },
   {
-    value: "VIDHIING",
-    label: "VIDHI SPECIALTY FO",
+    "label": "Healthways, Inc.",
+    "value": "HWAY"
   },
   {
-    value: "LIBERTSHOE",
-    label: "LIBERTY SHOES",
+    "label": "Hawthorn Bancshares, Inc.",
+    "value": "HWBK"
   },
   {
-    value: "RAIN",
-    label: "RAIN INDUSTRIES LTD",
+    "label": "Houston Wire & Cable Company",
+    "value": "HWCC"
   },
   {
-    value: "BALAMINES",
-    label: "BALAJI AMINES LTD",
+    "label": "Hawkins, Inc.",
+    "value": "HWKN"
   },
   {
-    value: "ALKYLAMINE",
-    label: "ALKYL AMINES",
+    "label": "Hydrogenics Corporation",
+    "value": "HYGS"
   },
   {
-    value: "MRPL",
-    label: "MANGALORE REF &PET",
+    "label": "First Trust High Yield Long/Short ETF",
+    "value": "HYLS"
   },
   {
-    value: "DLINKINDIA",
-    label: "D-LINK (INDIA)LTD",
+    "label": "WisdomTree BofA Merrill Lynch High Yield Bond Negative Duration Fund",
+    "value": "HYND"
   },
   {
-    value: "WORTH",
-    label: "WORTH PERIPHERALS LTD",
+    "label": "WisdomTree BofA Merrill Lynch High Yield Bond Zero Duration Fund",
+    "value": "HYZD"
   },
   {
-    value: "JSL",
-    label: "JINDAL STAINLESS",
+    "label": "Horizon Pharma plc",
+    "value": "HZNP"
   },
   {
-    value: "RVNL",
-    label: "RAIL VIKAS NIGAM",
+    "label": "IAC/InterActiveCorp",
+    "value": "IACI"
   },
   {
-    value: "GTPL",
-    label: "GTPL HATHWAY LTD",
+    "label": "Integra LifeSciences Holdings Corporation",
+    "value": "IART"
   },
   {
-    value: "KALPATPOWR",
-    label: "KALPATARU POWER TR",
+    "label": "iShares Nasdaq Biotechnology Index Fund",
+    "value": "IBB"
   },
   {
-    value: "POLYPLEX",
-    label: "POLYPLEX CORP",
+    "label": "Intervest Bancshares Corp.",
+    "value": "IBCA"
   },
   {
-    value: "SIGIND",
-    label: "SIGNET INDUSTRIES",
+    "label": "Independent Bank Corporation",
+    "value": "IBCP"
   },
   {
-    value: "CANDC",
-    label: "C & C CONSTRUCTION",
+    "label": "IBERIABANK Corporation",
+    "value": "IBKC"
   },
   {
-    value: "KRITI",
-    label: "KRITI INDUSTRIES IND LTD",
+    "label": "Interactive Brokers Group, Inc.",
+    "value": "IBKR"
   },
   {
-    value: "GREENPANEL",
-    label: "GREENPANEL INDUSTRIES LTD",
+    "label": "International Bancshares Corporation",
+    "value": "IBOC"
   },
   {
-    value: "HARRMALAYA",
-    label: "HARRISONS MALAYALA",
+    "label": "Independent Bank Group, Inc",
+    "value": "IBTX"
   },
   {
-    value: "TRENT",
-    label: "TRENT LTD",
+    "label": "icad inc.",
+    "value": "ICAD"
   },
   {
-    value: "ORIENTALTL",
-    label: "ORIENTAL TRIMEX",
+    "label": "ImmuCell Corporation",
+    "value": "ICCC"
   },
   {
-    value: "DTIL",
-    label: "DHUNSERI TEA & IND",
+    "label": "Cellular Dynamics International, Inc.",
+    "value": "ICEL"
   },
   {
-    value: "JSLHISAR",
-    label: "JINDAL STAINLESS (",
+    "label": "ICF International, Inc.",
+    "value": "ICFI"
   },
   {
-    value: "SIS",
-    label: "SIS LTD",
+    "label": "InterCloud Systems, Inc",
+    "value": "ICLD"
   },
   {
-    value: "RELIGARE",
-    label: "RELIGARE ENTERPRIS",
+    "label": "InterCloud Systems, Inc",
+    "value": "ICLDW"
   },
   {
-    value: "SHIVATEX",
-    label: "SHIVA TEXYARN LTD",
+    "label": "iShares S&P Global Clean Energy Index Fund",
+    "value": "ICLN"
   },
   {
-    value: "TATASTLLP",
-    label: "TATA STEEL LONG PRO LTD",
+    "label": "ICON plc",
+    "value": "ICLR"
   },
   {
-    value: "BATAINDIA",
-    label: "BATA INDIA",
+    "label": "Iconix Brand Group, Inc.",
+    "value": "ICON"
   },
   {
-    value: "ARVIND",
-    label: "ARVIND LTD",
+    "label": "Intercept Pharmaceuticals, Inc.",
+    "value": "ICPT"
   },
   {
-    value: "GRANULES",
-    label: "GRANULES INDIA",
+    "label": "ICU Medical, Inc.",
+    "value": "ICUI"
   },
   {
-    value: "GANDHITUBE",
-    label: "GANDHI SPECIAL TUB",
+    "label": "InterDigital, Inc.",
+    "value": "IDCC"
   },
   {
-    value: "WSTCSTPAPR",
-    label: "WEST COAST PAPER M",
+    "label": "Idera Pharmaceuticals, Inc.",
+    "value": "IDRA"
   },
   {
-    value: "VIMTALABS",
-    label: "VIMTA LABORATORIES",
+    "label": "Industrial Services of America, Inc.",
+    "value": "IDSA"
   },
   {
-    value: "NILASPACES",
-    label: "NILA SPACES LTD",
+    "label": "I.D. Systems, Inc.",
+    "value": "IDSY"
   },
   {
-    value: "STARPAPER",
-    label: "STAR PAPER MILLS",
+    "label": "Integrated Device Technology, Inc.",
+    "value": "IDTI"
   },
   {
-    value: "CHEMBOND",
-    label: "CHEMBOND CHEMICALS LTD",
+    "label": "IDEXX Laboratories, Inc.",
+    "value": "IDXX"
   },
   {
-    value: "DYNAMATECH",
-    label: "DYNAMATIC TECHNOLO",
+    "label": "Icahn Enterprises L.P.",
+    "value": "IEP"
   },
   {
-    value: "SHOPERSTOP",
-    label: "SHOPPERS STOP",
+    "label": "Integrated Electrical Services, Inc.",
+    "value": "IESC"
   },
   {
-    value: "ANUP",
-    label: "THE ANUP ENGINEERI",
+    "label": "iShares MSCI Europe Small",
+    "value": "IEUS"
   },
   {
-    value: "DEN",
-    label: "DEN NETWORKS LTD",
+    "label": "iShares FTSE EPRA/NAREIT Asia Index Fund",
+    "value": "IFAS"
   },
   {
-    value: "KOTARISUG",
-    label: "KOTHARI SUGAR&CHEM",
+    "label": "iShares FTSE EPRA/NAREIT Europe Index Fund",
+    "value": "IFEU"
   },
   {
-    value: "EASEMYTRIP",
-    label: "EASY TRIP PLANNERS LTD",
+    "label": "iShares FTSE EPRA/NAREIT Global Real Estate ex",
+    "value": "IFGL"
   },
   {
-    value: "GUJGASLTD",
-    label: "GUJARAT GAS LTD",
+    "label": "iShares FTSE EPRA/NAREIT North America Index Fund",
+    "value": "IFNA"
   },
   {
-    value: "ABBOTINDIA",
-    label: "ABBOTT INDIA LTD",
+    "label": "InfoSonics Corp",
+    "value": "IFON"
   },
   {
-    value: "MEP",
-    label: "MEP INFRASTRUCTURE",
+    "label": "First Trust Dorsey Wright International Focus 5 ETF",
+    "value": "IFV"
   },
   {
-    value: "DHARSUGAR",
-    label: "DHARANI SUGAR & CH",
+    "label": "Internet Gold Golden Lines Ltd.",
+    "value": "IGLD"
   },
   {
-    value: "CHENNPETRO",
-    label: "CHENNAI PETRO CP",
+    "label": "iShares S&P/Citigroup International Treasury Bond Fund",
+    "value": "IGOV"
   },
   {
-    value: "WIPL",
-    label: "THE WESTERN INDIA",
+    "label": "iGATE Corporation",
+    "value": "IGTE"
   },
   {
-    value: "CHEMCON",
-    label: "CHEMCON SPECIAL CHEM LTD",
+    "label": "Information Services Group, Inc.",
+    "value": "III"
   },
   {
-    value: "OMKARCHEM",
-    label: "OMKAR SPECIALITY C",
+    "label": "Insteel Industries, Inc.",
+    "value": "IIIN"
   },
   {
-    value: "BASML",
-    label: "BANNARI AMMAN SPIN",
+    "label": "Internet Initiative Japan, Inc.",
+    "value": "IIJI"
   },
   {
-    value: "ALBERTDAVD",
-    label: "ALBERT DAVID",
+    "label": "Interval Leisure Group, Inc.",
+    "value": "IILG"
   },
   {
-    value: "SPTL",
-    label: "SINTEX PLASTICS TE",
+    "label": "IntriCon Corporation",
+    "value": "IIN"
   },
   {
-    value: "INCREDIBLE",
-    label: "INCREDIBLE INDUSTRIES LTD",
+    "label": "II",
+    "value": "IIVI"
   },
   {
-    value: "MATRIMONY",
-    label: "MATRIMONY COM LTD",
+    "label": "Ikanos Communications, Inc.",
+    "value": "IKAN"
   },
   {
-    value: "HBLPOWER",
-    label: "HBL POWER SYSTEMS",
+    "label": "Iao Kun Group Holding Company Limited",
+    "value": "IKGH"
   },
   {
-    value: "PRAJIND",
-    label: "PRAJ INDUSTRIES",
+    "label": "Ikonics Corporation",
+    "value": "IKNX"
   },
   {
-    value: "GODREJPROP",
-    label: "GODREJ PROPERTIES",
+    "label": "Illumina, Inc.",
+    "value": "ILMN"
   },
   {
-    value: "STAR",
-    label: "STRIDES PHARMA SCI",
+    "label": "Immune Design Corp.",
+    "value": "IMDZ"
   },
   {
-    value: "VASWANI",
-    label: "VASWANI INDUSTRIES",
+    "label": "ImmunoGen, Inc.",
+    "value": "IMGN"
   },
   {
-    value: "MALUPAPER",
-    label: "MALU PAPER MILLS",
+    "label": "Intermolecular, Inc.",
+    "value": "IMI"
   },
   {
-    value: "POKARNA",
-    label: "POKARNA LTD",
+    "label": "Ingles Markets, Incorporated",
+    "value": "IMKTA"
   },
   {
-    value: "POONAWALLA",
-    label: "POONAWALLA FINCORP LTD",
+    "label": "Immersion Corporation",
+    "value": "IMMR"
   },
   {
-    value: "TARC",
-    label: "ANANT RAJ GLOBAL LTD",
+    "label": "Immunomedics, Inc.",
+    "value": "IMMU"
   },
   {
-    value: "SIKKO",
-    label: "SIKKO INDUSTRIES LTD",
+    "label": "Imprimis Pharmaceuticals, Inc.",
+    "value": "IMMY"
   },
   {
-    value: "LAGNAM",
-    label: "LAGNAM SPINTEX LTD",
+    "label": "Immune Pharmaceuticals Inc.",
+    "value": "IMNP"
   },
   {
-    value: "SWANENERGY",
-    label: "SWAN ENERGY LTD",
+    "label": "ChipMOS TECHNOLOGIES (Bermuda) LTD.",
+    "value": "IMOS"
   },
   {
-    value: "ROSSARI",
-    label: "ROSSARI BIOTECH LTD",
+    "label": "Imris Inc",
+    "value": "IMRS"
   },
   {
-    value: "NAHARSPING",
-    label: "NAHAR SPINNING",
+    "label": "Internap Corporation",
+    "value": "INAP"
   },
   {
-    value: "MORARJEE",
-    label: "MORARJEE TEXTILES",
+    "label": "First Internet Bancorp",
+    "value": "INBK"
   },
   {
-    value: "CONTROLPR",
-    label: "CONTROL PRINT LTD",
+    "label": "INC Research Holdings, Inc.",
+    "value": "INCR"
   },
   {
-    value: "DREDGECORP",
-    label: "DREDGING CORP IND",
+    "label": "Incyte Corporation",
+    "value": "INCY"
   },
   {
-    value: "IMAGICAA",
-    label: "IMAGICAAWORLD ENT LTD",
+    "label": "Independent Bank Corp.",
+    "value": "INDB"
   },
   {
-    value: "UFO",
-    label: "UFO MOVIEZ INDIA",
+    "label": "iShares S&P India Nifty 50 Index Fund",
+    "value": "INDY"
   },
   {
-    value: "SARLAPOLY",
-    label: "SARLA PERFORMANCE",
+    "label": "Informatica Corporation",
+    "value": "INFA"
   },
   {
-    value: "ICEMAKE",
-    label: "ICE MAKE REFRIGERAT LTD",
+    "label": "Infinity Pharmaceuticals, Inc.",
+    "value": "INFI"
   },
   {
-    value: "RUCHINFRA",
-    label: "RUCHI INFRASTRUCTU",
+    "label": "Infinera Corporation",
+    "value": "INFN"
   },
   {
-    value: "AYMSYNTEX",
-    label: "AYM SYNTEX LTD",
+    "label": "Inogen, Inc",
+    "value": "INGN"
   },
   {
-    value: "CEBBCO",
-    label: "COMMERCIAL ENGINEE",
+    "label": "Interactive Intelligence Group, Inc.",
+    "value": "ININ"
   },
   {
-    value: "VERTOZ",
-    label: "VERTOZ ADVERTISING LTD",
+    "label": "Innocoll AG",
+    "value": "INNL"
   },
   {
-    value: "VEDL",
-    label: "VEDANTA LTD",
+    "label": "Inovio Pharmaceuticals, Inc.",
+    "value": "INO"
   },
   {
-    value: "GSPL",
-    label: "GUJARAT STATE PETR",
+    "label": "Innodata Inc.",
+    "value": "INOD"
   },
   {
-    value: "RICOAUTO",
-    label: "RICO AUTO INDS",
+    "label": "Interphase Corporation",
+    "value": "INPH"
   },
   {
-    value: "VISASTEEL",
-    label: "VISA STEEL LTD",
+    "label": "Insmed, Inc.",
+    "value": "INSM"
   },
   {
-    value: "AKSHOPTFBR",
-    label: "AKSH OPTIFIBRE",
+    "label": "Insys Therapeutics, Inc.",
+    "value": "INSY"
   },
   {
-    value: "MBAPL",
-    label: "MADHYA BHARAT AGRO P. LTD",
+    "label": "Intel Corporation",
+    "value": "INTC"
   },
   {
-    value: "HERITGFOOD",
-    label: "HERITAGE FOODS LTD",
+    "label": "The Intergroup Corporation",
+    "value": "INTG"
   },
   {
-    value: "LAXMIMACH",
-    label: "LAKSHMI MACHINE",
+    "label": "INTL FCStone Inc.",
+    "value": "INTL"
   },
   {
-    value: "INSECTICID",
-    label: "INSECTICIDES INDIA",
+    "label": "INTL FCStone Inc.",
+    "value": "INTLL"
   },
   {
-    value: "WELCORP",
-    label: "WELSPUN CORP LTD",
+    "label": "Intuit Inc.",
+    "value": "INTU"
   },
   {
-    value: "ASAHISONG",
-    label: "ASAHI SONGWON COLO",
+    "label": "Intersections, Inc.",
+    "value": "INTX"
   },
   {
-    value: "KECL",
-    label: "KIRLOSKAR ELECTRIC",
+    "label": "Identiv, Inc.",
+    "value": "INVE"
   },
   {
-    value: "ACCELYA",
-    label: "ACCELYA SOLUTIONS",
+    "label": "Inventergy Global, Inc.",
+    "value": "INVT"
   },
   {
-    value: "TWL",
-    label: "TITAGARH WAGONS",
+    "label": "InnerWorkings, Inc.",
+    "value": "INWK"
   },
   {
-    value: "NUCLEUS",
-    label: "NUCLEUS SOFTWARE",
+    "label": "Innospec Inc.",
+    "value": "IOSP"
   },
   {
-    value: "CHOLAFIN",
-    label: "CHOLAMANDALAM INV",
+    "label": "Inter Parfums, Inc.",
+    "value": "IPAR"
   },
   {
-    value: "JISLJALEQS",
-    label: "JAIN IRRIGATION",
+    "label": "iPass Inc.",
+    "value": "IPAS"
   },
   {
-    value: "HONDAPOWER",
-    label: "HONDA INDIA POWER",
+    "label": "Infinity Property and Casualty Corporation",
+    "value": "IPCC"
   },
   {
-    value: "RTNINDIA",
-    label: "RATTANINDIA ENT LTD",
+    "label": "Intellipharmaceutics International Inc.",
+    "value": "IPCI"
   },
   {
-    value: "ATGL",
-    label: "ADANI TOTAL GAS LTD",
+    "label": "IPC Healthcare, Inc.",
+    "value": "IPCM"
   },
   {
-    value: "DSSL",
-    label: "DYNACONS SYS SOLUT",
+    "label": "Professional Diversity Network, Inc.",
+    "value": "IPDN"
   },
   {
-    value: "STCINDIA",
-    label: "STATE TRD CORP IND",
+    "label": "IPG Photonics Corporation",
+    "value": "IPGP"
   },
   {
-    value: "KAJARIACER",
-    label: "KAJARIA CERAMICS",
+    "label": "Innophos Holdings, Inc.",
+    "value": "IPHS"
   },
   {
-    value: "GRAUWEIL",
-    label: "GRAUER & WEIL IND LTD",
+    "label": "PowerShares International BuyBack Achievers Portfolio",
+    "value": "IPKW"
   },
   {
-    value: "EMAMIPAP",
-    label: "EMAMI PAPER MILLS LTD",
+    "label": "Ideal Power Inc.",
+    "value": "IPWR"
   },
   {
-    value: "SHEMAROO",
-    label: "SHEMAROO ENTERTAIN",
+    "label": "Impax Laboratories, Inc.",
+    "value": "IPXL"
   },
   {
-    value: "ABMINTLLTD",
-    label: "ABM INTERNATIONAL LTD",
+    "label": "Inteliquent, Inc.",
+    "value": "IQNT"
   },
   {
-    value: "INDIGRID",
-    label: "INDIA GRID TRUST",
+    "label": "iRobot Corporation",
+    "value": "IRBT"
   },
   {
-    value: "SHARDACROP",
-    label: "SHARDA CROPCHEM",
+    "label": "Iridium Communications Inc",
+    "value": "IRDM"
   },
   {
-    value: "TOKYOPLAST",
-    label: "TOKYO PLAST INTL",
+    "label": "Iridium Communications Inc",
+    "value": "IRDMB"
   },
   {
-    value: "WALCHANNAG",
-    label: "WALCHANDNAGAR IND",
+    "label": "Iridium Communications Inc",
+    "value": "IRDMZ"
   },
   {
-    value: "ASIANTILES",
-    label: "ASIAN GRANITO INDI",
+    "label": "Ignite Restaurant Group, Inc.",
+    "value": "IRG"
   },
   {
-    value: "UJJIVAN",
-    label: "UJJIVAN FIN SERV",
+    "label": "IRIDEX Corporation",
+    "value": "IRIX"
   },
   {
-    value: "LGBBROSLTD",
-    label: "LG BALAKRISHNA & B",
+    "label": "iRadimed Corporation",
+    "value": "IRMD"
   },
   {
-    value: "SSWL",
-    label: "STEEL STRIPS WHEEL",
+    "label": "IF Bancorp, Inc.",
+    "value": "IROQ"
   },
   {
-    value: "AJMERA",
-    label: "AJMERA REALTY & IN",
+    "label": "Ironwood Pharmaceuticals, Inc.",
+    "value": "IRWD"
   },
   {
-    value: "RPOWER",
-    label: "RELIANCE POWER",
+    "label": "Investors Bancorp, Inc.",
+    "value": "ISBC"
   },
   {
-    value: "STEELCAS",
-    label: "STEELCAST LTD",
+    "label": "International Speedway Corporation",
+    "value": "ISCA"
   },
   {
-    value: "ELGIRUBCO",
-    label: "ELGI RUBBER CO LTD",
+    "label": "iShares S&P/Citigroup 1",
+    "value": "ISHG"
   },
   {
-    value: "FCSSOFT",
-    label: "FCS SOFTWARE SOLUT",
+    "label": "Insignia Systems, Inc.",
+    "value": "ISIG"
   },
   {
-    value: "CREST",
-    label: "CREST VENTURES",
+    "label": "Intersil Corporation",
+    "value": "ISIL"
   },
   {
-    value: "JINDALPOLY",
-    label: "JINDAL POLY FILMS",
+    "label": "Isis Pharmaceuticals, Inc.",
+    "value": "ISIS"
   },
   {
-    value: "ZODIACLOTH",
-    label: "ZODIAC CLOTH CO",
+    "label": "Isle of Capri Casinos, Inc.",
+    "value": "ISLE"
   },
   {
-    value: "AWHCL",
-    label: "ANTONY WASTE HDG CELL LTD",
+    "label": "SLM Corporation",
+    "value": "ISM"
   },
   {
-    value: "THEMISMED",
-    label: "THEMIS MEDICARE LTD",
+    "label": "Image Sensing Systems, Inc.",
+    "value": "ISNS"
   },
   {
-    value: "RADIOCITY",
-    label: "MUSIC BROADCAST",
+    "label": "Intuitive Surgical, Inc.",
+    "value": "ISRG"
   },
   {
-    value: "SURYAROSNI",
-    label: "SURYA ROSHNI",
+    "label": "Isramco, Inc.",
+    "value": "ISRL"
   },
   {
-    value: "SHILPAMED",
-    label: "SHILPA MEDICARE",
+    "label": "Innovative Solutions and Support, Inc.",
+    "value": "ISSC"
   },
   {
-    value: "SUPERHOUSE",
-    label: "SUPERHOUSE LTD",
+    "label": "Integrated Silicon Solution, Inc.",
+    "value": "ISSI"
   },
   {
-    value: "TRITURBINE",
-    label: "TRIVENI TURBINE LTD",
+    "label": "Investar Holding Corporation",
+    "value": "ISTR"
   },
   {
-    value: "EROSMEDIA",
-    label: "EROS INTL MEDIA",
+    "label": "Intra",
+    "value": "ITCI"
   },
   {
-    value: "GEPIL",
-    label: "GE POWER INDIA LTD",
+    "label": "Investors Title Company",
+    "value": "ITIC"
   },
   {
-    value: "BOMDYEING",
-    label: "BOMBAY DYEING &MFG",
+    "label": "Itron, Inc.",
+    "value": "ITRI"
   },
   {
-    value: "ESABINDIA",
-    label: "ESAB INDIA",
+    "label": "Ituran Location and Control Ltd.",
+    "value": "ITRN"
   },
   {
-    value: "BIRLATYRE",
-    label: "BIRLA TYRES LTD",
+    "label": "Intevac, Inc.",
+    "value": "IVAC"
   },
   {
-    value: "HOMEFIRST",
-    label: "HOME FIRST FIN CO IND LTD",
+    "label": "Ivanhoe Energy, Inc.",
+    "value": "IVAN"
   },
   {
-    value: "EXCELINDUS",
-    label: "EXCEL INDUSTRIES",
+    "label": "IXYS Corporation",
+    "value": "IXYS"
   },
   {
-    value: "KPIGLOBAL",
-    label: "KPI GLOBAL INFRA LTD",
+    "label": "Jack In The Box Inc.",
+    "value": "JACK"
   },
   {
-    value: "RCF",
-    label: "RASHTRIYA CHEM & F",
+    "label": "Collabrium Japan Acquisition Corporation",
+    "value": "JACQ"
   },
   {
-    value: "INDSWFTLAB",
-    label: "IND SWIFT LABS",
+    "label": "Collabrium Japan Acquisition Corporation",
+    "value": "JACQU"
   },
   {
-    value: "RENUKA",
-    label: "SHREE RENUKA SUGAR",
+    "label": "Collabrium Japan Acquisition Corporation",
+    "value": "JACQW"
   },
   {
-    value: "WANBURY",
-    label: "WANBURY LTD",
+    "label": "JAKKS Pacific, Inc.",
+    "value": "JAKK"
   },
   {
-    value: "VINATIORGA",
-    label: "VINATI ORGANICS",
+    "label": "Jason Industries, Inc.",
+    "value": "JASN"
   },
   {
-    value: "NAVNETEDUL",
-    label: "NAVNEET EDUCATION",
+    "label": "Jason Industries, Inc.",
+    "value": "JASNW"
   },
   {
-    value: "MANORG",
-    label: "MANGALAM ORGANICS LTD",
+    "label": "JA Solar Holdings, Co., Ltd.",
+    "value": "JASO"
   },
   {
-    value: "MOLDTECH",
-    label: "MOLD-TEK TECHNOLO",
+    "label": "Jacksonville Bancorp, Inc.",
+    "value": "JAXB"
   },
   {
-    value: "INDOCO",
-    label: "INDOCO REMEDIES LTD",
+    "label": "Jazz Pharmaceuticals plc",
+    "value": "JAZZ"
   },
   {
-    value: "TIPSINDLTD",
-    label: "TIPS INDUSTRIES",
+    "label": "J.B. Hunt Transport Services, Inc.",
+    "value": "JBHT"
   },
   {
-    value: "DICIND",
-    label: "DIC INDIA",
+    "label": "JetBlue Airways Corporation",
+    "value": "JBLU"
   },
   {
-    value: "PRESSMN",
-    label: "PRESSMAN ADVERTISI",
+    "label": "John B. Sanfilippo & Son, Inc.",
+    "value": "JBSS"
   },
   {
-    value: "TCI",
-    label: "TRANSPORT CORP OF",
+    "label": "j2 Global, Inc.",
+    "value": "JCOM"
   },
   {
-    value: "GET_D",
-    label: "GE T&D INDIA LTD",
+    "label": "Communications Systems, Inc.",
+    "value": "JCS"
   },
   {
-    value: "AUTOAXLES",
-    label: "AUTOMOTIVE AXLES",
+    "label": "Jewett",
+    "value": "JCTCF"
   },
   {
-    value: "DEVYANI",
-    label: "DEVYANI INTERNATIONAL LTD",
+    "label": "JD.com, Inc.",
+    "value": "JD"
   },
   {
-    value: "LUXIND",
-    label: "LUX INDUSTRIES LTD",
+    "label": "JDS Uniphase Corporation",
+    "value": "JDSU"
   },
   {
-    value: "SANSERA",
-    label: "SANSERA ENGINEERING LTD",
+    "label": "WisdomTree Japan Interest Rate Strategy Fund",
+    "value": "JGBB"
   },
   {
-    value: "DELTAMAGNT",
-    label: "DELTA MFG LTD",
+    "label": "Jive Software, Inc.",
+    "value": "JIVE"
   },
   {
-    value: "CLEAN",
-    label: "CLEAN SCIENCE & TECH LTD",
+    "label": "J & J Snack Foods Corp.",
+    "value": "JJSF"
   },
   {
-    value: "GLAXO",
-    label: "GLAXO SMITHKLINE P",
+    "label": "Jack Henry & Associates, Inc.",
+    "value": "JKHY"
   },
   {
-    value: "SMSPHARMA",
-    label: "SMS PHARMACEUTICAL",
+    "label": "Jamba, Inc.",
+    "value": "JMBA"
   },
   {
-    value: "WILLAMAGOR",
-    label: "WILLIAMSON MAGOR &",
+    "label": "51job, Inc.",
+    "value": "JOBS"
   },
   {
-    value: "TRIVENI",
-    label: "TRIVENI ENGINEERIN",
+    "label": "Joe's Jeans Inc.",
+    "value": "JOEZ"
   },
   {
-    value: "SMLT",
-    label: "SARTHAK METALS LTD",
+    "label": "Johnson Outdoors Inc.",
+    "value": "JOUT"
   },
   {
-    value: "GPIL",
-    label: "GODAWARI POWER",
+    "label": "China Finance Online Co. Limited",
+    "value": "JRJC"
   },
   {
-    value: "NACLIND",
-    label: "NACL INDUSTRIES LTD",
+    "label": "James River Group Holdings, Ltd.",
+    "value": "JRVR"
   },
   {
-    value: "SKIPPER",
-    label: "SKIPPER LTD",
+    "label": "SLM Corporation",
+    "value": "JSM"
   },
   {
-    value: "KIRLOSBROS",
-    label: "KIRLOSKAR BROTHERS",
+    "label": "Jinpan International Limited",
+    "value": "JST"
   },
   {
-    value: "CIGNITITEC",
-    label: "CIGNITI TECHNOLOGI",
+    "label": "JetPay Corporation",
+    "value": "JTPY"
   },
   {
-    value: "ASHIMASYN",
-    label: "ASHIMA",
+    "label": "Juno Therapeutics, Inc.",
+    "value": "JUNO"
   },
   {
-    value: "COASTCORP",
-    label: "COASTAL CORPORATION LTD",
+    "label": "Coffee Holding Co., Inc.",
+    "value": "JVA"
   },
   {
-    value: "GOCLCORP",
-    label: "GOCL CORPORATION L",
+    "label": "Jacksonville Bancorp Inc.",
+    "value": "JXSB"
   },
   {
-    value: "CMICABLES",
-    label: "CMI",
+    "label": "The Joint Corp.",
+    "value": "JYNT"
   },
   {
-    value: "ZEEMEDIA",
-    label: "ZEE MEDIA CORP",
+    "label": "Kaiser Aluminum Corporation",
+    "value": "KALU"
   },
   {
-    value: "CCL",
-    label: "CCL PRODUCTS(IND)",
+    "label": "iKang Healthcare Group, Inc.",
+    "value": "KANG"
   },
   {
-    value: "FACT",
-    label: "FERTILIZERS & CHEM",
+    "label": "Kimball International, Inc.",
+    "value": "KBAL"
   },
   {
-    value: "JAMNAAUTO",
-    label: "JAMNA AUTO IND",
+    "label": "KaloBios Pharmaceuticals, Inc.",
+    "value": "KBIO"
   },
   {
-    value: "PENIND",
-    label: "PENNAR INDUSTRIES",
+    "label": "KBS Fashion Group Limited",
+    "value": "KBSF"
   },
   {
-    value: "SAKHTISUG",
-    label: "SAKTHI SUGAR",
+    "label": "KCAP Financial, Inc.",
+    "value": "KCAP"
   },
   {
-    value: "PGINVIT",
-    label: "POWERGRID INFRA. INVITS",
+    "label": "Kansas City Life Insurance Company",
+    "value": "KCLI"
   },
   {
-    value: "LASA",
-    label: "LASA SUPERGENERICS",
+    "label": "Kimball Electronics, Inc.",
+    "value": "KE"
   },
   {
-    value: "QUADPRO",
-    label: "QUADPRO ITES LTD",
+    "label": "Kelly Services, Inc.",
+    "value": "KELYA"
   },
   {
-    value: "ORISSAMINE",
-    label: "ORISSA MINERALS DE",
+    "label": "Kelly Services, Inc.",
+    "value": "KELYB"
   },
   {
-    value: "SAKSOFT",
-    label: "SAKSOFT LTD",
+    "label": "Kewaunee Scientific Corporation",
+    "value": "KEQU"
   },
   {
-    value: "ASHAPURMIN",
-    label: "ASHAPURA MINE CHEM",
+    "label": "Keryx Biopharmaceuticals, Inc.",
+    "value": "KERX"
   },
   {
-    value: "YAARI",
-    label: "YAARI DIGI INT SER LTD",
+    "label": "The KEYW Holding Corporation",
+    "value": "KEYW"
   },
   {
-    value: "SMSLIFE",
-    label: "SMS LIFESCIENCES",
+    "label": "Kentucky First Federal Bancorp",
+    "value": "KFFB"
   },
   {
-    value: "SJS",
-    label: "SJS ENTERPRISES LTD",
+    "label": "Kforce, Inc.",
+    "value": "KFRC"
   },
   {
-    value: "BANCOINDIA",
-    label: "BANCO PRODUCTS",
+    "label": "Kofax Limited",
+    "value": "KFX"
   },
   {
-    value: "RAJESHEXPO",
-    label: "RAJESH EXPORTS",
+    "label": "Kingold Jewelry Inc.",
+    "value": "KGJI"
   },
   {
-    value: "ARROWGREEN",
-    label: "ARROW GREENTECH LI",
+    "label": "Kindred Biosciences, Inc.",
+    "value": "KIN"
   },
   {
-    value: "OBEROIRLTY",
-    label: "OBEROI REALTY LTD",
+    "label": "Kingstone Companies, Inc",
+    "value": "KINS"
   },
   {
-    value: "LUMAXIND",
-    label: "LUMAX INDUSTRIES",
+    "label": "Kirkland's, Inc.",
+    "value": "KIRK"
   },
   {
-    value: "THANGAMAYL",
-    label: "THANGAMAYIL JEWELL",
+    "label": "Kite Pharma, Inc.",
+    "value": "KITE"
   },
   {
-    value: "TALBROAUTO",
-    label: "TALBROS AUTO",
+    "label": "KLA",
+    "value": "KLAC"
   },
   {
-    value: "TARAPUR",
-    label: "TARAPUR TRANSFORME",
+    "label": "Kulicke and Soffa Industries, Inc.",
+    "value": "KLIC"
   },
   {
-    value: "AVADHSUGAR",
-    label: "AVADH SUGAR ENERGY",
+    "label": "KLX Inc.",
+    "value": "KLXI"
   },
   {
-    value: "AXISCADES",
-    label: "AXISCADES TECHNOLO",
+    "label": "Kamada Ltd.",
+    "value": "KMDA"
   },
   {
-    value: "AUTOIND",
-    label: "AUTOLINE INDUSTRIE",
+    "label": "Kandi Technologies Group, Inc.",
+    "value": "KNDI"
   },
   {
-    value: "LATENTVIEW",
-    label: "LATENT VIEW ANALYTICS LTD",
+    "label": "Kona Grill, Inc.",
+    "value": "KONA"
   },
   {
-    value: "CAMS",
-    label: "COMPUTER AGE MNGT SER LTD",
+    "label": "Kingtone Wirelessinfo Solution Holding Ltd",
+    "value": "KONE"
   },
   {
-    value: "M_MFIN",
-    label: "MAHINDRA &MAH FIN",
+    "label": "Cesca Therapeutics Inc.",
+    "value": "KOOL"
   },
   {
-    value: "ICDSLTD",
-    label: "ICDS",
+    "label": "Kopin Corporation",
+    "value": "KOPN"
   },
   {
-    value: "GANESHHOUC",
-    label: "GANESH HOUSING CP",
+    "label": "Koss Corporation",
+    "value": "KOSS"
   },
   {
-    value: "DELPHIFX",
-    label: "DELPHI WORLD MONEY LTD",
+    "label": "Karyopharm Therapeutics Inc.",
+    "value": "KPTI"
   },
   {
-    value: "DVL",
-    label: "DHUNSERI VENTURES",
+    "label": "Kraft Foods Group, Inc.",
+    "value": "KRFT"
   },
   {
-    value: "ZUARI",
-    label: "ZUARI AGRO CHEMICA",
+    "label": "Kearny Financial",
+    "value": "KRNY"
   },
   {
-    value: "HGINFRA",
-    label: "H.G. INFRA ENGINEE",
+    "label": "Key Tronic Corporation",
+    "value": "KTCC"
   },
   {
-    value: "ANDREWYU",
-    label: "ANDREW YULE & CO LTD",
+    "label": "Key Technology, Inc.",
+    "value": "KTEC"
   },
   {
-    value: "WHIRLPOOL",
-    label: "WHIRLPOOL OF INDIA",
+    "label": "Kratos Defense & Security Solutions, Inc.",
+    "value": "KTOS"
   },
   {
-    value: "ANIKINDS",
-    label: "ANIK INDUSTRIES",
+    "label": "K2M Group Holdings, Inc.",
+    "value": "KTWO"
   },
   {
-    value: "ALPHAGEO",
-    label: "ALPHAGEO(INDIA)",
+    "label": "Ku6 Media Co., Ltd.",
+    "value": "KUTV"
   },
   {
-    value: "RADAAN",
-    label: "RADAAN MEDIAWORKS",
+    "label": "KVH Industries, Inc.",
+    "value": "KVHI"
   },
   {
-    value: "BHAGYAPROP",
-    label: "BHAGYANAGAR PROPPE",
+    "label": "KraneShares CSI China Internet ETF",
+    "value": "KWEB"
   },
   {
-    value: "TAINWALCHM",
-    label: "TAINWALA CHEMICALS",
+    "label": "Kythera Biopharmaceuticals, Inc.",
+    "value": "KYTH"
   },
   {
-    value: "ANKITMETAL",
-    label: "ANKIT METAL & POWE",
+    "label": "KongZhong Corporation",
+    "value": "KZ"
   },
   {
-    value: "IITL",
-    label: "INDUSTRIAL INV TRU",
+    "label": "Louisiana Bancorp, Inc.",
+    "value": "LABC"
   },
   {
-    value: "EXPLEOSOL",
-    label: "EXPLEO SOLUTIONS",
+    "label": "Multi",
+    "value": "LABL"
   },
   {
-    value: "MPSLTD",
-    label: "MPS LTD",
+    "label": "Lakes Entertainment, Inc.",
+    "value": "LACO"
   },
   {
-    value: "BAJAJHIND",
-    label: "BAJAJ HINDUSTHAN S",
+    "label": "Lakeland Industries, Inc.",
+    "value": "LAKE"
   },
   {
-    value: "KBCGLOBAL",
-    label: "KBC GLOBAL LTD",
+    "label": "PowerShares Actively Managed Exchange",
+    "value": "LALT"
   },
   {
-    value: "ORIENTCEM",
-    label: "ORIENT CEMENT LTD",
+    "label": "Lamar Advertising Company",
+    "value": "LAMR"
   },
   {
-    value: "SCAPDVR",
-    label: "STAMPEDE CAPITAL",
+    "label": "Lancaster Colony Corporation",
+    "value": "LANC"
   },
   {
-    value: "CORALFINAC",
-    label: "CORAL INDIA FIN",
+    "label": "Gladstone Land Corporation",
+    "value": "LAND"
   },
   {
-    value: "GESHIP",
-    label: "GREAT EASTERN SHI",
+    "label": "Landmark Bancorp Inc.",
+    "value": "LARK"
   },
   {
-    value: "TIMETECHNO",
-    label: "TIME TECHNOPLAST",
+    "label": "Lawson Products, Inc.",
+    "value": "LAWS"
   },
   {
-    value: "RANEENGINE",
-    label: "RANE ENGINE VALVES",
+    "label": "Layne Christensen Company",
+    "value": "LAYN"
   },
   {
-    value: "FLFL",
-    label: "FUTURE LIFESTYLE F",
+    "label": "Lakeland Bancorp, Inc.",
+    "value": "LBAI"
   },
   {
-    value: "BHAGCHEM",
-    label: "BHAGIRADHA CHEM & INDS L",
+    "label": "Leading Brands Inc",
+    "value": "LBIX"
   },
   {
-    value: "ACCORD",
-    label: "ACCORD SYNERGY LTD",
+    "label": "Liberty Broadband Corporation",
+    "value": "LBRDA"
   },
   {
-    value: "GODREJCP",
-    label: "GODREJ CONSUMER PR",
+    "label": "Liberty Broadband Corporation",
+    "value": "LBRDK"
   },
   {
-    value: "MERCATOR",
-    label: "MERCATOR LTD",
+    "label": "Liberty Broadband Corporation",
+    "value": "LBRKR"
   },
   {
-    value: "GOCOLORS",
-    label: "GO FASHION INDIA LTD",
+    "label": "Liberty Global plc",
+    "value": "LBTYA"
   },
   {
-    value: "DPABHUSHAN",
-    label: "D. P. ABHUSHAN LTD",
+    "label": "Liberty Global plc",
+    "value": "LBTYB"
   },
   {
-    value: "MFL",
-    label: "MEGHMANI FINECHEM LTD",
+    "label": "Liberty Global plc",
+    "value": "LBTYK"
   },
   {
-    value: "TPLPLASTEH",
-    label: "TPL PLASTECH LTD.",
+    "label": "LCNB Corporation",
+    "value": "LCNB"
   },
   {
-    value: "KMSUGAR",
-    label: "KM SUGAR MILLS LTD",
+    "label": "Lifetime Brands, Inc.",
+    "value": "LCUT"
   },
   {
-    value: "BHAGERIA",
-    label: "BHAGERIA INDUSTRIE",
+    "label": "LDR Holding Corporation",
+    "value": "LDRH"
   },
   {
-    value: "CUBEXTUB",
-    label: "CUBEX TUBINGS",
+    "label": "PowerShares LadderRite 0",
+    "value": "LDRI"
   },
   {
-    value: "CHEMFAB",
-    label: "CHEMFAB ALKALIS",
+    "label": "Lands' End, Inc.",
+    "value": "LE"
   },
   {
-    value: "DPSCLTD",
-    label: "DPSC LTD",
+    "label": "Lincoln Electric Holdings, Inc.",
+    "value": "LECO"
   },
   {
-    value: "LAKPRE",
-    label: "LAKSHMI PRECISION",
+    "label": "SemiLEDS Corporation",
+    "value": "LEDS"
   },
   {
-    value: "DWARKESH",
-    label: "DWARIKESH SUGAR IN",
+    "label": "Levy Acquisition Corp.",
+    "value": "LEVY"
   },
   {
-    value: "VIKASLIFE",
-    label: "VIKAS LIFECARE LTD",
+    "label": "Levy Acquisition Corp.",
+    "value": "LEVYU"
   },
   {
-    value: "PARTYCRUS",
-    label: "PARTY CRUISERS LTD",
+    "label": "Levy Acquisition Corp.",
+    "value": "LEVYW"
   },
   {
-    value: "SUMMITSEC",
-    label: "SUMMIT SECURITIES",
+    "label": "Littelfuse, Inc.",
+    "value": "LFUS"
   },
   {
-    value: "GENUSPOWER",
-    label: "GENUS POWER INFRA",
+    "label": "Lifevantage Corporation",
+    "value": "LFVN"
   },
   {
-    value: "VASCONEQ",
-    label: "VASCON ENGINEERS L",
+    "label": "Legacy Reserves LP",
+    "value": "LGCY"
   },
   {
-    value: "REDINGTON",
-    label: "REDINGTON INDIA LTD",
+    "label": "Legacy Reserves LP",
+    "value": "LGCYO"
   },
   {
-    value: "RUCHIRA",
-    label: "RUCHIRA PAPERS LTD",
+    "label": "Legacy Reserves LP",
+    "value": "LGCYP"
   },
   {
-    value: "DEEPAKFERT",
-    label: "DEEPAK FERTILISERS",
+    "label": "LGI Homes, Inc.",
+    "value": "LGIH"
   },
   {
-    value: "NOVARTIND",
-    label: "NOVARTIS INDIA",
+    "label": "Ligand Pharmaceuticals Incorporated",
+    "value": "LGND"
   },
   {
-    value: "VAISHALI",
-    label: "VAISHALI PHARMA LTD",
+    "label": "LHC Group",
+    "value": "LHCG"
   },
   {
-    value: "LODHA",
-    label: "MACROTECH DEVELOPERS LTD",
+    "label": "Lime Energy Co.",
+    "value": "LIME"
   },
   {
-    value: "ASTEC",
-    label: "ASTEC LIFESCIENCES",
+    "label": "Lincoln Educational Services Corporation",
+    "value": "LINC"
   },
   {
-    value: "BEDMUTHA",
-    label: "BEDMUTHA INDUSTRIE",
+    "label": "Linn Energy, LLC",
+    "value": "LINE"
   },
   {
-    value: "HILTON",
-    label: "HILTON METAL FORGI",
+    "label": "Fidelity Southern Corporation",
+    "value": "LION"
   },
   {
-    value: "GILLANDERS",
-    label: "GILLANDERS ARBUTHN",
+    "label": "Lionbridge Technologies, Inc.",
+    "value": "LIOX"
   },
   {
-    value: "PONNIERODE",
-    label: "PONNI SUGARS ERODE",
+    "label": "Liquid Holdings Group, Inc.",
+    "value": "LIQD"
   },
   {
-    value: "DFMFOODS",
-    label: "D F M FOODS",
+    "label": "LiveDeal, Inc.",
+    "value": "LIVE"
   },
   {
-    value: "GEEKAYWIRE",
-    label: "GEEKAY WIRES LTD",
+    "label": "La Jolla Pharmaceutical Company",
+    "value": "LJPC"
   },
   {
-    value: "DCMNVL",
-    label: "DCM NOUVELLE LTD",
+    "label": "Lakeland Financial Corporation",
+    "value": "LKFN"
   },
   {
-    value: "SEYAIND",
-    label: "SEYA INDUSTRIES LTD",
+    "label": "LKQ Corporation",
+    "value": "LKQ"
   },
   {
-    value: "KEC",
-    label: "KEC INTERNATIONAL",
+    "label": "Lilis Energy, Inc.",
+    "value": "LLEX"
   },
   {
-    value: "VHL",
-    label: "VARDHAMAN HOLDINGS",
+    "label": "Limelight Networks, Inc.",
+    "value": "LLNW"
   },
   {
-    value: "UTTAMSUGAR",
-    label: "UTTAM SUGAR MILLS",
+    "label": "Linear Technology Corporation",
+    "value": "LLTC"
   },
   {
-    value: "SUNDARMFIN",
-    label: "SUNDARAM FINANCE L",
+    "label": "LeMaitre Vascular, Inc.",
+    "value": "LMAT"
   },
   {
-    value: "SPAL",
-    label: "S.P.APPARELS LTD",
+    "label": "First Trust Low Duration Mortgage Opportunities ETF",
+    "value": "LMBS"
   },
   {
-    value: "WINDLAS",
-    label: "WINDLAS BIOTECH LTD",
+    "label": "Liberty Media Corporation",
+    "value": "LMCA"
   },
   {
-    value: "GOLDTECH",
-    label: "GOLDSTONE TECHNO",
+    "label": "Liberty Media Corporation",
+    "value": "LMCB"
   },
   {
-    value: "VINDHYATEL",
-    label: "VINDHYA TELELINKS",
+    "label": "Liberty Media Corporation",
+    "value": "LMCK"
   },
   {
-    value: "NITCO",
-    label: "NITCO LTD",
+    "label": "LMI Aerospace, Inc.",
+    "value": "LMIA"
   },
   {
-    value: "KOVAI",
-    label: "KOVAI MEDICAL CENTER & HO",
+    "label": "Limoneira Co",
+    "value": "LMNR"
   },
   {
-    value: "ROSSELLIND",
-    label: "ROSSELL INDIA LTD",
+    "label": "Lumenis Ltd.",
+    "value": "LMNS"
   },
   {
-    value: "ALLCARGO",
-    label: "ALLCARGO LOGISTICS",
+    "label": "Luminex Corporation",
+    "value": "LMNX"
   },
   {
-    value: "MAGNUM",
-    label: "MAGNUM VENTURES LTD",
+    "label": "Lumos Networks Corp.",
+    "value": "LMOS"
   },
   {
-    value: "POLICYBZR",
-    label: "PB FINTECH LTD",
+    "label": "Landmark Infrastructure Partners LP",
+    "value": "LMRK"
   },
   {
-    value: "SCHAND",
-    label: "S CHAND AND COMPAN",
+    "label": "LNB Bancorp, Inc.",
+    "value": "LNBB"
   },
   {
-    value: "SESHAPAPER",
-    label: "SESHASAYEE PAPER&B",
+    "label": "Snyder's",
+    "value": "LNCE"
   },
   {
-    value: "CERA",
-    label: "CERA SANITARYWARE",
+    "label": "Linn Co, LLC",
+    "value": "LNCO"
   },
   {
-    value: "GSFC",
-    label: "GUJARAT STATE FER",
+    "label": "Landec Corporation",
+    "value": "LNDC"
   },
   {
-    value: "DCMSRIND",
-    label: "DCM SHRIRAM IND LTD",
+    "label": "Manhattan Bridge Capital, Inc",
+    "value": "LOAN"
   },
   {
-    value: "DBCORP",
-    label: "D B CORP LTD",
+    "label": "Local Corporation",
+    "value": "LOCM"
   },
   {
-    value: "ARMANFIN",
-    label: "ARMAN FINANCIAL SE",
+    "label": "El Pollo Loco Holdings, Inc.",
+    "value": "LOCO"
   },
   {
-    value: "PKTEA",
-    label: "PERIA KARAMALAI TE",
+    "label": "Logitech International S.A.",
+    "value": "LOGI"
   },
   {
-    value: "MMP",
-    label: "MMP INDUSTRIES LTD",
+    "label": "LogMein, Inc.",
+    "value": "LOGM"
   },
   {
-    value: "RAMASTEEL",
-    label: "RAMA STEEL TUBES",
+    "label": "LoJack Corporation",
+    "value": "LOJN"
   },
   {
-    value: "SUPREMEENG",
-    label: "SUPREME ENGINEERING LTD",
+    "label": "eLong, Inc.",
+    "value": "LONG"
   },
   {
-    value: "MANAKCOAT",
-    label: "MANAKSIA COATED ME",
+    "label": "LookSmart, Ltd.",
+    "value": "LOOK"
   },
   {
-    value: "PSB",
-    label: "PUNJAB & SIND BANK",
+    "label": "Grand Canyon Education, Inc.",
+    "value": "LOPE"
   },
   {
-    value: "AARON",
-    label: "AARON INDUSTRIES LTD",
+    "label": "Loral Space and Communications, Inc.",
+    "value": "LORL"
   },
   {
-    value: "CREATIVE",
-    label: "CREATIVE PERIPHERALS AND",
+    "label": "Loxo Oncology, Inc.",
+    "value": "LOXO"
   },
   {
-    value: "GHCL",
-    label: "GHCL",
+    "label": "Lipocine Inc.",
+    "value": "LPCN"
   },
   {
-    value: "ISMTLTD",
-    label: "ISMT LTD",
+    "label": "Life Partners Holdings Inc",
+    "value": "LPHI"
   },
   {
-    value: "CAPTRUST",
-    label: "CAPITAL TRUST LTD.",
+    "label": "LPL Financial Holdings Inc.",
+    "value": "LPLA"
   },
   {
-    value: "BALAJITELE",
-    label: "BALAJI TELEFILMS",
+    "label": "LifePoint Hospitals, Inc.",
+    "value": "LPNT"
   },
   {
-    value: "IGPL",
-    label: "IG PETROCHEMICAL",
+    "label": "LaPorte Bancorp, Inc.",
+    "value": "LPSB"
   },
   {
-    value: "LOKESHMACH",
-    label: "LOKESH MACHINES",
+    "label": "LivePerson, Inc.",
+    "value": "LPSN"
   },
   {
-    value: "HLEGLAS",
-    label: "HLE GLASCOAT LTD",
+    "label": "LightPath Technologies, Inc.",
+    "value": "LPTH"
   },
   {
-    value: "TOTAL",
-    label: "TOTAL TRANSPORT SYS LTD",
+    "label": "Lpath, Inc.",
+    "value": "LPTN"
   },
   {
-    value: "SARDAEN",
-    label: "SARDA ENERGY & MIN",
+    "label": "Liquidity Services, Inc.",
+    "value": "LQDT"
   },
   {
-    value: "RADICO",
-    label: "RADICO KHAITAN",
+    "label": "LRAD Corporation",
+    "value": "LRAD"
   },
   {
-    value: "INDIANHUME",
-    label: "INDIAN HUME PIPE",
+    "label": "Lam Research Corporation",
+    "value": "LRCX"
   },
   {
-    value: "KCPSUGIND",
-    label: "KCP SUGAR & INDUST",
+    "label": "Lake Shore Bancorp, Inc.",
+    "value": "LSBK"
   },
   {
-    value: "MANGCHEFER",
-    label: "MANGALORE CHEMICAL",
+    "label": "Lattice Semiconductor Corporation",
+    "value": "LSCC"
   },
   {
-    value: "ZUARIGLOB",
-    label: "ZUARI GLOBAL LTD",
+    "label": "Landstar System, Inc.",
+    "value": "LSTR"
   },
   {
-    value: "SAREGAMA",
-    label: "SAREGAMA INDIA LTD",
+    "label": "Lightbridge Corporation",
+    "value": "LTBR"
   },
   {
-    value: "INDIANB",
-    label: "INDIAN BANK",
+    "label": "Learning Tree International, Inc.",
+    "value": "LTRE"
   },
   {
-    value: "NLCINDIA",
-    label: "NLC INDIA LTD",
+    "label": "Liberty TripAdvisor Holdings, Inc.",
+    "value": "LTRPA"
   },
   {
-    value: "SAGCEM",
-    label: "SAGAR CEMENTS",
+    "label": "Liberty TripAdvisor Holdings, Inc.",
+    "value": "LTRPB"
   },
   {
-    value: "PGHH",
-    label: "PROCTER&GAMBLE IND",
+    "label": "Lantronix, Inc.",
+    "value": "LTRX"
   },
   {
-    value: "MAHLIFE",
-    label: "MAHINDRA LIFESPACE",
+    "label": "LegacyTexas Financial Group, Inc.",
+    "value": "LTXB"
   },
   {
-    value: "ARSHIYA",
-    label: "ARSHIYA LTD",
+    "label": "lululemon athletica inc.",
+    "value": "LULU"
   },
   {
-    value: "JUBLINDS",
-    label: "JUBILANT INDUSTRIE",
+    "label": "Luna Innovations Incorporated",
+    "value": "LUNA"
   },
   {
-    value: "HPAL",
-    label: "HP ADHESIVES LTD",
+    "label": "Liberty Interactive Corporation",
+    "value": "LVNTA"
   },
   {
-    value: "GLOBE",
-    label: "GLOBE TEXTILES (I) LTD.",
+    "label": "Liberty Interactive Corporation",
+    "value": "LVNTB"
   },
   {
-    value: "PANACHE",
-    label: "PANACHE DIGILIFE LTD",
+    "label": "Lifeway Foods, Inc.",
+    "value": "LWAY"
   },
   {
-    value: "TCIEXP",
-    label: "TCI EXPRESS LTD",
+    "label": "Lexicon Pharmaceuticals, Inc.",
+    "value": "LXRX"
   },
   {
-    value: "TEXRAIL",
-    label: "TEXMACO RAIL & ENG",
+    "label": "LSI Industries Inc.",
+    "value": "LYTS"
   },
   {
-    value: "GENUSPAPER",
-    label: "GENUS PAPER AND BO",
+    "label": "Merrimack Pharmaceuticals, Inc.",
+    "value": "MACK"
   },
   {
-    value: "SHREYAS",
-    label: "SHREYAS SHIP & LO",
+    "label": "Magnetek, Inc.",
+    "value": "MAG"
   },
   {
-    value: "PRECWIRE",
-    label: "PRECISION WIRES IN",
+    "label": "Magal Security Systems Ltd.",
+    "value": "MAGS"
   },
   {
-    value: "HSCL",
-    label: "HIMADRI SPECIALITY",
+    "label": "MAM Software Group, Inc.",
+    "value": "MAMS"
   },
   {
-    value: "AKG",
-    label: "AKG EXIM LTD",
+    "label": "Manhattan Associates, Inc.",
+    "value": "MANH"
   },
   {
-    value: "MAHSCOOTER",
-    label: "MAHARASHTRA SCOOT",
+    "label": "ManTech International Corporation",
+    "value": "MANT"
   },
   {
-    value: "MAANALU",
-    label: "MAAN ALUMINIUM LTD",
+    "label": "Marriott International",
+    "value": "MAR"
   },
   {
-    value: "VIKASECO",
-    label: "VIKAS ECOTECH LIMI",
+    "label": "Marathon Patent Group, Inc.",
+    "value": "MARA"
   },
   {
-    value: "KANORICHEM",
-    label: "KANORIA CHEMICALS",
+    "label": "Remark Media, Inc.",
+    "value": "MARK"
   },
   {
-    value: "BTML",
-    label: "BODHI TREE MULTIME",
+    "label": "Marine Petroleum Trust",
+    "value": "MARPS"
   },
   {
-    value: "PRECOT",
-    label: "PRECOT LTD",
+    "label": "Masimo Corporation",
+    "value": "MASI"
   },
   {
-    value: "OPTIEMUS",
-    label: "OPTIEMUS INFRACOM",
+    "label": "Mattel, Inc.",
+    "value": "MAT"
   },
   {
-    value: "TCNSBRANDS",
-    label: "TCNS CLOTHING CO L",
+    "label": "Mattersight Corporation",
+    "value": "MATR"
   },
   {
-    value: "BCLIND",
-    label: "BCL INDUSTRIES LTD",
+    "label": "Matthews International Corporation",
+    "value": "MATW"
   },
   {
-    value: "RANASUG",
-    label: "RANA SUGARS LTD",
+    "label": "J. W. Mays, Inc.",
+    "value": "MAYS"
   },
   {
-    value: "NRAIL",
-    label: "NR AGARWAL IND",
+    "label": "Middlefield Banc Corp.",
+    "value": "MBCN"
   },
   {
-    value: "LYKALABS",
-    label: "LYKA LABORATORIES",
+    "label": "MB Financial Inc.",
+    "value": "MBFI"
   },
   {
-    value: "MARATHON",
-    label: "MARATHON NEXTGEN",
+    "label": "MB Financial Inc.",
+    "value": "MBFIP"
   },
   {
-    value: "PNC",
-    label: "PRITISH NANDY COMM",
+    "label": "Marrone Bio Innovations, Inc.",
+    "value": "MBII"
   },
   {
-    value: "TVSELECT",
-    label: "TVS ELECTRONICS",
+    "label": "Metabolix, Inc.",
+    "value": "MBLX"
   },
   {
-    value: "RKEC",
-    label: "RKEC PROJECTS LTD",
+    "label": "Middleburg Financial Corporation",
+    "value": "MBRG"
   },
   {
-    value: "GUJALKALI",
-    label: "GUJARAT ALKALIES",
+    "label": "FlexShares Disciplined Duration MBS Index Fund",
+    "value": "MBSD"
   },
   {
-    value: "REPRO",
-    label: "REPRO INDIA LTD",
+    "label": "M B T Financial Corp",
+    "value": "MBTF"
   },
   {
-    value: "UNITEDPOLY",
-    label: "UNITED POLYFAB GUJ. LTD.",
+    "label": "Malibu Boats, Inc.",
+    "value": "MBUU"
   },
   {
-    value: "JAYAGROGN",
-    label: "JAYANT AGRO-ORG",
+    "label": "Merchants Bancshares, Inc.",
+    "value": "MBVT"
   },
   {
-    value: "NECCLTD",
-    label: "NORTH EASTERN CARR",
+    "label": "Mercantile Bank Corporation",
+    "value": "MBWM"
   },
   {
-    value: "TCIFINANCE",
-    label: "TCI FINANCE LTD",
+    "label": "Macatawa Bank Corporation",
+    "value": "MCBC"
   },
   {
-    value: "NAHARINDUS",
-    label: "NAHAR IND ENTERPRI",
+    "label": "Madison County Financial, Inc.",
+    "value": "MCBK"
   },
   {
-    value: "RUCHI",
-    label: "RUCHI SOYA INDUSTRIES LTD",
+    "label": "Mid",
+    "value": "MCEP"
   },
   {
-    value: "PLASTIBLEN",
-    label: "PLASTIBLENDS INDIA",
+    "label": "MCG Capital Corporation",
+    "value": "MCGC"
   },
   {
-    value: "REVATHI",
-    label: "REVATHI EQUIPMENT",
+    "label": "Microchip Technology Incorporated",
+    "value": "MCHP"
   },
   {
-    value: "CHOLAHLDNG",
-    label: "CHOLAMANDALAM FIN",
+    "label": "Marchex, Inc.",
+    "value": "MCHX"
   },
   {
-    value: "SAPPHIRE",
-    label: "SAPPHIRE FOODS INDIA LTD",
+    "label": "Mecox Lane Limited",
+    "value": "MCOX"
   },
   {
-    value: "MADRASFERT",
-    label: "MADRAS FERTILIZERS",
+    "label": "Monarch Casino & Resort, Inc.",
+    "value": "MCRI"
   },
   {
-    value: "NBVENTURES",
-    label: "NAVA BHARAT VENTUR",
+    "label": "Micrel, Incorporated",
+    "value": "MCRL"
   },
   {
-    value: "INEOSSTYRO",
-    label: "INEOS STYROLUTION",
+    "label": "Macrocure Ltd.",
+    "value": "MCUR"
   },
   {
-    value: "BAFNAPH",
-    label: "BAFNA PHARMACEUTICALS LTD",
+    "label": "MedAssets, Inc.",
+    "value": "MDAS"
   },
   {
-    value: "NEULANDLAB",
-    label: "NEULAND LABORITIE",
+    "label": "MDC Partners Inc.",
+    "value": "MDCA"
   },
   {
-    value: "XPROINDIA",
-    label: "XPRO INDIA LTD.",
+    "label": "The Medicines Company",
+    "value": "MDCO"
   },
   {
-    value: "CENTENKA",
-    label: "CENTURY ENKA",
+    "label": "First Trust Exchange",
+    "value": "MDIV"
   },
   {
-    value: "HITECHGEAR",
-    label: "THE HI-TECH GEARS",
+    "label": "Mondelez International, Inc.",
+    "value": "MDLZ"
   },
   {
-    value: "PASUPTAC",
-    label: "PASUPATI ACRYLON LTD",
+    "label": "Mountain Province Diamonds Inc.",
+    "value": "MDM"
   },
   {
-    value: "GNFC",
-    label: "GUJARAT NARMADA VA",
+    "label": "Allscripts Healthcare Solutions, Inc.",
+    "value": "MDRX"
   },
   {
-    value: "ABFRL",
-    label: "ADITYA BIRLA FASH",
+    "label": "Medidata Solutions, Inc.",
+    "value": "MDSO"
   },
   {
-    value: "ANDHRSUGAR",
-    label: "ANDHRA SUGARS",
+    "label": "BluePhoenix Solutions, Ltd.",
+    "value": "MDSY"
   },
   {
-    value: "BANARISUG",
-    label: "BANNARI AMMAN SUG",
+    "label": "Medivation, Inc.",
+    "value": "MDVN"
   },
   {
-    value: "KALYANIFRG",
-    label: "KALYANI FORGE",
+    "label": "Medovex Corp.",
+    "value": "MDVXU"
   },
   {
-    value: "GANGESSECU",
-    label: "GANGES SECURITIES",
+    "label": "MediWound Ltd.",
+    "value": "MDWD"
   },
   {
-    value: "RELAXO",
-    label: "RELAXO FOOTWEARS",
+    "label": "MiMedx Group, Inc",
+    "value": "MDXG"
   },
   {
-    value: "MITCON",
-    label: "MITCON CONSU & ENG",
+    "label": "MeetMe, Inc.",
+    "value": "MEET"
   },
   {
-    value: "BVCL",
-    label: "BARAK VALLEY CEMEN",
+    "label": "Methes Energies International Ltd",
+    "value": "MEIL"
   },
   {
-    value: "WELSPUNIND",
-    label: "WELSPUN INDIA",
+    "label": "Methes Energies International Ltd",
+    "value": "MEILW"
   },
   {
-    value: "SEPOWER",
-    label: "S.E. POWER LTD",
+    "label": "Methes Energies International Ltd",
+    "value": "MEILZ"
   },
   {
-    value: "IPL",
-    label: "INDIA PESTICIDES LTD",
+    "label": "MEI Pharma, Inc.",
+    "value": "MEIP"
   },
   {
-    value: "AROGRANITE",
-    label: "ARO GRANITE INDUS",
+    "label": "MELA Sciences, Inc",
+    "value": "MELA"
   },
   {
-    value: "SANCO",
-    label: "SANCO IND LTD",
+    "label": "MercadoLibre, Inc.",
+    "value": "MELI"
   },
   {
-    value: "ARSSINFRA",
-    label: "ARSS INFRASTRUCTUR",
+    "label": "Melrose Bancorp, Inc.",
+    "value": "MELR"
   },
   {
-    value: "PENTAGOLD",
-    label: "PENTA GOLD LTD",
+    "label": "Memorial Production Partners LP",
+    "value": "MEMP"
   },
   {
-    value: "FLUOROCHEM",
-    label: "GUJARAT FLUOROCHEM LTD",
+    "label": "Mentor Graphics Corporation",
+    "value": "MENT"
   },
   {
-    value: "DYNAMIC",
-    label: "DYNAMIC SERVICES &",
+    "label": "Methanex Corporation",
+    "value": "MEOH"
   },
   {
-    value: "JYOTISTRUC",
-    label: "JYOTI STRUCTURES",
+    "label": "Mercer International Inc.",
+    "value": "MERC"
   },
   {
-    value: "SAFARI",
-    label: "SAFARI IND (INDIA) LTD",
+    "label": "Meru Networks, Inc.",
+    "value": "MERU"
   },
   {
-    value: "ABAN",
-    label: "ABAN OFFSHORE",
+    "label": "Metro Bancorp, Inc",
+    "value": "METR"
   },
   {
-    value: "SELMC",
-    label: "SEL MANUFACTURING CO LTD",
+    "label": "MicroFinancial Incorporated",
+    "value": "MFI"
   },
   {
-    value: "BLS",
-    label: "BLS INTERNATIONAL",
+    "label": "Multi",
+    "value": "MFLX"
   },
   {
-    value: "WEIZMANIND",
-    label: "WEIZMANN",
+    "label": "Mackinac Financial Corporation",
+    "value": "MFNC"
   },
   {
-    value: "ANDHRAPAP",
-    label: "ANDHRA PAPER LTD",
+    "label": "MFRI, Inc.",
+    "value": "MFRI"
   },
   {
-    value: "HITECHCORP",
-    label: "HITECH CORPORATION",
+    "label": "Mattress Firm Holding Corp.",
+    "value": "MFRM"
   },
   {
-    value: "LUMAXTECH",
-    label: "LUMAX AUTO TECHNOL",
+    "label": "MutualFirst Financial Inc.",
+    "value": "MFSF"
   },
   {
-    value: "OIL",
-    label: "OIL INDIA LTD",
+    "label": "MGC Diagnostics Corporation",
+    "value": "MGCD"
   },
   {
-    value: "UNITECH",
-    label: "UNITECH LTD",
+    "label": "MGE Energy Inc.",
+    "value": "MGEE"
   },
   {
-    value: "INNOVANA",
-    label: "INNOVANA THINKLABS",
+    "label": "Moneygram International, Inc.",
+    "value": "MGI"
   },
   {
-    value: "NITIRAJ",
-    label: "NITIRAJ ENGINEERS LTD",
+    "label": "Magic Software Enterprises Ltd.",
+    "value": "MGIC"
   },
   {
-    value: "AIRAN",
-    label: "AIRAN LTD",
+    "label": "Magellan Health, Inc.",
+    "value": "MGLN"
   },
   {
-    value: "GULPOLY",
-    label: "GULSHAN POLYOLS LTD",
+    "label": "MacroGenics, Inc.",
+    "value": "MGNX"
   },
   {
-    value: "LAMBODHARA",
-    label: "LAMBODHARA TEXTILE",
+    "label": "MGP Ingredients, Inc.",
+    "value": "MGPI"
   },
   {
-    value: "DIAMONDYD",
-    label: "PRATAAP SNACKS LTD",
+    "label": "McGrath RentCorp",
+    "value": "MGRC"
   },
   {
-    value: "EUROBOND",
-    label: "EURO PANEL PRODUCT",
+    "label": "Magyar Bancorp, Inc.",
+    "value": "MGYR"
   },
   {
-    value: "BEARDSELL",
-    label: "BEARDSELL LTD",
+    "label": "Morgans Hotel Group Co.",
+    "value": "MHGC"
   },
   {
-    value: "GREENLAM",
-    label: "GREENLAM INDUSTRIE",
+    "label": "Maiden Holdings, Ltd.",
+    "value": "MHLD"
   },
   {
-    value: "PGIL",
-    label: "PEARL GLOBAL INDUS",
+    "label": "Maiden Holdings, Ltd.",
+    "value": "MHLDO"
   },
   {
-    value: "RUPA",
-    label: "RUPA & CO LTD",
+    "label": "Micronet Enertec Technologies, Inc.",
+    "value": "MICT"
   },
   {
-    value: "AUSOMENT",
-    label: "AUSOM ENTERPRISE",
+    "label": "Micronet Enertec Technologies, Inc.",
+    "value": "MICTW"
   },
   {
-    value: "BIRLAMONEY",
-    label: "ADITYA BIRLA MONEY",
+    "label": "The Middleby Corporation",
+    "value": "MIDD"
   },
   {
-    value: "TI",
-    label: "TILAKNAGAR INDUSTR",
+    "label": "Novatel Wireless, Inc.",
+    "value": "MIFI"
   },
   {
-    value: "VADILALIND",
-    label: "VADILAL INDUSTRIES",
+    "label": "The Michaels Companies, Inc.",
+    "value": "MIK"
   },
   {
-    value: "ALKALI",
-    label: "ALKALI METALS LTD",
+    "label": "Mitcham Industries, Inc.",
+    "value": "MIND"
   },
   {
-    value: "SOLARINDS",
-    label: "SOLAR INDUSTRIES I",
+    "label": "Mobile Mini, Inc.",
+    "value": "MINI"
   },
   {
-    value: "BANARBEADS",
-    label: "BANARAS BEADS LTD",
+    "label": "Mitek Systems, Inc.",
+    "value": "MITK"
   },
   {
-    value: "SUMICHEM",
-    label: "SUMITOMO CHEMICAL IND LTD",
+    "label": "Mitel Networks Corporation",
+    "value": "MITL"
   },
   {
-    value: "CCCL",
-    label: "CONS CONSTRUCT CON",
+    "label": "MKS Instruments, Inc.",
+    "value": "MKSI"
   },
   {
-    value: "IFBAGRO",
-    label: "IFB AGRO IND",
+    "label": "Marketo, Inc.",
+    "value": "MKTO"
   },
   {
-    value: "FDC",
-    label: "FDC LTD",
+    "label": "MarketAxess Holdings, Inc.",
+    "value": "MKTX"
   },
   {
-    value: "HERCULES",
-    label: "HERCULES HOISTS",
+    "label": "Mesa Laboratories, Inc.",
+    "value": "MLAB"
   },
   {
-    value: "DALMIASUG",
-    label: "DALMIA BHARAT SUGA",
+    "label": "Herman Miller, Inc.",
+    "value": "MLHR"
   },
   {
-    value: "GODHA",
-    label: "GODHA CABCON INSULAT LTD",
+    "label": "ModusLink Global Solutions, Inc",
+    "value": "MLNK"
   },
   {
-    value: "DRCSYSTEMS",
-    label: "DRC SYSTEMS INDIA LTD",
+    "label": "Mellanox Technologies, Ltd.",
+    "value": "MLNX"
   },
   {
-    value: "SUNCLAYLTD",
-    label: "SUNDARAM CLAYTON",
+    "label": "Malvern Bancorp, Inc.",
+    "value": "MLVF"
   },
   {
-    value: "LINC",
-    label: "LINC LTD",
+    "label": "MMA Capital Management, LLC",
+    "value": "MMAC"
   },
   {
-    value: "PANSARI",
-    label: "PANSARI DEVELOPERS LTD",
+    "label": "Martin Midstream Partners L.P.",
+    "value": "MMLP"
   },
   {
-    value: "SEAMECLTD",
-    label: "SEAMEC LTD",
+    "label": "Merit Medical Systems, Inc.",
+    "value": "MMSI"
   },
   {
-    value: "INOXWIND",
-    label: "INOX WIND LTD",
+    "label": "MakeMyTrip Limited",
+    "value": "MMYT"
   },
   {
-    value: "HECPROJECT",
-    label: "HEC INFRA PROJECTS LTD",
+    "label": "Mandalay Digital Group, Inc",
+    "value": "MNDL"
   },
   {
-    value: "SILGO",
-    label: "SILGO RETAIL LTD",
+    "label": "MIND C.T.I. Ltd.",
+    "value": "MNDO"
   },
   {
-    value: "MONTECARLO",
-    label: "MONTE CARLO FASHIO",
+    "label": "MagneGas Corporation",
+    "value": "MNGA"
   },
   {
-    value: "BHARATWIRE",
-    label: "BHARAT WIRE ROPES",
+    "label": "MannKind Corporation",
+    "value": "MNKD"
   },
   {
-    value: "STARHEALTH",
-    label: "STAR HEALTH & AL INS CO L",
+    "label": "MediciNova, Inc.",
+    "value": "MNOV"
   },
   {
-    value: "SOLEX",
-    label: "SOLEX ENERGY LTD",
+    "label": "Monarch Financial Holdings, Inc.",
+    "value": "MNRK"
   },
   {
-    value: "LIKHITHA",
-    label: "LIKHITHA INFRASTRUC LTD",
+    "label": "Monro Muffler Brake, Inc.",
+    "value": "MNRO"
   },
   {
-    value: "TRIL",
-    label: "TRANSFORM & RECTIF",
+    "label": "Monster Beverage Corporation",
+    "value": "MNST"
   },
   {
-    value: "JOCIL",
-    label: "JOCIL LTD",
+    "label": "Momenta Pharmaceuticals, Inc.",
+    "value": "MNTA"
   },
   {
-    value: "PRIMESECU",
-    label: "PRIME SECURITIES",
+    "label": "Manitex International, Inc.",
+    "value": "MNTX"
   },
   {
-    value: "VARDHACRLC",
-    label: "VARDHMAN ACRYLICS",
+    "label": "Sky",
+    "value": "MOBI"
   },
   {
-    value: "KAKATCEM",
-    label: "KAKATIYA CEM SUGAR",
+    "label": "MobileIron, Inc.",
+    "value": "MOBL"
   },
   {
-    value: "NAGAFERT",
-    label: "NAGARJUNA FERTILIZ",
+    "label": "MOCON, Inc.",
+    "value": "MOCO"
   },
   {
-    value: "LFIC",
-    label: "LAKSHMI FINANCE &",
+    "label": "MidWestOne Financial Group, Inc.",
+    "value": "MOFG"
   },
   {
-    value: "TASTYBITE",
-    label: "TASTY BITE EATABLE",
+    "label": "MOKO Social Media Ltd.",
+    "value": "MOKO"
   },
   {
-    value: "SUNFLAG",
-    label: "SUNFLAG IRON & STE",
+    "label": "MOL Global, Inc.",
+    "value": "MOLG"
   },
   {
-    value: "PENINLAND",
-    label: "PENINSULA LAND LTD",
+    "label": "Momo Inc.",
+    "value": "MOMO"
   },
   {
-    value: "UGARSUGAR",
-    label: "UGAR SUGAR WORKS",
+    "label": "Morningstar, Inc.",
+    "value": "MORN"
   },
   {
-    value: "TMRVL",
-    label: "THE MANDHANA RETAI",
+    "label": "MoSys, Inc.",
+    "value": "MOSY"
   },
   {
-    value: "VIJAYA",
-    label: "VIJAYA DIAGNOSTIC CEN LTD",
+    "label": "Motorcar Parts of America, Inc.",
+    "value": "MPAA"
   },
   {
-    value: "AMBIKCO",
-    label: "AMBIKA COTTON MILL",
+    "label": "Mid Penn Bancorp",
+    "value": "MPB"
   },
   {
-    value: "VINNY",
-    label: "VINNY OVERSEAS LTD",
+    "label": "Melco Crown Entertainment Limited",
+    "value": "MPEL"
   },
   {
-    value: "SATIA",
-    label: "SATIA INDUSTRIES LTD",
+    "label": "Magellan Petroleum Corporation",
+    "value": "MPET"
   },
   {
-    value: "NEXTMEDIA",
-    label: "NEXT MEDIAWORKS LTD",
+    "label": "Monolithic Power Systems, Inc.",
+    "value": "MPWR"
   },
   {
-    value: "GPTINFRA",
-    label: "GPT INFRAPROJECTS",
+    "label": "Monroe Capital Corporation",
+    "value": "MRCC"
   },
   {
-    value: "MAGADSUGAR",
-    label: "MAGADH SUGAR & ENE",
+    "label": "Mercury Systems Inc",
+    "value": "MRCY"
   },
   {
-    value: "HINDCOMPOS",
-    label: "HINDUSTAN COMPOSIT",
+    "label": "Memorial Resource Development Corp.",
+    "value": "MRD"
   },
   {
-    value: "DOLATALGO",
-    label: "DOLAT ALGOTECH LTD",
+    "label": "Merge Healthcare Incorporated.",
+    "value": "MRGE"
   },
   {
-    value: "LEXUS",
-    label: "LEXUS GRANITO (IND",
+    "label": "Markit Ltd.",
+    "value": "MRKT"
   },
   {
-    value: "RAJMET",
-    label: "RAJNANDINI METAL LTD",
+    "label": "Marlin Business Services Corp.",
+    "value": "MRLN"
   },
   {
-    value: "FOCE",
-    label: "FOCE INDIA LTD",
+    "label": "Marinus Pharmaceuticals, Inc.",
+    "value": "MRNS"
   },
   {
-    value: "WEWIN",
-    label: "WE WIN LTD",
+    "label": "Marten Transport, Ltd.",
+    "value": "MRTN"
   },
   {
-    value: "MRO_TEK",
-    label: "MRO-TEK REALTY LTD",
+    "label": "Mirati Therapeutics, Inc.",
+    "value": "MRTX"
   },
   {
-    value: "NAHARPOLY",
-    label: "NAHAR POLY FILMS",
+    "label": "MRV Communications, Inc.",
+    "value": "MRVC"
   },
   {
-    value: "UNIENTER",
-    label: "UNIPHOS ENTERPRISE",
+    "label": "Marvell Technology Group Ltd.",
+    "value": "MRVL"
   },
   {
-    value: "BSHSL",
-    label: "BOMBAY SUPER HYBRID SEEDS",
+    "label": "MSB Financial Corp.",
+    "value": "MSBF"
   },
   {
-    value: "APCL",
-    label: "ANJANI PRTLND CEMT",
+    "label": "Microsemi Corporation",
+    "value": "MSCC"
   },
   {
-    value: "SBCL",
-    label: "SHIVALIK BIMETAL CON. LTD",
+    "label": "Middlesex Water Company",
+    "value": "MSEX"
   },
   {
-    value: "JINDRILL",
-    label: "JINDAL DRILLING",
+    "label": "MainSource Financial Group, Inc.",
+    "value": "MSFG"
   },
   {
-    value: "GOACARBON",
-    label: "GOA CARBON",
+    "label": "Microsoft Corporation",
+    "value": "MSFT"
   },
   {
-    value: "NITINSPIN",
-    label: "NITIN SPINNERS LTD",
+    "label": "The Madison Square Garden Company",
+    "value": "MSG"
   },
   {
-    value: "WESTLIFE",
-    label: "WESTLIFE DEVELOPMENT LTD",
+    "label": "Merus Labs International Inc.",
+    "value": "MSLI"
   },
   {
-    value: "VCL",
-    label: "VAXTEX COTFAB LTD",
+    "label": "MISONIX, Inc.",
+    "value": "MSON"
   },
   {
-    value: "BHAGYANGR",
-    label: "BHAGYANAGAR INDIA",
+    "label": "MicroStrategy Incorporated",
+    "value": "MSTR"
   },
   {
-    value: "CONSOFINVT",
-    label: "CONSOLIDATED FINVE",
+    "label": "Medical Transcription Billing, Corp.",
+    "value": "MTBC"
   },
   {
-    value: "ARCHIES",
-    label: "ARCHIES LTD.",
+    "label": "Mannatech, Incorporated",
+    "value": "MTEX"
   },
   {
-    value: "POLYMED",
-    label: "POLY MEDICURE LTD",
+    "label": "American Capital Mortgage Investment Corp.",
+    "value": "MTGE"
   },
   {
-    value: "ATFL",
-    label: "AGRO TECH FOODS",
+    "label": "American Capital Mortgage Investment Corp.",
+    "value": "MTGEP"
   },
   {
-    value: "CREDITACC",
-    label: "CREDITACCESS GRAME",
+    "label": "Materialise NV",
+    "value": "MTLS"
   },
   {
-    value: "GENCON",
-    label: "GENERIC ENG CONS PROJ LTD",
+    "label": "Matrix Service Company",
+    "value": "MTRX"
   },
   {
-    value: "PFOCUS",
-    label: "PRIME FOCUS",
+    "label": "MTS Systems Corporation",
+    "value": "MTSC"
   },
   {
-    value: "NAHARCAP",
-    label: "NAHAR CAPITAL AND",
+    "label": "M/A",
+    "value": "MTSI"
   },
   {
-    value: "ENDURANCE",
-    label: "ENDURANCE TECH",
+    "label": "MER Telemanagement Solutions Ltd.",
+    "value": "MTSL"
   },
   {
-    value: "AKZOINDIA",
-    label: "AKZO NOBEL INDIA",
+    "label": "Mattson Technology, Inc.",
+    "value": "MTSN"
   },
   {
-    value: "JSWHL",
-    label: "JSW HOLDINGS LTD",
+    "label": "Micron Technology, Inc.",
+    "value": "MU"
   },
   {
-    value: "AJOONI",
-    label: "AJOONI BIOTECH LTD",
+    "label": "AdvisorShares Sunrise Global Multi",
+    "value": "MULT"
   },
   {
-    value: "CINELINE",
-    label: "CINELINE INDIA LTD",
+    "label": "Microvision, Inc.",
+    "value": "MVIS"
   },
   {
-    value: "SPANDANA",
-    label: "SPANDANA SPHOORTY FIN LTD",
+    "label": "MWI Veterinary Supply, Inc.",
+    "value": "MWIV"
   },
   {
-    value: "JCHAC",
-    label: "JOHNSON CONTROLS-H",
+    "label": "Maxim Integrated Products, Inc.",
+    "value": "MXIM"
   },
   {
-    value: "RAJSREESUG",
-    label: "RAJSHREE SUG &CHEM",
+    "label": "Maxwell Technologies, Inc.",
+    "value": "MXWL"
   },
   {
-    value: "UNIVPHOTO",
-    label: "UNIVERSUS IMAGINGS LTD",
+    "label": "Myriad Genetics, Inc.",
+    "value": "MYGN"
   },
   {
-    value: "SHANTIGEAR",
-    label: "SHANTHI GEARS",
+    "label": "Mylan Inc.",
+    "value": "MYL"
   },
   {
-    value: "ARTEMISMED",
-    label: "ARTEMIS MEDICARE",
+    "label": "MYOS Corporation",
+    "value": "MYOS"
   },
   {
-    value: "SUBROS",
-    label: "SUBROS LTD",
+    "label": "MYR Group, Inc.",
+    "value": "MYRG"
   },
   {
-    value: "MAHAPEXLTD",
-    label: "MAHA RASHTRA APEX",
+    "label": "Mazor Robotics Ltd.",
+    "value": "MZOR"
   },
   {
-    value: "ADL",
-    label: "ARCHIDPLY DECOR LIMTED",
+    "label": "Natural Alternatives International, Inc.",
+    "value": "NAII"
   },
   {
-    value: "AAKASH",
-    label: "AAKASH EXPLORATION",
+    "label": "Rightside Group, Ltd.",
+    "value": "NAME"
   },
   {
-    value: "PREMIER",
-    label: "PREMIER LTD",
+    "label": "Nanometrics Incorporated",
+    "value": "NANO"
   },
   {
-    value: "JAINAM",
-    label: "JAINAM FERRO ALLOY",
+    "label": "Nathan's Famous, Inc.",
+    "value": "NATH"
   },
   {
-    value: "SHIVAUM",
-    label: "SHIV AUM STEELS LTD",
+    "label": "National Instruments Corporation",
+    "value": "NATI"
   },
   {
-    value: "ORIENTABRA",
-    label: "ORIENT ABRASIVES",
+    "label": "National Interstate Corporation",
+    "value": "NATL"
   },
   {
-    value: "PODDARHOUS",
-    label: "PODDAR HOUSING AND",
+    "label": "Nature's Sunshine Products, Inc.",
+    "value": "NATR"
   },
   {
-    value: "MASKINVEST",
-    label: "MASK INVESTMENTS L",
+    "label": "National American University Holdings, Inc.",
+    "value": "NAUH"
   },
   {
-    value: "KERNEX",
-    label: "KERNEX MICROSYSTEM",
+    "label": "The Navigators Group, Inc.",
+    "value": "NAVG"
   },
   {
-    value: "EASUNREYRL",
-    label: "EASUN REYROLLE LTD",
+    "label": "Navient Corporation",
+    "value": "NAVI"
   },
   {
-    value: "GULFPETRO",
-    label: "GP PETROLEUMS LTD",
+    "label": "NewBridge Bancorp",
+    "value": "NBBC"
   },
   {
-    value: "KUANTUM",
-    label: "KUANTUM PAPERS LTD",
+    "label": "Neurocrine Biosciences, Inc.",
+    "value": "NBIX"
   },
   {
-    value: "PULZ",
-    label: "PULZ ELECTRONICS",
+    "label": "Northeast Bancorp",
+    "value": "NBN"
   },
   {
-    value: "INDBANK",
-    label: "INDBANK MERCH BANK",
+    "label": "Neostem, Inc.",
+    "value": "NBS"
   },
   {
-    value: "KOTYARK",
-    label: "KOTYARK INDUSTRIES",
+    "label": "NBT Bancorp Inc.",
+    "value": "NBTB"
   },
   {
-    value: "MHLXMIRU",
-    label: "MAHALAXMI RUBTECH LTD",
+    "label": "NB&T FINANCIAL GROUP INC",
+    "value": "NBTF"
   },
   {
-    value: "JALAN",
-    label: "JALAN TRANSOLUTION",
+    "label": "NCI, Inc.",
+    "value": "NCIT"
   },
   {
-    value: "INDOSOLAR",
-    label: "INDOSOLAR LTD",
+    "label": "Norwegian Cruise Line Holdings Ltd.",
+    "value": "NCLH"
   },
   {
-    value: "ASLIND",
-    label: "ASL INDUSTRIES LTD",
+    "label": "National CineMedia, Inc.",
+    "value": "NCMI"
   },
   {
-    value: "DBREALTY",
-    label: "DB REALTY LTD",
+    "label": "The9 Limited",
+    "value": "NCTY"
   },
   {
-    value: "MASFIN",
-    label: "MAS FINANCIAL SERV",
+    "label": "The NASDAQ OMX Group, Inc.",
+    "value": "NDAQ"
   },
   {
-    value: "SEJALLTD",
-    label: "SEJAL GLASS LTD",
+    "label": "Noodles & Company",
+    "value": "NDLS"
   },
   {
-    value: "GLFL",
-    label: "GUJARAT LEASE",
+    "label": "NeuroDerm Ltd.",
+    "value": "NDRM"
   },
   {
-    value: "BALLARPUR",
-    label: "BALLARPUR INDS",
+    "label": "Nordson Corporation",
+    "value": "NDSN"
   },
   {
-    value: "THOMASCOTT",
-    label: "THOMAS SCOTT (INDI",
+    "label": "Northeast Community Bancorp, Inc.",
+    "value": "NECB"
   },
   {
-    value: "UMESLTD",
-    label: "USHA MARTIN EDU",
+    "label": "NeoGenomics, Inc.",
+    "value": "NEO"
   },
-];
+  {
+    "label": "Neogen Corporation",
+    "value": "NEOG"
+  },
+  {
+    "label": "Neonode Inc.",
+    "value": "NEON"
+  },
+  {
+    "label": "Neothetics, Inc.",
+    "value": "NEOT"
+  },
+  {
+    "label": "Neptune Technologies & Bioresources Inc",
+    "value": "NEPT"
+  },
+  {
+    "label": "Minerva Neurosciences, Inc",
+    "value": "NERV"
+  },
+  {
+    "label": "Net Element, Inc.",
+    "value": "NETE"
+  },
+  {
+    "label": "Newport Corporation",
+    "value": "NEWP"
+  },
+  {
+    "label": "NewStar Financial, Inc.",
+    "value": "NEWS"
+  },
+  {
+    "label": "Newtek Business Services Corp.",
+    "value": "NEWT"
+  },
+  {
+    "label": "Northfield Bancorp, Inc.",
+    "value": "NFBK"
+  },
+  {
+    "label": "NF Energy Saving Corporation",
+    "value": "NFEC"
+  },
+  {
+    "label": "Netflix, Inc.",
+    "value": "NFLX"
+  },
+  {
+    "label": "National General Holdings Corp",
+    "value": "NGHC"
+  },
+  {
+    "label": "National General Holdings Corp",
+    "value": "NGHCP"
+  },
+  {
+    "label": "New Hampshire Thrift Bancshares, Inc.",
+    "value": "NHTB"
+  },
+  {
+    "label": "NICE",
+    "value": "NICE"
+  },
+  {
+    "label": "Nicholas Financial, Inc.",
+    "value": "NICK"
+  },
+  {
+    "label": "Blue Nile, Inc.",
+    "value": "NILE"
+  },
+  {
+    "label": "National Bankshares, Inc.",
+    "value": "NKSH"
+  },
+  {
+    "label": "Nektar Therapeutics",
+    "value": "NKTR"
+  },
+  {
+    "label": "NewLink Genetics Corporation",
+    "value": "NLNK"
+  },
+  {
+    "label": "Netlist, Inc.",
+    "value": "NLST"
+  },
+  {
+    "label": "NMI Holdings Inc",
+    "value": "NMIH"
+  },
+  {
+    "label": "Numerex Corp.",
+    "value": "NMRX"
+  },
+  {
+    "label": "NN, Inc.",
+    "value": "NNBR"
+  },
+  {
+    "label": "National Penn Bancshares, Inc.",
+    "value": "NPBC"
+  },
+  {
+    "label": "NPS Pharmaceuticals, Inc.",
+    "value": "NPSP"
+  },
+  {
+    "label": "National Research Corporation",
+    "value": "NRCIA"
+  },
+  {
+    "label": "National Research Corporation",
+    "value": "NRCIB"
+  },
+  {
+    "label": "Northrim BanCorp Inc",
+    "value": "NRIM"
+  },
+  {
+    "label": "NephroGenex, Inc.",
+    "value": "NRX"
+  },
+  {
+    "label": "National Security Group, Inc.",
+    "value": "NSEC"
+  },
+  {
+    "label": "Insight Enterprises, Inc.",
+    "value": "NSIT"
+  },
+  {
+    "label": "Nanosphere, Inc.",
+    "value": "NSPH"
+  },
+  {
+    "label": "NAPCO Security Technologies, Inc.",
+    "value": "NSSC"
+  },
+  {
+    "label": "NanoString Technologies, Inc.",
+    "value": "NSTG"
+  },
+  {
+    "label": "Nortech Systems Incorporated",
+    "value": "NSYS"
+  },
+  {
+    "label": "NetApp, Inc.",
+    "value": "NTAP"
+  },
+  {
+    "label": "NetScout Systems, Inc.",
+    "value": "NTCT"
+  },
+  {
+    "label": "NetEase, Inc.",
+    "value": "NTES"
+  },
+  {
+    "label": "NETGEAR, Inc.",
+    "value": "NTGR"
+  },
+  {
+    "label": "Northern Technologies International Corporation",
+    "value": "NTIC"
+  },
+  {
+    "label": "Nortek Inc.",
+    "value": "NTK"
+  },
+  {
+    "label": "NTELOS Holdings Corp.",
+    "value": "NTLS"
+  },
+  {
+    "label": "NutriSystem Inc",
+    "value": "NTRI"
+  },
+  {
+    "label": "Northern Trust Corporation",
+    "value": "NTRS"
+  },
+  {
+    "label": "Northern Trust Corporation",
+    "value": "NTRSP"
+  },
+  {
+    "label": "NetSol Technologies Inc.",
+    "value": "NTWK"
+  },
+  {
+    "label": "Nuance Communications, Inc.",
+    "value": "NUAN"
+  },
+  {
+    "label": "NeuroMetrix, Inc.",
+    "value": "NURO"
+  },
+  {
+    "label": "Nutraceutical International Corporation",
+    "value": "NUTR"
+  },
+  {
+    "label": "NuVasive, Inc.",
+    "value": "NUVA"
+  },
+  {
+    "label": "Novavax, Inc.",
+    "value": "NVAX"
+  },
+  {
+    "label": "Neovasc Inc.",
+    "value": "NVCN"
+  },
+  {
+    "label": "NVIDIA Corporation",
+    "value": "NVDA"
+  },
+  {
+    "label": "Novadaq Technologies Inc",
+    "value": "NVDQ"
+  },
+  {
+    "label": "NVE Corporation",
+    "value": "NVEC"
+  },
+  {
+    "label": "NV5 Holdings, Inc.",
+    "value": "NVEE"
+  },
+  {
+    "label": "NV5 Holdings, Inc.",
+    "value": "NVEEW"
+  },
+  {
+    "label": "Nova Lifestyle, Inc",
+    "value": "NVFY"
+  },
+  {
+    "label": "Novogen Limited",
+    "value": "NVGN"
+  },
+  {
+    "label": "Nova Measuring Instruments Ltd.",
+    "value": "NVMI"
+  },
+  {
+    "label": "Naugatuck Valley Financial Corporation",
+    "value": "NVSL"
+  },
+  {
+    "label": "Northwest Bancshares, Inc.",
+    "value": "NWBI"
+  },
+  {
+    "label": "Northwest Biotherapeutics, Inc.",
+    "value": "NWBO"
+  },
+  {
+    "label": "Northwest Biotherapeutics, Inc.",
+    "value": "NWBOW"
+  },
+  {
+    "label": "Norwood Financial Corp.",
+    "value": "NWFL"
+  },
+  {
+    "label": "National Western Life Insurance Company",
+    "value": "NWLI"
+  },
+  {
+    "label": "Northwest Pipe Company",
+    "value": "NWPX"
+  },
+  {
+    "label": "News Corporation",
+    "value": "NWS"
+  },
+  {
+    "label": "News Corporation",
+    "value": "NWSA"
+  },
+  {
+    "label": "NXP Semiconductors N.V.",
+    "value": "NXPI"
+  },
+  {
+    "label": "Nexstar Broadcasting Group, Inc.",
+    "value": "NXST"
+  },
+  {
+    "label": "NXT",
+    "value": "NXTD"
+  },
+  {
+    "label": "NXT",
+    "value": "NXTDW"
+  },
+  {
+    "label": "NxStage Medical, Inc.",
+    "value": "NXTM"
+  },
+  {
+    "label": "New York Mortgage Trust, Inc.",
+    "value": "NYMT"
+  },
+  {
+    "label": "New York Mortgage Trust, Inc.",
+    "value": "NYMTP"
+  },
+  {
+    "label": "Nymox Pharmaceutical Corporation",
+    "value": "NYMX"
+  },
+  {
+    "label": "Empire Resorts, Inc.",
+    "value": "NYNY"
+  },
+  {
+    "label": "Optibase Ltd.",
+    "value": "OBAS"
+  },
+  {
+    "label": "Ocean Bio",
+    "value": "OBCI"
+  },
+  {
+    "label": "Optical Cable Corporation",
+    "value": "OCC"
+  },
+  {
+    "label": "OceanFirst Financial Corp.",
+    "value": "OCFC"
+  },
+  {
+    "label": "Oclaro, Inc.",
+    "value": "OCLR"
+  },
+  {
+    "label": "Oculus Innovative Sciences, Inc.",
+    "value": "OCLS"
+  },
+  {
+    "label": "Ocera Therapeutics, Inc.",
+    "value": "OCRX"
+  },
+  {
+    "label": "Ocular Therapeutix, Inc.",
+    "value": "OCUL"
+  },
+  {
+    "label": "Old Dominion Freight Line, Inc.",
+    "value": "ODFL"
+  },
+  {
+    "label": "Office Depot, Inc.",
+    "value": "ODP"
+  },
+  {
+    "label": "Oconee Federal Financial Corp.",
+    "value": "OFED"
+  },
+  {
+    "label": "Orthofix International N.V.",
+    "value": "OFIX"
+  },
+  {
+    "label": "Omega Flex, Inc.",
+    "value": "OFLX"
+  },
+  {
+    "label": "OFS Capital Corporation",
+    "value": "OFS"
+  },
+  {
+    "label": "OncoGenex Pharmaceuticals Inc.",
+    "value": "OGXI"
+  },
+  {
+    "label": "OHA Investment Corporation",
+    "value": "OHAI"
+  },
+  {
+    "label": "One Horizon Group, Inc.",
+    "value": "OHGI"
+  },
+  {
+    "label": "Ohr Pharmaceuticals, Inc.",
+    "value": "OHRP"
+  },
+  {
+    "label": "O2Micro International Limited",
+    "value": "OIIM"
+  },
+  {
+    "label": "Southwest Bancorp, Inc.",
+    "value": "OKSB"
+  },
+  {
+    "label": "Old Line Bancshares, Inc.",
+    "value": "OLBK"
+  },
+  {
+    "label": "Universal Display Corporation",
+    "value": "OLED"
+  },
+  {
+    "label": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V.",
+    "value": "OMAB"
+  },
+  {
+    "label": "Omnicell, Inc.",
+    "value": "OMCL"
+  },
+  {
+    "label": "OncoMed Pharmaceuticals, Inc.",
+    "value": "OMED"
+  },
+  {
+    "label": "Omeros Corporation",
+    "value": "OMER"
+  },
+  {
+    "label": "Odyssey Marine Exploration, Inc.",
+    "value": "OMEX"
+  },
+  {
+    "label": "Old National Bancorp",
+    "value": "ONB"
+  },
+  {
+    "label": "Oncolytics Biotech, Inc.",
+    "value": "ONCY"
+  },
+  {
+    "label": "Fidelity Nasdaq Composite Index Tracking Stock",
+    "value": "ONEQ"
+  },
+  {
+    "label": "Oneida Financial Corp.",
+    "value": "ONFC"
+  },
+  {
+    "label": "ON Semiconductor Corporation",
+    "value": "ONNN"
+  },
+  {
+    "label": "Onconova Therapeutics, Inc.",
+    "value": "ONTX"
+  },
+  {
+    "label": "Oncothyreon Inc.",
+    "value": "ONTY"
+  },
+  {
+    "label": "Onvia, Inc.",
+    "value": "ONVI"
+  },
+  {
+    "label": "Opus Bank",
+    "value": "OPB"
+  },
+  {
+    "label": "OptimumBank Holdings, Inc.",
+    "value": "OPHC"
+  },
+  {
+    "label": "Ophthotech Corporation",
+    "value": "OPHT"
+  },
+  {
+    "label": "Old Point Financial Corporation",
+    "value": "OPOF"
+  },
+  {
+    "label": "Ocean Power Technologies, Inc.",
+    "value": "OPTT"
+  },
+  {
+    "label": "Opexa Therapeutics, Inc.",
+    "value": "OPXA"
+  },
+  {
+    "label": "ORBCOMM Inc.",
+    "value": "ORBC"
+  },
+  {
+    "label": "Orbotech Ltd.",
+    "value": "ORBK"
+  },
+  {
+    "label": "Orexigen Therapeutics, Inc.",
+    "value": "OREX"
+  },
+  {
+    "label": "Ocean Rig UDW Inc.",
+    "value": "ORIG"
+  },
+  {
+    "label": "Oritani Financial Corp.",
+    "value": "ORIT"
+  },
+  {
+    "label": "O'Reilly Automotive, Inc.",
+    "value": "ORLY"
+  },
+  {
+    "label": "Oramed Pharmaceuticals Inc.",
+    "value": "ORMP"
+  },
+  {
+    "label": "Bio Blast Pharma Ltd.",
+    "value": "ORPN"
+  },
+  {
+    "label": "Orrstown Financial Services Inc",
+    "value": "ORRF"
+  },
+  {
+    "label": "Old Second Bancorp, Inc.",
+    "value": "OSBC"
+  },
+  {
+    "label": "Old Second Bancorp, Inc.",
+    "value": "OSBCP"
+  },
+  {
+    "label": "Ocean Shore Holding Co.",
+    "value": "OSHC"
+  },
+  {
+    "label": "Osiris Therapeutics, Inc.",
+    "value": "OSIR"
+  },
+  {
+    "label": "OSI Systems, Inc.",
+    "value": "OSIS"
+  },
+  {
+    "label": "SLM Corporation",
+    "value": "OSM"
+  },
+  {
+    "label": "Ossen Innovation Co., Ltd.",
+    "value": "OSN"
+  },
+  {
+    "label": "Overstock.com, Inc.",
+    "value": "OSTK"
+  },
+  {
+    "label": "OraSure Technologies, Inc.",
+    "value": "OSUR"
+  },
+  {
+    "label": "Otelco Inc.",
+    "value": "OTEL"
+  },
+  {
+    "label": "Open Text Corporation",
+    "value": "OTEX"
+  },
+  {
+    "label": "Otonomy, Inc.",
+    "value": "OTIC"
+  },
+  {
+    "label": "On Track Innovations Ltd",
+    "value": "OTIV"
+  },
+  {
+    "label": "Otter Tail Corporation",
+    "value": "OTTR"
+  },
+  {
+    "label": "Outerwall Inc.",
+    "value": "OUTR"
+  },
+  {
+    "label": "OvaScience Inc.",
+    "value": "OVAS"
+  },
+  {
+    "label": "Ohio Valley Banc Corp.",
+    "value": "OVBC"
+  },
+  {
+    "label": "Oak Valley Bancorp (CA)",
+    "value": "OVLY"
+  },
+  {
+    "label": "OmniVision Technologies, Inc.",
+    "value": "OVTI"
+  },
+  {
+    "label": "Oxbridge Re Holdings Limited",
+    "value": "OXBR"
+  },
+  {
+    "label": "Oxbridge Re Holdings Limited",
+    "value": "OXBRW"
+  },
+  {
+    "label": "Oxford Immunotec Global PLC",
+    "value": "OXFD"
+  },
+  {
+    "label": "OXiGENE, Inc.",
+    "value": "OXGN"
+  },
+  {
+    "label": "Oxford Lane Capital Corp.",
+    "value": "OXLC"
+  },
+  {
+    "label": "Oxford Lane Capital Corp.",
+    "value": "OXLCN"
+  },
+  {
+    "label": "Oxford Lane Capital Corp.",
+    "value": "OXLCO"
+  },
+  {
+    "label": "Oxford Lane Capital Corp.",
+    "value": "OXLCP"
+  },
+  {
+    "label": "Bank of the Ozarks",
+    "value": "OZRK"
+  },
+  {
+    "label": "Pan American Silver Corp.",
+    "value": "PAAS"
+  },
+  {
+    "label": "Pacific Biosciences of California, Inc.",
+    "value": "PACB"
+  },
+  {
+    "label": "PacWest Bancorp",
+    "value": "PACW"
+  },
+  {
+    "label": "PowerShares Global Agriculture Portfolio",
+    "value": "PAGG"
+  },
+  {
+    "label": "Phibro Animal Health Corporation",
+    "value": "PAHC"
+  },
+  {
+    "label": "Pangaea Logistics Solutions Ltd.",
+    "value": "PANL"
+  },
+  {
+    "label": "Parnell Pharmaceuticals Holdings Ltd",
+    "value": "PARN"
+  },
+  {
+    "label": "New Patriot Transportation Holding, Inc.",
+    "value": "PATIV"
+  },
+  {
+    "label": "Patrick Industries, Inc.",
+    "value": "PATK"
+  },
+  {
+    "label": "Paychex, Inc.",
+    "value": "PAYX"
+  },
+  {
+    "label": "Polonia Bancorp, Inc.",
+    "value": "PBCP"
+  },
+  {
+    "label": "People's United Financial, Inc.",
+    "value": "PBCT"
+  },
+  {
+    "label": "Pathfinder Bancorp, Inc.",
+    "value": "PBHC"
+  },
+  {
+    "label": "Porter Bancorp, Inc.",
+    "value": "PBIB"
+  },
+  {
+    "label": "Prudential Bancorp, Inc.",
+    "value": "PBIP"
+  },
+  {
+    "label": "Prima BioMed Ltd",
+    "value": "PBMD"
+  },
+  {
+    "label": "Potbelly Corporation",
+    "value": "PBPB"
+  },
+  {
+    "label": "Poage Bankshares, Inc.",
+    "value": "PBSK"
+  },
+  {
+    "label": "PACCAR Inc.",
+    "value": "PCAR"
+  },
+  {
+    "label": "Pacific Continental Corporation (Ore)",
+    "value": "PCBK"
+  },
+  {
+    "label": "PC Connection, Inc.",
+    "value": "PCCC"
+  },
+  {
+    "label": "Potlatch Corporation",
+    "value": "PCH"
+  },
+  {
+    "label": "The Priceline Group Inc.",
+    "value": "PCLN"
+  },
+  {
+    "label": "PCM, Inc.",
+    "value": "PCMI"
+  },
+  {
+    "label": "Pendrell Corporation",
+    "value": "PCO"
+  },
+  {
+    "label": "Points International, Ltd.",
+    "value": "PCOM"
+  },
+  {
+    "label": "Pacira Pharmaceuticals, Inc.",
+    "value": "PCRX"
+  },
+  {
+    "label": "PC",
+    "value": "PCTI"
+  },
+  {
+    "label": "Paylocity Holding Corporation",
+    "value": "PCTY"
+  },
+  {
+    "label": "Pharmacyclics, Inc.",
+    "value": "PCYC"
+  },
+  {
+    "label": "Park City Group, Inc.",
+    "value": "PCYG"
+  },
+  {
+    "label": "Pure Cycle Corporation",
+    "value": "PCYO"
+  },
+  {
+    "label": "PowerShares DB Optimum Yield Diversified Commodity Strategy Portfolio",
+    "value": "PDBC"
+  },
+  {
+    "label": "PDC Energy, Inc.",
+    "value": "PDCE"
+  },
+  {
+    "label": "Patterson Companies, Inc.",
+    "value": "PDCO"
+  },
+  {
+    "label": "Pro",
+    "value": "PDEX"
+  },
+  {
+    "label": "PDF Solutions, Inc.",
+    "value": "PDFS"
+  },
+  {
+    "label": "PDI, Inc.",
+    "value": "PDII"
+  },
+  {
+    "label": "PDL BioPharma, Inc.",
+    "value": "PDLI"
+  },
+  {
+    "label": "Peoples Bancorp of North Carolina, Inc.",
+    "value": "PEBK"
+  },
+  {
+    "label": "Peoples Bancorp Inc.",
+    "value": "PEBO"
+  },
+  {
+    "label": "Pegasystems Inc.",
+    "value": "PEGA"
+  },
+  {
+    "label": "Pattern Energy Group Inc.",
+    "value": "PEGI"
+  },
+  {
+    "label": "Pacific Ethanol, Inc.",
+    "value": "PEIX"
+  },
+  {
+    "label": "Penn National Gaming, Inc.",
+    "value": "PENN"
+  },
+  {
+    "label": "Penford Corporation",
+    "value": "PENX"
+  },
+  {
+    "label": "Peoples Federal Bancshares, Inc.",
+    "value": "PEOP"
+  },
+  {
+    "label": "Perfumania Holdings, Inc",
+    "value": "PERF"
+  },
+  {
+    "label": "Perion Network Ltd",
+    "value": "PERI"
+  },
+  {
+    "label": "Perry Ellis International Inc.",
+    "value": "PERY"
+  },
+  {
+    "label": "Perma",
+    "value": "PESI"
+  },
+  {
+    "label": "PetSmart, Inc",
+    "value": "PETM"
+  },
+  {
+    "label": "PetMed Express, Inc.",
+    "value": "PETS"
+  },
+  {
+    "label": "Aratana Therapeutics, Inc.",
+    "value": "PETX"
+  },
+  {
+    "label": "Preferred Bank",
+    "value": "PFBC"
+  },
+  {
+    "label": "Premier Financial Bancorp, Inc.",
+    "value": "PFBI"
+  },
+  {
+    "label": "Peoples Financial Corporation",
+    "value": "PFBX"
+  },
+  {
+    "label": "Profire Energy, Inc.",
+    "value": "PFIE"
+  },
+  {
+    "label": "P & F Industries, Inc.",
+    "value": "PFIN"
+  },
+  {
+    "label": "Peoples Financial Services Corp.",
+    "value": "PFIS"
+  },
+  {
+    "label": "PennantPark Floating Rate Capital Ltd.",
+    "value": "PFLT"
+  },
+  {
+    "label": "Performant Financial Corporation",
+    "value": "PFMT"
+  },
+  {
+    "label": "Proofpoint, Inc.",
+    "value": "PFPT"
+  },
+  {
+    "label": "PFSweb, Inc.",
+    "value": "PFSW"
+  },
+  {
+    "label": "Peapack",
+    "value": "PGC"
+  },
+  {
+    "label": "Progenics Pharmaceuticals Inc.",
+    "value": "PGNX"
+  },
+  {
+    "label": "PGT, Inc.",
+    "value": "PGTI"
+  },
+  {
+    "label": "PHI, Inc.",
+    "value": "PHII"
+  },
+  {
+    "label": "PHI, Inc.",
+    "value": "PHIIK"
+  },
+  {
+    "label": "PhotoMedex, Inc.",
+    "value": "PHMD"
+  },
+  {
+    "label": "PICO Holdings Inc.",
+    "value": "PICO"
+  },
+  {
+    "label": "1347 Property Insurance Holdings, Inc.",
+    "value": "PIH"
+  },
+  {
+    "label": "Premier, Inc.",
+    "value": "PINC"
+  },
+  {
+    "label": "Parke Bancorp, Inc.",
+    "value": "PKBK"
+  },
+  {
+    "label": "Park",
+    "value": "PKOH"
+  },
+  {
+    "label": "Procera Networks, Inc.",
+    "value": "PKT"
+  },
+  {
+    "label": "Photronics, Inc.",
+    "value": "PLAB"
+  },
+  {
+    "label": "Dave & Buster's Entertainment, Inc.",
+    "value": "PLAY"
+  },
+  {
+    "label": "Plumas Bancorp",
+    "value": "PLBC"
+  },
+  {
+    "label": "Children's Place, Inc. (The)",
+    "value": "PLCE"
+  },
+  {
+    "label": "Polycom, Inc.",
+    "value": "PLCM"
+  },
+  {
+    "label": "Popeyes Louisiana Kitchen, Inc.",
+    "value": "PLKI"
+  },
+  {
+    "label": "Palmetto Bancshares, Inc. (SC)",
+    "value": "PLMT"
+  },
+  {
+    "label": "Planar Systems, Inc.",
+    "value": "PLNR"
+  },
+  {
+    "label": "Preformed Line Products Company",
+    "value": "PLPC"
+  },
+  {
+    "label": "Planet Payment, Inc.",
+    "value": "PLPM"
+  },
+  {
+    "label": "First Trust ISE Global Platinum Index Fund",
+    "value": "PLTM"
+  },
+  {
+    "label": "Plug Power, Inc.",
+    "value": "PLUG"
+  },
+  {
+    "label": "ePlus inc.",
+    "value": "PLUS"
+  },
+  {
+    "label": "Plexus Corp.",
+    "value": "PLXS"
+  },
+  {
+    "label": "Pacific Mercantile Bancorp",
+    "value": "PMBC"
+  },
+  {
+    "label": "PMC",
+    "value": "PMCS"
+  },
+  {
+    "label": "Psychemedics Corporation",
+    "value": "PMD"
+  },
+  {
+    "label": "Pingtan Marine Enterprise Ltd.",
+    "value": "PME"
+  },
+  {
+    "label": "PMFG, Inc.",
+    "value": "PMFG"
+  },
+  {
+    "label": "Patriot National Bancorp Inc.",
+    "value": "PNBK"
+  },
+  {
+    "label": "Pinnacle Financial Partners, Inc.",
+    "value": "PNFP"
+  },
+  {
+    "label": "PennantPark Investment Corporation",
+    "value": "PNNT"
+  },
+  {
+    "label": "PowerShares Nasdaq Internet Portfolio",
+    "value": "PNQI"
+  },
+  {
+    "label": "Panera Bread Company",
+    "value": "PNRA"
+  },
+  {
+    "label": "PrimeEnergy Corporation",
+    "value": "PNRG"
+  },
+  {
+    "label": "Pointer Telocation Ltd.",
+    "value": "PNTR"
+  },
+  {
+    "label": "Insulet Corporation",
+    "value": "PODD"
+  },
+  {
+    "label": "Pool Corporation",
+    "value": "POOL"
+  },
+  {
+    "label": "Pope Resources",
+    "value": "POPE"
+  },
+  {
+    "label": "Power Integrations, Inc.",
+    "value": "POWI"
+  },
+  {
+    "label": "Powell Industries, Inc.",
+    "value": "POWL"
+  },
+  {
+    "label": "Pozen, Inc.",
+    "value": "POZN"
+  },
+  {
+    "label": "Pacific Premier Bancorp Inc",
+    "value": "PPBI"
+  },
+  {
+    "label": "Pilgrim's Pride Corporation",
+    "value": "PPC"
+  },
+  {
+    "label": "Peregrine Pharmaceuticals Inc.",
+    "value": "PPHM"
+  },
+  {
+    "label": "Peregrine Pharmaceuticals Inc.",
+    "value": "PPHMP"
+  },
+  {
+    "label": "Pioneer Power Solutions, Inc.",
+    "value": "PPSI"
+  },
+  {
+    "label": "PRA Group, Inc.",
+    "value": "PRAA"
+  },
+  {
+    "label": "PRA Health Sciences, Inc.",
+    "value": "PRAH"
+  },
+  {
+    "label": "Prana Biotechnology Ltd",
+    "value": "PRAN"
+  },
+  {
+    "label": "Perceptron, Inc.",
+    "value": "PRCP"
+  },
+  {
+    "label": "Perficient, Inc.",
+    "value": "PRFT"
+  },
+  {
+    "label": "PowerShares FTSE RAFI US 1500 Small",
+    "value": "PRFZ"
+  },
+  {
+    "label": "Paragon Shipping Inc.",
+    "value": "PRGN"
+  },
+  {
+    "label": "Paragon Shipping Inc.",
+    "value": "PRGNL"
+  },
+  {
+    "label": "Progress Software Corporation",
+    "value": "PRGS"
+  },
+  {
+    "label": "PRGX Global, Inc.",
+    "value": "PRGX"
+  },
+  {
+    "label": "Primoris Services Corporation",
+    "value": "PRIM"
+  },
+  {
+    "label": "ParkerVision, Inc.",
+    "value": "PRKR"
+  },
+  {
+    "label": "Peerless Systems Corporation",
+    "value": "PRLS"
+  },
+  {
+    "label": "Primo Water Corporation",
+    "value": "PRMW"
+  },
+  {
+    "label": "Provident Financial Holdings, Inc.",
+    "value": "PROV"
+  },
+  {
+    "label": "ProPhase Labs, Inc.",
+    "value": "PRPH"
+  },
+  {
+    "label": "ProQR Therapeutics N.V.",
+    "value": "PRQR"
+  },
+  {
+    "label": "The Providence Service Corporation",
+    "value": "PRSC"
+  },
+  {
+    "label": "CafePress Inc.",
+    "value": "PRSS"
+  },
+  {
+    "label": "Prothena Corporation plc",
+    "value": "PRTA"
+  },
+  {
+    "label": "Paratek Pharmaceuticals, Inc.",
+    "value": "PRTK"
+  },
+  {
+    "label": "Proteon Therapeutics, Inc.",
+    "value": "PRTO"
+  },
+  {
+    "label": "U.S. Auto Parts Network, Inc.",
+    "value": "PRTS"
+  },
+  {
+    "label": "Premier Exhibitions, Inc.",
+    "value": "PRXI"
+  },
+  {
+    "label": "PAREXEL International Corporation",
+    "value": "PRXL"
+  },
+  {
+    "label": "PowerShares Global Gold & Precious Metals Portfolio",
+    "value": "PSAU"
+  },
+  {
+    "label": "PSB Holdings, Inc.",
+    "value": "PSBH"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Consumer Staples Portfolio",
+    "value": "PSCC"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Consumer Discretionary Portfolio",
+    "value": "PSCD"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Energy Portfolio",
+    "value": "PSCE"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Financials Portfolio",
+    "value": "PSCF"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Health Care Portfolio",
+    "value": "PSCH"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Industrials Portfolio",
+    "value": "PSCI"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Materials Portfolio",
+    "value": "PSCM"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Information Technology Portfolio",
+    "value": "PSCT"
+  },
+  {
+    "label": "PowerShares S&P SmallCap Utilities Portfolio",
+    "value": "PSCU"
+  },
+  {
+    "label": "pSivida Corp.",
+    "value": "PSDV"
+  },
+  {
+    "label": "Prospect Capital Corporation",
+    "value": "PSEC"
+  },
+  {
+    "label": "Pericom Semiconductor Corporation",
+    "value": "PSEM"
+  },
+  {
+    "label": "Power Solutions International, Inc.",
+    "value": "PSIX"
+  },
+  {
+    "label": "PriceSmart, Inc.",
+    "value": "PSMT"
+  },
+  {
+    "label": "Park Sterling Corporation",
+    "value": "PSTB"
+  },
+  {
+    "label": "Pluristem Therapeutics, Inc.",
+    "value": "PSTI"
+  },
+  {
+    "label": "PostRock Energy Corporation",
+    "value": "PSTR"
+  },
+  {
+    "label": "Pacific Sunwear of California, Inc.",
+    "value": "PSUN"
+  },
+  {
+    "label": "PlasmaTech Biopharmaceuticals, Inc.",
+    "value": "PTBI"
+  },
+  {
+    "label": "PlasmaTech Biopharmaceuticals, Inc.",
+    "value": "PTBIW"
+  },
+  {
+    "label": "PTC Inc.",
+    "value": "PTC"
+  },
+  {
+    "label": "PTC Therapeutics, Inc.",
+    "value": "PTCT"
+  },
+  {
+    "label": "Patterson",
+    "value": "PTEN"
+  },
+  {
+    "label": "Pain Therapeutics",
+    "value": "PTIE"
+  },
+  {
+    "label": "Portola Pharmaceuticals, Inc.",
+    "value": "PTLA"
+  },
+  {
+    "label": "Partner Communications Company Ltd.",
+    "value": "PTNR"
+  },
+  {
+    "label": "Internet Patents Corporation",
+    "value": "PTNT"
+  },
+  {
+    "label": "The Pantry, Inc.",
+    "value": "PTRY"
+  },
+  {
+    "label": "P.A.M. Transportation Services, Inc.",
+    "value": "PTSI"
+  },
+  {
+    "label": "Pernix Therapeutics Holdings, Inc.",
+    "value": "PTX"
+  },
+  {
+    "label": "Pulaski Financial Corp.",
+    "value": "PULB"
+  },
+  {
+    "label": "PrivateBancorp, Inc.",
+    "value": "PVTB"
+  },
+  {
+    "label": "PrivateBancorp, Inc.",
+    "value": "PVTBP"
+  },
+  {
+    "label": "Penns Woods Bancorp, Inc.",
+    "value": "PWOD"
+  },
+  {
+    "label": "Perfect World Co., Ltd.",
+    "value": "PWRD"
+  },
+  {
+    "label": "Providence and Worcester Railroad Company",
+    "value": "PWX"
+  },
+  {
+    "label": "Pixelworks, Inc.",
+    "value": "PXLW"
+  },
+  {
+    "label": "Papa John'S International, Inc.",
+    "value": "PZZA"
+  },
+  {
+    "label": "First Trust NASDAQ ABA Community Bank Index Fund",
+    "value": "QABA"
+  },
+  {
+    "label": "QAD Inc.",
+    "value": "QADA"
+  },
+  {
+    "label": "QAD Inc.",
+    "value": "QADB"
+  },
+  {
+    "label": "iShares MSCI Qatar Capped ETF",
+    "value": "QAT"
+  },
+  {
+    "label": "Qualstar Corporation",
+    "value": "QBAK"
+  },
+  {
+    "label": "QC Holdings, Inc.",
+    "value": "QCCO"
+  },
+  {
+    "label": "First Trust NASDAQ Clean Edge Green Energy Index Fund",
+    "value": "QCLN"
+  },
+  {
+    "label": "QUALCOMM Incorporated",
+    "value": "QCOM"
+  },
+  {
+    "label": "QCR Holdings, Inc.",
+    "value": "QCRH"
+  },
+  {
+    "label": "Quidel Corporation",
+    "value": "QDEL"
+  },
+  {
+    "label": "Qiagen N.V.",
+    "value": "QGEN"
+  },
+  {
+    "label": "First Trust RBA Quality Income ETF",
+    "value": "QINC"
+  },
+  {
+    "label": "QIWI plc",
+    "value": "QIWI"
+  },
+  {
+    "label": "QKL Stores, Inc.",
+    "value": "QKLS"
+  },
+  {
+    "label": "QLogic Corporation",
+    "value": "QLGC"
+  },
+  {
+    "label": "Qlik Technologies Inc.",
+    "value": "QLIK"
+  },
+  {
+    "label": "QLT Inc.",
+    "value": "QLTI"
+  },
+  {
+    "label": "Quality Distribution, Inc.",
+    "value": "QLTY"
+  },
+  {
+    "label": "Qualys, Inc.",
+    "value": "QLYS"
+  },
+  {
+    "label": "QuinStreet, Inc.",
+    "value": "QNST"
+  },
+  {
+    "label": "First Trust NASDAQ",
+    "value": "QQEW"
+  },
+  {
+    "label": "PowerShares QQQ Trust, Series 1",
+    "value": "QQQ"
+  },
+  {
+    "label": "Global X NASDAQ China Technology ETF",
+    "value": "QQQC"
+  },
+  {
+    "label": "Nuveen NASDAQ 100 Dynamic Overwrite Fund",
+    "value": "QQQX"
+  },
+  {
+    "label": "First Trust NASDAQ",
+    "value": "QQXT"
+  },
+  {
+    "label": "Quest Resource Holding Corporation.",
+    "value": "QRHC"
+  },
+  {
+    "label": "Qorvo, Inc.",
+    "value": "QRVO"
+  },
+  {
+    "label": "Quality Systems, Inc.",
+    "value": "QSII"
+  },
+  {
+    "label": "First Trust NASDAQ",
+    "value": "QTEC"
+  },
+  {
+    "label": "Quotient Limited",
+    "value": "QTNT"
+  },
+  {
+    "label": "Quotient Limited",
+    "value": "QTNTW"
+  },
+  {
+    "label": "Quantum Fuel Systems Technologies Worldwide, Inc.",
+    "value": "QTWW"
+  },
+  {
+    "label": "QuickLogic Corporation",
+    "value": "QUIK"
+  },
+  {
+    "label": "Qumu Corporation",
+    "value": "QUMU"
+  },
+  {
+    "label": "Qunar Cayman Islands Limited",
+    "value": "QUNR"
+  },
+  {
+    "label": "uniQure N.V.",
+    "value": "QURE"
+  },
+  {
+    "label": "Liberty Interactive Corporation",
+    "value": "QVCA"
+  },
+  {
+    "label": "Liberty Interactive Corporation",
+    "value": "QVCB"
+  },
+  {
+    "label": "Recon Capital NASDAQ",
+    "value": "QYLD"
+  },
+  {
+    "label": "Rada Electronics Industries Limited",
+    "value": "RADA"
+  },
+  {
+    "label": "Freightcar America, Inc.",
+    "value": "RAIL"
+  },
+  {
+    "label": "Rand Capital Corporation",
+    "value": "RAND"
+  },
+  {
+    "label": "Ultragenyx Pharmaceutical Inc.",
+    "value": "RARE"
+  },
+  {
+    "label": "Rave Restaurant Group, Inc.",
+    "value": "RAVE"
+  },
+  {
+    "label": "Raven Industries, Inc.",
+    "value": "RAVN"
+  },
+  {
+    "label": "Republic Bancorp, Inc.",
+    "value": "RBCAA"
+  },
+  {
+    "label": "Rubicon Technology, Inc.",
+    "value": "RBCN"
+  },
+  {
+    "label": "Royal Bancshares of Pennsylvania, Inc.",
+    "value": "RBPAA"
+  },
+  {
+    "label": "Rent",
+    "value": "RCII"
+  },
+  {
+    "label": "Rocky Brands, Inc.",
+    "value": "RCKY"
+  },
+  {
+    "label": "RCM Technologies, Inc.",
+    "value": "RCMT"
+  },
+  {
+    "label": "Recon Technology, Ltd.",
+    "value": "RCON"
+  },
+  {
+    "label": "Rock Creek Pharmaceuticals, Inc.",
+    "value": "RCPI"
+  },
+  {
+    "label": "Receptos, Inc.",
+    "value": "RCPT"
+  },
+  {
+    "label": "Radcom Ltd.",
+    "value": "RDCM"
+  },
+  {
+    "label": "Elizabeth Arden, Inc.",
+    "value": "RDEN"
+  },
+  {
+    "label": "Redhill Biopharma Ltd.",
+    "value": "RDHL"
+  },
+  {
+    "label": "Reading International Inc",
+    "value": "RDI"
+  },
+  {
+    "label": "Reading International Inc",
+    "value": "RDIB"
+  },
+  {
+    "label": "RadNet, Inc.",
+    "value": "RDNT"
+  },
+  {
+    "label": "Radius Health, Inc.",
+    "value": "RDUS"
+  },
+  {
+    "label": "First Trust NASDAQ Rising Dividend Achievers ETF",
+    "value": "RDVY"
+  },
+  {
+    "label": "Radware Ltd.",
+    "value": "RDWR"
+  },
+  {
+    "label": "Resources Connection, Inc.",
+    "value": "RECN"
+  },
+  {
+    "label": "Rediff.com India Limited",
+    "value": "REDF"
+  },
+  {
+    "label": "Research Frontiers Incorporated",
+    "value": "REFR"
+  },
+  {
+    "label": "Renewable Energy Group, Inc.",
+    "value": "REGI"
+  },
+  {
+    "label": "Regeneron Pharmaceuticals, Inc.",
+    "value": "REGN"
+  },
+  {
+    "label": "Reis, Inc",
+    "value": "REIS"
+  },
+  {
+    "label": "Richardson Electronics, Ltd.",
+    "value": "RELL"
+  },
+  {
+    "label": "Reliv' International, Inc.",
+    "value": "RELV"
+  },
+  {
+    "label": "Remy International, Inc.",
+    "value": "REMY"
+  },
+  {
+    "label": "Rentrak Corporation",
+    "value": "RENT"
+  },
+  {
+    "label": "Recro Pharma, Inc.",
+    "value": "REPH"
+  },
+  {
+    "label": "Resonant Inc.",
+    "value": "RESN"
+  },
+  {
+    "label": "Resource America, Inc.",
+    "value": "REXI"
+  },
+  {
+    "label": "Rex Energy Corporation",
+    "value": "REXX"
+  },
+  {
+    "label": "RF Industries, Ltd.",
+    "value": "RFIL"
+  },
+  {
+    "label": "RGC Resources Inc.",
+    "value": "RGCO"
+  },
+  {
+    "label": "Regado BioSciences, Inc.",
+    "value": "RGDO"
+  },
+  {
+    "label": "Response Genetics, Inc.",
+    "value": "RGDX"
+  },
+  {
+    "label": "Repligen Corporation",
+    "value": "RGEN"
+  },
+  {
+    "label": "Royal Gold, Inc.",
+    "value": "RGLD"
+  },
+  {
+    "label": "Regulus Therapeutics Inc.",
+    "value": "RGLS"
+  },
+  {
+    "label": "Real Goods Solar, Inc.",
+    "value": "RGSE"
+  },
+  {
+    "label": "RiceBran Technologies",
+    "value": "RIBT"
+  },
+  {
+    "label": "RiceBran Technologies",
+    "value": "RIBTW"
+  },
+  {
+    "label": "RCI Hospitality Holdings, Inc.",
+    "value": "RICK"
+  },
+  {
+    "label": "Rigel Pharmaceuticals, Inc.",
+    "value": "RIGL"
+  },
+  {
+    "label": "RIT Technologies Ltd.",
+    "value": "RITT"
+  },
+  {
+    "label": "RIT Technologies Ltd.",
+    "value": "RITTW"
+  },
+  {
+    "label": "River Valley Bancorp.",
+    "value": "RIVR"
+  },
+  {
+    "label": "Republic Airways Holdings, Inc.",
+    "value": "RJET"
+  },
+  {
+    "label": "RLJ Entertainment, Inc.",
+    "value": "RLJE"
+  },
+  {
+    "label": "ReachLocal, Inc.",
+    "value": "RLOC"
+  },
+  {
+    "label": "Rand Logistics, Inc.",
+    "value": "RLOG"
+  },
+  {
+    "label": "Relypsa, Inc.",
+    "value": "RLYP"
+  },
+  {
+    "label": "Rambus, Inc.",
+    "value": "RMBS"
+  },
+  {
+    "label": "Rocky Mountain Chocolate Factory, Inc.",
+    "value": "RMCF"
+  },
+  {
+    "label": "RMG Networks Holding Corporation",
+    "value": "RMGN"
+  },
+  {
+    "label": "Rockwell Medical, Inc.",
+    "value": "RMTI"
+  },
+  {
+    "label": "Prosensa Holding N.V.",
+    "value": "RNA"
+  },
+  {
+    "label": "RigNet, Inc.",
+    "value": "RNET"
+  },
+  {
+    "label": "Renasant Corporation",
+    "value": "RNST"
+  },
+  {
+    "label": "RealNetworks, Inc.",
+    "value": "RNWK"
+  },
+  {
+    "label": "Robo",
+    "value": "ROBO"
+  },
+  {
+    "label": "Gibraltar Industries, Inc.",
+    "value": "ROCK"
+  },
+  {
+    "label": "Radio One, Inc.",
+    "value": "ROIA"
+  },
+  {
+    "label": "Radio One, Inc.",
+    "value": "ROIAK"
+  },
+  {
+    "label": "Retail Opportunity Investments Corp.",
+    "value": "ROIC"
+  },
+  {
+    "label": "ROI Acquisition Corp. II",
+    "value": "ROIQ"
+  },
+  {
+    "label": "ROI Acquisition Corp. II",
+    "value": "ROIQU"
+  },
+  {
+    "label": "ROI Acquisition Corp. II",
+    "value": "ROIQW"
+  },
+  {
+    "label": "Roka Bioscience, Inc.",
+    "value": "ROKA"
+  },
+  {
+    "label": "RBC Bearings Incorporated",
+    "value": "ROLL"
+  },
+  {
+    "label": "Rosetta Resources Inc.",
+    "value": "ROSE"
+  },
+  {
+    "label": "Rosetta Genomics Ltd.",
+    "value": "ROSG"
+  },
+  {
+    "label": "Ross Stores, Inc.",
+    "value": "ROST"
+  },
+  {
+    "label": "Rovi Corporation",
+    "value": "ROVI"
+  },
+  {
+    "label": "Royale Energy, Inc.",
+    "value": "ROYL"
+  },
+  {
+    "label": "RealPage, Inc.",
+    "value": "RP"
+  },
+  {
+    "label": "Repros Therapeutics Inc.",
+    "value": "RPRX"
+  },
+  {
+    "label": "Repros Therapeutics Inc.",
+    "value": "RPRXW"
+  },
+  {
+    "label": "Repros Therapeutics Inc.",
+    "value": "RPRXZ"
+  },
+  {
+    "label": "Raptor Pharmaceutical Corp.",
+    "value": "RPTP"
+  },
+  {
+    "label": "RPX Corporation",
+    "value": "RPXC"
+  },
+  {
+    "label": "R.R. Donnelley & Sons Company",
+    "value": "RRD"
+  },
+  {
+    "label": "Red Robin Gourmet Burgers, Inc.",
+    "value": "RRGB"
+  },
+  {
+    "label": "RRSat Global Communications Network Ltd.",
+    "value": "RRST"
+  },
+  {
+    "label": "Rofin",
+    "value": "RSTI"
+  },
+  {
+    "label": "RadiSys Corporation",
+    "value": "RSYS"
+  },
+  {
+    "label": "Ruthigen, Inc.",
+    "value": "RTGN"
+  },
+  {
+    "label": "RTI Surgical, Inc.",
+    "value": "RTIX"
+  },
+  {
+    "label": "Rentech, Inc.",
+    "value": "RTK"
+  },
+  {
+    "label": "Retrophin, Inc.",
+    "value": "RTRX"
+  },
+  {
+    "label": "Rush Enterprises, Inc.",
+    "value": "RUSHA"
+  },
+  {
+    "label": "Rush Enterprises, Inc.",
+    "value": "RUSHB"
+  },
+  {
+    "label": "Ruth's Hospitality Group, Inc.",
+    "value": "RUTH"
+  },
+  {
+    "label": "Riverbed Technology, Inc.",
+    "value": "RVBD"
+  },
+  {
+    "label": "Revolution Lighting Technologies, Inc.",
+    "value": "RVLT"
+  },
+  {
+    "label": "Revance Therapeutics, Inc.",
+    "value": "RVNC"
+  },
+  {
+    "label": "Riverview Bancorp Inc",
+    "value": "RVSB"
+  },
+  {
+    "label": "ReWalk Robotics Ltd",
+    "value": "RWLK"
+  },
+  {
+    "label": "Ignyta, Inc.",
+    "value": "RXDX"
+  },
+  {
+    "label": "RXi Pharmaceuticals Corporation",
+    "value": "RXII"
+  },
+  {
+    "label": "Ryanair Holdings plc",
+    "value": "RYAAY"
+  },
+  {
+    "label": "inContact, Inc.",
+    "value": "SAAS"
+  },
+  {
+    "label": "Sabre Corporation",
+    "value": "SABR"
+  },
+  {
+    "label": "SAExploration Holdings, Inc.",
+    "value": "SAEX"
+  },
+  {
+    "label": "Sanderson Farms, Inc.",
+    "value": "SAFM"
+  },
+  {
+    "label": "Safety Insurance Group, Inc.",
+    "value": "SAFT"
+  },
+  {
+    "label": "Sage Therapeutics, Inc.",
+    "value": "SAGE"
+  },
+  {
+    "label": "Saia, Inc.",
+    "value": "SAIA"
+  },
+  {
+    "label": "Sajan, Inc.",
+    "value": "SAJA"
+  },
+  {
+    "label": "Salisbury Bancorp, Inc.",
+    "value": "SAL"
+  },
+  {
+    "label": "RetailMeNot, Inc.",
+    "value": "SALE"
+  },
+  {
+    "label": "Salem Communications Corporation",
+    "value": "SALM"
+  },
+  {
+    "label": "Silvercrest Asset Management Group Inc.",
+    "value": "SAMG"
+  },
+  {
+    "label": "Sanmina Corporation",
+    "value": "SANM"
+  },
+  {
+    "label": "S&W Seed Company",
+    "value": "SANW"
+  },
+  {
+    "label": "S&W Seed Company",
+    "value": "SANWZ"
+  },
+  {
+    "label": "Sapient Corporation",
+    "value": "SAPE"
+  },
+  {
+    "label": "Sandy Spring Bancorp, Inc.",
+    "value": "SASR"
+  },
+  {
+    "label": "EchoStar Corporation",
+    "value": "SATS"
+  },
+  {
+    "label": "Spirit Airlines, Inc.",
+    "value": "SAVE"
+  },
+  {
+    "label": "SBA Communications Corporation",
+    "value": "SBAC"
+  },
+  {
+    "label": "Sussex Bancorp",
+    "value": "SBBX"
+  },
+  {
+    "label": "Seacoast Banking Corporation of Florida",
+    "value": "SBCF"
+  },
+  {
+    "label": "Sunshine Bancorp, Inc.",
+    "value": "SBCP"
+  },
+  {
+    "label": "SB Financial Group, Inc.",
+    "value": "SBFG"
+  },
+  {
+    "label": "Sinclair Broadcast Group, Inc.",
+    "value": "SBGI"
+  },
+  {
+    "label": "Star Bulk Carriers Corp.",
+    "value": "SBLK"
+  },
+  {
+    "label": "Star Bulk Carriers Corp.",
+    "value": "SBLKL"
+  },
+  {
+    "label": "Signature Bank",
+    "value": "SBNY"
+  },
+  {
+    "label": "Signature Bank",
+    "value": "SBNYW"
+  },
+  {
+    "label": "Sabra Healthcare REIT, Inc.",
+    "value": "SBRA"
+  },
+  {
+    "label": "Sabra Healthcare REIT, Inc.",
+    "value": "SBRAP"
+  },
+  {
+    "label": "Spanish Broadcasting System, Inc.",
+    "value": "SBSA"
+  },
+  {
+    "label": "Southside Bancshares, Inc.",
+    "value": "SBSI"
+  },
+  {
+    "label": "Starbucks Corporation",
+    "value": "SBUX"
+  },
+  {
+    "label": "Surgical Care Affiliates, Inc.",
+    "value": "SCAI"
+  },
+  {
+    "label": "Scholastic Corporation",
+    "value": "SCHL"
+  },
+  {
+    "label": "Schnitzer Steel Industries, Inc.",
+    "value": "SCHN"
+  },
+  {
+    "label": "SciClone Pharmaceuticals, Inc.",
+    "value": "SCLN"
+  },
+  {
+    "label": "Sucampo Pharmaceuticals, Inc.",
+    "value": "SCMP"
+  },
+  {
+    "label": "SinoCoking Coal and Coke Chemical Industries, Inc",
+    "value": "SCOK"
+  },
+  {
+    "label": "Superconductor Technologies Inc.",
+    "value": "SCON"
+  },
+  {
+    "label": "comScore, Inc.",
+    "value": "SCOR"
+  },
+  {
+    "label": "ScanSource, Inc.",
+    "value": "SCSC"
+  },
+  {
+    "label": "Select Comfort Corporation",
+    "value": "SCSS"
+  },
+  {
+    "label": "SolarCity Corporation",
+    "value": "SCTY"
+  },
+  {
+    "label": "Shoe Carnival, Inc.",
+    "value": "SCVL"
+  },
+  {
+    "label": "SCYNEXIS, Inc.",
+    "value": "SCYX"
+  },
+  {
+    "label": "SeaChange International, Inc.",
+    "value": "SEAC"
+  },
+  {
+    "label": "Origin Agritech Limited",
+    "value": "SEED"
+  },
+  {
+    "label": "SEI Investments Company",
+    "value": "SEIC"
+  },
+  {
+    "label": "SunEdison Semiconductor Limited",
+    "value": "SEMI"
+  },
+  {
+    "label": "Seneca Foods Corp.",
+    "value": "SENEA"
+  },
+  {
+    "label": "Seneca Foods Corp.",
+    "value": "SENEB"
+  },
+  {
+    "label": "Sevcon, Inc.",
+    "value": "SEV"
+  },
+  {
+    "label": "Sound Financial Bancorp, Inc.",
+    "value": "SFBC"
+  },
+  {
+    "label": "ServisFirst Bancshares, Inc.",
+    "value": "SFBS"
+  },
+  {
+    "label": "Shutterfly, Inc.",
+    "value": "SFLY"
+  },
+  {
+    "label": "Sprouts Farmers Market, Inc.",
+    "value": "SFM"
+  },
+  {
+    "label": "Simmons First National Corporation",
+    "value": "SFNC"
+  },
+  {
+    "label": "Southern First Bancshares, Inc.",
+    "value": "SFST"
+  },
+  {
+    "label": "SFX Entertainment, Inc.",
+    "value": "SFXE"
+  },
+  {
+    "label": "Stonegate Bank",
+    "value": "SGBK"
+  },
+  {
+    "label": "Superior Uniform Group, Inc.",
+    "value": "SGC"
+  },
+  {
+    "label": "Seattle Genetics, Inc.",
+    "value": "SGEN"
+  },
+  {
+    "label": "Silicon Graphics International Corp",
+    "value": "SGI"
+  },
+  {
+    "label": "SigmaTron International, Inc.",
+    "value": "SGMA"
+  },
+  {
+    "label": "Sangamo BioSciences, Inc.",
+    "value": "SGMO"
+  },
+  {
+    "label": "Scientific Games Corp",
+    "value": "SGMS"
+  },
+  {
+    "label": "Signal Genetics, Inc.",
+    "value": "SGNL"
+  },
+  {
+    "label": "Sagent Pharmaceuticals, Inc.",
+    "value": "SGNT"
+  },
+  {
+    "label": "SGOCO Group, Ltd",
+    "value": "SGOC"
+  },
+  {
+    "label": "SPAR Group, Inc.",
+    "value": "SGRP"
+  },
+  {
+    "label": "Synergy Pharmaceuticals, Inc.",
+    "value": "SGYP"
+  },
+  {
+    "label": "Synergy Pharmaceuticals, Inc.",
+    "value": "SGYPU"
+  },
+  {
+    "label": "Synergy Pharmaceuticals, Inc.",
+    "value": "SGYPW"
+  },
+  {
+    "label": "Shore Bancshares Inc",
+    "value": "SHBI"
+  },
+  {
+    "label": "Shenandoah Telecommunications Co",
+    "value": "SHEN"
+  },
+  {
+    "label": "Seanergy Maritime Holdings Corp",
+    "value": "SHIP"
+  },
+  {
+    "label": "Sears Holdings Corporation",
+    "value": "SHLD"
+  },
+  {
+    "label": "Sears Holdings Corporation",
+    "value": "SHLDW"
+  },
+  {
+    "label": "A. Schulman, Inc.",
+    "value": "SHLM"
+  },
+  {
+    "label": "Shiloh Industries, Inc.",
+    "value": "SHLO"
+  },
+  {
+    "label": "Steven Madden, Ltd.",
+    "value": "SHOO"
+  },
+  {
+    "label": "ShoreTel, Inc.",
+    "value": "SHOR"
+  },
+  {
+    "label": "Sears Hometown and Outlet Stores, Inc.",
+    "value": "SHOS"
+  },
+  {
+    "label": "Shire plc",
+    "value": "SHPG"
+  },
+  {
+    "label": "Sigma",
+    "value": "SIAL"
+  },
+  {
+    "label": "State Investors Bancorp, Inc.",
+    "value": "SIBC"
+  },
+  {
+    "label": "Siebert Financial Corp.",
+    "value": "SIEB"
+  },
+  {
+    "label": "Sientra, Inc.",
+    "value": "SIEN"
+  },
+  {
+    "label": "SI Financial Group, Inc.",
+    "value": "SIFI"
+  },
+  {
+    "label": "Sify Technologies Limited",
+    "value": "SIFY"
+  },
+  {
+    "label": "SIGA Technologies Inc.",
+    "value": "SIGA"
+  },
+  {
+    "label": "Selective Insurance Group, Inc.",
+    "value": "SIGI"
+  },
+  {
+    "label": "Sigma Designs, Inc.",
+    "value": "SIGM"
+  },
+  {
+    "label": "Silicom Ltd",
+    "value": "SILC"
+  },
+  {
+    "label": "Silicon Image, Inc.",
+    "value": "SIMG"
+  },
+  {
+    "label": "Silicon Motion Technology Corporation",
+    "value": "SIMO"
+  },
+  {
+    "label": "Sina Corporation",
+    "value": "SINA"
+  },
+  {
+    "label": "Sino",
+    "value": "SINO"
+  },
+  {
+    "label": "Sirius XM Holdings Inc.",
+    "value": "SIRI"
+  },
+  {
+    "label": "Sirona Dental Systems, Inc.",
+    "value": "SIRO"
+  },
+  {
+    "label": "SVB Financial Group",
+    "value": "SIVB"
+  },
+  {
+    "label": "SVB Financial Group",
+    "value": "SIVBO"
+  },
+  {
+    "label": "6D Global Technologies, Inc.",
+    "value": "SIXD"
+  },
+  {
+    "label": "Skystar Bio",
+    "value": "SKBI"
+  },
+  {
+    "label": "Peak Resorts, Inc.",
+    "value": "SKIS"
+  },
+  {
+    "label": "FlexShares Credit",
+    "value": "SKOR"
+  },
+  {
+    "label": "Skullcandy, Inc.",
+    "value": "SKUL"
+  },
+  {
+    "label": "Sky Solar Holdings, Ltd.",
+    "value": "SKYS"
+  },
+  {
+    "label": "SkyWest, Inc.",
+    "value": "SKYW"
+  },
+  {
+    "label": "First Trust ISE Cloud Computing Index Fund",
+    "value": "SKYY"
+  },
+  {
+    "label": "Silicon Laboratories, Inc.",
+    "value": "SLAB"
+  },
+  {
+    "label": "Select Bancorp, Inc.",
+    "value": "SLCT"
+  },
+  {
+    "label": "Silgan Holdings Inc.",
+    "value": "SLGN"
+  },
+  {
+    "label": "SLM Corporation",
+    "value": "SLM"
+  },
+  {
+    "label": "SLM Corporation",
+    "value": "SLMAP"
+  },
+  {
+    "label": "SLM Corporation",
+    "value": "SLMBP"
+  },
+  {
+    "label": "Simulations Plus, Inc.",
+    "value": "SLP"
+  },
+  {
+    "label": "Solar Capital Ltd.",
+    "value": "SLRC"
+  },
+  {
+    "label": "Selectica, Inc.",
+    "value": "SLTC"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "SLVO"
+  },
+  {
+    "label": "Salix Pharmaceuticals, Ltd.",
+    "value": "SLXP"
+  },
+  {
+    "label": "Sino Mercury Acquisition Corp.",
+    "value": "SMAC"
+  },
+  {
+    "label": "Sino Mercury Acquisition Corp.",
+    "value": "SMACR"
+  },
+  {
+    "label": "Sino Mercury Acquisition Corp.",
+    "value": "SMACU"
+  },
+  {
+    "label": "Southern Missouri Bancorp, Inc.",
+    "value": "SMBC"
+  },
+  {
+    "label": "Super Micro Computer, Inc.",
+    "value": "SMCI"
+  },
+  {
+    "label": "Sharps Compliance Corp",
+    "value": "SMED"
+  },
+  {
+    "label": "Schmitt Industries, Inc.",
+    "value": "SMIT"
+  },
+  {
+    "label": "Semler Scientific, Inc.",
+    "value": "SMLR"
+  },
+  {
+    "label": "Summit Financial Group, Inc.",
+    "value": "SMMF"
+  },
+  {
+    "label": "Simplicity Bancorp Inc.",
+    "value": "SMPL"
+  },
+  {
+    "label": "Stein Mart, Inc.",
+    "value": "SMRT"
+  },
+  {
+    "label": "Smith Micro Software, Inc.",
+    "value": "SMSI"
+  },
+  {
+    "label": "SMART Technologies Inc.",
+    "value": "SMT"
+  },
+  {
+    "label": "Semtech Corporation",
+    "value": "SMTC"
+  },
+  {
+    "label": "SMTP, Inc.",
+    "value": "SMTP"
+  },
+  {
+    "label": "SMTC Corporation",
+    "value": "SMTX"
+  },
+  {
+    "label": "Inventure Foods, Inc.",
+    "value": "SNAK"
+  },
+  {
+    "label": "Sun Bancorp, Inc.",
+    "value": "SNBC"
+  },
+  {
+    "label": "State National Companies, Inc.",
+    "value": "SNC"
+  },
+  {
+    "label": "Synchronoss Technologies, Inc.",
+    "value": "SNCR"
+  },
+  {
+    "label": "SanDisk Corporation",
+    "value": "SNDK"
+  },
+  {
+    "label": "Security National Financial Corporation",
+    "value": "SNFCA"
+  },
+  {
+    "label": "Sun Hydraulics Corporation",
+    "value": "SNHY"
+  },
+  {
+    "label": "Senomyx, Inc.",
+    "value": "SNMX"
+  },
+  {
+    "label": "Synopsys, Inc.",
+    "value": "SNPS"
+  },
+  {
+    "label": "Sunesis Pharmaceuticals, Inc.",
+    "value": "SNSS"
+  },
+  {
+    "label": "Synta Pharmaceuticals Corp.",
+    "value": "SNTA"
+  },
+  {
+    "label": "Southcoast Financial Corporation",
+    "value": "SOCB"
+  },
+  {
+    "label": "Global X Social Media Index ETF",
+    "value": "SOCL"
+  },
+  {
+    "label": "SodaStream International Ltd.",
+    "value": "SODA"
+  },
+  {
+    "label": "Sonic Foundry, Inc.",
+    "value": "SOFO"
+  },
+  {
+    "label": "Sotherly Hotels Inc.",
+    "value": "SOHO"
+  },
+  {
+    "label": "Sotherly Hotels LP",
+    "value": "SOHOL"
+  },
+  {
+    "label": "Sotherly Hotels LP",
+    "value": "SOHOM"
+  },
+  {
+    "label": "Sohu.com Inc.",
+    "value": "SOHU"
+  },
+  {
+    "label": "Southern National Bancorp of Virginia, Inc.",
+    "value": "SONA"
+  },
+  {
+    "label": "Sonic Corp.",
+    "value": "SONC"
+  },
+  {
+    "label": "Sonus Networks, Inc.",
+    "value": "SONS"
+  },
+  {
+    "label": "SORL Auto Parts, Inc.",
+    "value": "SORL"
+  },
+  {
+    "label": "iShares PHLX SOX Semiconductor Sector Index Fund",
+    "value": "SOXX"
+  },
+  {
+    "label": "SP Plus Corporation",
+    "value": "SP"
+  },
+  {
+    "label": "Span",
+    "value": "SPAN"
+  },
+  {
+    "label": "Spartan Motors, Inc.",
+    "value": "SPAR"
+  },
+  {
+    "label": "SuperCom, Ltd.",
+    "value": "SPCB"
+  },
+  {
+    "label": "Speed Commerce, Inc.",
+    "value": "SPDC"
+  },
+  {
+    "label": "Spherix Incorporated",
+    "value": "SPEX"
+  },
+  {
+    "label": "Sophiris Bio, Inc.",
+    "value": "SPHS"
+  },
+  {
+    "label": "Siliconware Precision Industries Company, Ltd.",
+    "value": "SPIL"
+  },
+  {
+    "label": "Spark Energy, Inc.",
+    "value": "SPKE"
+  },
+  {
+    "label": "Splunk Inc.",
+    "value": "SPLK"
+  },
+  {
+    "label": "Staples, Inc.",
+    "value": "SPLS"
+  },
+  {
+    "label": "The Spectranetics Corporation",
+    "value": "SPNC"
+  },
+  {
+    "label": "Sapiens International Corporation N.V.",
+    "value": "SPNS"
+  },
+  {
+    "label": "Spok Holdings, Inc.",
+    "value": "SPOK"
+  },
+  {
+    "label": "Spectrum Pharmaceuticals, Inc.",
+    "value": "SPPI"
+  },
+  {
+    "label": "Supertel Hospitality, Inc.",
+    "value": "SPPR"
+  },
+  {
+    "label": "Supertel Hospitality, Inc.",
+    "value": "SPPRO"
+  },
+  {
+    "label": "Supertel Hospitality, Inc.",
+    "value": "SPPRP"
+  },
+  {
+    "label": "SmartPros Ltd.",
+    "value": "SPRO"
+  },
+  {
+    "label": "support.com, Inc.",
+    "value": "SPRT"
+  },
+  {
+    "label": "SPS Commerce, Inc.",
+    "value": "SPSC"
+  },
+  {
+    "label": "SpartanNash Company",
+    "value": "SPTN"
+  },
+  {
+    "label": "SkyPeople Fruit Juice, Inc.",
+    "value": "SPU"
+  },
+  {
+    "label": "Sportsman's Warehouse Holdings, Inc.",
+    "value": "SPWH"
+  },
+  {
+    "label": "SunPower Corporation",
+    "value": "SPWR"
+  },
+  {
+    "label": "Sequential Brands Group, Inc.",
+    "value": "SQBG"
+  },
+  {
+    "label": "Square 1 Financial, Inc.",
+    "value": "SQBK"
+  },
+  {
+    "label": "SciQuest, Inc.",
+    "value": "SQI"
+  },
+  {
+    "label": "Sequenom, Inc.",
+    "value": "SQNM"
+  },
+  {
+    "label": "ProShares UltraPro Short QQQ",
+    "value": "SQQQ"
+  },
+  {
+    "label": "1st Source Corporation",
+    "value": "SRCE"
+  },
+  {
+    "label": "Stericycle, Inc.",
+    "value": "SRCL"
+  },
+  {
+    "label": "SurModics, Inc.",
+    "value": "SRDX"
+  },
+  {
+    "label": "ServiceSource International, Inc.",
+    "value": "SREV"
+  },
+  {
+    "label": "Sorrento Therapeutics, Inc.",
+    "value": "SRNE"
+  },
+  {
+    "label": "Sarepta Therapeutics, Inc.",
+    "value": "SRPT"
+  },
+  {
+    "label": "Sears Canada Inc.",
+    "value": "SRSC"
+  },
+  {
+    "label": "South State Corporation",
+    "value": "SSB"
+  },
+  {
+    "label": "Summit State Bank",
+    "value": "SSBI"
+  },
+  {
+    "label": "Stewardship Financial Corp",
+    "value": "SSFN"
+  },
+  {
+    "label": "Sunshine Heart Inc",
+    "value": "SSH"
+  },
+  {
+    "label": "SS&C Technologies Holdings, Inc.",
+    "value": "SSNC"
+  },
+  {
+    "label": "Symmetry Surgical Inc.",
+    "value": "SSRG"
+  },
+  {
+    "label": "Silver Standard Resources Inc.",
+    "value": "SSRI"
+  },
+  {
+    "label": "Stratasys, Ltd.",
+    "value": "SSYS"
+  },
+  {
+    "label": "STAAR Surgical Company",
+    "value": "STAA"
+  },
+  {
+    "label": "Student Transportation Inc",
+    "value": "STB"
+  },
+  {
+    "label": "S&T Bancorp, Inc.",
+    "value": "STBA"
+  },
+  {
+    "label": "State Bank Financial Corporation.",
+    "value": "STBZ"
+  },
+  {
+    "label": "Stock Building Supply Holdings, Inc.",
+    "value": "STCK"
+  },
+  {
+    "label": "StemCells, Inc.",
+    "value": "STEM"
+  },
+  {
+    "label": "State Auto Financial Corporation",
+    "value": "STFC"
+  },
+  {
+    "label": "SunOpta, Inc.",
+    "value": "STKL"
+  },
+  {
+    "label": "Steel Dynamics, Inc.",
+    "value": "STLD"
+  },
+  {
+    "label": "Stanley Furniture Company, Inc.",
+    "value": "STLY"
+  },
+  {
+    "label": "Stemline Therapeutics, Inc.",
+    "value": "STML"
+  },
+  {
+    "label": "Stamps.com Inc.",
+    "value": "STMP"
+  },
+  {
+    "label": "Steiner Leisure Limited",
+    "value": "STNR"
+  },
+  {
+    "label": "Barclays PLC",
+    "value": "STPP"
+  },
+  {
+    "label": "Strayer Education, Inc.",
+    "value": "STRA"
+  },
+  {
+    "label": "Sterling Construction Company Inc",
+    "value": "STRL"
+  },
+  {
+    "label": "Streamline Health Solutions, Inc.",
+    "value": "STRM"
+  },
+  {
+    "label": "Sutron Corporation",
+    "value": "STRN"
+  },
+  {
+    "label": "Stratus Properties, Inc.",
+    "value": "STRS"
+  },
+  {
+    "label": "Strattec Security Corporation",
+    "value": "STRT"
+  },
+  {
+    "label": "Starz",
+    "value": "STRZA"
+  },
+  {
+    "label": "Starz",
+    "value": "STRZB"
+  },
+  {
+    "label": "Seagate Technology.",
+    "value": "STX"
+  },
+  {
+    "label": "Stereotaxis, Inc.",
+    "value": "STXS"
+  },
+  {
+    "label": "Suffolk Bancorp",
+    "value": "SUBK"
+  },
+  {
+    "label": "Summer Infant, Inc.",
+    "value": "SUMR"
+  },
+  {
+    "label": "Solar Senior Capital Ltd.",
+    "value": "SUNS"
+  },
+  {
+    "label": "Supernus Pharmaceuticals, Inc.",
+    "value": "SUPN"
+  },
+  {
+    "label": "Synergetics USA, Inc.",
+    "value": "SURG"
+  },
+  {
+    "label": "Susquehanna Bancshares, Inc.",
+    "value": "SUSQ"
+  },
+  {
+    "label": "Sutor Technology Group Limited",
+    "value": "SUTR"
+  },
+  {
+    "label": "Sinovac Biotech, Ltd.",
+    "value": "SVA"
+  },
+  {
+    "label": "Severn Bancorp Inc",
+    "value": "SVBI"
+  },
+  {
+    "label": "Firsthand Technology Value Fund, Inc.",
+    "value": "SVVC"
+  },
+  {
+    "label": "Smith & Wesson Holding Corporation",
+    "value": "SWHC"
+  },
+  {
+    "label": "Sierra Wireless, Inc.",
+    "value": "SWIR"
+  },
+  {
+    "label": "Skyworks Solutions, Inc.",
+    "value": "SWKS"
+  },
+  {
+    "label": "Swisher Hygiene, Inc.",
+    "value": "SWSH"
+  },
+  {
+    "label": "Stock Yards Bancorp, Inc.",
+    "value": "SYBT"
+  },
+  {
+    "label": "Sykes Enterprises, Incorporated",
+    "value": "SYKE"
+  },
+  {
+    "label": "Symantec Corporation",
+    "value": "SYMC"
+  },
+  {
+    "label": "Synthesis Energy Systems, Inc.",
+    "value": "SYMX"
+  },
+  {
+    "label": "Synaptics Incorporated",
+    "value": "SYNA"
+  },
+  {
+    "label": "Synacor, Inc.",
+    "value": "SYNC"
+  },
+  {
+    "label": "Synalloy Corporation",
+    "value": "SYNL"
+  },
+  {
+    "label": "Syntel, Inc.",
+    "value": "SYNT"
+  },
+  {
+    "label": "Sypris Solutions, Inc.",
+    "value": "SYPR"
+  },
+  {
+    "label": "Sysorex Global Holding Corp.",
+    "value": "SYRX"
+  },
+  {
+    "label": "Synutra International, Inc.",
+    "value": "SYUT"
+  },
+  {
+    "label": "Sizmek Inc.",
+    "value": "SZMK"
+  },
+  {
+    "label": "Solazyme, Inc.",
+    "value": "SZYM"
+  },
+  {
+    "label": "TransAct Technologies Incorporated",
+    "value": "TACT"
+  },
+  {
+    "label": "Taitron Components Incorporated",
+    "value": "TAIT"
+  },
+  {
+    "label": "Barclays PLC",
+    "value": "TAPR"
+  },
+  {
+    "label": "TASER International, Inc.",
+    "value": "TASR"
+  },
+  {
+    "label": "Carrols Restaurant Group, Inc.",
+    "value": "TAST"
+  },
+  {
+    "label": "TAT Technologies Ltd.",
+    "value": "TATT"
+  },
+  {
+    "label": "Liberty Tax, Inc.",
+    "value": "TAX"
+  },
+  {
+    "label": "Medallion Financial Corp.",
+    "value": "TAXI"
+  },
+  {
+    "label": "Taylor Devices, Inc.",
+    "value": "TAYD"
+  },
+  {
+    "label": "The Bancorp, Inc.",
+    "value": "TBBK"
+  },
+  {
+    "label": "Transgenomic, Inc.",
+    "value": "TBIO"
+  },
+  {
+    "label": "Triumph Bancorp, Inc.",
+    "value": "TBK"
+  },
+  {
+    "label": "Territorial Bancorp Inc.",
+    "value": "TBNK"
+  },
+  {
+    "label": "Theravance Biopharma, Inc.",
+    "value": "TBPH"
+  },
+  {
+    "label": "Texas Capital Bancshares, Inc.",
+    "value": "TCBI"
+  },
+  {
+    "label": "Texas Capital Bancshares, Inc.",
+    "value": "TCBIL"
+  },
+  {
+    "label": "Texas Capital Bancshares, Inc.",
+    "value": "TCBIP"
+  },
+  {
+    "label": "Texas Capital Bancshares, Inc.",
+    "value": "TCBIW"
+  },
+  {
+    "label": "TriCo Bancshares",
+    "value": "TCBK"
+  },
+  {
+    "label": "Technical Communications Corporation",
+    "value": "TCCO"
+  },
+  {
+    "label": "The Community Financial Corporation",
+    "value": "TCFC"
+  },
+  {
+    "label": "TCP Capital Corp.",
+    "value": "TCPC"
+  },
+  {
+    "label": "THL Credit, Inc.",
+    "value": "TCRD"
+  },
+  {
+    "label": "Tucows Inc.",
+    "value": "TCX"
+  },
+  {
+    "label": "First Trust Exchange",
+    "value": "TDIV"
+  },
+  {
+    "label": "TearLab Corporation",
+    "value": "TEAR"
+  },
+  {
+    "label": "Tech Data Corporation",
+    "value": "TECD"
+  },
+  {
+    "label": "Bio",
+    "value": "TECH"
+  },
+  {
+    "label": "Tecumseh Products Company",
+    "value": "TECU"
+  },
+  {
+    "label": "Tarena International, Inc.",
+    "value": "TEDU"
+  },
+  {
+    "label": "Tenax Therapeutics, Inc.",
+    "value": "TENX"
+  },
+  {
+    "label": "TerraForm Power, Inc.",
+    "value": "TERP"
+  },
+  {
+    "label": "Tesco Corporation",
+    "value": "TESO"
+  },
+  {
+    "label": "TESSCO Technologies Incorporated",
+    "value": "TESS"
+  },
+  {
+    "label": "The Fresh Market, Inc.",
+    "value": "TFM"
+  },
+  {
+    "label": "1347 Capital Corp.",
+    "value": "TFSC"
+  },
+  {
+    "label": "1347 Capital Corp.",
+    "value": "TFSCR"
+  },
+  {
+    "label": "1347 Capital Corp.",
+    "value": "TFSCU"
+  },
+  {
+    "label": "1347 Capital Corp.",
+    "value": "TFSCW"
+  },
+  {
+    "label": "TFS Financial Corporation",
+    "value": "TFSL"
+  },
+  {
+    "label": "Transglobe Energy Corp",
+    "value": "TGA"
+  },
+  {
+    "label": "TGC Industries, Inc.",
+    "value": "TGE"
+  },
+  {
+    "label": "Tecogen Inc.",
+    "value": "TGEN"
+  },
+  {
+    "label": "Tecnoglass Inc.",
+    "value": "TGLS"
+  },
+  {
+    "label": "TG Therapeutics, Inc.",
+    "value": "TGTX"
+  },
+  {
+    "label": "First Financial Corporation Indiana",
+    "value": "THFF"
+  },
+  {
+    "label": "Threshold Pharmaceuticals, Inc.",
+    "value": "THLD"
+  },
+  {
+    "label": "Thoratec Corporation",
+    "value": "THOR"
+  },
+  {
+    "label": "Gentherm Inc",
+    "value": "THRM"
+  },
+  {
+    "label": "Theravance, Inc.",
+    "value": "THRX"
+  },
+  {
+    "label": "Truett",
+    "value": "THST"
+  },
+  {
+    "label": "THT Heat Transfer Technology, Inc.",
+    "value": "THTI"
+  },
+  {
+    "label": "TICC Capital Corp.",
+    "value": "TICC"
+  },
+  {
+    "label": "TigerLogic Corporation",
+    "value": "TIGR"
+  },
+  {
+    "label": "Interface, Inc.",
+    "value": "TILE"
+  },
+  {
+    "label": "Harris & Harris Group, Inc.",
+    "value": "TINY"
+  },
+  {
+    "label": "Tiptree Financial Inc.",
+    "value": "TIPT"
+  },
+  {
+    "label": "Top Image Systems, Ltd.",
+    "value": "TISA"
+  },
+  {
+    "label": "Titan Machinery Inc.",
+    "value": "TITN"
+  },
+  {
+    "label": "TiVo Inc.",
+    "value": "TIVO"
+  },
+  {
+    "label": "Tokai Pharmaceuticals, Inc.",
+    "value": "TKAI"
+  },
+  {
+    "label": "Tekmira Pharmaceuticals Corp",
+    "value": "TKMR"
+  },
+  {
+    "label": "Tandy Leather Factory, Inc.",
+    "value": "TLF"
+  },
+  {
+    "label": "Talmer Bancorp, Inc.",
+    "value": "TLMR"
+  },
+  {
+    "label": "TetraLogic Pharmaceuticals Corporation",
+    "value": "TLOG"
+  },
+  {
+    "label": "Telenav, Inc.",
+    "value": "TNAV"
+  },
+  {
+    "label": "Tandem Diabetes Care, Inc.",
+    "value": "TNDM"
+  },
+  {
+    "label": "Tangoe, Inc.",
+    "value": "TNGO"
+  },
+  {
+    "label": "Tonix Pharmaceuticals Holding Corp.",
+    "value": "TNXP"
+  },
+  {
+    "label": "TOP Ships Inc.",
+    "value": "TOPS"
+  },
+  {
+    "label": "TOR Minerals International Inc",
+    "value": "TORM"
+  },
+  {
+    "label": "Tuniu Corporation",
+    "value": "TOUR"
+  },
+  {
+    "label": "Towne Bank",
+    "value": "TOWN"
+  },
+  {
+    "label": "ProShares UltraPro QQQ",
+    "value": "TQQQ"
+  },
+  {
+    "label": "Dealertrack Technologies, Inc.",
+    "value": "TRAK"
+  },
+  {
+    "label": "Two River Bancorp",
+    "value": "TRCB"
+  },
+  {
+    "label": "Torchlight Energy Resources, Inc.",
+    "value": "TRCH"
+  },
+  {
+    "label": "LendingTree, Inc.",
+    "value": "TREE"
+  },
+  {
+    "label": "Targacept, Inc.",
+    "value": "TRGT"
+  },
+  {
+    "label": "Trinity Biotech plc",
+    "value": "TRIB"
+  },
+  {
+    "label": "Trillium Therapeutics Inc.",
+    "value": "TRIL"
+  },
+  {
+    "label": "TripAdvisor, Inc.",
+    "value": "TRIP"
+  },
+  {
+    "label": "TriVascular Technologies, Inc.",
+    "value": "TRIV"
+  },
+  {
+    "label": "Trimble Navigation Limited",
+    "value": "TRMB"
+  },
+  {
+    "label": "Trustmark Corporation",
+    "value": "TRMK"
+  },
+  {
+    "label": "Transcat, Inc.",
+    "value": "TRNS"
+  },
+  {
+    "label": "Tornier N.V.",
+    "value": "TRNX"
+  },
+  {
+    "label": "TrovaGene, Inc.",
+    "value": "TROV"
+  },
+  {
+    "label": "TrovaGene, Inc.",
+    "value": "TROVU"
+  },
+  {
+    "label": "TrovaGene, Inc.",
+    "value": "TROVW"
+  },
+  {
+    "label": "T. Rowe Price Group, Inc.",
+    "value": "TROW"
+  },
+  {
+    "label": "TriMas Corporation",
+    "value": "TRS"
+  },
+  {
+    "label": "TrustCo Bank Corp NY",
+    "value": "TRST"
+  },
+  {
+    "label": "Terrapin 3 Acquisition Corporation",
+    "value": "TRTL"
+  },
+  {
+    "label": "Terrapin 3 Acquisition Corporation",
+    "value": "TRTLU"
+  },
+  {
+    "label": "Terrapin 3 Acquisition Corporation",
+    "value": "TRTLW"
+  },
+  {
+    "label": "TrueCar, Inc.",
+    "value": "TRUE"
+  },
+  {
+    "label": "Trevena, Inc.",
+    "value": "TRVN"
+  },
+  {
+    "label": "Timberland Bancorp, Inc.",
+    "value": "TSBK"
+  },
+  {
+    "label": "TriState Capital Holdings, Inc.",
+    "value": "TSC"
+  },
+  {
+    "label": "Tractor Supply Company",
+    "value": "TSCO"
+  },
+  {
+    "label": "Tower Semiconductor Ltd.",
+    "value": "TSEM"
+  },
+  {
+    "label": "Tesla Motors, Inc.",
+    "value": "TSLA"
+  },
+  {
+    "label": "Tessera Technologies, Inc.",
+    "value": "TSRA"
+  },
+  {
+    "label": "Trade Street Residential, Inc.",
+    "value": "TSRE"
+  },
+  {
+    "label": "TSR, Inc.",
+    "value": "TSRI"
+  },
+  {
+    "label": "TESARO, Inc.",
+    "value": "TSRO"
+  },
+  {
+    "label": "TheStreet, Inc.",
+    "value": "TST"
+  },
+  {
+    "label": "TeleCommunication Systems, Inc.",
+    "value": "TSYS"
+  },
+  {
+    "label": "TeleTech Holdings, Inc.",
+    "value": "TTEC"
+  },
+  {
+    "label": "Tetra Tech, Inc.",
+    "value": "TTEK"
+  },
+  {
+    "label": "TechTarget, Inc.",
+    "value": "TTGT"
+  },
+  {
+    "label": "Transition Therapeutics, Inc.",
+    "value": "TTHI"
+  },
+  {
+    "label": "TTM Technologies, Inc.",
+    "value": "TTMI"
+  },
+  {
+    "label": "T2 Biosystems, Inc.",
+    "value": "TTOO"
+  },
+  {
+    "label": "Tetraphase Pharmaceuticals, Inc.",
+    "value": "TTPH"
+  },
+  {
+    "label": "Tile Shop Hldgs, Inc.",
+    "value": "TTS"
+  },
+  {
+    "label": "Take",
+    "value": "TTWO"
+  },
+  {
+    "label": "TubeMogul, Inc.",
+    "value": "TUBE"
+  },
+  {
+    "label": "Tuesday Morning Corp.",
+    "value": "TUES"
+  },
+  {
+    "label": "First Trust Total US Market AlphaDEX ETF",
+    "value": "TUSA"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "TVIX"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "TVIZ"
+  },
+  {
+    "label": "Towerstream Corporation",
+    "value": "TWER"
+  },
+  {
+    "label": "Twin Disc, Incorporated",
+    "value": "TWIN"
+  },
+  {
+    "label": "Trans World Entertainment Corp.",
+    "value": "TWMC"
+  },
+  {
+    "label": "2U, Inc.",
+    "value": "TWOU"
+  },
+  {
+    "label": "Texas Instruments Incorporated",
+    "value": "TXN"
+  },
+  {
+    "label": "Texas Roadhouse, Inc.",
+    "value": "TXRH"
+  },
+  {
+    "label": "Monotype Imaging Holdings Inc.",
+    "value": "TYPE"
+  },
+  {
+    "label": "Travelzoo Inc.",
+    "value": "TZOO"
+  },
+  {
+    "label": "Universal Truckload Services, Inc.",
+    "value": "UACL"
+  },
+  {
+    "label": "iShares MSCI UAE Capped ETF",
+    "value": "UAE"
+  },
+  {
+    "label": "United Bancorp, Inc.",
+    "value": "UBCP"
+  },
+  {
+    "label": "United Security Bancshares",
+    "value": "UBFO"
+  },
+  {
+    "label": "UBIC, Inc.",
+    "value": "UBIC"
+  },
+  {
+    "label": "United Financial Bancorp, Inc.",
+    "value": "UBNK"
+  },
+  {
+    "label": "Ubiquiti Networks, Inc.",
+    "value": "UBNT"
+  },
+  {
+    "label": "United Bancshares, Inc.",
+    "value": "UBOH"
+  },
+  {
+    "label": "Union Bankshares Corporation",
+    "value": "UBSH"
+  },
+  {
+    "label": "United Bankshares, Inc.",
+    "value": "UBSI"
+  },
+  {
+    "label": "United Community Bancorp",
+    "value": "UCBA"
+  },
+  {
+    "label": "United Community Banks, Inc.",
+    "value": "UCBI"
+  },
+  {
+    "label": "United Community Financial Corp.",
+    "value": "UCFC"
+  },
+  {
+    "label": "Ultra Clean Holdings, Inc.",
+    "value": "UCTT"
+  },
+  {
+    "label": "United Development Funding IV",
+    "value": "UDF"
+  },
+  {
+    "label": "Universal Electronics Inc.",
+    "value": "UEIC"
+  },
+  {
+    "label": "Net 1 UEPS Technologies, Inc.",
+    "value": "UEPS"
+  },
+  {
+    "label": "United Fire Group, Inc",
+    "value": "UFCS"
+  },
+  {
+    "label": "Universal Forest Products, Inc.",
+    "value": "UFPI"
+  },
+  {
+    "label": "UFP Technologies, Inc.",
+    "value": "UFPT"
+  },
+  {
+    "label": "United",
+    "value": "UG"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "UGLD"
+  },
+  {
+    "label": "Amerco",
+    "value": "UHAL"
+  },
+  {
+    "label": "United Insurance Holdings Corp.",
+    "value": "UIHC"
+  },
+  {
+    "label": "Ultralife Corporation",
+    "value": "ULBI"
+  },
+  {
+    "label": "Ulta Salon, Cosmetics & Fragrance, Inc.",
+    "value": "ULTA"
+  },
+  {
+    "label": "The Ultimate Software Group, Inc.",
+    "value": "ULTI"
+  },
+  {
+    "label": "Ultrapetrol (Bahamas) Limited",
+    "value": "ULTR"
+  },
+  {
+    "label": "UMB Financial Corporation",
+    "value": "UMBF"
+  },
+  {
+    "label": "Umpqua Holdings Corporation",
+    "value": "UMPQ"
+  },
+  {
+    "label": "Unico American Corporation",
+    "value": "UNAM"
+  },
+  {
+    "label": "Union Bankshares, Inc.",
+    "value": "UNB"
+  },
+  {
+    "label": "United Natural Foods, Inc.",
+    "value": "UNFI"
+  },
+  {
+    "label": "Unilife Corporation",
+    "value": "UNIS"
+  },
+  {
+    "label": "United Online, Inc.",
+    "value": "UNTD"
+  },
+  {
+    "label": "Unity Bancorp, Inc.",
+    "value": "UNTY"
+  },
+  {
+    "label": "Uni",
+    "value": "UNXL"
+  },
+  {
+    "label": "Uroplasty, Inc.",
+    "value": "UPI"
+  },
+  {
+    "label": "Unwired Planet, Inc.",
+    "value": "UPIP"
+  },
+  {
+    "label": "Upland Software, Inc.",
+    "value": "UPLD"
+  },
+  {
+    "label": "Urban Outfitters, Inc.",
+    "value": "URBN"
+  },
+  {
+    "label": "Uranium Resources, Inc.",
+    "value": "URRE"
+  },
+  {
+    "label": "USA Truck, Inc.",
+    "value": "USAK"
+  },
+  {
+    "label": "Universal Stainless & Alloy Products, Inc.",
+    "value": "USAP"
+  },
+  {
+    "label": "USA Technologies, Inc.",
+    "value": "USAT"
+  },
+  {
+    "label": "USA Technologies, Inc.",
+    "value": "USATP"
+  },
+  {
+    "label": "United Security Bancshares, Inc.",
+    "value": "USBI"
+  },
+  {
+    "label": "U S Concrete, Inc.",
+    "value": "USCR"
+  },
+  {
+    "label": "U.S. Energy Corp.",
+    "value": "USEG"
+  },
+  {
+    "label": "United States Lime & Minerals, Inc.",
+    "value": "USLM"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "USLV"
+  },
+  {
+    "label": "USMD Holdings, Inc.",
+    "value": "USMD"
+  },
+  {
+    "label": "United Stationers Inc.",
+    "value": "USTR"
+  },
+  {
+    "label": "Ultratech, Inc.",
+    "value": "UTEK"
+  },
+  {
+    "label": "United Therapeutics Corporation",
+    "value": "UTHR"
+  },
+  {
+    "label": "UTi Worldwide Inc.",
+    "value": "UTIW"
+  },
+  {
+    "label": "Utah Medical Products, Inc.",
+    "value": "UTMD"
+  },
+  {
+    "label": "UTStarcom Holdings Corp",
+    "value": "UTSI"
+  },
+  {
+    "label": "Univest Corporation of Pennsylvania",
+    "value": "UVSP"
+  },
+  {
+    "label": "Virgin America Inc.",
+    "value": "VA"
+  },
+  {
+    "label": "Value Line, Inc.",
+    "value": "VALU"
+  },
+  {
+    "label": "Validea Market Legends ETF",
+    "value": "VALX"
+  },
+  {
+    "label": "Vascular Solutions, Inc.",
+    "value": "VASC"
+  },
+  {
+    "label": "Village Bank and Trust Financial Corp.",
+    "value": "VBFC"
+  },
+  {
+    "label": "VBI Vaccines Inc.",
+    "value": "VBIV"
+  },
+  {
+    "label": "Vascular Biogenics Ltd.",
+    "value": "VBLT"
+  },
+  {
+    "label": "Vident Core U.S. Bond Strategy Fund",
+    "value": "VBND"
+  },
+  {
+    "label": "Veritex Holdings, Inc.",
+    "value": "VBTX"
+  },
+  {
+    "label": "Vericel Corporation",
+    "value": "VCEL"
+  },
+  {
+    "label": "Vanguard Intermediate",
+    "value": "VCIT"
+  },
+  {
+    "label": "Vanguard Long",
+    "value": "VCLT"
+  },
+  {
+    "label": "Vanguard Short",
+    "value": "VCSH"
+  },
+  {
+    "label": "Veracyte, Inc.",
+    "value": "VCYT"
+  },
+  {
+    "label": "VASCO Data Security International, Inc.",
+    "value": "VDSI"
+  },
+  {
+    "label": "Veeco Instruments Inc.",
+    "value": "VECO"
+  },
+  {
+    "label": "Viggle Inc.",
+    "value": "VGGL"
+  },
+  {
+    "label": "Vanguard Intermediate",
+    "value": "VGIT"
+  },
+  {
+    "label": "Vanguard Long",
+    "value": "VGLT"
+  },
+  {
+    "label": "Vanguard Short",
+    "value": "VGSH"
+  },
+  {
+    "label": "Viacom Inc.",
+    "value": "VIA"
+  },
+  {
+    "label": "Viacom Inc.",
+    "value": "VIAB"
+  },
+  {
+    "label": "Viasystems Group, Inc.",
+    "value": "VIAS"
+  },
+  {
+    "label": "Vical Incorporated",
+    "value": "VICL"
+  },
+  {
+    "label": "Vicor Corporation",
+    "value": "VICR"
+  },
+  {
+    "label": "Video Display Corporation",
+    "value": "VIDE"
+  },
+  {
+    "label": "Vident International Equity Fund",
+    "value": "VIDI"
+  },
+  {
+    "label": "Viewtran Group, Inc.",
+    "value": "VIEW"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "VIIX"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "VIIZ"
+  },
+  {
+    "label": "Vimicro International Corporation",
+    "value": "VIMC"
+  },
+  {
+    "label": "VimpelCom Ltd.",
+    "value": "VIP"
+  },
+  {
+    "label": "Virco Manufacturing Corporation",
+    "value": "VIRC"
+  },
+  {
+    "label": "VisionChina Media, Inc.",
+    "value": "VISN"
+  },
+  {
+    "label": "Meridian Bioscience Inc.",
+    "value": "VIVO"
+  },
+  {
+    "label": "Knightsbridge Shipping Limited",
+    "value": "VLCCF"
+  },
+  {
+    "label": "Village Super Market, Inc.",
+    "value": "VLGEA"
+  },
+  {
+    "label": "Voltari Corporation",
+    "value": "VLTC"
+  },
+  {
+    "label": "Valley National Bancorp",
+    "value": "VLYWW"
+  },
+  {
+    "label": "Vanguard Mortgage",
+    "value": "VMBS"
+  },
+  {
+    "label": "Vanda Pharmaceuticals Inc.",
+    "value": "VNDA"
+  },
+  {
+    "label": "21Vianet Group, Inc.",
+    "value": "VNET"
+  },
+  {
+    "label": "Viper Energy Partners LP",
+    "value": "VNOM"
+  },
+  {
+    "label": "Vanguard Global ex",
+    "value": "VNQI"
+  },
+  {
+    "label": "Vanguard Natural Resources LLC",
+    "value": "VNR"
+  },
+  {
+    "label": "Vanguard Natural Resources LLC",
+    "value": "VNRAP"
+  },
+  {
+    "label": "Vanguard Natural Resources LLC",
+    "value": "VNRBP"
+  },
+  {
+    "label": "Vanguard Natural Resources LLC",
+    "value": "VNRCP"
+  },
+  {
+    "label": "Vodafone Group Plc",
+    "value": "VOD"
+  },
+  {
+    "label": "Volcano Corporation",
+    "value": "VOLC"
+  },
+  {
+    "label": "Vanguard Russell 1000 ETF",
+    "value": "VONE"
+  },
+  {
+    "label": "Vanguard Russell 1000 Growth ETF",
+    "value": "VONG"
+  },
+  {
+    "label": "Vanguard Russell 1000 Value ETF",
+    "value": "VONV"
+  },
+  {
+    "label": "VOXX International Corporation",
+    "value": "VOXX"
+  },
+  {
+    "label": "Vapor Corp.",
+    "value": "VPCO"
+  },
+  {
+    "label": "Vera Bradley, Inc.",
+    "value": "VRA"
+  },
+  {
+    "label": "Vermillion, Inc.",
+    "value": "VRML"
+  },
+  {
+    "label": "Vringo, Inc.",
+    "value": "VRNG"
+  },
+  {
+    "label": "Vringo, Inc.",
+    "value": "VRNGW"
+  },
+  {
+    "label": "Varonis Systems, Inc.",
+    "value": "VRNS"
+  },
+  {
+    "label": "Verint Systems Inc.",
+    "value": "VRNT"
+  },
+  {
+    "label": "Verisk Analytics, Inc.",
+    "value": "VRSK"
+  },
+  {
+    "label": "VeriSign, Inc.",
+    "value": "VRSN"
+  },
+  {
+    "label": "Vestin Realty Mortgage I, Inc.",
+    "value": "VRTA"
+  },
+  {
+    "label": "Vestin Realty Mortgage II, Inc.",
+    "value": "VRTB"
+  },
+  {
+    "label": "Virtus Investment Partners, Inc.",
+    "value": "VRTS"
+  },
+  {
+    "label": "Virtusa Corporation",
+    "value": "VRTU"
+  },
+  {
+    "label": "Vertex Pharmaceuticals Incorporated",
+    "value": "VRTX"
+  },
+  {
+    "label": "Versartis, Inc.",
+    "value": "VSAR"
+  },
+  {
+    "label": "ViaSat, Inc.",
+    "value": "VSAT"
+  },
+  {
+    "label": "Vision",
+    "value": "VSCI"
+  },
+  {
+    "label": "VirtualScopics, Inc.",
+    "value": "VSCP"
+  },
+  {
+    "label": "VSE Corporation",
+    "value": "VSEC"
+  },
+  {
+    "label": "Verastem, Inc.",
+    "value": "VSTM"
+  },
+  {
+    "label": "Vitae Pharmaceuticals, Inc.",
+    "value": "VTAE"
+  },
+  {
+    "label": "Vanguard Russell 3000 ETF",
+    "value": "VTHR"
+  },
+  {
+    "label": "Vanguard Short",
+    "value": "VTIP"
+  },
+  {
+    "label": "Vital Therapies, Inc.",
+    "value": "VTL"
+  },
+  {
+    "label": "Vertex Energy, Inc",
+    "value": "VTNR"
+  },
+  {
+    "label": "Vitesse Semiconductor Corporation",
+    "value": "VTSS"
+  },
+  {
+    "label": "Vanguard Russell 2000 Growth ETF",
+    "value": "VTWG"
+  },
+  {
+    "label": "Vanguard Russell 2000 ETF",
+    "value": "VTWO"
+  },
+  {
+    "label": "Vanguard Russell 2000 Value ETF",
+    "value": "VTWV"
+  },
+  {
+    "label": "Vident Core US Equity ETF",
+    "value": "VUSE"
+  },
+  {
+    "label": "VIVUS, Inc.",
+    "value": "VVUS"
+  },
+  {
+    "label": "Vanguard Emerging Markets Government Bond ETF",
+    "value": "VWOB"
+  },
+  {
+    "label": "VWR Corporation",
+    "value": "VWR"
+  },
+  {
+    "label": "Vanguard Total International Stock ETF",
+    "value": "VXUS"
+  },
+  {
+    "label": "Valley Financial Corporation",
+    "value": "VYFC"
+  },
+  {
+    "label": "Westamerica Bancorporation",
+    "value": "WABC"
+  },
+  {
+    "label": "Washington Federal, Inc.",
+    "value": "WAFD"
+  },
+  {
+    "label": "Washington Federal, Inc.",
+    "value": "WAFDW"
+  },
+  {
+    "label": "Washington Trust Bancorp, Inc.",
+    "value": "WASH"
+  },
+  {
+    "label": "Energous Corporation",
+    "value": "WATT"
+  },
+  {
+    "label": "Wave Systems Corp.",
+    "value": "WAVX"
+  },
+  {
+    "label": "Wayne Savings Bancshares Inc.",
+    "value": "WAYN"
+  },
+  {
+    "label": "Weibo Corporation",
+    "value": "WB"
+  },
+  {
+    "label": "Walgreens Boots Alliance, Inc.",
+    "value": "WBA"
+  },
+  {
+    "label": "Westbury Bancorp, Inc.",
+    "value": "WBB"
+  },
+  {
+    "label": "Wolverine Bancorp, Inc.",
+    "value": "WBKC"
+  },
+  {
+    "label": "WebMD Health Corp",
+    "value": "WBMD"
+  },
+  {
+    "label": "Western Digital Corporation",
+    "value": "WDC"
+  },
+  {
+    "label": "WD",
+    "value": "WDFC"
+  },
+  {
+    "label": "Wellesley Bancorp, Inc.",
+    "value": "WEBK"
+  },
+  {
+    "label": "Wendy's Company (The)",
+    "value": "WEN"
+  },
+  {
+    "label": "Werner Enterprises, Inc.",
+    "value": "WERN"
+  },
+  {
+    "label": "WisdomTree Investments, Inc.",
+    "value": "WETF"
+  },
+  {
+    "label": "Weyco Group, Inc.",
+    "value": "WEYS"
+  },
+  {
+    "label": "WashingtonFirst Bankshares Inc",
+    "value": "WFBI"
+  },
+  {
+    "label": "Westfield Financial, Inc.",
+    "value": "WFD"
+  },
+  {
+    "label": "Whole Foods Market, Inc.",
+    "value": "WFM"
+  },
+  {
+    "label": "WaferGen Bio",
+    "value": "WGBS"
+  },
+  {
+    "label": "WhiteHorse Finance, Inc.",
+    "value": "WHF"
+  },
+  {
+    "label": "WhiteHorse Finance, Inc.",
+    "value": "WHFBL"
+  },
+  {
+    "label": "Wilhelmina International, Inc.",
+    "value": "WHLM"
+  },
+  {
+    "label": "Wheeler Real Estate Investment Trust, Inc.",
+    "value": "WHLR"
+  },
+  {
+    "label": "Wheeler Real Estate Investment Trust, Inc.",
+    "value": "WHLRP"
+  },
+  {
+    "label": "Wheeler Real Estate Investment Trust, Inc.",
+    "value": "WHLRW"
+  },
+  {
+    "label": "Wilshire Bancorp, Inc.",
+    "value": "WIBC"
+  },
+  {
+    "label": "Boingo Wireless, Inc.",
+    "value": "WIFI"
+  },
+  {
+    "label": "G. Willi",
+    "value": "WILC"
+  },
+  {
+    "label": "Wi",
+    "value": "WILN"
+  },
+  {
+    "label": "Windstream Holdings, Inc.",
+    "value": "WIN"
+  },
+  {
+    "label": "Winmark Corporation",
+    "value": "WINA"
+  },
+  {
+    "label": "Encore Wire Corporation",
+    "value": "WIRE"
+  },
+  {
+    "label": "Wix.com Ltd.",
+    "value": "WIX"
+  },
+  {
+    "label": "Westmoreland Coal Company",
+    "value": "WLB"
+  },
+  {
+    "label": "Westmoreland Coal Company",
+    "value": "WLBPZ"
+  },
+  {
+    "label": "Willdan Group, Inc.",
+    "value": "WLDN"
+  },
+  {
+    "label": "Willis Lease Finance Corporation",
+    "value": "WLFC"
+  },
+  {
+    "label": "WL Ross Holding Corp.",
+    "value": "WLRH"
+  },
+  {
+    "label": "WL Ross Holding Corp.",
+    "value": "WLRHU"
+  },
+  {
+    "label": "WL Ross Holding Corp.",
+    "value": "WLRHW"
+  },
+  {
+    "label": "West Marine, Inc.",
+    "value": "WMAR"
+  },
+  {
+    "label": "Wright Medical Group, Inc.",
+    "value": "WMGI"
+  },
+  {
+    "label": "Wright Medical Group, Inc.",
+    "value": "WMGIZ"
+  },
+  {
+    "label": "iShares S&P Global Timber & Forestry Index Fund",
+    "value": "WOOD"
+  },
+  {
+    "label": "VCA Inc.",
+    "value": "WOOF"
+  },
+  {
+    "label": "WPCS International Incorporated",
+    "value": "WPCS"
+  },
+  {
+    "label": "WPP plc",
+    "value": "WPPGY"
+  },
+  {
+    "label": "Westport Innovations Inc",
+    "value": "WPRT"
+  },
+  {
+    "label": "Warren Resources, Inc.",
+    "value": "WRES"
+  },
+  {
+    "label": "World Acceptance Corporation",
+    "value": "WRLD"
+  },
+  {
+    "label": "WesBanco, Inc.",
+    "value": "WSBC"
+  },
+  {
+    "label": "Waterstone Financial, Inc.",
+    "value": "WSBF"
+  },
+  {
+    "label": "WSI Industries Inc.",
+    "value": "WSCI"
+  },
+  {
+    "label": "WSFS Financial Corporation",
+    "value": "WSFS"
+  },
+  {
+    "label": "WSFS Financial Corporation",
+    "value": "WSFSL"
+  },
+  {
+    "label": "West Corporation",
+    "value": "WSTC"
+  },
+  {
+    "label": "Wayside Technology Group, Inc.",
+    "value": "WSTG"
+  },
+  {
+    "label": "Westell Technologies, Inc.",
+    "value": "WSTL"
+  },
+  {
+    "label": "West Bancorporation",
+    "value": "WTBA"
+  },
+  {
+    "label": "Wintrust Financial Corporation",
+    "value": "WTFC"
+  },
+  {
+    "label": "Wintrust Financial Corporation",
+    "value": "WTFCW"
+  },
+  {
+    "label": "The Wet Seal, Inc.",
+    "value": "WTSL"
+  },
+  {
+    "label": "WVS Financial Corp.",
+    "value": "WVFC"
+  },
+  {
+    "label": "Willamette Valley Vineyards, Inc.",
+    "value": "WVVI"
+  },
+  {
+    "label": "Woodward, Inc.",
+    "value": "WWD"
+  },
+  {
+    "label": "Web.com Group, Inc.",
+    "value": "WWWW"
+  },
+  {
+    "label": "Wynn Resorts, Limited",
+    "value": "WYNN"
+  },
+  {
+    "label": "Xenith Bankshares, Inc.",
+    "value": "XBKS"
+  },
+  {
+    "label": "Xcerra Corporation",
+    "value": "XCRA"
+  },
+  {
+    "label": "Xenon Pharmaceuticals Inc.",
+    "value": "XENE"
+  },
+  {
+    "label": "Intersect ENT, Inc.",
+    "value": "XENT"
+  },
+  {
+    "label": "XG Technology, Inc",
+    "value": "XGTI"
+  },
+  {
+    "label": "XG Technology, Inc",
+    "value": "XGTIW"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "XIV"
+  },
+  {
+    "label": "Xilinx, Inc.",
+    "value": "XLNX"
+  },
+  {
+    "label": "Acceleron Pharma Inc.",
+    "value": "XLRN"
+  },
+  {
+    "label": "Xencor, Inc.",
+    "value": "XNCR"
+  },
+  {
+    "label": "Xunlei Limited",
+    "value": "XNET"
+  },
+  {
+    "label": "XenoPort, Inc.",
+    "value": "XNPT"
+  },
+  {
+    "label": "XOMA Corporation",
+    "value": "XOMA"
+  },
+  {
+    "label": "The ExOne Company",
+    "value": "XONE"
+  },
+  {
+    "label": "Xoom Corporation",
+    "value": "XOOM"
+  },
+  {
+    "label": "Xplore Technologies Corp",
+    "value": "XPLR"
+  },
+  {
+    "label": "DENTSPLY International Inc.",
+    "value": "XRAY"
+  },
+  {
+    "label": "XTL Biopharmaceuticals Ltd.",
+    "value": "XTLB"
+  },
+  {
+    "label": "Ixia",
+    "value": "XXIA"
+  },
+  {
+    "label": "First Trust International Multi",
+    "value": "YDIV"
+  },
+  {
+    "label": "Yodlee, Inc.",
+    "value": "YDLE"
+  },
+  {
+    "label": "Yahoo! Inc.",
+    "value": "YHOO"
+  },
+  {
+    "label": "Yandex N.V.",
+    "value": "YNDX"
+  },
+  {
+    "label": "You On Demand Holdings, Inc.",
+    "value": "YOD"
+  },
+  {
+    "label": "The York Water Company",
+    "value": "YORW"
+  },
+  {
+    "label": "AdvisorShares YieldPro ETF",
+    "value": "YPRO"
+  },
+  {
+    "label": "YRC Worldwide, Inc.",
+    "value": "YRCW"
+  },
+  {
+    "label": "YY Inc.",
+    "value": "YY"
+  },
+  {
+    "label": "Zillow, Inc.",
+    "value": "Z"
+  },
+  {
+    "label": "ZAGG Inc",
+    "value": "ZAGG"
+  },
+  {
+    "label": "ZaZa Energy Corporation",
+    "value": "ZAZA"
+  },
+  {
+    "label": "Zebra Technologies Corporation",
+    "value": "ZBRA"
+  },
+  {
+    "label": "Olympic Steel, Inc.",
+    "value": "ZEUS"
+  },
+  {
+    "label": "Zafgen, Inc.",
+    "value": "ZFGN"
+  },
+  {
+    "label": "Zogenix, Inc.",
+    "value": "ZGNX"
+  },
+  {
+    "label": "Zhone Technologies, Inc.",
+    "value": "ZHNE"
+  },
+  {
+    "label": "Horsehead Holding Corp.",
+    "value": "ZINC"
+  },
+  {
+    "label": "Zions Bancorporation",
+    "value": "ZION"
+  },
+  {
+    "label": "Zions Bancorporation",
+    "value": "ZIONW"
+  },
+  {
+    "label": "Zions Bancorporation",
+    "value": "ZIONZ"
+  },
+  {
+    "label": "ZIOPHARM Oncology Inc",
+    "value": "ZIOP"
+  },
+  {
+    "label": "Credit Suisse AG",
+    "value": "ZIV"
+  },
+  {
+    "label": "Zix Corporation",
+    "value": "ZIXI"
+  },
+  {
+    "label": "ZELTIQ Aesthetics, Inc.",
+    "value": "ZLTQ"
+  },
+  {
+    "label": "Zion Oil & Gas Inc",
+    "value": "ZN"
+  },
+  {
+    "label": "Zynga Inc.",
+    "value": "ZNGA"
+  },
+  {
+    "label": "ZS Pharma, Inc.",
+    "value": "ZSPH"
+  },
+  {
+    "label": "zulily, inc.",
+    "value": "ZU"
+  },
+  {
+    "label": "Zumiez Inc.",
+    "value": "ZUMZ"
+  }
+]
 
 export const timeframeOptions = [
   { label: "1 Minute", value: "1m" },
